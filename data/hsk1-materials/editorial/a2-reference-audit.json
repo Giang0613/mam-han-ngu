@@ -1,0 +1,13 @@
+{
+  "revision": "mandarin-xiaoxiao-reference-v6-a2-v1",
+  "text": "啊",
+  "pinyin": "á",
+  "reading": "a2",
+  "provider": "Microsoft zh-CN-XiaoxiaoNeural",
+  "method": "Isolate 啊 from the WordBoundary in 啊？你说什么？; preserve voiced samples, fade edges and normalize without hard clipping. Autocorrelation shows a rising voiced vowel from about 240 to 358 Hz; no learner assessment score.",
+  "durationSeconds": 0.36,
+  "sampleRateHz": 24000,
+  "peak": 0.6974549889564514,
+  "sha256": "a15f61b6bc3134a8e6ceeaddd533797e4144cccbe62ae2f06a546a85b22adf53",
+  "humanTeacherReview": false
+}

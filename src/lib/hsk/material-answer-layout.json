@@ -1,0 +1,103 @@
+{
+  "retiredByPage": {
+    "workbook-043": [
+      "native-workbook-043-question-11"
+    ],
+    "textbook-052": [
+      "native-textbook-052-20"
+    ],
+    "textbook-053": [
+      "native-textbook-053-61"
+    ],
+    "textbook-082": [
+      "native-textbook-082-16"
+    ],
+    "textbook-099": [
+      "native-textbook-099-34"
+    ],
+    "textbook-116": [
+      "native-textbook-116-18"
+    ],
+    "textbook-125": [
+      "native-textbook-125-19"
+    ],
+    "textbook-085": [
+      "native-textbook-085-warmup-5"
+    ]
+  },
+  "tableCells": {
+    "workbook-022-edited-1": [
+      [
+        0,
+        1,
+        "pā"
+      ],
+      [
+        0,
+        2,
+        "bā"
+      ],
+      [
+        3,
+        1,
+        "jǔ"
+      ],
+      [
+        3,
+        2,
+        "qǔ"
+      ]
+    ],
+    "workbook-055-edited-0": [
+      [
+        1,
+        1,
+        "rěn"
+      ],
+      [
+        1,
+        2,
+        "shěn"
+      ],
+      [
+        5,
+        1,
+        "hún"
+      ],
+      [
+        5,
+        2,
+        "fén"
+      ],
+      [
+        7,
+        1,
+        "gǒng"
+      ],
+      [
+        7,
+        2,
+        "kǒng"
+      ]
+    ],
+    "workbook-055-edited-1": [
+      [
+        1,
+        2,
+        "gè gè"
+      ],
+      [
+        1,
+        3,
+        "gè kè"
+      ]
+    ],
+    "workbook-073-edited-1": [
+      [
+        3,
+        2,
+        "shuí"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+import fs from 'node:fs';import {allExercises} from '../src/lib/study-engine';import {translate} from '../src/lib/i18n/translate';
+const out=[];for(const e of Object.values(allExercises))for(const field of ['prompt','explanation'] as const){const text=e[field],en=translate(text,'en');if(/[đĐăĂâÂêÊôÔơƠưƯ\u1ea0-\u1ef9]/u.test(en))out.push({id:e.id,field,vi:text,en});}console.log(JSON.stringify(out,null,2));

@@ -1,53 +1,48 @@
-# Imported vocabulary and book audio
+# Supplied learning resources
 
-**Experimental preview.** Language content and learning features still need
-editorial and usability review. These resources are included at the project
-owner's request and retain their source attribution. The repository's MIT code
-license does not relicense third-party definitions, examples, translations, or
-recordings. No additional open-content license was identified in the local source
-metadata; do not infer redistribution rights from the code license.
+**Experimental preview · Bản thử nghiệm.** Content and features are still being
+refined. The project owner requested publication of all supplied project learning
+materials, with personal data excluded.
 
-## Vocabulary
+**Cre:Thompson HSK 3.0**
 
-The corpus has **11,715 source records** organized into **812 vocabulary lessons**.
-Records may have distinct readings or source entries; the record count is not a
-claim of 11,715 unique Hanzi strings. App levels 7, 8, and 9 subdivide one shared
-advanced source and do not establish separate official exam lists.
+This credit applies to the supplied HSK 3.0 teaching materials. Original rights
+remain with their respective creators; attribution does not relicense books,
+scans, definitions, examples, translations, answers, or recordings under MIT.
+No additional open-content license was identified in the local source metadata.
 
-| Source | Records | Provenance |
-| --- | ---: | --- |
-| CGE, source levels 1–6 | 6,115 | [CGE](https://cge.edu.vn), learner-supplied vocabulary PDFs |
-| Mandarin Bean, source band 7–9 | 5,600 | [Mandarin Bean](https://mandarinbean.com), learner-supplied vocabulary PDF |
+## Included materials
 
-`data/hsk-vocabulary-sources.json` retains source filenames, hashes, import date,
-and record counts. The PDF files themselves are excluded. Entries retain IDs,
-readings, source row/page references, examples, and translation status. Lesson
-grouping and prerequisites are in `data/hsk-vocabulary-lessons.json`.
+- 11,715 vocabulary records organized into all 812 vocabulary lessons.
+- 3 byte-identical supplied HSK 1 PDFs: textbook, workbook, and writing book.
+- 3 publisher reference PDFs with extracted text and minimal source metadata,
+  included under `public/hsk1-materials/reference` so answer verification works
+  from a fresh clone without a private cache. Their hashes are checked against
+  `data/hsk1-materials/editorial/answer-key-audit.json`.
+- All 298 page images, OCR sidecars, reading data, translations, editorial
+  corrections, audio associations, answer keys, and layouts.
+- 272 web learning parts across 15 lessons and a review section.
+- 93 textbook recordings and 491 workbook clips. The existing preference to hide
+  recording 01-1 from study playback is preserved; its source file remains archived.
+- Import, compilation, audit, and verification tools, with model license notices.
 
-`src/lib/i18n/vocabulary.en.json` includes only translation keys matching this
-vocabulary corpus or its generated practice prompts. The full private book-page
-translation catalog is excluded. English translations can be drafts; matching
-CC-CEDICT glosses keep CC-CEDICT provenance and its separate license.
+Vocabulary retains CGE and Mandarin Bean source references in
+`data/hsk-vocabulary-sources.json`. Advanced source band 7–9 is subdivided for
+app learning paths; this does not establish separate official exam lists.
 
-## Audio
+The book catalogs are published as `data/materials.en.json` and
+`data/materials-overrides.en.json`. Their former local filenames used the word
+private to distinguish book content; they contain course translations rather than
+learner progress. English translations may be editorial drafts.
 
-The community source includes **93 textbook MP3 recordings** and **491 workbook
-listening clips** from the HSK 1 materials supplied with the local project.
-Publisher/performer ownership remains unchanged. The source metadata does not
-identify an open license for these recordings.
+Original PDF/audio hashes are retained in `data/hsk1-materials/manifest.json`;
+`EXPORT-MANIFEST.json` records the hash of every published source/resource file.
+Use `/hsk/1/materials` for the web lessons, `/hsk/1/audio` for standalone listening,
+and `/hsk/1/vocabulary` through `/hsk/9/vocabulary` for vocabulary lessons.
 
-File IDs and URLs are retained in `src/lib/hsk/material-audio-index.json` and
-`src/lib/hsk/workbook-audio-clips.json`. SHA-256 hashes for every included file
-are recorded in `EXPORT-MANIFEST.json`. The archive is approximately 255 MiB.
-The existing preference to hide recording `01-1` from study playback is preserved;
-584 audio files are included and 583 appear in the listening library.
+## Private and generated files excluded
 
-The audio library at `/hsk/1/audio` supports lesson filters, pagination, download,
-playback speed, and one active player. Recordings load on demand.
-
-## Excluded material
-
-PDFs, book scans, OCR/page transcriptions, book-page translations, answer keys,
-page layouts, learner databases, credentials, and personal recordings are not
-included. The book-page routes remain unavailable; vocabulary and the standalone
-audio library work independently of them.
+Learner databases, saved personal answers/drafts/history, personal recordings,
+credentials, filled .env files, private Git history, caches, installed packages,
+generated builds, and downloaded Python/model runtimes are excluded. Source
+setup tools and dependency lockfiles remain available.

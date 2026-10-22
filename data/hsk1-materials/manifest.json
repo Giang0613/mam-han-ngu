@@ -1,0 +1,679 @@
+{
+  "revision": "hsk1-books-2026-10-07-v1",
+  "books": [
+    {
+      "id": "textbook",
+      "pages": 144,
+      "file": "/hsk1-materials/textbook.pdf",
+      "sha256": "25d1aad102e4179307b5bc4f932927bbd244b3f4dd53edeb6cfd4dbbb8d4f2ba",
+      "sourceFilename": "hsk-course-1.pdf"
+    },
+    {
+      "id": "workbook",
+      "pages": 139,
+      "file": "/hsk1-materials/workbook.pdf",
+      "sha256": "63d36e483fa69edad4b74341949bd9bceea669e586aa57d29639ca9661aa0ac3",
+      "sourceFilename": "hsk-course-1-workbook.pdf"
+    },
+    {
+      "id": "writing",
+      "pages": 15,
+      "file": "/hsk1-materials/writing.pdf",
+      "sha256": "48e0a2b1709f275511f59b3b64917e67759594fbf51ba74092a9c017170c6a13",
+      "sourceFilename": "hsk-course-1-writing.pdf"
+    }
+  ],
+  "audio": [
+    {
+      "lesson": 1,
+      "track": 1,
+      "file": "/hsk1-materials/audio/01-1.mp3",
+      "bytes": 282007,
+      "sha256": "a3d3a579cb2f2cc8072eedc99be4fb6bf7ae4e90140cc1fe4f8dd1984d618f53"
+    },
+    {
+      "lesson": 1,
+      "track": 2,
+      "file": "/hsk1-materials/audio/01-2.mp3",
+      "bytes": 286177,
+      "sha256": "b4f81ee1cd06540348ad9a86168f372c5342cb8bd80cfd85643b61e630900ebd"
+    },
+    {
+      "lesson": 1,
+      "track": 3,
+      "file": "/hsk1-materials/audio/01-3.mp3",
+      "bytes": 334549,
+      "sha256": "31c899ad1cc83591c402b46ed9760c47ccd34eeaf531cb82852f326fe8a83473"
+    },
+    {
+      "lesson": 1,
+      "track": 4,
+      "file": "/hsk1-materials/audio/01-4.mp3",
+      "bytes": 472993,
+      "sha256": "2fad8640bab59f94c25bd09e4ae184879f9f2c3cdc7134c5072d728d2d77cf00"
+    },
+    {
+      "lesson": 1,
+      "track": 5,
+      "file": "/hsk1-materials/audio/01-5.mp3",
+      "bytes": 332047,
+      "sha256": "5ba573b762276b5841f18fc2d16d05ae3b66d443c2737566f2060a95813d96ad"
+    },
+    {
+      "lesson": 1,
+      "track": 6,
+      "file": "/hsk1-materials/audio/01-6.mp3",
+      "bytes": 367075,
+      "sha256": "4b559743f698ff0a0db9552dd3c5520846e907a201be3fc2af8ef2f555de9603"
+    },
+    {
+      "lesson": 1,
+      "track": 7,
+      "file": "/hsk1-materials/audio/01-7.mp3",
+      "bytes": 455896,
+      "sha256": "420bc8abe6e7f3e329328d639cc735b45faf560aea5cfa0a973ac332d33cf321"
+    },
+    {
+      "lesson": 2,
+      "track": 1,
+      "file": "/hsk1-materials/audio/02-1.mp3",
+      "bytes": 266161,
+      "sha256": "fac29febbf74da29a0743fc0980a7c0f868a4023d4cdf1898ac535ccd8e62586"
+    },
+    {
+      "lesson": 2,
+      "track": 2,
+      "file": "/hsk1-materials/audio/02-2.mp3",
+      "bytes": 424621,
+      "sha256": "de6af557fabd7eea51981fa3454757a3ba27aaf82ec17fdd50754c6bf079a2f6"
+    },
+    {
+      "lesson": 2,
+      "track": 3,
+      "file": "/hsk1-materials/audio/02-3.mp3",
+      "bytes": 391678,
+      "sha256": "7739d47fb222788be7e11b5b9de7b1c67b939690839c4800ae2774fa4dbcc32e"
+    },
+    {
+      "lesson": 2,
+      "track": 4,
+      "file": "/hsk1-materials/audio/02-4.mp3",
+      "bytes": 397516,
+      "sha256": "11e13e7e047aeb9fc69e76afbde486700c407221c8957d976bc830cc37bfc1b2"
+    },
+    {
+      "lesson": 2,
+      "track": 5,
+      "file": "/hsk1-materials/audio/02-5.mp3",
+      "bytes": 369160,
+      "sha256": "b04c2d53a2eafdae20d4f08daffb58fb650fdcd842c2b565a0b853b1118ecb99"
+    },
+    {
+      "lesson": 2,
+      "track": 6,
+      "file": "/hsk1-materials/audio/02-6.mp3",
+      "bytes": 347476,
+      "sha256": "180e83baa56d8fa1bfd2ec284e8f9303ea5cd4187192498e06f9e352711622af"
+    },
+    {
+      "lesson": 2,
+      "track": 7,
+      "file": "/hsk1-materials/audio/02-7.mp3",
+      "bytes": 547636,
+      "sha256": "ce758009458a735a0fc0ff7c68177ad9d9081ea8f4d85f219866f14aaa79b783"
+    },
+    {
+      "lesson": 3,
+      "track": 1,
+      "file": "/hsk1-materials/audio/03-1.mp3",
+      "bytes": 313282,
+      "sha256": "6639e015fb85a8b98085d5b47fb083ad92e587466b4b881b96bfe5e8b9bf0f93"
+    },
+    {
+      "lesson": 3,
+      "track": 2,
+      "file": "/hsk1-materials/audio/03-2.mp3",
+      "bytes": 401686,
+      "sha256": "b40a2eebc833d9f96e08b4853c97b1be98522330d77116fe1ec78d9ef8660edc"
+    },
+    {
+      "lesson": 3,
+      "track": 3,
+      "file": "/hsk1-materials/audio/03-3.mp3",
+      "bytes": 340387,
+      "sha256": "74f7457091fd30c4c21fc13084273863888bb32c212bb7dade03b840b7f54a9a"
+    },
+    {
+      "lesson": 3,
+      "track": 4,
+      "file": "/hsk1-materials/audio/03-4.mp3",
+      "bytes": 513442,
+      "sha256": "d1626cb9590c7127245e13dcfd187529a9dba9c3b32c4087a1f0bd59985b6967"
+    },
+    {
+      "lesson": 3,
+      "track": 5,
+      "file": "/hsk1-materials/audio/03-5.mp3",
+      "bytes": 460483,
+      "sha256": "43e0652e5bc15837f9d0536d549ef80273454b2d6ae9e2c229ff8f95d9656d90"
+    },
+    {
+      "lesson": 3,
+      "track": 6,
+      "file": "/hsk1-materials/audio/03-6.mp3",
+      "bytes": 597259,
+      "sha256": "d636d5af40df043f3a36ac882be183b4aec5ac561be2b66d998681f27a71847d"
+    },
+    {
+      "lesson": 3,
+      "track": 7,
+      "file": "/hsk1-materials/audio/03-7.mp3",
+      "bytes": 558478,
+      "sha256": "0b923829977bb92af88fc7e4c9a65428ee886cf38e91a9bc36e2fea2fc6ce535"
+    },
+    {
+      "lesson": 4,
+      "track": 1,
+      "file": "/hsk1-materials/audio/04-1.mp3",
+      "bytes": 340804,
+      "sha256": "6695f24e7cf10c1eb2950c238a1a2b1cc19df248d72c0e3589805f0154bc8764"
+    },
+    {
+      "lesson": 4,
+      "track": 2,
+      "file": "/hsk1-materials/audio/04-2.mp3",
+      "bytes": 313282,
+      "sha256": "ee7177520fa5c4691fdb4867cebccdef13639117adb237f35befde4acf16c029"
+    },
+    {
+      "lesson": 4,
+      "track": 3,
+      "file": "/hsk1-materials/audio/04-3.mp3",
+      "bytes": 399601,
+      "sha256": "9a7a04749b22110bcfd886ab943e1bdb2cdb7f643b0c7bc2ce3c5a09a5b119b1"
+    },
+    {
+      "lesson": 4,
+      "track": 4,
+      "file": "/hsk1-materials/audio/04-4.mp3",
+      "bytes": 612271,
+      "sha256": "5688b83931401fa513562100eb65c40aedcdbb5f4c4bf20188d217d5b1e6647e"
+    },
+    {
+      "lesson": 4,
+      "track": 5,
+      "file": "/hsk1-materials/audio/04-5.mp3",
+      "bytes": 448390,
+      "sha256": "bffb3e228477061a223e6abe8955344a77177d329abc216ae748b91797d8c539"
+    },
+    {
+      "lesson": 4,
+      "track": 6,
+      "file": "/hsk1-materials/audio/04-6.mp3",
+      "bytes": 510940,
+      "sha256": "57443a2ace579d5b7641d7194cce96f00abd455eb99810b96c566cdd0b24686f"
+    },
+    {
+      "lesson": 5,
+      "track": 1,
+      "file": "/hsk1-materials/audio/05-1.mp3",
+      "bytes": 335800,
+      "sha256": "bd09853dd8887082066afa6f072bd67184f47ec53f69c6c41f7f43866b55e25b"
+    },
+    {
+      "lesson": 5,
+      "track": 2,
+      "file": "/hsk1-materials/audio/05-2.mp3",
+      "bytes": 555559,
+      "sha256": "db7f476330d1a4c03c67f5ca70954b54d36ac1a2ecd17958330280847fed1478"
+    },
+    {
+      "lesson": 5,
+      "track": 3,
+      "file": "/hsk1-materials/audio/05-3.mp3",
+      "bytes": 390427,
+      "sha256": "fa8c7c236ee59bd022512205cdf5e4dffd0b2b556f0aeee5a0f39371eee490cf"
+    },
+    {
+      "lesson": 5,
+      "track": 4,
+      "file": "/hsk1-materials/audio/05-4.mp3",
+      "bytes": 490507,
+      "sha256": "efe7f24ecfb3f4106af09d292d5bb860aa66eb4d9facd3bba7ba46fb4b12a0a9"
+    },
+    {
+      "lesson": 5,
+      "track": 5,
+      "file": "/hsk1-materials/audio/05-5.mp3",
+      "bytes": 383338,
+      "sha256": "27eb632b2fb35fbcd3a72c54044c4ba155da59d11fb060eff1f7460b8eb51a13"
+    },
+    {
+      "lesson": 5,
+      "track": 6,
+      "file": "/hsk1-materials/audio/05-6.mp3",
+      "bytes": 474661,
+      "sha256": "a131b0c157876d3b70a21c32d51172bfa68de49e2dee12f9be14e80980bd7934"
+    },
+    {
+      "lesson": 6,
+      "track": 1,
+      "file": "/hsk1-materials/audio/06-1.mp3",
+      "bytes": 519280,
+      "sha256": "1ab6fcfc8a7daf8feae9e067239fb06f8ea4b5000041cf8179f833e539ebe11a"
+    },
+    {
+      "lesson": 6,
+      "track": 2,
+      "file": "/hsk1-materials/audio/06-2.mp3",
+      "bytes": 310363,
+      "sha256": "83fc9fc74a53f8f3992dd97f567fa3192261500db17b558296f78c008880296b"
+    },
+    {
+      "lesson": 6,
+      "track": 3,
+      "file": "/hsk1-materials/audio/06-3.mp3",
+      "bytes": 395014,
+      "sha256": "2721bf773c493a834c420f0fac9dc71efee5050dde61737afd71325f1a722594"
+    },
+    {
+      "lesson": 6,
+      "track": 4,
+      "file": "/hsk1-materials/audio/06-4.mp3",
+      "bytes": 560980,
+      "sha256": "d47daf09379964276b4e6df16048e06aaf9c88fda1e1af6c75c0d94a9a498e4b"
+    },
+    {
+      "lesson": 6,
+      "track": 5,
+      "file": "/hsk1-materials/audio/06-5.mp3",
+      "bytes": 511774,
+      "sha256": "1efbc4c301aece0dfa9cd84d2eb9a6eb037065a41b11c1a1e80d31670cdb401e"
+    },
+    {
+      "lesson": 6,
+      "track": 6,
+      "file": "/hsk1-materials/audio/06-6.mp3",
+      "bytes": 718189,
+      "sha256": "0b89db37c5f0dce184eb786b55af764015b5084fd471bf91f13a30d520f595a9"
+    },
+    {
+      "lesson": 7,
+      "track": 1,
+      "file": "/hsk1-materials/audio/07-1.mp3",
+      "bytes": 407107,
+      "sha256": "417b26570bde4fac4528ba050fee7ff8639d8485f020a544d8e21b6c0652012a"
+    },
+    {
+      "lesson": 7,
+      "track": 2,
+      "file": "/hsk1-materials/audio/07-2.mp3",
+      "bytes": 533875,
+      "sha256": "04a15fc67589fb350f71653c9540b30a81c61fe5dce5b18da367cfdc7bc646b8"
+    },
+    {
+      "lesson": 7,
+      "track": 3,
+      "file": "/hsk1-materials/audio/07-3.mp3",
+      "bytes": 477997,
+      "sha256": "12a94d2a9e0eedb280521bd8321650c58cd9875b80b94e56b8ba40da0d9aa175"
+    },
+    {
+      "lesson": 7,
+      "track": 4,
+      "file": "/hsk1-materials/audio/07-4.mp3",
+      "bytes": 532624,
+      "sha256": "d2b30f9d90d6e3f55b7d3291cd9f6d6378e4206c04315bf59d3e35c80786c9e1"
+    },
+    {
+      "lesson": 7,
+      "track": 5,
+      "file": "/hsk1-materials/audio/07-5.mp3",
+      "bytes": 464236,
+      "sha256": "af5c11ca1573afe1866c56a3c5e0b9af339c926f36572f4c7dce9e8505841f6d"
+    },
+    {
+      "lesson": 7,
+      "track": 6,
+      "file": "/hsk1-materials/audio/07-6.mp3",
+      "bytes": 650218,
+      "sha256": "89546df2ab9a39eedc589551e9d87a6e397618843548ea2ea1797f144e231a6b"
+    },
+    {
+      "lesson": 8,
+      "track": 1,
+      "file": "/hsk1-materials/audio/08-1.mp3",
+      "bytes": 364156,
+      "sha256": "8bc7282536dded53299457c65bd4dea7d3d743f3f415cd8543ad6f3e93b141bb"
+    },
+    {
+      "lesson": 8,
+      "track": 2,
+      "file": "/hsk1-materials/audio/08-2.mp3",
+      "bytes": 596425,
+      "sha256": "2714879333c97d484f8f92c58a81524d91c76de3a2d4d2593377b4e1b5fde9e8"
+    },
+    {
+      "lesson": 8,
+      "track": 3,
+      "file": "/hsk1-materials/audio/08-3.mp3",
+      "bytes": 407524,
+      "sha256": "f0e549194e21b7b8d2f1227d76334a893fa7d0bfe036d8fe04622b059f0a01b9"
+    },
+    {
+      "lesson": 8,
+      "track": 4,
+      "file": "/hsk1-materials/audio/08-4.mp3",
+      "bytes": 473827,
+      "sha256": "a4d79a0dc6c3f4a68dff399a5c9996a4da8c0d64be0bab5f8176484ebc392a69"
+    },
+    {
+      "lesson": 8,
+      "track": 5,
+      "file": "/hsk1-materials/audio/08-5.mp3",
+      "bytes": 511357,
+      "sha256": "cb70f621c5a6cb134a18795b71ccc70d219c59c94e0c47eb388d79878f80aeba"
+    },
+    {
+      "lesson": 8,
+      "track": 6,
+      "file": "/hsk1-materials/audio/08-6.mp3",
+      "bytes": 476329,
+      "sha256": "2adb3bb00b301e9d780041832ef311d67bb0e957b403638dbcf1cffb78513d23"
+    },
+    {
+      "lesson": 9,
+      "track": 1,
+      "file": "/hsk1-materials/audio/09-1.mp3",
+      "bytes": 441718,
+      "sha256": "6677a61d6e664cdc46f9365d84ad30787d488b3ee554fa0f26d642376440b982"
+    },
+    {
+      "lesson": 9,
+      "track": 2,
+      "file": "/hsk1-materials/audio/09-2.mp3",
+      "bytes": 453811,
+      "sha256": "e75d5551601eab5961541d0cc795c851c6a51b1016928eac0843e9b27a49147f"
+    },
+    {
+      "lesson": 9,
+      "track": 3,
+      "file": "/hsk1-materials/audio/09-3.mp3",
+      "bytes": 547636,
+      "sha256": "f31b917c08bd8d6036bbc5839d2211fe629221f34695e49f846630e3c1b146fd"
+    },
+    {
+      "lesson": 9,
+      "track": 4,
+      "file": "/hsk1-materials/audio/09-4.mp3",
+      "bytes": 511357,
+      "sha256": "ef2e1cd37fe532e8d105cae0c99b3c510ca17be2452809c08203973cdeeac215"
+    },
+    {
+      "lesson": 9,
+      "track": 5,
+      "file": "/hsk1-materials/audio/09-5.mp3",
+      "bytes": 624364,
+      "sha256": "cd6f7feda2f4a1012a3df3929f53e17c6137a3f7b1e5822398d1a8f64a6939c6"
+    },
+    {
+      "lesson": 9,
+      "track": 6,
+      "file": "/hsk1-materials/audio/09-6.mp3",
+      "bytes": 613522,
+      "sha256": "8e4a7d7a849bd5ec8bb07f03bdc10ccdb68ec2c4b5f0ca5e569d194657f3211a"
+    },
+    {
+      "lesson": 10,
+      "track": 1,
+      "file": "/hsk1-materials/audio/10-1.mp3",
+      "bytes": 507604,
+      "sha256": "0c826344868b9f0b98eca2dd14e793f8e308ee70f71b40655dc167be17e81b17"
+    },
+    {
+      "lesson": 10,
+      "track": 2,
+      "file": "/hsk1-materials/audio/10-2.mp3",
+      "bytes": 480499,
+      "sha256": "555dc69e6854e7a6f473c374ed6021232e7969207719a23d5951da6d012eaad6"
+    },
+    {
+      "lesson": 10,
+      "track": 3,
+      "file": "/hsk1-materials/audio/10-3.mp3",
+      "bytes": 541381,
+      "sha256": "6867c7d1fa2dd76f563a767c50ef4f8d6f8147d31351951b70f1b769dd703293"
+    },
+    {
+      "lesson": 10,
+      "track": 4,
+      "file": "/hsk1-materials/audio/10-4.mp3",
+      "bytes": 426706,
+      "sha256": "0fd89f31c585c2e2ee83033c982c9789cc16741eb83d47634fc67ab9dda4667d"
+    },
+    {
+      "lesson": 10,
+      "track": 5,
+      "file": "/hsk1-materials/audio/10-5.mp3",
+      "bytes": 603931,
+      "sha256": "731324c3744078958eb2b4625ae7a20499314e5bda3c449ad438c78696429905"
+    },
+    {
+      "lesson": 10,
+      "track": 6,
+      "file": "/hsk1-materials/audio/10-6.mp3",
+      "bytes": 569320,
+      "sha256": "14fd446e102d995b7091dc7b12f252a3c37a067c62a31a54bf020cfbecf5721c"
+    },
+    {
+      "lesson": 11,
+      "track": 1,
+      "file": "/hsk1-materials/audio/11-1.mp3",
+      "bytes": 470491,
+      "sha256": "07910b3db107e7d586c8951c8ddeed32442bad223a78519e541e362b9372279e"
+    },
+    {
+      "lesson": 11,
+      "track": 2,
+      "file": "/hsk1-materials/audio/11-2.mp3",
+      "bytes": 482584,
+      "sha256": "afdb52ab80314907ee26900d585605a834615580f7713dff7e245c78c8dcd402"
+    },
+    {
+      "lesson": 11,
+      "track": 3,
+      "file": "/hsk1-materials/audio/11-3.mp3",
+      "bytes": 464236,
+      "sha256": "b8752507209e3837881ad55a5a8a5096dd78bec551ba4a5252b5a19e0f30531e"
+    },
+    {
+      "lesson": 11,
+      "track": 4,
+      "file": "/hsk1-materials/audio/11-4.mp3",
+      "bytes": 420868,
+      "sha256": "77afa9f1437aeabe5d3daabacc0a6a8d8865bf9716f1c5cd640198d60f5feb7c"
+    },
+    {
+      "lesson": 11,
+      "track": 5,
+      "file": "/hsk1-materials/audio/11-5.mp3",
+      "bytes": 513442,
+      "sha256": "883673609369982c4df9bbcd31436ead9c44b3b1f9912fce28f73e8b26666ab4"
+    },
+    {
+      "lesson": 11,
+      "track": 6,
+      "file": "/hsk1-materials/audio/11-6.mp3",
+      "bytes": 708598,
+      "sha256": "f2f9351ea8ac7199b14801fed7c8aa16b98a62d2d695aa5f2b040a36dcabf12b"
+    },
+    {
+      "lesson": 12,
+      "track": 1,
+      "file": "/hsk1-materials/audio/12-1.mp3",
+      "bytes": 407524,
+      "sha256": "fb25a792f7c12584f03e88425796db0b317472ded76f923a07632216a2057e85"
+    },
+    {
+      "lesson": 12,
+      "track": 2,
+      "file": "/hsk1-materials/audio/12-2.mp3",
+      "bytes": 543049,
+      "sha256": "cfd857eb9f72ab731037e206c7e0e165dfa15ea3c2f886d996836bbeb7025fd1"
+    },
+    {
+      "lesson": 12,
+      "track": 3,
+      "file": "/hsk1-materials/audio/12-3.mp3",
+      "bytes": 390010,
+      "sha256": "ba6c0f6c07b8c473e81d13bd02a31b19b4f790614bce3571c724d60488dfbe91"
+    },
+    {
+      "lesson": 12,
+      "track": 4,
+      "file": "/hsk1-materials/audio/12-4.mp3",
+      "bytes": 445471,
+      "sha256": "bbf5a25952c2637be021d7f0a44065f3b05b33ead1691cc5c810441f1f4f4dbe"
+    },
+    {
+      "lesson": 12,
+      "track": 5,
+      "file": "/hsk1-materials/audio/12-5.mp3",
+      "bytes": 507187,
+      "sha256": "784fc462c116282a9d0875191deae7d5f83ec558de214dda59e2e3a3c4caf8c9"
+    },
+    {
+      "lesson": 12,
+      "track": 6,
+      "file": "/hsk1-materials/audio/12-6.mp3",
+      "bytes": 567235,
+      "sha256": "7be38c007d1493196b14884b81356e4cb7f6a24806a58b2e195926cf06c1e01b"
+    },
+    {
+      "lesson": 13,
+      "track": 1,
+      "file": "/hsk1-materials/audio/13-1.mp3",
+      "bytes": 469657,
+      "sha256": "fad2b962f878d261d12cb1ef3d894d619e0c8aa627601915fb3512370dea85db"
+    },
+    {
+      "lesson": 13,
+      "track": 2,
+      "file": "/hsk1-materials/audio/13-2.mp3",
+      "bytes": 467572,
+      "sha256": "3516b78eddde709e5b29faab4d128d3d4f2ad95374a19296c37e6922dd8baceb"
+    },
+    {
+      "lesson": 13,
+      "track": 3,
+      "file": "/hsk1-materials/audio/13-3.mp3",
+      "bytes": 527620,
+      "sha256": "7b68c8ac2bbe6cf97a3c387db652e09b7d647a8e69e2f18f9e2cc21deeaf2ef3"
+    },
+    {
+      "lesson": 13,
+      "track": 4,
+      "file": "/hsk1-materials/audio/13-4.mp3",
+      "bytes": 660226,
+      "sha256": "8744449830f255ab8924076d43341904c1f5c6ffdf017e12920cb6f52fba97a1"
+    },
+    {
+      "lesson": 13,
+      "track": 5,
+      "file": "/hsk1-materials/audio/13-5.mp3",
+      "bytes": 564316,
+      "sha256": "a5cc2611ef5a04d2444f3830fd492a2badb82f1ed049398d6d63eef9d0ca7a0a"
+    },
+    {
+      "lesson": 13,
+      "track": 6,
+      "file": "/hsk1-materials/audio/13-6.mp3",
+      "bytes": 304942,
+      "sha256": "1ad117d6909bd5dd1c2844fd23ad16cf140d87d7f8060c367d94c69d404acecf"
+    },
+    {
+      "lesson": 14,
+      "track": 1,
+      "file": "/hsk1-materials/audio/14-1.mp3",
+      "bytes": 426706,
+      "sha256": "7e5d30b3af2bfc2b3ac8082a9d49fe9f26b8375bcb38b93519745a7e4766bb25"
+    },
+    {
+      "lesson": 14,
+      "track": 2,
+      "file": "/hsk1-materials/audio/14-2.mp3",
+      "bytes": 465487,
+      "sha256": "b611c48cc37bfe162cc723aa1fd8b8fbe8faa48d691b09da0a4f35e3728a8544"
+    },
+    {
+      "lesson": 14,
+      "track": 3,
+      "file": "/hsk1-materials/audio/14-3.mp3",
+      "bytes": 598927,
+      "sha256": "ee4e5f41a518ef999ea8527a0be8d7fee90058dfad121b60f47a7163bffb067f"
+    },
+    {
+      "lesson": 14,
+      "track": 4,
+      "file": "/hsk1-materials/audio/14-4.mp3",
+      "bytes": 616024,
+      "sha256": "c4aec5ab283ddacc7015aff2bf4281813a40d2c1a58d114a1feec6c3ca296c06"
+    },
+    {
+      "lesson": 14,
+      "track": 5,
+      "file": "/hsk1-materials/audio/14-5.mp3",
+      "bytes": 500515,
+      "sha256": "7fa580ff854549b9d52a16a0e60d99dce6a0efd432c0ab929d74757ae15b9916"
+    },
+    {
+      "lesson": 14,
+      "track": 6,
+      "file": "/hsk1-materials/audio/14-6.mp3",
+      "bytes": 687748,
+      "sha256": "02aca35d74d00286e68bccc035a214fbce1ca19cd6684e4cd6d28bb17509d3c2"
+    },
+    {
+      "lesson": 15,
+      "track": 1,
+      "file": "/hsk1-materials/audio/15-1.mp3",
+      "bytes": 435463,
+      "sha256": "943ed596a6ab10b2a5d491dbdb80d2eed7c561c0ee54e3b9f9419450b88fa41f"
+    },
+    {
+      "lesson": 15,
+      "track": 2,
+      "file": "/hsk1-materials/audio/15-2.mp3",
+      "bytes": 264910,
+      "sha256": "6dbcf2297b32dcf9d7ac8328e247825286b23d85fa3b8b89ba03f576c9c97137"
+    },
+    {
+      "lesson": 15,
+      "track": 3,
+      "file": "/hsk1-materials/audio/15-3.mp3",
+      "bytes": 515110,
+      "sha256": "0f7035230083e5186d6c1983b4bd4c2a76efb7e2675f5494e6dd8745e7743def"
+    },
+    {
+      "lesson": 15,
+      "track": 4,
+      "file": "/hsk1-materials/audio/15-4.mp3",
+      "bytes": 480082,
+      "sha256": "5453a406a16fade5757e6de8c75ee7872ded472400cd64c2cf7bdde03bd53a6b"
+    },
+    {
+      "lesson": 15,
+      "track": 5,
+      "file": "/hsk1-materials/audio/15-5.mp3",
+      "bytes": 688999,
+      "sha256": "25919ff8171855dc2d611ae0804211e1fb2c751a2d886b3ff48f4e590aa12198"
+    },
+    {
+      "lesson": 15,
+      "track": 6,
+      "file": "/hsk1-materials/audio/15-6.mp3",
+      "bytes": 672736,
+      "sha256": "ac47f1eda7e232441f9f0231189ed231ac165d12490856bd936d99d8b3f7eabe"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+pymupdf==1.26.7
+rapidocr-onnxruntime==1.4.4
+ctranslate2==4.6.0
+sentencepiece==0.2.1
+setuptools==80.9.0

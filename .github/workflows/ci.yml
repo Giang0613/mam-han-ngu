@@ -20,6 +20,35 @@ jobs:
       - run: npm run test:english-ui
       - run: npm run test:dictionary-format
       - run: npm run test:vocabulary
+      - run: npm run test:hsk-materials
+      - run: npm run test:hsk-native
+      - run: npm run test:hsk-audio-alignment
+      - run: npm run test:hsk-workbook-audio
+      - run: npm run test:hsk-answer-grading
       - run: npm run test:resources
       - run: npm run test:source
       - run: npm run build
+      - run: npm run db:migrate
+      - name: Run API integration checks
+        env:
+          STUDY_TEST_ORIGIN: http://127.0.0.1:3002
+          SUPERWEB_TEST_URL: http://127.0.0.1:3002
+        run: |
+          SUPERWEB_DIST_DIR=.next-production node node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3002 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 60); do
+            if curl --silent --fail "$STUDY_TEST_ORIGIN/api/study" >/dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ready" -eq 1
+          npm run test:api
+          npm run test:hsk-api
+          npm run test:vocabulary-api
+          npm run test:i18n-api
+          npm run test:hsk-materials-api
+          npm run test:hsk-answer-api

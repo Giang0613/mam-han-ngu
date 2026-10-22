@@ -1,0 +1,5 @@
+{
+ "workbook-008-1":{"expected":"'n人OR!X","skip":true,"reason":"Latin pinyin of the title misrecognized as Hanzi; checked against page image."},
+ "workbook-008-45":{"expected":"啊","pinyin":"á","audio":true,"reason":"The source syllable table teaches tone 2. Playback uses an isolated rising a2 reference from the Microsoft voice carrier 啊？你说什么？, not default neutral-tone TTS."},
+ "workbook-008-56":{"expected":"莱","zh":"菜","pinyin":"cài","vi":"Rau; món ăn","translation":"edited","reviewed":true,"reason":"Vegetables pictured with cài and 菜; checked against page image."}
+}

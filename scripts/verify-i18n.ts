@@ -75,8 +75,8 @@ const offline=JSON.parse(fs.readFileSync('public/offline-course.json','utf8'));
 assert.equal(offline.locale,'en');assert.equal(offline.lessons.length,48);
 for(const w of offline.words){assert.ok(!vi.test(w.vi));assert.equal(w.zh,words.find(x=>x.id===w.id)!.zh);}
 assert.ok(!vi.test(fs.readFileSync('public/offline.html','utf8')));
-if(fs.existsSync('data/i18n-private.en.json')){
- const privateMap:Record<string,string>={...JSON.parse(fs.readFileSync('data/i18n-private.en.json','utf8')),...(fs.existsSync('data/i18n-private-overrides.en.json')?JSON.parse(fs.readFileSync('data/i18n-private-overrides.en.json','utf8')):{})};
+if(fs.existsSync('data/materials.en.json')){
+ const privateMap:Record<string,string>={...JSON.parse(fs.readFileSync('data/materials.en.json','utf8')),...(fs.existsSync('data/materials-overrides.en.json')?JSON.parse(fs.readFileSync('data/materials-overrides.en.json','utf8')):{})};
  for(const [source,result] of Object.entries(privateMap)){
   assert.ok(!vi.test(result),'Vietnamese remains in a personal translation: '+source);
   for(const token of source.match(/\b[A-Za-z\u00c0-\u024f]*[āēīōūǎěǐǒǔǖǘǚǜ][A-Za-z\u00c0-\u024f]*\b/gu)||[])assert.ok(result.includes(token),'Changed a pinyin reference: '+token);

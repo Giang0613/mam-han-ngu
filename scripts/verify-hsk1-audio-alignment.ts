@@ -1,0 +1,57 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import originalAudioIndex from '../src/lib/hsk/material-audio-index.json';
+import placements from '../src/lib/hsk/material-audio-placement.json';
+import {materialAudio,materialPageAudio,materialStudyPageAudio,materialBlockAudio,materialSpeakerName,materialLessons,type NativeMaterialPage} from '../src/lib/hsk/materials-catalog';
+const playable=materialLessons.flatMap(l=>materialAudio(l.id));
+assert.deepEqual(playable,originalAudioIndex.filter(a=>a.id!=='01-1'),'Only recording 01-1 may be removed; all other recordings remain identical');
+assert.equal(playable.length,92);
+const renderedAcrossCourse:string[]=[];
+for(const lesson of materialLessons)for(const [book,ns] of Object.entries(lesson.pages))for(const n of ns){
+ const native=JSON.parse(fs.readFileSync(`data/hsk1-materials/native/${book}-${String(n).padStart(3,'0')}.json`,'utf8')) as NativeMaterialPage;
+ assert.deepEqual(native.audioTracks,materialPageAudio(lesson.id,native.book,n).map(a=>a.track),`${native.id}: stale audio mapping`);
+ const targets=native.blocks.filter(b=>b.practiceMode!=='with-others').flatMap(b=>materialBlockAudio(lesson.id,native,b.id).map(a=>a.id));
+ assert.deepEqual(targets.toSorted(),materialStudyPageAudio(lesson.id,native.book,n).map(a=>a.id).toSorted(),`${native.id}: a player is missing or duplicated between sections`);
+ renderedAcrossCourse.push(...targets);
+ if(materialPageAudio(lesson.id,native.book,n).some(a=>a.kind==='vocabulary'))assert.ok(native.blocks.some(b=>b.kind==='vocabulary'),`${native.id}: vocabulary recording has no adjacent word group`);
+}
+assert.deepEqual(renderedAcrossCourse.toSorted(),playable.map(a=>a.id).toSorted(),'Each recording must appear once across the whole course, not once on every associated source page');
+const tracks=(lesson:number,page:number)=>materialPageAudio(lesson,'textbook',page).map(a=>a.track);
+assert.deepEqual(tracks(1,19),[7],'Bonus video 1-1 must not become a dialogue audio');
+assert.deepEqual(tracks(1,16),[2],'Only 01-1 is removed; vocabulary 01-2 remains');
+assert.deepEqual(tracks(3,31),[7],'Group size 3-4 must not become vocabulary audio');
+for(const [lesson,page] of [[4,41],[7,68],[13,117]])assert.deepEqual(tracks(lesson,page),[],'Bonus video must not become MP3');
+assert.deepEqual(tracks(8,70),[1,2]);assert.deepEqual(tracks(8,72),[3,4]);assert.deepEqual(tracks(12,104),[3,4]);
+assert.deepEqual(tracks(2,21),[1,2],'Dialogue continuation and vocabulary require distinct recordings');
+assert.equal(materialPageAudio(1,'workbook',9).length,0);
+assert.equal(materialPageAudio(8,'writing',1).length,0);
+assert.equal(materialSpeakerName('王一飞'),'Vương Nhất Phi');assert.equal(materialSpeakerName('陈天中'),'Trần Thiên Trung');
+const page=(n:number)=>JSON.parse(fs.readFileSync(`data/hsk1-materials/native/textbook-${String(n).padStart(3,'0')}.json`,'utf8')) as NativeMaterialPage;
+assert.equal(placements.find(p=>p.audioId==='03-3'&&p.pageId==='textbook-027')?.blockId,'textbook-027-block-3','03-3 belongs next to the existing photo dialogue, after the earlier phrase/cloze drill');
+assert.deepEqual(materialBlockAudio(3,page(27),page(27).blocks[0].id),[],'No original MP3 belongs above the phrase drill');
+assert.equal(placements.find(p=>p.audioId==='03-5'&&p.pageId==='textbook-028'),undefined,'The duplicate 03-5 setup-page player shown by the learner must be removed');
+assert.equal(placements.find(p=>p.audioId==='03-5')?.blockId,'textbook-029-block-0','Keep 03-5 beside the actual dialogue turns');
+assert.deepEqual(materialStudyPageAudio(3,'textbook',28).map(a=>a.id),['03-4'],'Vocabulary remains playable where the duplicate dialogue recording is removed');
+assert.deepEqual(materialStudyPageAudio(3,'textbook',29).map(a=>a.id),['03-5','03-6'],'Retain dialogue 3 and its distinct vocabulary recording');
+assert.deepEqual(materialBlockAudio(3,page(28),'textbook-028-block-0').map(a=>a.id),['03-4']);
+assert.equal(new Set(placements.map(p=>p.audioId)).size,92);
+assert.equal(placements.length,92,'No recording may have multiple course locations');
+const placementAudit=JSON.parse(fs.readFileSync('data/hsk1-materials/editorial/audio-placement-audit.json','utf8')) as {contentHashes:Record<string,string>;removedRepeats:{audioId:string;pageId:string;keptPageId:string}[]};
+for(const repeat of placementAudit.removedRepeats){
+ const removed=JSON.parse(fs.readFileSync(`data/hsk1-materials/native/${repeat.pageId}.json`,'utf8')) as NativeMaterialPage;
+ const kept=JSON.parse(fs.readFileSync(`data/hsk1-materials/native/${repeat.keptPageId}.json`,'utf8')) as NativeMaterialPage;
+ assert.ok(removed.blocks.every(b=>b.items.every(i=>!i.speaker&&i.role!=='utterance')),'A setup-only page must not repeat the full dialogue recording');
+ assert.ok(kept.blocks.some(b=>b.items.some(i=>i.speaker||i.role==='utterance')),'The retained recording must be on a page with dialogue turns');
+}
+for(const [id,hash] of Object.entries(placementAudit.contentHashes))assert.equal(createHash('sha256').update(fs.readFileSync(`data/hsk1-materials/native/${id}.json`)).digest('hex'),hash,`${id}: moving audio must not alter lesson content`);
+assert.equal(page(21).blocks.flatMap(b=>b.items).find(i=>i.id==='textbook-021-4')?.vi,'Xin hỏi, bạn tên là gì?');
+assert.equal(page(21).blocks.flatMap(b=>b.items).find(i=>i.id==='textbook-021-13')?.role,'explanation');
+assert.equal(page(54).blocks[0].items.filter(i=>i.speaker).length,6,'Restaurant UI text must not be spoken by an actor');
+assert.ok(page(54).blocks.filter(b=>b.kind!=='dialogue').every(b=>b.items.every(i=>!i.speaker)));
+assert.ok(page(66).blocks[0].items.every(i=>i.speaker),'Grammar tip must not replace first dialogue turn');
+assert.ok(page(115).blocks.flatMap(b=>b.items).some(i=>i.zh==='40个太多了，我要一半吧。'));
+const ui=fs.readFileSync('src/components/study/Hsk1Materials.tsx','utf8');
+assert.ok(!ui.includes('tracks[0]'),'Speaking must not default to the first recording of the whole lesson');
+assert.ok(!ui.includes('headerTracks'),'Read-mode audio must be adjacent to its section, never repeated above the contents list');
+console.log(`PASS: all 92 playable recordings have one course location; ${placementAudit.removedRepeats.length} duplicate setup-page players removed. Chinese, pinyin, translations and answer keys unchanged. Only 01-1 hidden.`);

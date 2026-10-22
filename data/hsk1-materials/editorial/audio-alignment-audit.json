@@ -1,0 +1,753 @@
+{
+  "revision": "hsk1-audio-2026-10-07-v2",
+  "method": "Explicit audio instruction/heading markers in supplied books; original ZIP import SHA-256 comparison. Not automatic acoustic transcription.",
+  "recordings": 93,
+  "uniqueSourceAnchors": 93,
+  "matchingOriginalHashes": 93,
+  "anchors": [
+    {
+      "lesson": 1,
+      "track": 1,
+      "page": 16,
+      "row": 16,
+      "text": "朗读对话。Read thedialoguealoud.）1-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 1,
+      "track": 2,
+      "page": 16,
+      "row": 28,
+      "text": "生词NewWords）1-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 1,
+      "track": 3,
+      "page": 17,
+      "row": 6,
+      "text": "朗读对话。Read the dialogue aloud.)1-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 1,
+      "track": 4,
+      "page": 17,
+      "row": 22,
+      "text": "生词New Words ) 1-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 1,
+      "track": 5,
+      "page": 18,
+      "row": 5,
+      "text": "朗读对话。Read the dialogue aloud.)1-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 1,
+      "track": 6,
+      "page": 18,
+      "row": 7,
+      "text": "生词New Words 1) 1-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 1,
+      "track": 7,
+      "page": 19,
+      "row": 3,
+      "text": "ShadowtheTongueTwister)1-7",
+      "kind": "phonetics"
+    },
+    {
+      "lesson": 2,
+      "track": 1,
+      "page": 20,
+      "row": 17,
+      "text": "朗读对话。Readthedialoguealoud.2-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 2,
+      "track": 2,
+      "page": 21,
+      "row": 20,
+      "text": "生词NewWords1)2-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 2,
+      "track": 3,
+      "page": 22,
+      "row": 5,
+      "text": "朗读对话。Readthedialoguealoud.)2-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 2,
+      "track": 4,
+      "page": 22,
+      "row": 22,
+      "text": "生词NewWords)2-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 2,
+      "track": 5,
+      "page": 23,
+      "row": 16,
+      "text": "朗读对话。Readthedialoguealoud.)2-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 2,
+      "track": 6,
+      "page": 24,
+      "row": 1,
+      "text": "生词NewWords)2-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 2,
+      "track": 7,
+      "page": 24,
+      "row": 24,
+      "text": "Shadow the Tongue Twister ) 2-7",
+      "kind": "phonetics"
+    },
+    {
+      "lesson": 3,
+      "track": 1,
+      "page": 25,
+      "row": 14,
+      "text": "朗读对话。Readthedialoguealoud.)3-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 3,
+      "track": 2,
+      "page": 26,
+      "row": 1,
+      "text": "生词NewWords)3-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 3,
+      "track": 3,
+      "page": 27,
+      "row": 19,
+      "text": "朗读对话。Readthedialoguealoud.)3-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 3,
+      "track": 4,
+      "page": 28,
+      "row": 1,
+      "text": "生词NewWords)3-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 3,
+      "track": 5,
+      "page": 28,
+      "row": 40,
+      "text": "朗读对话。Readthedialoguealoud.)3-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 3,
+      "track": 6,
+      "page": 29,
+      "row": 4,
+      "text": "生词NewWords )3-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 3,
+      "track": 7,
+      "page": 31,
+      "row": 12,
+      "text": "Shadow the Tongue Twister ) 3-7",
+      "kind": "phonetics"
+    },
+    {
+      "lesson": 4,
+      "track": 1,
+      "page": 34,
+      "row": 4,
+      "text": "朗读对话。Readthedialoguealoud.)4-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 4,
+      "track": 2,
+      "page": 34,
+      "row": 15,
+      "text": "生词NewWords)4-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 4,
+      "track": 3,
+      "page": 36,
+      "row": 47,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice andchoose the correct answer.）4-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 4,
+      "track": 4,
+      "page": 37,
+      "row": 33,
+      "text": "生词NewWords)4-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 4,
+      "track": 5,
+      "page": 39,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.)4-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 4,
+      "track": 6,
+      "page": 40,
+      "row": 1,
+      "text": "生词New Words )4-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 5,
+      "track": 1,
+      "page": 43,
+      "row": 5,
+      "text": "朗读对话。Readthedialoguealoud.)5-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 5,
+      "track": 2,
+      "page": 43,
+      "row": 21,
+      "text": "生词NewWords )5-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 5,
+      "track": 3,
+      "page": 45,
+      "row": 10,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.)5-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 5,
+      "track": 4,
+      "page": 46,
+      "row": 1,
+      "text": "生词NewWords)5-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 5,
+      "track": 5,
+      "page": 46,
+      "row": 51,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.）5-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 5,
+      "track": 6,
+      "page": 47,
+      "row": 34,
+      "text": "生词NewWords d1)5-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 6,
+      "track": 1,
+      "page": 51,
+      "row": 6,
+      "text": "朗读对话。Read the dialogue aloud.)6-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 6,
+      "track": 2,
+      "page": 51,
+      "row": 33,
+      "text": "生词 New Words )6-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 6,
+      "track": 3,
+      "page": 52,
+      "row": 5,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice andchoose the correct answer.）6-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 6,
+      "track": 4,
+      "page": 53,
+      "row": 2,
+      "text": "生词NewWords)6-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 6,
+      "track": 5,
+      "page": 53,
+      "row": 55,
+      "text": "听两遍对话，选择正确答案。Listento thedialogue twice andchoose the correct answer.)6-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 6,
+      "track": 6,
+      "page": 55,
+      "row": 2,
+      "text": "生词NewWords)6-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 7,
+      "track": 1,
+      "page": 61,
+      "row": 5,
+      "text": "朗读对话。Readthedialoguealoud.)7-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 7,
+      "track": 2,
+      "page": 61,
+      "row": 7,
+      "text": "生词NewWords )7-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 7,
+      "track": 3,
+      "page": 63,
+      "row": 12,
+      "text": "听两遍对话，选择正确答案。Listento the dialogue twice andchoose thecorrect answer.)7-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 7,
+      "track": 4,
+      "page": 64,
+      "row": 33,
+      "text": "生词NewWords1)7-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 7,
+      "track": 5,
+      "page": 65,
+      "row": 30,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice andchoose thecorrect answer.)7-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 7,
+      "track": 6,
+      "page": 66,
+      "row": 35,
+      "text": "生词NewWords)7-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 8,
+      "track": 1,
+      "page": 70,
+      "row": 5,
+      "text": "朗读对话。Readthedialoguealoud.)8-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 8,
+      "track": 2,
+      "page": 70,
+      "row": 20,
+      "text": "生词NewWords8-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 8,
+      "track": 3,
+      "page": 71,
+      "row": 16,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice andchoose thecorrect answer.)8-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 8,
+      "track": 4,
+      "page": 72,
+      "row": 2,
+      "text": "生词NewWords8-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 8,
+      "track": 5,
+      "page": 73,
+      "row": 15,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice andchoose the correct answer.)8-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 8,
+      "track": 6,
+      "page": 74,
+      "row": 6,
+      "text": "生词NewWords)8-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 9,
+      "track": 1,
+      "page": 77,
+      "row": 5,
+      "text": "朗读对话。Readthedialoguealoud.)9-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 9,
+      "track": 2,
+      "page": 77,
+      "row": 38,
+      "text": "生词NewWords )9-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 9,
+      "track": 3,
+      "page": 78,
+      "row": 34,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twiceandchoose the correct answer.)9-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 9,
+      "track": 4,
+      "page": 79,
+      "row": 32,
+      "text": "生词NewWords (1)9-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 9,
+      "track": 5,
+      "page": 80,
+      "row": 20,
+      "text": "听两遍对话，选择正确答案。Listento the dialogue twice and choose thecorrect answer.)9-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 9,
+      "track": 6,
+      "page": 81,
+      "row": 13,
+      "text": "生词NewWords)9-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 10,
+      "track": 1,
+      "page": 86,
+      "row": 5,
+      "text": "朗读对话。Readthe dialoguealoud.）10-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 10,
+      "track": 2,
+      "page": 86,
+      "row": 36,
+      "text": "生词NewWords）10-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 10,
+      "track": 3,
+      "page": 87,
+      "row": 38,
+      "text": "听两遍对话，选择正确答案。Listento the dialogue twice and choose the correct answer.)10-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 10,
+      "track": 4,
+      "page": 88,
+      "row": 39,
+      "text": "生词NewWords)10-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 10,
+      "track": 5,
+      "page": 89,
+      "row": 16,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.)10-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 10,
+      "track": 6,
+      "page": 90,
+      "row": 27,
+      "text": "生词NewWords )10-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 11,
+      "track": 1,
+      "page": 94,
+      "row": 6,
+      "text": "朗读对话。Read thedialoguealoud.）11-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 11,
+      "track": 2,
+      "page": 94,
+      "row": 31,
+      "text": "生词NewWords)11-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 11,
+      "track": 3,
+      "page": 95,
+      "row": 26,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice andchoose thecorrect answer.)11-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 11,
+      "track": 4,
+      "page": 96,
+      "row": 23,
+      "text": "生词NewWords )11-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 11,
+      "track": 5,
+      "page": 97,
+      "row": 27,
+      "text": "听两遍对话，选择正确答案。Listento thedialoguetwice andchoosethecorrectanswer.)11-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 11,
+      "track": 6,
+      "page": 98,
+      "row": 11,
+      "text": "生词NewWords 1)11-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 12,
+      "track": 1,
+      "page": 102,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.）12-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 12,
+      "track": 2,
+      "page": 103,
+      "row": 2,
+      "text": "生词NewWords )12-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 12,
+      "track": 3,
+      "page": 104,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listento the dialogue twice and choose thecorrect answer.）12-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 12,
+      "track": 4,
+      "page": 104,
+      "row": 49,
+      "text": "生词NewWords12-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 12,
+      "track": 5,
+      "page": 105,
+      "row": 23,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice and choose the correct answer.）12-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 12,
+      "track": 6,
+      "page": 106,
+      "row": 39,
+      "text": "生词New Words )12-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 13,
+      "track": 1,
+      "page": 111,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice andchoose thecorrect answer.)13-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 13,
+      "track": 2,
+      "page": 112,
+      "row": 2,
+      "text": "生词NewWords）13-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 13,
+      "track": 3,
+      "page": 113,
+      "row": 5,
+      "text": "听两遍对话，选择正确答案。Listento thedialogue twice and choose the correct answer.)13-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 13,
+      "track": 4,
+      "page": 114,
+      "row": 2,
+      "text": "生词NewWords )13-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 13,
+      "track": 5,
+      "page": 114,
+      "row": 64,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the corect answer.）13-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 13,
+      "track": 6,
+      "page": 115,
+      "row": 23,
+      "text": "生词NewWords)13-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 14,
+      "track": 1,
+      "page": 119,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listen to thedialogue twice and choose the correctanswer.)14-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 14,
+      "track": 2,
+      "page": 120,
+      "row": 2,
+      "text": "生词NewWords )14-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 14,
+      "track": 3,
+      "page": 121,
+      "row": 24,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.)14-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 14,
+      "track": 4,
+      "page": 122,
+      "row": 3,
+      "text": "生词NewWords)14-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 14,
+      "track": 5,
+      "page": 123,
+      "row": 16,
+      "text": "听两遍对话，选择正确答案。Listento thedialogue twice and choose thecorrect answer.)14-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 14,
+      "track": 6,
+      "page": 124,
+      "row": 57,
+      "text": "生词NewWords )14-6",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 15,
+      "track": 1,
+      "page": 128,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice andchoose thecorrect answer.）15-1",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 15,
+      "track": 2,
+      "page": 128,
+      "row": 40,
+      "text": "生词NewWords )15-2",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 15,
+      "track": 3,
+      "page": 129,
+      "row": 24,
+      "text": "听两遍对话，选择正确答案。Listen to the dialogue twice and choose the correct answer.)15-3",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 15,
+      "track": 4,
+      "page": 130,
+      "row": 31,
+      "text": "生词NewWords)15-4",
+      "kind": "vocabulary"
+    },
+    {
+      "lesson": 15,
+      "track": 5,
+      "page": 131,
+      "row": 6,
+      "text": "听两遍对话，选择正确答案。Listento thedialogue twice andchoose thecorrect answer.）15-5",
+      "kind": "dialogue"
+    },
+    {
+      "lesson": 15,
+      "track": 6,
+      "page": 132,
+      "row": 3,
+      "text": "生词NewWords)15-6",
+      "kind": "vocabulary"
+    }
+  ]
+}

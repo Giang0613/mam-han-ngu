@@ -1,0 +1,1912 @@
+{
+  "pages": 272,
+  "blocks": 703,
+  "items": 3948,
+  "responseFields": 960,
+  "manifest": [
+    {
+      "id": "textbook-016",
+      "title": "Hội thoại 1",
+      "blocks": 3,
+      "items": 7,
+      "fields": 0
+    },
+    {
+      "id": "textbook-017",
+      "title": "Hội thoại 2",
+      "blocks": 4,
+      "items": 15,
+      "fields": 0
+    },
+    {
+      "id": "textbook-018",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 11,
+      "fields": 0
+    },
+    {
+      "id": "textbook-019",
+      "title": "Đọc theo bài luyện nói",
+      "blocks": 2,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-008",
+      "title": "Âm tiết tiếng Trung",
+      "blocks": 3,
+      "items": 11,
+      "fields": 0
+    },
+    {
+      "id": "workbook-009",
+      "title": "Đọc to từng từ",
+      "blocks": 4,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-010",
+      "title": "Đọc cùng bốn thanh",
+      "blocks": 2,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "workbook-011",
+      "title": "Nghe và đọc âm tiết",
+      "blocks": 5,
+      "items": 45,
+      "fields": 46
+    },
+    {
+      "id": "textbook-020",
+      "title": "Hội thoại 1",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "textbook-021",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 11,
+      "fields": 0
+    },
+    {
+      "id": "textbook-022",
+      "title": "Hội thoại 2",
+      "blocks": 5,
+      "items": 15,
+      "fields": 0
+    },
+    {
+      "id": "textbook-023",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "textbook-024",
+      "title": "Từ mới",
+      "blocks": 5,
+      "items": 9,
+      "fields": 0
+    },
+    {
+      "id": "workbook-012",
+      "title": "Thanh mẫu và vận mẫu (2)",
+      "blocks": 4,
+      "items": 1,
+      "fields": 0
+    },
+    {
+      "id": "workbook-013",
+      "title": "Đọc to từng từ",
+      "blocks": 4,
+      "items": 13,
+      "fields": 0
+    },
+    {
+      "id": "workbook-014",
+      "title": "j, q, x kết hợp với ü",
+      "blocks": 8,
+      "items": 10,
+      "fields": 0
+    },
+    {
+      "id": "workbook-015",
+      "title": "Nghe và điền thanh mẫu",
+      "blocks": 4,
+      "items": 40,
+      "fields": 40
+    },
+    {
+      "id": "textbook-025",
+      "title": "Hội thoại 1",
+      "blocks": 2,
+      "items": 7,
+      "fields": 0
+    },
+    {
+      "id": "textbook-026",
+      "title": "Từ mới",
+      "blocks": 5,
+      "items": 18,
+      "fields": 0
+    },
+    {
+      "id": "textbook-027",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 18,
+      "fields": 4
+    },
+    {
+      "id": "textbook-028",
+      "title": "Từ mới",
+      "blocks": 5,
+      "items": 11,
+      "fields": 0
+    },
+    {
+      "id": "textbook-029",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 19,
+      "fields": 0
+    },
+    {
+      "id": "textbook-030",
+      "title": "Chọn từ điền vào chỗ trống",
+      "blocks": 3,
+      "items": 16,
+      "fields": 9
+    },
+    {
+      "id": "textbook-031",
+      "title": "Luyện đọc thanh điệu",
+      "blocks": 3,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-032",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 14,
+      "fields": 0
+    },
+    {
+      "id": "workbook-016",
+      "title": "Thanh mẫu và vận mẫu (3)",
+      "blocks": 2,
+      "items": 1,
+      "fields": 0
+    },
+    {
+      "id": "workbook-017",
+      "title": "Đọc theo bốn thanh",
+      "blocks": 3,
+      "items": 9,
+      "fields": 0
+    },
+    {
+      "id": "workbook-018",
+      "title": "Đọc theo bốn thanh",
+      "blocks": 5,
+      "items": 32,
+      "fields": 29
+    },
+    {
+      "id": "workbook-019",
+      "title": "Nghe và ghi thanh điệu",
+      "blocks": 2,
+      "items": 19,
+      "fields": 17
+    },
+    {
+      "id": "textbook-033",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 16,
+      "fields": 7
+    },
+    {
+      "id": "textbook-034",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-035",
+      "title": "Cách viết và đọc số",
+      "blocks": 4,
+      "items": 68,
+      "fields": 65
+    },
+    {
+      "id": "textbook-036",
+      "title": "Số từ 100 đến dưới 10.000",
+      "blocks": 4,
+      "items": 4,
+      "fields": 3
+    },
+    {
+      "id": "textbook-037",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-038",
+      "title": "Hoàn thành đoạn hội thoại.",
+      "blocks": 2,
+      "items": 20,
+      "fields": 5
+    },
+    {
+      "id": "textbook-039",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 22,
+      "fields": 3
+    },
+    {
+      "id": "textbook-040",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 25,
+      "fields": 11
+    },
+    {
+      "id": "textbook-041",
+      "title": "Nội dung bài học",
+      "blocks": 3,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-020",
+      "title": "Biến điệu thanh 3",
+      "blocks": 3,
+      "items": 9,
+      "fields": 0
+    },
+    {
+      "id": "workbook-021",
+      "title": "Đọc và luyện phát âm",
+      "blocks": 4,
+      "items": 10,
+      "fields": 0
+    },
+    {
+      "id": "workbook-022",
+      "title": "Đọc và luyện phát âm",
+      "blocks": 5,
+      "items": 32,
+      "fields": 9
+    },
+    {
+      "id": "workbook-023",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-024",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 5
+    },
+    {
+      "id": "workbook-025",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-026",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-027",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 4
+    },
+    {
+      "id": "workbook-028",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 21,
+      "fields": 1
+    },
+    {
+      "id": "textbook-042",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 15,
+      "fields": 7
+    },
+    {
+      "id": "textbook-043",
+      "title": "Hội thoại 1",
+      "blocks": 5,
+      "items": 21,
+      "fields": 0
+    },
+    {
+      "id": "textbook-044",
+      "title": "Thứ tự diễn đạt ngày tháng",
+      "blocks": 6,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "textbook-045",
+      "title": "Hội thoại",
+      "blocks": 3,
+      "items": 25,
+      "fields": 3
+    },
+    {
+      "id": "textbook-046",
+      "title": "Từ mới",
+      "blocks": 6,
+      "items": 25,
+      "fields": 3
+    },
+    {
+      "id": "textbook-047",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 17,
+      "fields": 0
+    },
+    {
+      "id": "textbook-048",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 14
+    },
+    {
+      "id": "textbook-049",
+      "title": "Nội dung bài học",
+      "blocks": 2,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-029",
+      "title": "Biến điệu của 不",
+      "blocks": 3,
+      "items": 2,
+      "fields": 0
+    },
+    {
+      "id": "workbook-030",
+      "title": "一 trước thanh 1, 2, 3",
+      "blocks": 5,
+      "items": 10,
+      "fields": 9
+    },
+    {
+      "id": "workbook-031",
+      "title": "Đọc và luyện phát âm",
+      "blocks": 2,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "workbook-032",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-033",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-034",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-035",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 2,
+      "items": 8,
+      "fields": 5
+    },
+    {
+      "id": "workbook-036",
+      "title": "Câu 17–18: chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 4
+    },
+    {
+      "id": "workbook-037",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 1,
+      "items": 17,
+      "fields": 1
+    },
+    {
+      "id": "textbook-050",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 17,
+      "fields": 7
+    },
+    {
+      "id": "textbook-051",
+      "title": "Hội thoại 1 · Trao đổi số điện thoại",
+      "blocks": 4,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-052",
+      "title": "Hội thoại 2",
+      "blocks": 4,
+      "items": 20,
+      "fields": 4
+    },
+    {
+      "id": "textbook-053",
+      "title": "Từ mới",
+      "blocks": 4,
+      "items": 24,
+      "fields": 4
+    },
+    {
+      "id": "textbook-054",
+      "title": "Hội thoại 3 · Chọn nơi ăn tối",
+      "blocks": 3,
+      "items": 15,
+      "fields": 1
+    },
+    {
+      "id": "textbook-055",
+      "title": "Từ mới",
+      "blocks": 3,
+      "items": 21,
+      "fields": 0
+    },
+    {
+      "id": "textbook-056",
+      "title": "Chọn từ để điền vào chỗ trống.",
+      "blocks": 3,
+      "items": 17,
+      "fields": 11
+    },
+    {
+      "id": "textbook-057",
+      "title": "Nội dung bài học",
+      "blocks": 3,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-058",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-059",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 10,
+      "fields": 0
+    },
+    {
+      "id": "workbook-038",
+      "title": "Âm cuốn lưỡi 儿化",
+      "blocks": 3,
+      "items": 9,
+      "fields": 0
+    },
+    {
+      "id": "workbook-039",
+      "title": "Đọc và luyện phát âm",
+      "blocks": 5,
+      "items": 15,
+      "fields": 7
+    },
+    {
+      "id": "workbook-040",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-041",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 5
+    },
+    {
+      "id": "workbook-042",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 1
+    },
+    {
+      "id": "workbook-043",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 5,
+      "fields": 5
+    },
+    {
+      "id": "workbook-044",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 4
+    },
+    {
+      "id": "workbook-045",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 21,
+      "fields": 1
+    },
+    {
+      "id": "textbook-060",
+      "title": "Khởi động · Nói giờ bằng tiếng Trung",
+      "blocks": 2,
+      "items": 10,
+      "fields": 7
+    },
+    {
+      "id": "textbook-061",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-062",
+      "title": "Nói thời điểm bằng 点 và 分",
+      "blocks": 5,
+      "items": 3,
+      "fields": 0
+    },
+    {
+      "id": "textbook-063",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 17,
+      "fields": 3
+    },
+    {
+      "id": "textbook-064",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-065",
+      "title": "Hoàn thành đoạn hội thoại.",
+      "blocks": 4,
+      "items": 25,
+      "fields": 13
+    },
+    {
+      "id": "textbook-066",
+      "title": "Hội thoại 3 · Việc làm buổi tối",
+      "blocks": 4,
+      "items": 19,
+      "fields": 1
+    },
+    {
+      "id": "textbook-067",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 14
+    },
+    {
+      "id": "textbook-068",
+      "title": "Nội dung bài học",
+      "blocks": 3,
+      "items": 14,
+      "fields": 0
+    },
+    {
+      "id": "workbook-046",
+      "title": "Âm bật hơi và không bật hơi",
+      "blocks": 3,
+      "items": 2,
+      "fields": 0
+    },
+    {
+      "id": "workbook-047",
+      "title": "Phân biệt -n và -ng",
+      "blocks": 2,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-048",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 0,
+      "fields": 0
+    },
+    {
+      "id": "workbook-049",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-050",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 9,
+      "fields": 5
+    },
+    {
+      "id": "workbook-051",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-052",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-053",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 4
+    },
+    {
+      "id": "workbook-054",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 17,
+      "fields": 1
+    },
+    {
+      "id": "textbook-069",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 15,
+      "fields": 7
+    },
+    {
+      "id": "textbook-070",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 19,
+      "fields": 0
+    },
+    {
+      "id": "textbook-071",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 17,
+      "fields": 3
+    },
+    {
+      "id": "textbook-072",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 19,
+      "fields": 0
+    },
+    {
+      "id": "textbook-073",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 15,
+      "fields": 3
+    },
+    {
+      "id": "textbook-074",
+      "title": "Hội thoại",
+      "blocks": 7,
+      "items": 25,
+      "fields": 2
+    },
+    {
+      "id": "textbook-075",
+      "title": "Hoàn thành câu theo tình huống",
+      "blocks": 3,
+      "items": 24,
+      "fields": 5
+    },
+    {
+      "id": "workbook-055",
+      "title": "Nghe và phân biệt âm tiết",
+      "blocks": 2,
+      "items": 12,
+      "fields": 14
+    },
+    {
+      "id": "workbook-056",
+      "title": "Cấu tạo chữ Hán: hình, âm, nghĩa",
+      "blocks": 3,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-057",
+      "title": "Tên nét & hướng viết",
+      "blocks": 3,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "workbook-058",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-059",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-060",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 1
+    },
+    {
+      "id": "workbook-061",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 2,
+      "items": 9,
+      "fields": 5
+    },
+    {
+      "id": "workbook-062",
+      "title": "Câu 17–18: chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 4
+    },
+    {
+      "id": "workbook-063",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 1,
+      "items": 16,
+      "fields": 1
+    },
+    {
+      "id": "writing-001",
+      "title": "Tên nét & hướng viết",
+      "blocks": 3,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "textbook-076",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 16,
+      "fields": 7
+    },
+    {
+      "id": "textbook-077",
+      "title": "Hội thoại 1",
+      "blocks": 6,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-078",
+      "title": "Hoàn thành đoạn hội thoại.",
+      "blocks": 4,
+      "items": 24,
+      "fields": 5
+    },
+    {
+      "id": "textbook-079",
+      "title": "Nghe hội thoại 2 · Câu 2",
+      "blocks": 5,
+      "items": 16,
+      "fields": 3
+    },
+    {
+      "id": "textbook-080",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 16,
+      "fields": 3
+    },
+    {
+      "id": "textbook-081",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 22,
+      "fields": 0
+    },
+    {
+      "id": "textbook-082",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 14
+    },
+    {
+      "id": "textbook-083",
+      "title": "Hội thoại",
+      "blocks": 2,
+      "items": 10,
+      "fields": 0
+    },
+    {
+      "id": "textbook-084",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 11,
+      "fields": 0
+    },
+    {
+      "id": "workbook-064",
+      "title": "Nghe và ghi dấu thanh",
+      "blocks": 2,
+      "items": 12,
+      "fields": 14
+    },
+    {
+      "id": "workbook-065",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-066",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 4,
+      "fields": 0
+    },
+    {
+      "id": "workbook-067",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-068",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-069",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 1
+    },
+    {
+      "id": "workbook-070",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-071",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 4
+    },
+    {
+      "id": "workbook-072",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 19,
+      "fields": 1
+    },
+    {
+      "id": "writing-002",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "writing-003",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 4,
+      "fields": 0
+    },
+    {
+      "id": "textbook-085",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 17,
+      "fields": 8
+    },
+    {
+      "id": "textbook-086",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-087",
+      "title": "Đơn vị tiền và cách nói số tiền",
+      "blocks": 3,
+      "items": 4,
+      "fields": 3
+    },
+    {
+      "id": "textbook-088",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 15,
+      "fields": 0
+    },
+    {
+      "id": "textbook-089",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 16,
+      "fields": 3
+    },
+    {
+      "id": "textbook-090",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 20,
+      "fields": 0
+    },
+    {
+      "id": "textbook-091",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 19,
+      "fields": 9
+    },
+    {
+      "id": "textbook-092",
+      "title": "Hoàn thành câu theo tình huống",
+      "blocks": 3,
+      "items": 7,
+      "fields": 5
+    },
+    {
+      "id": "workbook-073",
+      "title": "Nghe và ghi dấu thanh",
+      "blocks": 2,
+      "items": 13,
+      "fields": 15
+    },
+    {
+      "id": "workbook-074",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-075",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 4,
+      "fields": 0
+    },
+    {
+      "id": "workbook-076",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-077",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 5
+    },
+    {
+      "id": "workbook-078",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-079",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 2,
+      "items": 9,
+      "fields": 5
+    },
+    {
+      "id": "workbook-080",
+      "title": "Câu 17–18: chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 12,
+      "fields": 3
+    },
+    {
+      "id": "workbook-081",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 1,
+      "items": 17,
+      "fields": 1
+    },
+    {
+      "id": "writing-004",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "writing-005",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 4,
+      "fields": 0
+    },
+    {
+      "id": "textbook-093",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 16,
+      "fields": 7
+    },
+    {
+      "id": "textbook-094",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 15,
+      "fields": 0
+    },
+    {
+      "id": "textbook-095",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 25,
+      "fields": 3
+    },
+    {
+      "id": "textbook-096",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-097",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 24,
+      "fields": 3
+    },
+    {
+      "id": "textbook-098",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 22,
+      "fields": 0
+    },
+    {
+      "id": "textbook-099",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 18,
+      "fields": 12
+    },
+    {
+      "id": "textbook-100",
+      "title": "Hoàn thành câu theo tình huống",
+      "blocks": 2,
+      "items": 10,
+      "fields": 5
+    },
+    {
+      "id": "workbook-082",
+      "title": "Nghe và ghi dấu thanh",
+      "blocks": 2,
+      "items": 13,
+      "fields": 15
+    },
+    {
+      "id": "workbook-083",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 7,
+      "fields": 0
+    },
+    {
+      "id": "workbook-084",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "workbook-085",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-086",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-087",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-088",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-089",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 4
+    },
+    {
+      "id": "workbook-090",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 20,
+      "fields": 1
+    },
+    {
+      "id": "writing-006",
+      "title": "Tên nét & hướng viết",
+      "blocks": 3,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "writing-007",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "textbook-101",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 17,
+      "fields": 7
+    },
+    {
+      "id": "textbook-102",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 22,
+      "fields": 3
+    },
+    {
+      "id": "textbook-103",
+      "title": "Từ mới",
+      "blocks": 2,
+      "items": 25,
+      "fields": 0
+    },
+    {
+      "id": "textbook-104",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 26,
+      "fields": 3
+    },
+    {
+      "id": "textbook-105",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 19,
+      "fields": 3
+    },
+    {
+      "id": "textbook-106",
+      "title": "Hội thoại",
+      "blocks": 6,
+      "items": 23,
+      "fields": 0
+    },
+    {
+      "id": "textbook-107",
+      "title": "Chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 12
+    },
+    {
+      "id": "textbook-108",
+      "title": "Nội dung bài học",
+      "blocks": 2,
+      "items": 16,
+      "fields": 0
+    },
+    {
+      "id": "textbook-109",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 13,
+      "fields": 0
+    },
+    {
+      "id": "workbook-091",
+      "title": "Chọn từ có thanh khác nhóm",
+      "blocks": 2,
+      "items": 10,
+      "fields": 12
+    },
+    {
+      "id": "workbook-092",
+      "title": "Tên nét & hướng viết",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "workbook-093",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 2,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-094",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-095",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-096",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 1
+    },
+    {
+      "id": "workbook-097",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 2,
+      "items": 9,
+      "fields": 5
+    },
+    {
+      "id": "workbook-098",
+      "title": "Câu 17–18: chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 4
+    },
+    {
+      "id": "workbook-099",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 1,
+      "items": 17,
+      "fields": 1
+    },
+    {
+      "id": "writing-008",
+      "title": "Tên nét & hướng viết",
+      "blocks": 3,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "writing-009",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 3,
+      "fields": 0
+    },
+    {
+      "id": "textbook-110",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 16,
+      "fields": 7
+    },
+    {
+      "id": "textbook-111",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 24,
+      "fields": 3
+    },
+    {
+      "id": "textbook-112",
+      "title": "Từ mới",
+      "blocks": 2,
+      "items": 18,
+      "fields": 0
+    },
+    {
+      "id": "textbook-113",
+      "title": "Hội thoại 2",
+      "blocks": 4,
+      "items": 23,
+      "fields": 3
+    },
+    {
+      "id": "textbook-114",
+      "title": "Từ mới",
+      "blocks": 4,
+      "items": 23,
+      "fields": 2
+    },
+    {
+      "id": "textbook-115",
+      "title": "Nghe hội thoại 3 · Câu 2",
+      "blocks": 4,
+      "items": 13,
+      "fields": 3
+    },
+    {
+      "id": "textbook-116",
+      "title": "Chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 16
+    },
+    {
+      "id": "textbook-117",
+      "title": "Nội dung bài học",
+      "blocks": 2,
+      "items": 7,
+      "fields": 0
+    },
+    {
+      "id": "workbook-100",
+      "title": "Chọn cụm từ có thanh khác nhóm",
+      "blocks": 2,
+      "items": 10,
+      "fields": 12
+    },
+    {
+      "id": "workbook-101",
+      "title": "Chữ đơn thể và chữ hợp thể",
+      "blocks": 3,
+      "items": 3,
+      "fields": 0
+    },
+    {
+      "id": "workbook-102",
+      "title": "Thứ tự nét & cấu tạo chữ",
+      "blocks": 3,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-103",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-104",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-105",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-106",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-107",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 4
+    },
+    {
+      "id": "workbook-108",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 21,
+      "fields": 1
+    },
+    {
+      "id": "writing-010",
+      "title": "Thứ tự nét & cấu tạo chữ",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "writing-011",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 2,
+      "fields": 0
+    },
+    {
+      "id": "textbook-118",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 3,
+      "items": 13,
+      "fields": 4
+    },
+    {
+      "id": "textbook-119",
+      "title": "Hội thoại 1",
+      "blocks": 4,
+      "items": 26,
+      "fields": 3
+    },
+    {
+      "id": "textbook-120",
+      "title": "Từ mới",
+      "blocks": 3,
+      "items": 22,
+      "fields": 6
+    },
+    {
+      "id": "textbook-121",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 24,
+      "fields": 3
+    },
+    {
+      "id": "textbook-122",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 19,
+      "fields": 0
+    },
+    {
+      "id": "textbook-123",
+      "title": "Hội thoại 3",
+      "blocks": 3,
+      "items": 16,
+      "fields": 2
+    },
+    {
+      "id": "textbook-124",
+      "title": "Hội thoại · Các con đi học",
+      "blocks": 3,
+      "items": 18,
+      "fields": 0
+    },
+    {
+      "id": "textbook-125",
+      "title": "Hội thoại",
+      "blocks": 4,
+      "items": 18,
+      "fields": 14
+    },
+    {
+      "id": "textbook-126",
+      "title": "Nội dung bài học",
+      "blocks": 2,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-109",
+      "title": "Ghép pinyin với từ",
+      "blocks": 2,
+      "items": 8,
+      "fields": 7
+    },
+    {
+      "id": "workbook-110",
+      "title": "Nhận biết loại câu",
+      "blocks": 2,
+      "items": 10,
+      "fields": 7
+    },
+    {
+      "id": "workbook-111",
+      "title": "Kết cấu bao quanh một phần",
+      "blocks": 3,
+      "items": 8,
+      "fields": 0
+    },
+    {
+      "id": "workbook-112",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-113",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 5
+    },
+    {
+      "id": "workbook-114",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-115",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 2,
+      "items": 9,
+      "fields": 5
+    },
+    {
+      "id": "workbook-116",
+      "title": "Câu 17–18: chọn từ để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 13,
+      "fields": 4
+    },
+    {
+      "id": "workbook-117",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 1,
+      "items": 16,
+      "fields": 1
+    },
+    {
+      "id": "writing-012",
+      "title": "Thứ tự nét & cấu tạo chữ",
+      "blocks": 1,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "writing-013",
+      "title": "Thứ tự nét & cấu tạo chữ",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "textbook-127",
+      "title": "Khởi động · Ghép từ với nghĩa",
+      "blocks": 2,
+      "items": 17,
+      "fields": 7
+    },
+    {
+      "id": "textbook-128",
+      "title": "Hội thoại 1",
+      "blocks": 5,
+      "items": 30,
+      "fields": 3
+    },
+    {
+      "id": "textbook-129",
+      "title": "Hội thoại 2",
+      "blocks": 3,
+      "items": 16,
+      "fields": 3
+    },
+    {
+      "id": "textbook-130",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 17,
+      "fields": 0
+    },
+    {
+      "id": "textbook-131",
+      "title": "Hội thoại 3",
+      "blocks": 2,
+      "items": 10,
+      "fields": 3
+    },
+    {
+      "id": "textbook-132",
+      "title": "Hội thoại",
+      "blocks": 5,
+      "items": 22,
+      "fields": 0
+    },
+    {
+      "id": "textbook-133",
+      "title": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 15
+    },
+    {
+      "id": "textbook-134",
+      "title": "Nội dung bài học",
+      "blocks": 2,
+      "items": 7,
+      "fields": 0
+    },
+    {
+      "id": "textbook-135",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 12,
+      "fields": 0
+    },
+    {
+      "id": "textbook-136",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 5,
+      "fields": 0
+    },
+    {
+      "id": "workbook-118",
+      "title": "Ghép pinyin với từ",
+      "blocks": 2,
+      "items": 6,
+      "fields": 7
+    },
+    {
+      "id": "workbook-119",
+      "title": "Nhận biết loại câu",
+      "blocks": 2,
+      "items": 18,
+      "fields": 7
+    },
+    {
+      "id": "workbook-120",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 2,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "workbook-121",
+      "title": "Câu 1–3 · Nghe và chọn tình huống",
+      "blocks": 2,
+      "items": 5,
+      "fields": 4
+    },
+    {
+      "id": "workbook-122",
+      "title": "Câu 4–5: nghe câu hỏi và chọn câu trả lời phù hợp. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 15,
+      "fields": 5
+    },
+    {
+      "id": "workbook-123",
+      "title": "Câu 9–10: nghe câu nói và câu hỏi, chọn đáp án đúng. Mỗi câu được nghe hai lần.",
+      "blocks": 2,
+      "items": 14,
+      "fields": 1
+    },
+    {
+      "id": "workbook-124",
+      "title": "Câu 11–13 · Ghép câu với tình huống",
+      "blocks": 1,
+      "items": 4,
+      "fields": 4
+    },
+    {
+      "id": "workbook-125",
+      "title": "Câu 14–16: ghép các câu tương ứng.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 4
+    },
+    {
+      "id": "workbook-126",
+      "title": "Câu 19–20: chọn đáp án đúng.",
+      "blocks": 2,
+      "items": 19,
+      "fields": 1
+    },
+    {
+      "id": "workbook-127",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 6,
+      "fields": 0
+    },
+    {
+      "id": "writing-014",
+      "title": "Thứ tự nét & cấu tạo chữ",
+      "blocks": 2,
+      "items": 15,
+      "fields": 0
+    },
+    {
+      "id": "writing-015",
+      "title": "Luyện viết chữ và từ",
+      "blocks": 1,
+      "items": 3,
+      "fields": 0
+    },
+    {
+      "id": "textbook-137",
+      "title": "Từ loại",
+      "blocks": 2,
+      "items": 35,
+      "fields": 0
+    },
+    {
+      "id": "textbook-138",
+      "title": "Bảng từ vựng",
+      "blocks": 1,
+      "items": 66,
+      "fields": 0
+    },
+    {
+      "id": "textbook-139",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 69,
+      "fields": 0
+    },
+    {
+      "id": "textbook-140",
+      "title": "Bảng từ vựng",
+      "blocks": 1,
+      "items": 68,
+      "fields": 0
+    },
+    {
+      "id": "textbook-141",
+      "title": "Nội dung bài học",
+      "blocks": 1,
+      "items": 67,
+      "fields": 0
+    },
+    {
+      "id": "textbook-142",
+      "title": "Bảng từ vựng",
+      "blocks": 1,
+      "items": 57,
+      "fields": 0
+    },
+    {
+      "id": "textbook-143",
+      "title": "Tên riêng",
+      "blocks": 2,
+      "items": 17,
+      "fields": 0
+    },
+    {
+      "id": "workbook-128",
+      "title": "Đề tổng hợp · nghe câu 1–3",
+      "blocks": 1,
+      "items": 3,
+      "fields": 4
+    },
+    {
+      "id": "workbook-129",
+      "title": "Đề tổng hợp · nghe câu 4–5",
+      "blocks": 1,
+      "items": 2,
+      "fields": 3
+    },
+    {
+      "id": "workbook-130",
+      "title": "Câu 6–10.",
+      "blocks": 1,
+      "items": 20,
+      "fields": 1
+    },
+    {
+      "id": "workbook-131",
+      "title": "Đề tổng hợp · nghe câu 11–15",
+      "blocks": 1,
+      "items": 6,
+      "fields": 6
+    },
+    {
+      "id": "workbook-132",
+      "title": "Câu 16–20.",
+      "blocks": 1,
+      "items": 18,
+      "fields": 1
+    },
+    {
+      "id": "workbook-134",
+      "title": "Đề tổng hợp · đọc câu 21–25",
+      "blocks": 1,
+      "items": 6,
+      "fields": 6
+    },
+    {
+      "id": "workbook-135",
+      "title": "Câu 26–30.",
+      "blocks": 1,
+      "items": 13,
+      "fields": 1
+    },
+    {
+      "id": "workbook-136",
+      "title": "Câu 31–35.",
+      "blocks": 2,
+      "items": 16,
+      "fields": 2
+    },
+    {
+      "id": "workbook-137",
+      "title": "Câu 36–40.",
+      "blocks": 1,
+      "items": 32,
+      "fields": 1
+    }
+  ]
+}

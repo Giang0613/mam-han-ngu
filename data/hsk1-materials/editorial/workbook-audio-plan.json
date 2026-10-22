@@ -1,0 +1,4801 @@
+{
+  "method": "Source page/section order and recorded instructions checked; waveform boundaries include complete prompts and repetitions. ASR used only for locating instructions, never as an answer key.",
+  "clips": [
+    {
+      "id": "wb-01-2-clip-001",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 1",
+      "start": 9.86,
+      "end": 20.33,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-01-2-clip-002",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 3",
+      "start": 22.84,
+      "end": 34.05,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-01-2-clip-003",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 5",
+      "start": 36.45,
+      "end": 46.6,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-01-2-clip-004",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 7",
+      "start": 49.23,
+      "end": 59.86,
+      "tableRow": 6
+    },
+    {
+      "id": "wb-01-2-clip-005",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 2",
+      "start": 62.4,
+      "end": 72.19,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-01-2-clip-006",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 4",
+      "start": 74.7,
+      "end": 83.95,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-01-2-clip-007",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 6",
+      "start": 86.49,
+      "end": 96.0,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-01-2-clip-008",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-0",
+      "label": "Nghe dòng 8",
+      "start": 98.55,
+      "end": 107.63,
+      "tableRow": 7
+    },
+    {
+      "id": "wb-01-2-clip-009",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 1",
+      "start": 119.18,
+      "end": 120.44,
+      "itemId": "workbook-011-edited-1-item-0"
+    },
+    {
+      "id": "wb-01-2-clip-010",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 2",
+      "start": 123.89,
+      "end": 125.28,
+      "itemId": "workbook-011-edited-1-item-1"
+    },
+    {
+      "id": "wb-01-2-clip-011",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 3",
+      "start": 128.78,
+      "end": 130.17,
+      "itemId": "workbook-011-edited-1-item-2"
+    },
+    {
+      "id": "wb-01-2-clip-012",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 4",
+      "start": 133.66,
+      "end": 134.86,
+      "itemId": "workbook-011-edited-1-item-3"
+    },
+    {
+      "id": "wb-01-2-clip-013",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 5",
+      "start": 138.34,
+      "end": 139.89,
+      "itemId": "workbook-011-edited-1-item-4"
+    },
+    {
+      "id": "wb-01-2-clip-014",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 6",
+      "start": 143.27,
+      "end": 144.69,
+      "itemId": "workbook-011-edited-1-item-5"
+    },
+    {
+      "id": "wb-01-2-clip-015",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 7",
+      "start": 148.04,
+      "end": 149.66,
+      "itemId": "workbook-011-edited-1-item-6"
+    },
+    {
+      "id": "wb-01-2-clip-016",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 8",
+      "start": 153.06,
+      "end": 154.66,
+      "itemId": "workbook-011-edited-1-item-7"
+    },
+    {
+      "id": "wb-01-2-clip-017",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 9",
+      "start": 157.99,
+      "end": 159.35,
+      "itemId": "workbook-011-edited-1-item-8"
+    },
+    {
+      "id": "wb-01-2-clip-018",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 10",
+      "start": 162.68,
+      "end": 164.28,
+      "itemId": "workbook-011-edited-1-item-9"
+    },
+    {
+      "id": "wb-01-2-clip-019",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 11",
+      "start": 167.67,
+      "end": 168.93,
+      "itemId": "workbook-011-edited-1-item-10"
+    },
+    {
+      "id": "wb-01-2-clip-020",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 12",
+      "start": 172.56,
+      "end": 173.73,
+      "itemId": "workbook-011-edited-1-item-11"
+    },
+    {
+      "id": "wb-01-2-clip-021",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 13",
+      "start": 177.13,
+      "end": 178.54,
+      "itemId": "workbook-011-edited-1-item-12"
+    },
+    {
+      "id": "wb-01-2-clip-022",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 14",
+      "start": 181.93,
+      "end": 183.42,
+      "itemId": "workbook-011-edited-1-item-13"
+    },
+    {
+      "id": "wb-01-2-clip-023",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-1",
+      "label": "Nghe câu 15",
+      "start": 186.86,
+      "end": 188.23,
+      "itemId": "workbook-011-edited-1-item-14"
+    },
+    {
+      "id": "wb-01-2-clip-024",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 1",
+      "start": 200.82,
+      "end": 202.13,
+      "itemId": "workbook-011-edited-2-item-0"
+    },
+    {
+      "id": "wb-01-2-clip-025",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 2",
+      "start": 205.48,
+      "end": 207.06,
+      "itemId": "workbook-011-edited-2-item-1"
+    },
+    {
+      "id": "wb-01-2-clip-026",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 3",
+      "start": 210.49,
+      "end": 211.77,
+      "itemId": "workbook-011-edited-2-item-2"
+    },
+    {
+      "id": "wb-01-2-clip-027",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 4",
+      "start": 215.26,
+      "end": 216.37,
+      "itemId": "workbook-011-edited-2-item-3"
+    },
+    {
+      "id": "wb-01-2-clip-028",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 5",
+      "start": 219.86,
+      "end": 221.23,
+      "itemId": "workbook-011-edited-2-item-4"
+    },
+    {
+      "id": "wb-01-2-clip-029",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 6",
+      "start": 224.69,
+      "end": 226.07,
+      "itemId": "workbook-011-edited-2-item-5"
+    },
+    {
+      "id": "wb-01-2-clip-030",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 7",
+      "start": 229.47,
+      "end": 230.79,
+      "itemId": "workbook-011-edited-2-item-6"
+    },
+    {
+      "id": "wb-01-2-clip-031",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 8",
+      "start": 234.17,
+      "end": 235.74,
+      "itemId": "workbook-011-edited-2-item-7"
+    },
+    {
+      "id": "wb-01-2-clip-032",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 9",
+      "start": 239.15,
+      "end": 240.72,
+      "itemId": "workbook-011-edited-2-item-8"
+    },
+    {
+      "id": "wb-01-2-clip-033",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 10",
+      "start": 244.18,
+      "end": 245.47,
+      "itemId": "workbook-011-edited-2-item-9"
+    },
+    {
+      "id": "wb-01-2-clip-034",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 11",
+      "start": 248.99,
+      "end": 250.43,
+      "itemId": "workbook-011-edited-2-item-10"
+    },
+    {
+      "id": "wb-01-2-clip-035",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 12",
+      "start": 253.83,
+      "end": 255.02,
+      "itemId": "workbook-011-edited-2-item-11"
+    },
+    {
+      "id": "wb-01-2-clip-036",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 13",
+      "start": 258.58,
+      "end": 260.13,
+      "itemId": "workbook-011-edited-2-item-12"
+    },
+    {
+      "id": "wb-01-2-clip-037",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 14",
+      "start": 263.49,
+      "end": 265.22,
+      "itemId": "workbook-011-edited-2-item-13"
+    },
+    {
+      "id": "wb-01-2-clip-038",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-2",
+      "label": "Nghe câu 15",
+      "start": 268.7,
+      "end": 270.06,
+      "itemId": "workbook-011-edited-2-item-14"
+    },
+    {
+      "id": "wb-01-2-clip-039",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 1",
+      "start": 282.41,
+      "end": 284.25,
+      "itemId": "workbook-011-edited-3-item-0"
+    },
+    {
+      "id": "wb-01-2-clip-040",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 2",
+      "start": 287.66,
+      "end": 289.26,
+      "itemId": "workbook-011-edited-3-item-1"
+    },
+    {
+      "id": "wb-01-2-clip-041",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 3",
+      "start": 292.7,
+      "end": 294.13,
+      "itemId": "workbook-011-edited-3-item-2"
+    },
+    {
+      "id": "wb-01-2-clip-042",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 4",
+      "start": 297.66,
+      "end": 299.03,
+      "itemId": "workbook-011-edited-3-item-3"
+    },
+    {
+      "id": "wb-01-2-clip-043",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 5",
+      "start": 302.54,
+      "end": 304.15,
+      "itemId": "workbook-011-edited-3-item-4"
+    },
+    {
+      "id": "wb-01-2-clip-044",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 6",
+      "start": 307.66,
+      "end": 309.05,
+      "itemId": "workbook-011-edited-3-item-5"
+    },
+    {
+      "id": "wb-01-2-clip-045",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 7",
+      "start": 312.4,
+      "end": 313.91,
+      "itemId": "workbook-011-edited-3-item-6"
+    },
+    {
+      "id": "wb-01-2-clip-046",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 8",
+      "start": 317.42,
+      "end": 319.21,
+      "itemId": "workbook-011-edited-3-item-7"
+    },
+    {
+      "id": "wb-01-2-clip-047",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 9",
+      "start": 322.51,
+      "end": 324.1,
+      "itemId": "workbook-011-edited-3-item-8"
+    },
+    {
+      "id": "wb-01-2-clip-048",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 10",
+      "start": 327.63,
+      "end": 329.19,
+      "itemId": "workbook-011-edited-3-item-9"
+    },
+    {
+      "id": "wb-01-2-clip-049",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 11",
+      "start": 332.68,
+      "end": 334.59,
+      "itemId": "workbook-011-edited-3-item-10"
+    },
+    {
+      "id": "wb-01-2-clip-050",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-3",
+      "label": "Nghe câu 12",
+      "start": 337.96,
+      "end": 339.39,
+      "itemId": "workbook-011-edited-3-item-11"
+    },
+    {
+      "id": "wb-01-2-clip-051",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-4",
+      "label": "Nghe câu 1",
+      "start": 348.75,
+      "end": 355.57,
+      "itemId": "workbook-011-edited-4-item-0"
+    },
+    {
+      "id": "wb-01-2-clip-052",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-4",
+      "label": "Nghe câu 2",
+      "start": 357.69,
+      "end": 364.62,
+      "itemId": "workbook-011-edited-4-item-1"
+    },
+    {
+      "id": "wb-01-2-clip-053",
+      "sourceId": "wb-01-2",
+      "pageId": "workbook-011",
+      "blockId": "workbook-011-edited-4",
+      "label": "Nghe câu 3",
+      "start": 367.18,
+      "end": 372.193,
+      "itemId": "workbook-011-edited-4-item-2"
+    },
+    {
+      "id": "wb-02-2-clip-001",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 1",
+      "start": 12.35,
+      "end": 13.79,
+      "itemId": "workbook-015-edited-0-item-0"
+    },
+    {
+      "id": "wb-02-2-clip-002",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 2",
+      "start": 17.25,
+      "end": 18.62,
+      "itemId": "workbook-015-edited-0-item-1"
+    },
+    {
+      "id": "wb-02-2-clip-003",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 3",
+      "start": 22.19,
+      "end": 23.9,
+      "itemId": "workbook-015-edited-0-item-2"
+    },
+    {
+      "id": "wb-02-2-clip-004",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 4",
+      "start": 27.38,
+      "end": 28.53,
+      "itemId": "workbook-015-edited-0-item-3"
+    },
+    {
+      "id": "wb-02-2-clip-005",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 5",
+      "start": 31.97,
+      "end": 33.44,
+      "itemId": "workbook-015-edited-0-item-4"
+    },
+    {
+      "id": "wb-02-2-clip-006",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 6",
+      "start": 36.89,
+      "end": 38.6,
+      "itemId": "workbook-015-edited-0-item-5"
+    },
+    {
+      "id": "wb-02-2-clip-007",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 7",
+      "start": 42.02,
+      "end": 43.57,
+      "itemId": "workbook-015-edited-0-item-6"
+    },
+    {
+      "id": "wb-02-2-clip-008",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 8",
+      "start": 46.88,
+      "end": 48.2,
+      "itemId": "workbook-015-edited-0-item-7"
+    },
+    {
+      "id": "wb-02-2-clip-009",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-0",
+      "label": "Nghe câu 9",
+      "start": 51.7,
+      "end": 52.99,
+      "itemId": "workbook-015-edited-0-item-8"
+    },
+    {
+      "id": "wb-02-2-clip-010",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 1",
+      "start": 64.42,
+      "end": 65.65,
+      "itemId": "workbook-015-edited-1-item-0"
+    },
+    {
+      "id": "wb-02-2-clip-011",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 2",
+      "start": 68.97,
+      "end": 70.94,
+      "itemId": "workbook-015-edited-1-item-1"
+    },
+    {
+      "id": "wb-02-2-clip-012",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 3",
+      "start": 74.25,
+      "end": 75.65,
+      "itemId": "workbook-015-edited-1-item-2"
+    },
+    {
+      "id": "wb-02-2-clip-013",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 4",
+      "start": 79.25,
+      "end": 80.71,
+      "itemId": "workbook-015-edited-1-item-3"
+    },
+    {
+      "id": "wb-02-2-clip-014",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 5",
+      "start": 83.84,
+      "end": 85.88,
+      "itemId": "workbook-015-edited-1-item-4"
+    },
+    {
+      "id": "wb-02-2-clip-015",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 6",
+      "start": 89.21,
+      "end": 90.95,
+      "itemId": "workbook-015-edited-1-item-5"
+    },
+    {
+      "id": "wb-02-2-clip-016",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 7",
+      "start": 94.3,
+      "end": 96.01,
+      "itemId": "workbook-015-edited-1-item-6"
+    },
+    {
+      "id": "wb-02-2-clip-017",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 8",
+      "start": 99.36,
+      "end": 100.98,
+      "itemId": "workbook-015-edited-1-item-7"
+    },
+    {
+      "id": "wb-02-2-clip-018",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 9",
+      "start": 104.38,
+      "end": 106.19,
+      "itemId": "workbook-015-edited-1-item-8"
+    },
+    {
+      "id": "wb-02-2-clip-019",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 10",
+      "start": 109.55,
+      "end": 111.35,
+      "itemId": "workbook-015-edited-1-item-9"
+    },
+    {
+      "id": "wb-02-2-clip-020",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 11",
+      "start": 114.84,
+      "end": 116.35,
+      "itemId": "workbook-015-edited-1-item-10"
+    },
+    {
+      "id": "wb-02-2-clip-021",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 12",
+      "start": 119.71,
+      "end": 121.81,
+      "itemId": "workbook-015-edited-1-item-11"
+    },
+    {
+      "id": "wb-02-2-clip-022",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 13",
+      "start": 125.17,
+      "end": 126.64,
+      "itemId": "workbook-015-edited-1-item-12"
+    },
+    {
+      "id": "wb-02-2-clip-023",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 14",
+      "start": 130.06,
+      "end": 131.68,
+      "itemId": "workbook-015-edited-1-item-13"
+    },
+    {
+      "id": "wb-02-2-clip-024",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-1",
+      "label": "Nghe câu 15",
+      "start": 135.1,
+      "end": 136.87,
+      "itemId": "workbook-015-edited-1-item-14"
+    },
+    {
+      "id": "wb-02-2-clip-025",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 1",
+      "start": 149.15,
+      "end": 150.73,
+      "itemId": "workbook-015-edited-2-item-0"
+    },
+    {
+      "id": "wb-02-2-clip-026",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 2",
+      "start": 154.21,
+      "end": 155.59,
+      "itemId": "workbook-015-edited-2-item-1"
+    },
+    {
+      "id": "wb-02-2-clip-027",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 3",
+      "start": 159.11,
+      "end": 160.52,
+      "itemId": "workbook-015-edited-2-item-2"
+    },
+    {
+      "id": "wb-02-2-clip-028",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 4",
+      "start": 163.89,
+      "end": 165.5,
+      "itemId": "workbook-015-edited-2-item-3"
+    },
+    {
+      "id": "wb-02-2-clip-029",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 5",
+      "start": 168.83,
+      "end": 170.2,
+      "itemId": "workbook-015-edited-2-item-4"
+    },
+    {
+      "id": "wb-02-2-clip-030",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 6",
+      "start": 173.69,
+      "end": 175.41,
+      "itemId": "workbook-015-edited-2-item-5"
+    },
+    {
+      "id": "wb-02-2-clip-031",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 7",
+      "start": 178.8,
+      "end": 180.11,
+      "itemId": "workbook-015-edited-2-item-6"
+    },
+    {
+      "id": "wb-02-2-clip-032",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 8",
+      "start": 183.56,
+      "end": 185.0,
+      "itemId": "workbook-015-edited-2-item-7"
+    },
+    {
+      "id": "wb-02-2-clip-033",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 9",
+      "start": 188.54,
+      "end": 189.96,
+      "itemId": "workbook-015-edited-2-item-8"
+    },
+    {
+      "id": "wb-02-2-clip-034",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 10",
+      "start": 193.33,
+      "end": 194.69,
+      "itemId": "workbook-015-edited-2-item-9"
+    },
+    {
+      "id": "wb-02-2-clip-035",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 11",
+      "start": 198.25,
+      "end": 199.98,
+      "itemId": "workbook-015-edited-2-item-10"
+    },
+    {
+      "id": "wb-02-2-clip-036",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-2",
+      "label": "Nghe câu 12",
+      "start": 203.39,
+      "end": 204.95,
+      "itemId": "workbook-015-edited-2-item-11"
+    },
+    {
+      "id": "wb-02-2-clip-037",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-3",
+      "label": "Nghe câu 1",
+      "start": 213.78,
+      "end": 220.01,
+      "itemId": "workbook-015-edited-3-item-0"
+    },
+    {
+      "id": "wb-02-2-clip-038",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-3",
+      "label": "Nghe câu 2",
+      "start": 222.79,
+      "end": 227.67,
+      "itemId": "workbook-015-edited-3-item-1"
+    },
+    {
+      "id": "wb-02-2-clip-039",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-3",
+      "label": "Nghe câu 3",
+      "start": 230.25,
+      "end": 237.76,
+      "itemId": "workbook-015-edited-3-item-2"
+    },
+    {
+      "id": "wb-02-2-clip-040",
+      "sourceId": "wb-02-2",
+      "pageId": "workbook-015",
+      "blockId": "workbook-015-edited-3",
+      "label": "Nghe câu 4",
+      "start": 239.81,
+      "end": 250.53,
+      "itemId": "workbook-015-edited-3-item-3"
+    },
+    {
+      "id": "wb-03-2-clip-001",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 1",
+      "start": 12.57,
+      "end": 14.1,
+      "itemId": "workbook-018-edited-3-item-0"
+    },
+    {
+      "id": "wb-03-2-clip-002",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 2",
+      "start": 17.5,
+      "end": 18.81,
+      "itemId": "workbook-018-edited-3-item-1"
+    },
+    {
+      "id": "wb-03-2-clip-003",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 3",
+      "start": 22.51,
+      "end": 24.02,
+      "itemId": "workbook-018-edited-3-item-2"
+    },
+    {
+      "id": "wb-03-2-clip-004",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 4",
+      "start": 27.38,
+      "end": 28.62,
+      "itemId": "workbook-018-edited-3-item-3"
+    },
+    {
+      "id": "wb-03-2-clip-005",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 5",
+      "start": 32.25,
+      "end": 33.43,
+      "itemId": "workbook-018-edited-3-item-4"
+    },
+    {
+      "id": "wb-03-2-clip-006",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 6",
+      "start": 36.95,
+      "end": 38.26,
+      "itemId": "workbook-018-edited-3-item-5"
+    },
+    {
+      "id": "wb-03-2-clip-007",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 7",
+      "start": 41.79,
+      "end": 43.14,
+      "itemId": "workbook-018-edited-3-item-6"
+    },
+    {
+      "id": "wb-03-2-clip-008",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 8",
+      "start": 46.56,
+      "end": 48.13,
+      "itemId": "workbook-018-edited-3-item-7"
+    },
+    {
+      "id": "wb-03-2-clip-009",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 9",
+      "start": 51.46,
+      "end": 53.19,
+      "itemId": "workbook-018-edited-3-item-8"
+    },
+    {
+      "id": "wb-03-2-clip-010",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 10",
+      "start": 56.48,
+      "end": 58.32,
+      "itemId": "workbook-018-edited-3-item-9"
+    },
+    {
+      "id": "wb-03-2-clip-011",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 11",
+      "start": 61.8,
+      "end": 63.03,
+      "itemId": "workbook-018-edited-3-item-10"
+    },
+    {
+      "id": "wb-03-2-clip-012",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-3",
+      "label": "Nghe câu 12",
+      "start": 66.5,
+      "end": 67.99,
+      "itemId": "workbook-018-edited-3-item-11"
+    },
+    {
+      "id": "wb-03-2-clip-013",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 1",
+      "start": 79.75,
+      "end": 81.13,
+      "itemId": "workbook-018-edited-4-item-0"
+    },
+    {
+      "id": "wb-03-2-clip-014",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 2",
+      "start": 82.39,
+      "end": 83.76,
+      "itemId": "workbook-018-edited-4-item-1"
+    },
+    {
+      "id": "wb-03-2-clip-015",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 3",
+      "start": 84.58,
+      "end": 86.06,
+      "itemId": "workbook-018-edited-4-item-2"
+    },
+    {
+      "id": "wb-03-2-clip-016",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 4",
+      "start": 89.3,
+      "end": 90.61,
+      "itemId": "workbook-018-edited-4-item-3"
+    },
+    {
+      "id": "wb-03-2-clip-017",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 5",
+      "start": 94.13,
+      "end": 95.71,
+      "itemId": "workbook-018-edited-4-item-4"
+    },
+    {
+      "id": "wb-03-2-clip-018",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 6",
+      "start": 99.01,
+      "end": 100.43,
+      "itemId": "workbook-018-edited-4-item-5"
+    },
+    {
+      "id": "wb-03-2-clip-019",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 7",
+      "start": 103.71,
+      "end": 105.28,
+      "itemId": "workbook-018-edited-4-item-6"
+    },
+    {
+      "id": "wb-03-2-clip-020",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 8",
+      "start": 108.69,
+      "end": 110.32,
+      "itemId": "workbook-018-edited-4-item-7"
+    },
+    {
+      "id": "wb-03-2-clip-021",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 9",
+      "start": 113.99,
+      "end": 115.24,
+      "itemId": "workbook-018-edited-4-item-8"
+    },
+    {
+      "id": "wb-03-2-clip-022",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 10",
+      "start": 118.61,
+      "end": 120.06,
+      "itemId": "workbook-018-edited-4-item-9"
+    },
+    {
+      "id": "wb-03-2-clip-023",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 11",
+      "start": 123.48,
+      "end": 125.1,
+      "itemId": "workbook-018-edited-4-item-10"
+    },
+    {
+      "id": "wb-03-2-clip-024",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 12",
+      "start": 128.45,
+      "end": 129.75,
+      "itemId": "workbook-018-edited-4-item-11"
+    },
+    {
+      "id": "wb-03-2-clip-025",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 13",
+      "start": 133.31,
+      "end": 134.67,
+      "itemId": "workbook-018-edited-4-item-12"
+    },
+    {
+      "id": "wb-03-2-clip-026",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 14",
+      "start": 138.03,
+      "end": 139.77,
+      "itemId": "workbook-018-edited-4-item-13"
+    },
+    {
+      "id": "wb-03-2-clip-027",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-018",
+      "blockId": "workbook-018-edited-4",
+      "label": "Nghe câu 15",
+      "start": 143.4,
+      "end": 145.09,
+      "itemId": "workbook-018-edited-4-item-14"
+    },
+    {
+      "id": "wb-03-2-clip-028",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 1",
+      "start": 157.96,
+      "end": 159.38,
+      "itemId": "workbook-019-edited-0-item-0"
+    },
+    {
+      "id": "wb-03-2-clip-029",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 2",
+      "start": 162.72,
+      "end": 164.4,
+      "itemId": "workbook-019-edited-0-item-1"
+    },
+    {
+      "id": "wb-03-2-clip-030",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 3",
+      "start": 167.7,
+      "end": 169.1,
+      "itemId": "workbook-019-edited-0-item-2"
+    },
+    {
+      "id": "wb-03-2-clip-031",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 4",
+      "start": 172.4,
+      "end": 173.93,
+      "itemId": "workbook-019-edited-0-item-3"
+    },
+    {
+      "id": "wb-03-2-clip-032",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 5",
+      "start": 177.48,
+      "end": 179.22,
+      "itemId": "workbook-019-edited-0-item-4"
+    },
+    {
+      "id": "wb-03-2-clip-033",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 6",
+      "start": 182.65,
+      "end": 184.16,
+      "itemId": "workbook-019-edited-0-item-5"
+    },
+    {
+      "id": "wb-03-2-clip-034",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 7",
+      "start": 187.57,
+      "end": 188.93,
+      "itemId": "workbook-019-edited-0-item-6"
+    },
+    {
+      "id": "wb-03-2-clip-035",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 8",
+      "start": 192.31,
+      "end": 193.84,
+      "itemId": "workbook-019-edited-0-item-7"
+    },
+    {
+      "id": "wb-03-2-clip-036",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 9",
+      "start": 197.19,
+      "end": 198.68,
+      "itemId": "workbook-019-edited-0-item-8"
+    },
+    {
+      "id": "wb-03-2-clip-037",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 10",
+      "start": 202.07,
+      "end": 203.42,
+      "itemId": "workbook-019-edited-0-item-9"
+    },
+    {
+      "id": "wb-03-2-clip-038",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 11",
+      "start": 206.96,
+      "end": 208.58,
+      "itemId": "workbook-019-edited-0-item-10"
+    },
+    {
+      "id": "wb-03-2-clip-039",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 12",
+      "start": 212.2,
+      "end": 213.68,
+      "itemId": "workbook-019-edited-0-item-11"
+    },
+    {
+      "id": "wb-03-2-clip-040",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 13",
+      "start": 217.19,
+      "end": 218.83,
+      "itemId": "workbook-019-edited-0-item-12"
+    },
+    {
+      "id": "wb-03-2-clip-041",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 14",
+      "start": 222.26,
+      "end": 223.88,
+      "itemId": "workbook-019-edited-0-item-13"
+    },
+    {
+      "id": "wb-03-2-clip-042",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-0",
+      "label": "Nghe câu 15",
+      "start": 227.39,
+      "end": 228.9,
+      "itemId": "workbook-019-edited-0-item-14"
+    },
+    {
+      "id": "wb-03-2-clip-043",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-1",
+      "label": "Nghe câu 1",
+      "start": 238.68,
+      "end": 246.66,
+      "itemId": "workbook-019-edited-1-item-0"
+    },
+    {
+      "id": "wb-03-2-clip-044",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-1",
+      "label": "Nghe câu 2",
+      "start": 249.2,
+      "end": 258.05,
+      "itemId": "workbook-019-edited-1-item-1"
+    },
+    {
+      "id": "wb-03-2-clip-045",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-1",
+      "label": "Nghe câu 3",
+      "start": 260.48,
+      "end": 268.5,
+      "itemId": "workbook-019-edited-1-item-2"
+    },
+    {
+      "id": "wb-03-2-clip-046",
+      "sourceId": "wb-03-2",
+      "pageId": "workbook-019",
+      "blockId": "workbook-019-edited-1",
+      "label": "Nghe câu 4",
+      "start": 271.01,
+      "end": 279.77,
+      "itemId": "workbook-019-edited-1-item-3"
+    },
+    {
+      "id": "wb-04-2-clip-001",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 1",
+      "start": 11.96,
+      "end": 15.28,
+      "itemId": "workbook-022-edited-1-item-0"
+    },
+    {
+      "id": "wb-04-2-clip-002",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 2",
+      "start": 17.9,
+      "end": 20.63,
+      "itemId": "workbook-022-edited-1-item-1"
+    },
+    {
+      "id": "wb-04-2-clip-003",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 3",
+      "start": 23.14,
+      "end": 26.41,
+      "itemId": "workbook-022-edited-1-item-2"
+    },
+    {
+      "id": "wb-04-2-clip-004",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 4",
+      "start": 28.82,
+      "end": 32.75,
+      "itemId": "workbook-022-edited-1-item-3"
+    },
+    {
+      "id": "wb-04-2-clip-005",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 5",
+      "start": 35.23,
+      "end": 38.71,
+      "itemId": "workbook-022-edited-1-item-4"
+    },
+    {
+      "id": "wb-04-2-clip-006",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 6",
+      "start": 41.36,
+      "end": 44.69,
+      "itemId": "workbook-022-edited-1-item-5"
+    },
+    {
+      "id": "wb-04-2-clip-007",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 7",
+      "start": 47.25,
+      "end": 50.97,
+      "itemId": "workbook-022-edited-1-item-6"
+    },
+    {
+      "id": "wb-04-2-clip-008",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-1",
+      "label": "Nghe câu 8",
+      "start": 53.44,
+      "end": 56.6,
+      "itemId": "workbook-022-edited-1-item-7"
+    },
+    {
+      "id": "wb-04-2-clip-009",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-2",
+      "label": "Nghe nhóm từ",
+      "start": 69.95,
+      "end": 137.8
+    },
+    {
+      "id": "wb-04-2-clip-010",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-3",
+      "label": "Nghe nhóm từ",
+      "start": 149.95,
+      "end": 186.3
+    },
+    {
+      "id": "wb-04-2-clip-011",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 1",
+      "start": 199.07,
+      "end": 205.0,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-04-2-clip-012",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 2",
+      "start": 207.42,
+      "end": 213.38,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-04-2-clip-013",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 3",
+      "start": 215.98,
+      "end": 222.18,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-04-2-clip-014",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 4",
+      "start": 224.81,
+      "end": 231.22,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-04-2-clip-015",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 5",
+      "start": 233.64,
+      "end": 239.47,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-04-2-clip-016",
+      "sourceId": "wb-04-2",
+      "pageId": "workbook-022",
+      "blockId": "workbook-022-edited-4",
+      "label": "Nghe dòng 6",
+      "start": 241.91,
+      "end": 249.54,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-05-2-clip-001",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 1",
+      "start": 13.53,
+      "end": 16.71,
+      "itemId": "workbook-030-edited-4-item-0"
+    },
+    {
+      "id": "wb-05-2-clip-002",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 2",
+      "start": 19.17,
+      "end": 22.59,
+      "itemId": "workbook-030-edited-4-item-1"
+    },
+    {
+      "id": "wb-05-2-clip-003",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 3",
+      "start": 25.21,
+      "end": 28.73,
+      "itemId": "workbook-030-edited-4-item-2"
+    },
+    {
+      "id": "wb-05-2-clip-004",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 4",
+      "start": 31.22,
+      "end": 34.66,
+      "itemId": "workbook-030-edited-4-item-3"
+    },
+    {
+      "id": "wb-05-2-clip-005",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 5",
+      "start": 37.24,
+      "end": 40.9,
+      "itemId": "workbook-030-edited-4-item-4"
+    },
+    {
+      "id": "wb-05-2-clip-006",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 6",
+      "start": 43.32,
+      "end": 47.23,
+      "itemId": "workbook-030-edited-4-item-5"
+    },
+    {
+      "id": "wb-05-2-clip-007",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 7",
+      "start": 49.74,
+      "end": 53.37,
+      "itemId": "workbook-030-edited-4-item-6"
+    },
+    {
+      "id": "wb-05-2-clip-008",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-030",
+      "blockId": "workbook-030-edited-4",
+      "label": "Nghe câu 8",
+      "start": 55.91,
+      "end": 58.3,
+      "itemId": "workbook-030-edited-4-item-7"
+    },
+    {
+      "id": "wb-05-2-clip-009",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-031",
+      "blockId": "workbook-031-edited-0",
+      "label": "Nghe nhóm từ",
+      "start": 71.95,
+      "end": 125.3
+    },
+    {
+      "id": "wb-05-2-clip-010",
+      "sourceId": "wb-05-2",
+      "pageId": "workbook-031",
+      "blockId": "workbook-031-edited-1",
+      "label": "Nghe nhóm từ",
+      "start": 138.75,
+      "end": 182.8
+    },
+    {
+      "id": "wb-06-2-clip-001",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 1",
+      "start": 12.64,
+      "end": 16.71,
+      "itemId": "workbook-039-edited-3-item-0"
+    },
+    {
+      "id": "wb-06-2-clip-002",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 2",
+      "start": 19.21,
+      "end": 22.87,
+      "itemId": "workbook-039-edited-3-item-1"
+    },
+    {
+      "id": "wb-06-2-clip-003",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 3",
+      "start": 25.31,
+      "end": 29.24,
+      "itemId": "workbook-039-edited-3-item-2"
+    },
+    {
+      "id": "wb-06-2-clip-004",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 4",
+      "start": 31.63,
+      "end": 35.62,
+      "itemId": "workbook-039-edited-3-item-3"
+    },
+    {
+      "id": "wb-06-2-clip-005",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 5",
+      "start": 38.24,
+      "end": 42.2,
+      "itemId": "workbook-039-edited-3-item-4"
+    },
+    {
+      "id": "wb-06-2-clip-006",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-3",
+      "label": "Nghe câu 6",
+      "start": 44.68,
+      "end": 48.11,
+      "itemId": "workbook-039-edited-3-item-5"
+    },
+    {
+      "id": "wb-06-2-clip-007",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 1",
+      "start": 62.73,
+      "end": 67.99,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-06-2-clip-008",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 2",
+      "start": 70.66,
+      "end": 75.89,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-06-2-clip-009",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 3",
+      "start": 78.4,
+      "end": 82.79,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-06-2-clip-010",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 4",
+      "start": 85.64,
+      "end": 91.81,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-06-2-clip-011",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 5",
+      "start": 94.55,
+      "end": 101.01,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-06-2-clip-012",
+      "sourceId": "wb-06-2",
+      "pageId": "workbook-039",
+      "blockId": "workbook-039-edited-4",
+      "label": "Nghe dòng 6",
+      "start": 103.89,
+      "end": 110.28,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-07-1-clip-001",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 1",
+      "start": 68.03,
+      "end": 72.07,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-07-1-clip-002",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 5",
+      "start": 74.57,
+      "end": 78.32,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-07-1-clip-003",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 9",
+      "start": 80.82,
+      "end": 84.59,
+      "tableRow": 8
+    },
+    {
+      "id": "wb-07-1-clip-004",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 2",
+      "start": 86.87,
+      "end": 90.97,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-07-1-clip-005",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 6",
+      "start": 93.33,
+      "end": 97.89,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-07-1-clip-006",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 10",
+      "start": 100.27,
+      "end": 104.53,
+      "tableRow": 9
+    },
+    {
+      "id": "wb-07-1-clip-007",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 3",
+      "start": 107.04,
+      "end": 110.99,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-07-1-clip-008",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 7",
+      "start": 113.34,
+      "end": 117.51,
+      "tableRow": 6
+    },
+    {
+      "id": "wb-07-1-clip-009",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 11",
+      "start": 120.54,
+      "end": 125.19,
+      "tableRow": 10
+    },
+    {
+      "id": "wb-07-1-clip-010",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 4",
+      "start": 127.49,
+      "end": 131.84,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-07-1-clip-011",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 8",
+      "start": 134.38,
+      "end": 138.74,
+      "tableRow": 7
+    },
+    {
+      "id": "wb-07-1-clip-012",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-046",
+      "blockId": "workbook-046-edited-1",
+      "label": "Nghe dòng 12",
+      "start": 141.22,
+      "end": 144.97,
+      "tableRow": 11
+    },
+    {
+      "id": "wb-07-1-clip-013",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 1",
+      "start": 165.7,
+      "end": 171.09,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-07-1-clip-014",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 2",
+      "start": 173.52,
+      "end": 178.35,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-07-1-clip-015",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 3",
+      "start": 180.88,
+      "end": 185.07,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-07-1-clip-016",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 4",
+      "start": 187.93,
+      "end": 192.08,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-07-1-clip-017",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 5",
+      "start": 194.48,
+      "end": 199.22,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-07-1-clip-018",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 6",
+      "start": 201.28,
+      "end": 205.43,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-07-1-clip-019",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 7",
+      "start": 207.46,
+      "end": 211.54,
+      "tableRow": 6
+    },
+    {
+      "id": "wb-07-1-clip-020",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 8",
+      "start": 213.89,
+      "end": 218.06,
+      "tableRow": 7
+    },
+    {
+      "id": "wb-07-1-clip-021",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 9",
+      "start": 220.4,
+      "end": 224.57,
+      "tableRow": 8
+    },
+    {
+      "id": "wb-07-1-clip-022",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 10",
+      "start": 227.08,
+      "end": 231.04,
+      "tableRow": 9
+    },
+    {
+      "id": "wb-07-1-clip-023",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 11",
+      "start": 233.26,
+      "end": 237.26,
+      "tableRow": 10
+    },
+    {
+      "id": "wb-07-1-clip-024",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 12",
+      "start": 239.81,
+      "end": 243.55,
+      "tableRow": 11
+    },
+    {
+      "id": "wb-07-1-clip-025",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 13",
+      "start": 246.06,
+      "end": 249.73,
+      "tableRow": 12
+    },
+    {
+      "id": "wb-07-1-clip-026",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 14",
+      "start": 252.11,
+      "end": 256.11,
+      "tableRow": 13
+    },
+    {
+      "id": "wb-07-1-clip-027",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 15",
+      "start": 258.65,
+      "end": 262.51,
+      "tableRow": 14
+    },
+    {
+      "id": "wb-07-1-clip-028",
+      "sourceId": "wb-07-1",
+      "pageId": "workbook-047",
+      "blockId": "workbook-047-edited-0",
+      "label": "Nghe dòng 16",
+      "start": 264.91,
+      "end": 268.617,
+      "tableRow": 15
+    },
+    {
+      "id": "wb-08-1-clip-001",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 1",
+      "start": 61.45,
+      "end": 64.8,
+      "itemId": "workbook-055-edited-0-item-0"
+    },
+    {
+      "id": "wb-08-1-clip-002",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 2",
+      "start": 66.38,
+      "end": 69.79,
+      "itemId": "workbook-055-edited-0-item-1"
+    },
+    {
+      "id": "wb-08-1-clip-003",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 3",
+      "start": 71.37,
+      "end": 74.52,
+      "itemId": "workbook-055-edited-0-item-2"
+    },
+    {
+      "id": "wb-08-1-clip-004",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 4",
+      "start": 76.09,
+      "end": 79.68,
+      "itemId": "workbook-055-edited-0-item-3"
+    },
+    {
+      "id": "wb-08-1-clip-005",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 5",
+      "start": 81.03,
+      "end": 84.32,
+      "itemId": "workbook-055-edited-0-item-4"
+    },
+    {
+      "id": "wb-08-1-clip-006",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 6",
+      "start": 85.87,
+      "end": 89.57,
+      "itemId": "workbook-055-edited-0-item-5"
+    },
+    {
+      "id": "wb-08-1-clip-007",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 7",
+      "start": 91.52,
+      "end": 95.29,
+      "itemId": "workbook-055-edited-0-item-6"
+    },
+    {
+      "id": "wb-08-1-clip-008",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-0",
+      "label": "Nghe câu 8",
+      "start": 96.88,
+      "end": 100.3,
+      "itemId": "workbook-055-edited-0-item-7"
+    },
+    {
+      "id": "wb-08-1-clip-009",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-1",
+      "label": "Nghe câu 1",
+      "start": 116.71,
+      "end": 132.58,
+      "itemId": "workbook-055-edited-1-item-0"
+    },
+    {
+      "id": "wb-08-1-clip-010",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-1",
+      "label": "Nghe câu 2",
+      "start": 135.28,
+      "end": 149.89,
+      "itemId": "workbook-055-edited-1-item-1"
+    },
+    {
+      "id": "wb-08-1-clip-011",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-1",
+      "label": "Nghe câu 3",
+      "start": 152.36,
+      "end": 165.5,
+      "itemId": "workbook-055-edited-1-item-2"
+    },
+    {
+      "id": "wb-08-1-clip-012",
+      "sourceId": "wb-08-1",
+      "pageId": "workbook-055",
+      "blockId": "workbook-055-edited-1",
+      "label": "Nghe câu 4",
+      "start": 167.77,
+      "end": 181.62,
+      "itemId": "workbook-055-edited-1-item-3"
+    },
+    {
+      "id": "wb-09-1-clip-001",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 1",
+      "start": 61.31,
+      "end": 64.79,
+      "itemId": "workbook-064-edited-0-item-0"
+    },
+    {
+      "id": "wb-09-1-clip-002",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 2",
+      "start": 67.13,
+      "end": 70.48,
+      "itemId": "workbook-064-edited-0-item-1"
+    },
+    {
+      "id": "wb-09-1-clip-003",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 3",
+      "start": 72.81,
+      "end": 76.11,
+      "itemId": "workbook-064-edited-0-item-2"
+    },
+    {
+      "id": "wb-09-1-clip-004",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 4",
+      "start": 78.5,
+      "end": 82.22,
+      "itemId": "workbook-064-edited-0-item-3"
+    },
+    {
+      "id": "wb-09-1-clip-005",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 5",
+      "start": 84.76,
+      "end": 88.65,
+      "itemId": "workbook-064-edited-0-item-4"
+    },
+    {
+      "id": "wb-09-1-clip-006",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 6",
+      "start": 91.18,
+      "end": 94.6,
+      "itemId": "workbook-064-edited-0-item-5"
+    },
+    {
+      "id": "wb-09-1-clip-007",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 7",
+      "start": 97.17,
+      "end": 100.81,
+      "itemId": "workbook-064-edited-0-item-6"
+    },
+    {
+      "id": "wb-09-1-clip-008",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-0",
+      "label": "Nghe câu 8",
+      "start": 103.31,
+      "end": 106.97,
+      "itemId": "workbook-064-edited-0-item-7"
+    },
+    {
+      "id": "wb-09-1-clip-009",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-1",
+      "label": "Nghe câu 1",
+      "start": 120.88,
+      "end": 132.0,
+      "itemId": "workbook-064-edited-1-item-0"
+    },
+    {
+      "id": "wb-09-1-clip-010",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-1",
+      "label": "Nghe câu 2",
+      "start": 134.37,
+      "end": 145.52,
+      "itemId": "workbook-064-edited-1-item-1"
+    },
+    {
+      "id": "wb-09-1-clip-011",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-1",
+      "label": "Nghe câu 3",
+      "start": 147.97,
+      "end": 159.52,
+      "itemId": "workbook-064-edited-1-item-2"
+    },
+    {
+      "id": "wb-09-1-clip-012",
+      "sourceId": "wb-09-1",
+      "pageId": "workbook-064",
+      "blockId": "workbook-064-edited-1",
+      "label": "Nghe câu 4",
+      "start": 161.86,
+      "end": 172.82,
+      "itemId": "workbook-064-edited-1-item-3"
+    },
+    {
+      "id": "wb-10-1-clip-001",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 1",
+      "start": 58.55,
+      "end": 61.78,
+      "itemId": "workbook-073-edited-0-item-0"
+    },
+    {
+      "id": "wb-10-1-clip-002",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 2",
+      "start": 63.33,
+      "end": 66.94,
+      "itemId": "workbook-073-edited-0-item-1"
+    },
+    {
+      "id": "wb-10-1-clip-003",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 3",
+      "start": 68.36,
+      "end": 72.11,
+      "itemId": "workbook-073-edited-0-item-2"
+    },
+    {
+      "id": "wb-10-1-clip-004",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 4",
+      "start": 73.62,
+      "end": 77.38,
+      "itemId": "workbook-073-edited-0-item-3"
+    },
+    {
+      "id": "wb-10-1-clip-005",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 5",
+      "start": 78.95,
+      "end": 83.37,
+      "itemId": "workbook-073-edited-0-item-4"
+    },
+    {
+      "id": "wb-10-1-clip-006",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 6",
+      "start": 84.87,
+      "end": 88.94,
+      "itemId": "workbook-073-edited-0-item-5"
+    },
+    {
+      "id": "wb-10-1-clip-007",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 7",
+      "start": 90.43,
+      "end": 94.64,
+      "itemId": "workbook-073-edited-0-item-6"
+    },
+    {
+      "id": "wb-10-1-clip-008",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-0",
+      "label": "Nghe câu 8",
+      "start": 96.02,
+      "end": 100.58,
+      "itemId": "workbook-073-edited-0-item-7"
+    },
+    {
+      "id": "wb-10-1-clip-009",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-1",
+      "label": "Nghe câu 1",
+      "start": 114.09,
+      "end": 125.58,
+      "itemId": "workbook-073-edited-1-item-0"
+    },
+    {
+      "id": "wb-10-1-clip-010",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-1",
+      "label": "Nghe câu 2",
+      "start": 126.89,
+      "end": 138.32,
+      "itemId": "workbook-073-edited-1-item-1"
+    },
+    {
+      "id": "wb-10-1-clip-011",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-1",
+      "label": "Nghe câu 3",
+      "start": 139.88,
+      "end": 151.37,
+      "itemId": "workbook-073-edited-1-item-2"
+    },
+    {
+      "id": "wb-10-1-clip-012",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-1",
+      "label": "Nghe câu 4",
+      "start": 152.87,
+      "end": 164.48,
+      "itemId": "workbook-073-edited-1-item-3"
+    },
+    {
+      "id": "wb-10-1-clip-013",
+      "sourceId": "wb-10-1",
+      "pageId": "workbook-073",
+      "blockId": "workbook-073-edited-1",
+      "label": "Nghe câu 5",
+      "start": 166.05,
+      "end": 178.04,
+      "itemId": "workbook-073-edited-1-item-4"
+    },
+    {
+      "id": "wb-11-1-clip-001",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 1",
+      "start": 58.53,
+      "end": 62.15,
+      "itemId": "workbook-082-edited-0-item-0"
+    },
+    {
+      "id": "wb-11-1-clip-002",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 2",
+      "start": 64.79,
+      "end": 69.0,
+      "itemId": "workbook-082-edited-0-item-1"
+    },
+    {
+      "id": "wb-11-1-clip-003",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 3",
+      "start": 71.58,
+      "end": 75.73,
+      "itemId": "workbook-082-edited-0-item-2"
+    },
+    {
+      "id": "wb-11-1-clip-004",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 4",
+      "start": 77.93,
+      "end": 82.55,
+      "itemId": "workbook-082-edited-0-item-3"
+    },
+    {
+      "id": "wb-11-1-clip-005",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 5",
+      "start": 85.02,
+      "end": 90.22,
+      "itemId": "workbook-082-edited-0-item-4"
+    },
+    {
+      "id": "wb-11-1-clip-006",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 6",
+      "start": 92.67,
+      "end": 97.08,
+      "itemId": "workbook-082-edited-0-item-5"
+    },
+    {
+      "id": "wb-11-1-clip-007",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 7",
+      "start": 99.46,
+      "end": 104.21,
+      "itemId": "workbook-082-edited-0-item-6"
+    },
+    {
+      "id": "wb-11-1-clip-008",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-0",
+      "label": "Nghe câu 8",
+      "start": 106.69,
+      "end": 111.21,
+      "itemId": "workbook-082-edited-0-item-7"
+    },
+    {
+      "id": "wb-11-1-clip-009",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-1",
+      "label": "Nghe câu 1",
+      "start": 124.71,
+      "end": 138.12,
+      "itemId": "workbook-082-edited-1-item-0"
+    },
+    {
+      "id": "wb-11-1-clip-010",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-1",
+      "label": "Nghe câu 2",
+      "start": 140.66,
+      "end": 152.6,
+      "itemId": "workbook-082-edited-1-item-1"
+    },
+    {
+      "id": "wb-11-1-clip-011",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-1",
+      "label": "Nghe câu 3",
+      "start": 155.23,
+      "end": 168.64,
+      "itemId": "workbook-082-edited-1-item-2"
+    },
+    {
+      "id": "wb-11-1-clip-012",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-1",
+      "label": "Nghe câu 4",
+      "start": 171.12,
+      "end": 185.08,
+      "itemId": "workbook-082-edited-1-item-3"
+    },
+    {
+      "id": "wb-11-1-clip-013",
+      "sourceId": "wb-11-1",
+      "pageId": "workbook-082",
+      "blockId": "workbook-082-edited-1",
+      "label": "Nghe câu 5",
+      "start": 187.62,
+      "end": 202.81,
+      "itemId": "workbook-082-edited-1-item-4"
+    },
+    {
+      "id": "wb-12-1-clip-001",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-0",
+      "label": "Nghe câu 1",
+      "start": 58.92,
+      "end": 71.77,
+      "itemId": "workbook-091-edited-0-item-0"
+    },
+    {
+      "id": "wb-12-1-clip-002",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-0",
+      "label": "Nghe câu 2",
+      "start": 74.24,
+      "end": 88.01,
+      "itemId": "workbook-091-edited-0-item-1"
+    },
+    {
+      "id": "wb-12-1-clip-003",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-0",
+      "label": "Nghe câu 3",
+      "start": 90.49,
+      "end": 104.64,
+      "itemId": "workbook-091-edited-0-item-2"
+    },
+    {
+      "id": "wb-12-1-clip-004",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-0",
+      "label": "Nghe câu 4",
+      "start": 107.47,
+      "end": 123.11,
+      "itemId": "workbook-091-edited-0-item-3"
+    },
+    {
+      "id": "wb-12-1-clip-005",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 1",
+      "start": 144.19,
+      "end": 147.45,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-12-1-clip-006",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 2",
+      "start": 150.02,
+      "end": 153.02,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-12-1-clip-007",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 3",
+      "start": 155.72,
+      "end": 159.0,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-12-1-clip-008",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 4",
+      "start": 161.5,
+      "end": 165.05,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-12-1-clip-009",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 5",
+      "start": 167.47,
+      "end": 170.43,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-12-1-clip-010",
+      "sourceId": "wb-12-1",
+      "pageId": "workbook-091",
+      "blockId": "workbook-091-edited-1",
+      "label": "Nghe dòng 6",
+      "start": 172.86,
+      "end": 175.75,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-13-1-clip-001",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-0",
+      "label": "Nghe câu 1",
+      "start": 58.3,
+      "end": 72.36,
+      "itemId": "workbook-100-edited-0-item-0"
+    },
+    {
+      "id": "wb-13-1-clip-002",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-0",
+      "label": "Nghe câu 2",
+      "start": 74.9,
+      "end": 89.56,
+      "itemId": "workbook-100-edited-0-item-1"
+    },
+    {
+      "id": "wb-13-1-clip-003",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-0",
+      "label": "Nghe câu 3",
+      "start": 91.93,
+      "end": 108.03,
+      "itemId": "workbook-100-edited-0-item-2"
+    },
+    {
+      "id": "wb-13-1-clip-004",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-0",
+      "label": "Nghe câu 4",
+      "start": 110.49,
+      "end": 126.3,
+      "itemId": "workbook-100-edited-0-item-3"
+    },
+    {
+      "id": "wb-13-1-clip-005",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 1",
+      "start": 147.05,
+      "end": 150.26,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-13-1-clip-006",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 2",
+      "start": 152.73,
+      "end": 155.96,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-13-1-clip-007",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 3",
+      "start": 158.54,
+      "end": 161.51,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-13-1-clip-008",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 4",
+      "start": 164.04,
+      "end": 167.21,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-13-1-clip-009",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 5",
+      "start": 169.75,
+      "end": 172.73,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-13-1-clip-010",
+      "sourceId": "wb-13-1",
+      "pageId": "workbook-100",
+      "blockId": "workbook-100-edited-1",
+      "label": "Nghe dòng 6",
+      "start": 175.29,
+      "end": 178.18,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-14-1-clip-001",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 1",
+      "start": 65.27,
+      "end": 68.67,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-14-1-clip-002",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 2",
+      "start": 71.45,
+      "end": 74.99,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-14-1-clip-003",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 3",
+      "start": 77.4,
+      "end": 81.61,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-14-1-clip-004",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 4",
+      "start": 84.21,
+      "end": 88.56,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-14-1-clip-005",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 5",
+      "start": 90.95,
+      "end": 94.89,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-14-1-clip-006",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-109",
+      "blockId": "workbook-109-edited-0",
+      "label": "Nghe dòng 6",
+      "start": 97.68,
+      "end": 101.53,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-14-1-clip-007",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 1",
+      "start": 126.7,
+      "end": 132.55,
+      "itemId": "workbook-110-edited-0-item-0"
+    },
+    {
+      "id": "wb-14-1-clip-008",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 2",
+      "start": 135.03,
+      "end": 139.28,
+      "itemId": "workbook-110-edited-0-item-1"
+    },
+    {
+      "id": "wb-14-1-clip-009",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 3",
+      "start": 141.76,
+      "end": 145.82,
+      "itemId": "workbook-110-edited-0-item-2"
+    },
+    {
+      "id": "wb-14-1-clip-010",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 4",
+      "start": 148.24,
+      "end": 152.54,
+      "itemId": "workbook-110-edited-0-item-3"
+    },
+    {
+      "id": "wb-14-1-clip-011",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 5",
+      "start": 154.89,
+      "end": 159.12,
+      "itemId": "workbook-110-edited-0-item-4"
+    },
+    {
+      "id": "wb-14-1-clip-012",
+      "sourceId": "wb-14-1",
+      "pageId": "workbook-110",
+      "blockId": "workbook-110-edited-0",
+      "label": "Nghe câu 6",
+      "start": 161.5,
+      "end": 166.98,
+      "itemId": "workbook-110-edited-0-item-5"
+    },
+    {
+      "id": "wb-15-1-clip-001",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 1",
+      "start": 64.3,
+      "end": 67.6,
+      "tableRow": 0
+    },
+    {
+      "id": "wb-15-1-clip-002",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 2",
+      "start": 70.13,
+      "end": 73.77,
+      "tableRow": 1
+    },
+    {
+      "id": "wb-15-1-clip-003",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 3",
+      "start": 76.31,
+      "end": 80.3,
+      "tableRow": 2
+    },
+    {
+      "id": "wb-15-1-clip-004",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 4",
+      "start": 82.83,
+      "end": 86.25,
+      "tableRow": 3
+    },
+    {
+      "id": "wb-15-1-clip-005",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 5",
+      "start": 88.56,
+      "end": 92.5,
+      "tableRow": 4
+    },
+    {
+      "id": "wb-15-1-clip-006",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-118",
+      "blockId": "workbook-118-edited-0",
+      "label": "Nghe dòng 6",
+      "start": 95.0,
+      "end": 98.74,
+      "tableRow": 5
+    },
+    {
+      "id": "wb-15-1-clip-007",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 1",
+      "start": 132.36,
+      "end": 136.58,
+      "itemId": "workbook-119-edited-0-item-0"
+    },
+    {
+      "id": "wb-15-1-clip-008",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 2",
+      "start": 139.03,
+      "end": 143.44,
+      "itemId": "workbook-119-edited-0-item-1"
+    },
+    {
+      "id": "wb-15-1-clip-009",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 3",
+      "start": 145.82,
+      "end": 150.67,
+      "itemId": "workbook-119-edited-0-item-2"
+    },
+    {
+      "id": "wb-15-1-clip-010",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 4",
+      "start": 153.16,
+      "end": 157.11,
+      "itemId": "workbook-119-edited-0-item-3"
+    },
+    {
+      "id": "wb-15-1-clip-011",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 5",
+      "start": 159.68,
+      "end": 162.72,
+      "itemId": "workbook-119-edited-0-item-4"
+    },
+    {
+      "id": "wb-15-1-clip-012",
+      "sourceId": "wb-15-1",
+      "pageId": "workbook-119",
+      "blockId": "workbook-119-edited-0",
+      "label": "Nghe câu 6",
+      "start": 165.13,
+      "end": 168.87,
+      "itemId": "workbook-119-edited-0-item-5"
+    },
+    {
+      "id": "wb-04-3-clip-001",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-023",
+      "blockId": "workbook-023-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.01,
+      "end": 28.04
+    },
+    {
+      "id": "wb-04-3-clip-002",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-023",
+      "blockId": "workbook-023-block-3",
+      "label": "Nghe câu 1",
+      "start": 37.46,
+      "end": 51.8,
+      "itemId": "workbook-023-block-3-item-1"
+    },
+    {
+      "id": "wb-04-3-clip-003",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-023",
+      "blockId": "workbook-023-block-3",
+      "label": "Nghe câu 2",
+      "start": 61.28,
+      "end": 68.6,
+      "itemId": "workbook-023-block-3-item-2"
+    },
+    {
+      "id": "wb-04-3-clip-004",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-023",
+      "blockId": "workbook-023-block-3",
+      "label": "Nghe câu 3",
+      "start": 78.06,
+      "end": 86.84,
+      "itemId": "workbook-023-block-3-item-3"
+    },
+    {
+      "id": "wb-04-3-clip-005",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 96.39,
+      "end": 120.52
+    },
+    {
+      "id": "wb-04-3-clip-006",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-1",
+      "label": "Nghe câu 4",
+      "start": 135.27,
+      "end": 151.92
+    },
+    {
+      "id": "wb-04-3-clip-007",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-1",
+      "label": "Nghe câu 5",
+      "start": 167.21,
+      "end": 175.96
+    },
+    {
+      "id": "wb-04-3-clip-008",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 190.71,
+      "end": 221.46
+    },
+    {
+      "id": "wb-04-3-clip-009",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-3",
+      "label": "Nghe câu 6",
+      "start": 236.0,
+      "end": 261.22,
+      "itemId": "workbook-024-block-3-item-0"
+    },
+    {
+      "id": "wb-04-3-clip-010",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-3",
+      "label": "Nghe câu 7",
+      "start": 275.94,
+      "end": 292.52,
+      "itemId": "workbook-024-block-3-item-1"
+    },
+    {
+      "id": "wb-04-3-clip-011",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-024",
+      "blockId": "workbook-024-block-3",
+      "label": "Nghe câu 8",
+      "start": 307.46,
+      "end": 332.68,
+      "itemId": "workbook-024-block-3-item-2"
+    },
+    {
+      "id": "wb-04-3-clip-012",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-025",
+      "blockId": "workbook-025-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 347.69,
+      "end": 390.78
+    },
+    {
+      "id": "wb-04-3-clip-013",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-025",
+      "blockId": "workbook-025-block-2",
+      "label": "Nghe câu 9",
+      "start": 405.59,
+      "end": 434.6
+    },
+    {
+      "id": "wb-04-3-clip-014",
+      "sourceId": "wb-04-3",
+      "pageId": "workbook-025",
+      "blockId": "workbook-025-block-2",
+      "label": "Nghe câu 10",
+      "start": 449.61,
+      "end": 474.8
+    },
+    {
+      "id": "wb-05-3-clip-001",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-032",
+      "blockId": "workbook-032-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0,
+      "end": 26.32
+    },
+    {
+      "id": "wb-05-3-clip-002",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-032",
+      "blockId": "workbook-032-block-3",
+      "label": "Nghe câu 1",
+      "start": 41.5,
+      "end": 48.4,
+      "itemId": "workbook-032-block-3-item-1"
+    },
+    {
+      "id": "wb-05-3-clip-003",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-032",
+      "blockId": "workbook-032-block-3",
+      "label": "Nghe câu 2",
+      "start": 49.5,
+      "end": 58.0,
+      "itemId": "workbook-032-block-3-item-2"
+    },
+    {
+      "id": "wb-05-3-clip-004",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-032",
+      "blockId": "workbook-032-block-3",
+      "label": "Nghe câu 3",
+      "start": 59.2,
+      "end": 67.8,
+      "itemId": "workbook-032-block-3-item-3"
+    },
+    {
+      "id": "wb-05-3-clip-005",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 69.25,
+      "end": 93.5
+    },
+    {
+      "id": "wb-05-3-clip-006",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-1",
+      "label": "Nghe câu 4",
+      "start": 113.95,
+      "end": 122.6
+    },
+    {
+      "id": "wb-05-3-clip-007",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-1",
+      "label": "Nghe câu 5",
+      "start": 137.05,
+      "end": 147.3
+    },
+    {
+      "id": "wb-05-3-clip-008",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 161.55,
+      "end": 193.3
+    },
+    {
+      "id": "wb-05-3-clip-009",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-3",
+      "label": "Nghe câu 6",
+      "start": 213.7,
+      "end": 230.3,
+      "itemId": "workbook-033-block-3-item-0"
+    },
+    {
+      "id": "wb-05-3-clip-010",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-3",
+      "label": "Nghe câu 7",
+      "start": 243.9,
+      "end": 261.3,
+      "itemId": "workbook-033-block-3-item-1"
+    },
+    {
+      "id": "wb-05-3-clip-011",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-033",
+      "blockId": "workbook-033-block-3",
+      "label": "Nghe câu 8",
+      "start": 275.1,
+      "end": 290.3,
+      "itemId": "workbook-033-block-3-item-2"
+    },
+    {
+      "id": "wb-05-3-clip-012",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-034",
+      "blockId": "workbook-034-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 304.65,
+      "end": 349.5
+    },
+    {
+      "id": "wb-05-3-clip-013",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-034",
+      "blockId": "workbook-034-block-2",
+      "label": "Nghe câu 9",
+      "start": 370.55,
+      "end": 391.3
+    },
+    {
+      "id": "wb-05-3-clip-014",
+      "sourceId": "wb-05-3",
+      "pageId": "workbook-034",
+      "blockId": "workbook-034-block-2",
+      "label": "Nghe câu 10",
+      "start": 405.35,
+      "end": 428.6
+    },
+    {
+      "id": "wb-06-3-clip-001",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-040",
+      "blockId": "workbook-040-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.13,
+      "end": 27.06
+    },
+    {
+      "id": "wb-06-3-clip-002",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-040",
+      "blockId": "workbook-040-block-3",
+      "label": "Nghe câu 1",
+      "start": 36.26,
+      "end": 50.82,
+      "itemId": "workbook-040-block-3-item-1"
+    },
+    {
+      "id": "wb-06-3-clip-003",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-040",
+      "blockId": "workbook-040-block-3",
+      "label": "Nghe câu 2",
+      "start": 60.24,
+      "end": 69.42,
+      "itemId": "workbook-040-block-3-item-2"
+    },
+    {
+      "id": "wb-06-3-clip-004",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-040",
+      "blockId": "workbook-040-block-3",
+      "label": "Nghe câu 3",
+      "start": 78.8,
+      "end": 87.36,
+      "itemId": "workbook-040-block-3-item-3"
+    },
+    {
+      "id": "wb-06-3-clip-005",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 96.61,
+      "end": 120.3
+    },
+    {
+      "id": "wb-06-3-clip-006",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-1",
+      "label": "Nghe câu 4",
+      "start": 134.85,
+      "end": 151.38
+    },
+    {
+      "id": "wb-06-3-clip-007",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-1",
+      "label": "Nghe câu 5",
+      "start": 166.13,
+      "end": 174.7
+    },
+    {
+      "id": "wb-06-3-clip-008",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 189.47,
+      "end": 219.96
+    },
+    {
+      "id": "wb-06-3-clip-009",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-3",
+      "label": "Nghe câu 6",
+      "start": 234.4,
+      "end": 276.58,
+      "itemId": "workbook-041-block-3-item-0"
+    },
+    {
+      "id": "wb-06-3-clip-010",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-3",
+      "label": "Nghe câu 7",
+      "start": 291.24,
+      "end": 307.9,
+      "itemId": "workbook-041-block-3-item-1"
+    },
+    {
+      "id": "wb-06-3-clip-011",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-041",
+      "blockId": "workbook-041-block-3",
+      "label": "Nghe câu 8",
+      "start": 322.22,
+      "end": 339.56,
+      "itemId": "workbook-041-block-3-item-2"
+    },
+    {
+      "id": "wb-06-3-clip-012",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-042",
+      "blockId": "workbook-042-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 354.13,
+      "end": 394.74
+    },
+    {
+      "id": "wb-06-3-clip-013",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-042",
+      "blockId": "workbook-042-block-2",
+      "label": "Nghe câu 9",
+      "start": 409.85,
+      "end": 446.46
+    },
+    {
+      "id": "wb-06-3-clip-014",
+      "sourceId": "wb-06-3",
+      "pageId": "workbook-042",
+      "blockId": "workbook-042-block-2",
+      "label": "Nghe câu 10",
+      "start": 461.35,
+      "end": 488.08
+    },
+    {
+      "id": "wb-07-2-clip-001",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-049",
+      "blockId": "workbook-049-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0,
+      "end": 25.94
+    },
+    {
+      "id": "wb-07-2-clip-002",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-049",
+      "blockId": "workbook-049-block-3",
+      "label": "Nghe câu 1",
+      "start": 34.66,
+      "end": 51.12,
+      "itemId": "workbook-049-block-3-item-1"
+    },
+    {
+      "id": "wb-07-2-clip-003",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-049",
+      "blockId": "workbook-049-block-3",
+      "label": "Nghe câu 2",
+      "start": 60.62,
+      "end": 69.74,
+      "itemId": "workbook-049-block-3-item-2"
+    },
+    {
+      "id": "wb-07-2-clip-004",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-049",
+      "blockId": "workbook-049-block-3",
+      "label": "Nghe câu 3",
+      "start": 79.36,
+      "end": 86.76,
+      "itemId": "workbook-049-block-3-item-3"
+    },
+    {
+      "id": "wb-07-2-clip-005",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 96.67,
+      "end": 121.78
+    },
+    {
+      "id": "wb-07-2-clip-006",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-1",
+      "label": "Nghe câu 4",
+      "start": 136.51,
+      "end": 153.48
+    },
+    {
+      "id": "wb-07-2-clip-007",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-1",
+      "label": "Nghe câu 5",
+      "start": 168.27,
+      "end": 177.26
+    },
+    {
+      "id": "wb-07-2-clip-008",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 192.09,
+      "end": 222.64
+    },
+    {
+      "id": "wb-07-2-clip-009",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-3",
+      "label": "Nghe câu 6",
+      "start": 237.22,
+      "end": 267.04,
+      "itemId": "workbook-050-block-3-item-0"
+    },
+    {
+      "id": "wb-07-2-clip-010",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-3",
+      "label": "Nghe câu 7",
+      "start": 281.4,
+      "end": 296.8,
+      "itemId": "workbook-050-block-3-item-1"
+    },
+    {
+      "id": "wb-07-2-clip-011",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-050",
+      "blockId": "workbook-050-block-3",
+      "label": "Nghe câu 8",
+      "start": 311.26,
+      "end": 326.84,
+      "itemId": "workbook-050-block-3-item-2"
+    },
+    {
+      "id": "wb-07-2-clip-012",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-051",
+      "blockId": "workbook-051-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 341.81,
+      "end": 383.84
+    },
+    {
+      "id": "wb-07-2-clip-013",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-051",
+      "blockId": "workbook-051-block-2",
+      "label": "Nghe câu 9",
+      "start": 398.85,
+      "end": 427.54
+    },
+    {
+      "id": "wb-07-2-clip-014",
+      "sourceId": "wb-07-2",
+      "pageId": "workbook-051",
+      "blockId": "workbook-051-block-2",
+      "label": "Nghe câu 10",
+      "start": 442.21,
+      "end": 464.78
+    },
+    {
+      "id": "wb-08-2-clip-001",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-058",
+      "blockId": "workbook-058-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.03,
+      "end": 26.36
+    },
+    {
+      "id": "wb-08-2-clip-002",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-058",
+      "blockId": "workbook-058-block-3",
+      "label": "Nghe câu 1",
+      "start": 35.88,
+      "end": 48.68,
+      "itemId": "workbook-058-block-3-item-1"
+    },
+    {
+      "id": "wb-08-2-clip-003",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-058",
+      "blockId": "workbook-058-block-3",
+      "label": "Nghe câu 2",
+      "start": 58.44,
+      "end": 67.98,
+      "itemId": "workbook-058-block-3-item-2"
+    },
+    {
+      "id": "wb-08-2-clip-004",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-058",
+      "blockId": "workbook-058-block-3",
+      "label": "Nghe câu 3",
+      "start": 77.46,
+      "end": 86.1,
+      "itemId": "workbook-058-block-3-item-3"
+    },
+    {
+      "id": "wb-08-2-clip-005",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 95.95,
+      "end": 118.84
+    },
+    {
+      "id": "wb-08-2-clip-006",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-1",
+      "label": "Nghe câu 4",
+      "start": 133.97,
+      "end": 148.9
+    },
+    {
+      "id": "wb-08-2-clip-007",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-1",
+      "label": "Nghe câu 5",
+      "start": 163.65,
+      "end": 175.8
+    },
+    {
+      "id": "wb-08-2-clip-008",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 190.63,
+      "end": 220.54
+    },
+    {
+      "id": "wb-08-2-clip-009",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-3",
+      "label": "Nghe câu 6",
+      "start": 235.0,
+      "end": 254.36,
+      "itemId": "workbook-059-block-3-item-0"
+    },
+    {
+      "id": "wb-08-2-clip-010",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-3",
+      "label": "Nghe câu 7",
+      "start": 269.74,
+      "end": 289.76,
+      "itemId": "workbook-059-block-3-item-1"
+    },
+    {
+      "id": "wb-08-2-clip-011",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-059",
+      "blockId": "workbook-059-block-3",
+      "label": "Nghe câu 8",
+      "start": 304.32,
+      "end": 323.4,
+      "itemId": "workbook-059-block-3-item-2"
+    },
+    {
+      "id": "wb-08-2-clip-012",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-060",
+      "blockId": "workbook-060-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 337.89,
+      "end": 378.2
+    },
+    {
+      "id": "wb-08-2-clip-013",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-060",
+      "blockId": "workbook-060-block-2",
+      "label": "Nghe câu 9",
+      "start": 393.07,
+      "end": 427.2
+    },
+    {
+      "id": "wb-08-2-clip-014",
+      "sourceId": "wb-08-2",
+      "pageId": "workbook-060",
+      "blockId": "workbook-060-block-2",
+      "label": "Nghe câu 10",
+      "start": 442.21,
+      "end": 468.52
+    },
+    {
+      "id": "wb-09-2-clip-001",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-067",
+      "blockId": "workbook-067-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.03,
+      "end": 25.06
+    },
+    {
+      "id": "wb-09-2-clip-002",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-067",
+      "blockId": "workbook-067-block-3",
+      "label": "Nghe câu 1",
+      "start": 34.54,
+      "end": 48.02,
+      "itemId": "workbook-067-block-3-item-1"
+    },
+    {
+      "id": "wb-09-2-clip-003",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-067",
+      "blockId": "workbook-067-block-3",
+      "label": "Nghe câu 2",
+      "start": 57.54,
+      "end": 66.74,
+      "itemId": "workbook-067-block-3-item-2"
+    },
+    {
+      "id": "wb-09-2-clip-004",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-067",
+      "blockId": "workbook-067-block-3",
+      "label": "Nghe câu 3",
+      "start": 76.08,
+      "end": 84.36,
+      "itemId": "workbook-067-block-3-item-3"
+    },
+    {
+      "id": "wb-09-2-clip-005",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 94.19,
+      "end": 116.82
+    },
+    {
+      "id": "wb-09-2-clip-006",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-1",
+      "label": "Nghe câu 4",
+      "start": 131.45,
+      "end": 146.88
+    },
+    {
+      "id": "wb-09-2-clip-007",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-1",
+      "label": "Nghe câu 5",
+      "start": 161.89,
+      "end": 172.94
+    },
+    {
+      "id": "wb-09-2-clip-008",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 187.81,
+      "end": 216.3
+    },
+    {
+      "id": "wb-09-2-clip-009",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-3",
+      "label": "Nghe câu 6",
+      "start": 230.56,
+      "end": 251.7,
+      "itemId": "workbook-068-block-3-item-0"
+    },
+    {
+      "id": "wb-09-2-clip-010",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-3",
+      "label": "Nghe câu 7",
+      "start": 266.3,
+      "end": 284.9,
+      "itemId": "workbook-068-block-3-item-1"
+    },
+    {
+      "id": "wb-09-2-clip-011",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-068",
+      "blockId": "workbook-068-block-3",
+      "label": "Nghe câu 8",
+      "start": 299.76,
+      "end": 320.4,
+      "itemId": "workbook-068-block-3-item-2"
+    },
+    {
+      "id": "wb-09-2-clip-012",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-069",
+      "blockId": "workbook-069-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 334.79,
+      "end": 374.08
+    },
+    {
+      "id": "wb-09-2-clip-013",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-069",
+      "blockId": "workbook-069-block-2",
+      "label": "Nghe câu 9",
+      "start": 388.75,
+      "end": 425.08
+    },
+    {
+      "id": "wb-09-2-clip-014",
+      "sourceId": "wb-09-2",
+      "pageId": "workbook-069",
+      "blockId": "workbook-069-block-2",
+      "label": "Nghe câu 10",
+      "start": 439.63,
+      "end": 465.62
+    },
+    {
+      "id": "wb-10-2-clip-001",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-076",
+      "blockId": "workbook-076-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.05,
+      "end": 27.04
+    },
+    {
+      "id": "wb-10-2-clip-002",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-076",
+      "blockId": "workbook-076-block-3",
+      "label": "Nghe câu 1",
+      "start": 36.7,
+      "end": 51.58,
+      "itemId": "workbook-076-block-3-item-1"
+    },
+    {
+      "id": "wb-10-2-clip-003",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-076",
+      "blockId": "workbook-076-block-3",
+      "label": "Nghe câu 2",
+      "start": 61.22,
+      "end": 70.0,
+      "itemId": "workbook-076-block-3-item-2"
+    },
+    {
+      "id": "wb-10-2-clip-004",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-076",
+      "blockId": "workbook-076-block-3",
+      "label": "Nghe câu 3",
+      "start": 79.86,
+      "end": 87.54,
+      "itemId": "workbook-076-block-3-item-3"
+    },
+    {
+      "id": "wb-10-2-clip-005",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 97.35,
+      "end": 119.84
+    },
+    {
+      "id": "wb-10-2-clip-006",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-1",
+      "label": "Nghe câu 4",
+      "start": 134.65,
+      "end": 150.62
+    },
+    {
+      "id": "wb-10-2-clip-007",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-1",
+      "label": "Nghe câu 5",
+      "start": 165.27,
+      "end": 176.5
+    },
+    {
+      "id": "wb-10-2-clip-008",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 191.21,
+      "end": 221.72
+    },
+    {
+      "id": "wb-10-2-clip-009",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-3",
+      "label": "Nghe câu 6",
+      "start": 236.34,
+      "end": 259.56,
+      "itemId": "workbook-077-block-3-item-0"
+    },
+    {
+      "id": "wb-10-2-clip-010",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-3",
+      "label": "Nghe câu 7",
+      "start": 274.2,
+      "end": 293.24,
+      "itemId": "workbook-077-block-3-item-1"
+    },
+    {
+      "id": "wb-10-2-clip-011",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-077",
+      "blockId": "workbook-077-block-3",
+      "label": "Nghe câu 8",
+      "start": 307.54,
+      "end": 325.36,
+      "itemId": "workbook-077-block-3-item-2"
+    },
+    {
+      "id": "wb-10-2-clip-012",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-078",
+      "blockId": "workbook-078-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 340.33,
+      "end": 381.56
+    },
+    {
+      "id": "wb-10-2-clip-013",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-078",
+      "blockId": "workbook-078-block-2",
+      "label": "Nghe câu 9",
+      "start": 396.07,
+      "end": 428.88
+    },
+    {
+      "id": "wb-10-2-clip-014",
+      "sourceId": "wb-10-2",
+      "pageId": "workbook-078",
+      "blockId": "workbook-078-block-2",
+      "label": "Nghe câu 10",
+      "start": 443.85,
+      "end": 468.84
+    },
+    {
+      "id": "wb-11-2-clip-001",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-085",
+      "blockId": "workbook-085-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0,
+      "end": 26.28
+    },
+    {
+      "id": "wb-11-2-clip-002",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-085",
+      "blockId": "workbook-085-block-3",
+      "label": "Nghe câu 1",
+      "start": 35.78,
+      "end": 49.76,
+      "itemId": "workbook-085-block-3-item-1"
+    },
+    {
+      "id": "wb-11-2-clip-003",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-085",
+      "blockId": "workbook-085-block-3",
+      "label": "Nghe câu 2",
+      "start": 59.0,
+      "end": 66.68,
+      "itemId": "workbook-085-block-3-item-2"
+    },
+    {
+      "id": "wb-11-2-clip-004",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-085",
+      "blockId": "workbook-085-block-3",
+      "label": "Nghe câu 3",
+      "start": 76.16,
+      "end": 84.22,
+      "itemId": "workbook-085-block-3-item-3"
+    },
+    {
+      "id": "wb-11-2-clip-005",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 93.91,
+      "end": 118.08
+    },
+    {
+      "id": "wb-11-2-clip-006",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-1",
+      "label": "Nghe câu 4",
+      "start": 133.27,
+      "end": 152.38
+    },
+    {
+      "id": "wb-11-2-clip-007",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-1",
+      "label": "Nghe câu 5",
+      "start": 167.57,
+      "end": 179.48
+    },
+    {
+      "id": "wb-11-2-clip-008",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 194.69,
+      "end": 223.86
+    },
+    {
+      "id": "wb-11-2-clip-009",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-3",
+      "label": "Nghe câu 6",
+      "start": 238.3,
+      "end": 268.72,
+      "itemId": "workbook-086-block-3-item-0"
+    },
+    {
+      "id": "wb-11-2-clip-010",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-3",
+      "label": "Nghe câu 7",
+      "start": 283.64,
+      "end": 304.54,
+      "itemId": "workbook-086-block-3-item-1"
+    },
+    {
+      "id": "wb-11-2-clip-011",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-086",
+      "blockId": "workbook-086-block-3",
+      "label": "Nghe câu 8",
+      "start": 319.3,
+      "end": 333.78,
+      "itemId": "workbook-086-block-3-item-2"
+    },
+    {
+      "id": "wb-11-2-clip-012",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-087",
+      "blockId": "workbook-087-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 348.67,
+      "end": 388.74
+    },
+    {
+      "id": "wb-11-2-clip-013",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-087",
+      "blockId": "workbook-087-block-2",
+      "label": "Nghe câu 9",
+      "start": 403.41,
+      "end": 434.74
+    },
+    {
+      "id": "wb-11-2-clip-014",
+      "sourceId": "wb-11-2",
+      "pageId": "workbook-087",
+      "blockId": "workbook-087-block-2",
+      "label": "Nghe câu 10",
+      "start": 449.71,
+      "end": 470.06
+    },
+    {
+      "id": "wb-12-2-clip-001",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-094",
+      "blockId": "workbook-094-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.07,
+      "end": 25.52
+    },
+    {
+      "id": "wb-12-2-clip-002",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-094",
+      "blockId": "workbook-094-block-3",
+      "label": "Nghe câu 1",
+      "start": 35.22,
+      "end": 48.6,
+      "itemId": "workbook-094-block-3-item-1"
+    },
+    {
+      "id": "wb-12-2-clip-003",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-094",
+      "blockId": "workbook-094-block-3",
+      "label": "Nghe câu 2",
+      "start": 58.14,
+      "end": 66.6,
+      "itemId": "workbook-094-block-3-item-2"
+    },
+    {
+      "id": "wb-12-2-clip-004",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-094",
+      "blockId": "workbook-094-block-3",
+      "label": "Nghe câu 3",
+      "start": 76.28,
+      "end": 83.94,
+      "itemId": "workbook-094-block-3-item-3"
+    },
+    {
+      "id": "wb-12-2-clip-005",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 93.93,
+      "end": 116.36
+    },
+    {
+      "id": "wb-12-2-clip-006",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-1",
+      "label": "Nghe câu 4",
+      "start": 131.13,
+      "end": 147.42
+    },
+    {
+      "id": "wb-12-2-clip-007",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-1",
+      "label": "Nghe câu 5",
+      "start": 162.45,
+      "end": 170.46
+    },
+    {
+      "id": "wb-12-2-clip-008",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 185.45,
+      "end": 214.76
+    },
+    {
+      "id": "wb-12-2-clip-009",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-3",
+      "label": "Nghe câu 6",
+      "start": 229.5,
+      "end": 256.22,
+      "itemId": "workbook-095-block-3-item-0"
+    },
+    {
+      "id": "wb-12-2-clip-010",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-3",
+      "label": "Nghe câu 7",
+      "start": 270.96,
+      "end": 286.5,
+      "itemId": "workbook-095-block-3-item-1"
+    },
+    {
+      "id": "wb-12-2-clip-011",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-095",
+      "blockId": "workbook-095-block-3",
+      "label": "Nghe câu 8",
+      "start": 300.8,
+      "end": 322.86,
+      "itemId": "workbook-095-block-3-item-2"
+    },
+    {
+      "id": "wb-12-2-clip-012",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-096",
+      "blockId": "workbook-096-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 337.77,
+      "end": 378.4
+    },
+    {
+      "id": "wb-12-2-clip-013",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-096",
+      "blockId": "workbook-096-block-2",
+      "label": "Nghe câu 9",
+      "start": 393.61,
+      "end": 431.64
+    },
+    {
+      "id": "wb-12-2-clip-014",
+      "sourceId": "wb-12-2",
+      "pageId": "workbook-096",
+      "blockId": "workbook-096-block-2",
+      "label": "Nghe câu 10",
+      "start": 446.69,
+      "end": 478.12
+    },
+    {
+      "id": "wb-13-2-clip-001",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-103",
+      "blockId": "workbook-103-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.13,
+      "end": 25.62
+    },
+    {
+      "id": "wb-13-2-clip-002",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-103",
+      "blockId": "workbook-103-block-3",
+      "label": "Nghe câu 1",
+      "start": 35.2,
+      "end": 49.48,
+      "itemId": "workbook-103-block-3-item-1"
+    },
+    {
+      "id": "wb-13-2-clip-003",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-103",
+      "blockId": "workbook-103-block-3",
+      "label": "Nghe câu 2",
+      "start": 59.22,
+      "end": 66.72,
+      "itemId": "workbook-103-block-3-item-2"
+    },
+    {
+      "id": "wb-13-2-clip-004",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-103",
+      "blockId": "workbook-103-block-3",
+      "label": "Nghe câu 3",
+      "start": 76.22,
+      "end": 84.02,
+      "itemId": "workbook-103-block-3-item-3"
+    },
+    {
+      "id": "wb-13-2-clip-005",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 93.89,
+      "end": 118.06
+    },
+    {
+      "id": "wb-13-2-clip-006",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-1",
+      "label": "Nghe câu 4",
+      "start": 132.55,
+      "end": 148.14
+    },
+    {
+      "id": "wb-13-2-clip-007",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-1",
+      "label": "Nghe câu 5",
+      "start": 163.27,
+      "end": 173.08
+    },
+    {
+      "id": "wb-13-2-clip-008",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 188.23,
+      "end": 216.24
+    },
+    {
+      "id": "wb-13-2-clip-009",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-3",
+      "label": "Nghe câu 6",
+      "start": 230.66,
+      "end": 258.5,
+      "itemId": "workbook-104-block-3-item-0"
+    },
+    {
+      "id": "wb-13-2-clip-010",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-3",
+      "label": "Nghe câu 7",
+      "start": 272.86,
+      "end": 289.36,
+      "itemId": "workbook-104-block-3-item-1"
+    },
+    {
+      "id": "wb-13-2-clip-011",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-104",
+      "blockId": "workbook-104-block-3",
+      "label": "Nghe câu 8",
+      "start": 303.74,
+      "end": 322.66,
+      "itemId": "workbook-104-block-3-item-2"
+    },
+    {
+      "id": "wb-13-2-clip-012",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-105",
+      "blockId": "workbook-105-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 337.27,
+      "end": 378.1
+    },
+    {
+      "id": "wb-13-2-clip-013",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-105",
+      "blockId": "workbook-105-block-2",
+      "label": "Nghe câu 9",
+      "start": 392.83,
+      "end": 425.1
+    },
+    {
+      "id": "wb-13-2-clip-014",
+      "sourceId": "wb-13-2",
+      "pageId": "workbook-105",
+      "blockId": "workbook-105-block-2",
+      "label": "Nghe câu 10",
+      "start": 439.71,
+      "end": 469.28
+    },
+    {
+      "id": "wb-14-2-clip-001",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-112",
+      "blockId": "workbook-112-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.01,
+      "end": 24.8
+    },
+    {
+      "id": "wb-14-2-clip-002",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-112",
+      "blockId": "workbook-112-block-3",
+      "label": "Nghe câu 1",
+      "start": 34.34,
+      "end": 48.4,
+      "itemId": "workbook-112-block-3-item-1"
+    },
+    {
+      "id": "wb-14-2-clip-003",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-112",
+      "blockId": "workbook-112-block-3",
+      "label": "Nghe câu 2",
+      "start": 57.98,
+      "end": 65.52,
+      "itemId": "workbook-112-block-3-item-2"
+    },
+    {
+      "id": "wb-14-2-clip-004",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-112",
+      "blockId": "workbook-112-block-3",
+      "label": "Nghe câu 3",
+      "start": 75.1,
+      "end": 83.32,
+      "itemId": "workbook-112-block-3-item-3"
+    },
+    {
+      "id": "wb-14-2-clip-005",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 93.35,
+      "end": 115.52
+    },
+    {
+      "id": "wb-14-2-clip-006",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-1",
+      "label": "Nghe câu 4",
+      "start": 130.33,
+      "end": 148.06
+    },
+    {
+      "id": "wb-14-2-clip-007",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-1",
+      "label": "Nghe câu 5",
+      "start": 162.57,
+      "end": 172.46
+    },
+    {
+      "id": "wb-14-2-clip-008",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 187.01,
+      "end": 217.06
+    },
+    {
+      "id": "wb-14-2-clip-009",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-3",
+      "label": "Nghe câu 6",
+      "start": 231.64,
+      "end": 260.3,
+      "itemId": "workbook-113-block-3-item-0"
+    },
+    {
+      "id": "wb-14-2-clip-010",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-3",
+      "label": "Nghe câu 7",
+      "start": 274.94,
+      "end": 295.64,
+      "itemId": "workbook-113-block-3-item-1"
+    },
+    {
+      "id": "wb-14-2-clip-011",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-113",
+      "blockId": "workbook-113-block-3",
+      "label": "Nghe câu 8",
+      "start": 310.26,
+      "end": 330.2,
+      "itemId": "workbook-113-block-3-item-2"
+    },
+    {
+      "id": "wb-14-2-clip-012",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-114",
+      "blockId": "workbook-114-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 345.19,
+      "end": 386.5
+    },
+    {
+      "id": "wb-14-2-clip-013",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-114",
+      "blockId": "workbook-114-block-2",
+      "label": "Nghe câu 9",
+      "start": 400.93,
+      "end": 431.08
+    },
+    {
+      "id": "wb-14-2-clip-014",
+      "sourceId": "wb-14-2",
+      "pageId": "workbook-114",
+      "blockId": "workbook-114-block-2",
+      "label": "Nghe câu 10",
+      "start": 445.75,
+      "end": 475.28
+    },
+    {
+      "id": "wb-15-2-clip-001",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-121",
+      "blockId": "workbook-121-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 0.03,
+      "end": 25.3
+    },
+    {
+      "id": "wb-15-2-clip-002",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-121",
+      "blockId": "workbook-121-block-3",
+      "label": "Nghe câu 1",
+      "start": 34.82,
+      "end": 48.06,
+      "itemId": "workbook-121-block-3-item-1"
+    },
+    {
+      "id": "wb-15-2-clip-003",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-121",
+      "blockId": "workbook-121-block-3",
+      "label": "Nghe câu 2",
+      "start": 57.8,
+      "end": 65.38,
+      "itemId": "workbook-121-block-3-item-2"
+    },
+    {
+      "id": "wb-15-2-clip-004",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-121",
+      "blockId": "workbook-121-block-3",
+      "label": "Nghe câu 3",
+      "start": 75.3,
+      "end": 83.4,
+      "itemId": "workbook-121-block-3-item-3"
+    },
+    {
+      "id": "wb-15-2-clip-005",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 93.21,
+      "end": 115.98
+    },
+    {
+      "id": "wb-15-2-clip-006",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-1",
+      "label": "Nghe câu 4",
+      "start": 130.97,
+      "end": 150.26
+    },
+    {
+      "id": "wb-15-2-clip-007",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-1",
+      "label": "Nghe câu 5",
+      "start": 165.25,
+      "end": 178.42
+    },
+    {
+      "id": "wb-15-2-clip-008",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-3",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 193.43,
+      "end": 221.6
+    },
+    {
+      "id": "wb-15-2-clip-009",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-3",
+      "label": "Nghe câu 6",
+      "start": 236.1,
+      "end": 266.74,
+      "itemId": "workbook-122-block-3-item-0"
+    },
+    {
+      "id": "wb-15-2-clip-010",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-3",
+      "label": "Nghe câu 7",
+      "start": 281.12,
+      "end": 306.5,
+      "itemId": "workbook-122-block-3-item-1"
+    },
+    {
+      "id": "wb-15-2-clip-011",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-122",
+      "blockId": "workbook-122-block-3",
+      "label": "Nghe câu 8",
+      "start": 321.06,
+      "end": 342.46,
+      "itemId": "workbook-122-block-3-item-2"
+    },
+    {
+      "id": "wb-15-2-clip-012",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-123",
+      "blockId": "workbook-123-block-2",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 357.09,
+      "end": 398.14
+    },
+    {
+      "id": "wb-15-2-clip-013",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-123",
+      "blockId": "workbook-123-block-2",
+      "label": "Nghe câu 9",
+      "start": 412.85,
+      "end": 447.08
+    },
+    {
+      "id": "wb-15-2-clip-014",
+      "sourceId": "wb-15-2",
+      "pageId": "workbook-123",
+      "blockId": "workbook-123-block-2",
+      "label": "Nghe câu 10",
+      "start": 461.77,
+      "end": 486.14
+    },
+    {
+      "id": "wb-mock-clip-001",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-128",
+      "blockId": "workbook-128-edited-0",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 1.03,
+      "end": 107.62
+    },
+    {
+      "id": "wb-mock-clip-002",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-128",
+      "blockId": "workbook-128-edited-0",
+      "label": "Nghe câu 1",
+      "start": 116.94,
+      "end": 131.84,
+      "itemId": "workbook-128-edited-0-item-0"
+    },
+    {
+      "id": "wb-mock-clip-003",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-128",
+      "blockId": "workbook-128-edited-0",
+      "label": "Nghe câu 2",
+      "start": 141.34,
+      "end": 149.32,
+      "itemId": "workbook-128-edited-0-item-1"
+    },
+    {
+      "id": "wb-mock-clip-004",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-128",
+      "blockId": "workbook-128-edited-0",
+      "label": "Nghe câu 3",
+      "start": 159.14,
+      "end": 167.16,
+      "itemId": "workbook-128-edited-0-item-2"
+    },
+    {
+      "id": "wb-mock-clip-005",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-129",
+      "blockId": "workbook-129-edited-0",
+      "label": "Nghe câu 4",
+      "start": 176.64,
+      "end": 185.44,
+      "itemId": "workbook-129-edited-0-item-0"
+    },
+    {
+      "id": "wb-mock-clip-006",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-129",
+      "blockId": "workbook-129-edited-0",
+      "label": "Nghe câu 5",
+      "start": 194.96,
+      "end": 204.64,
+      "itemId": "workbook-129-edited-0-item-1"
+    },
+    {
+      "id": "wb-mock-clip-007",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 214.39,
+      "end": 238.42
+    },
+    {
+      "id": "wb-mock-clip-008",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe câu 6",
+      "start": 253.37,
+      "end": 269.06
+    },
+    {
+      "id": "wb-mock-clip-009",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe câu 7",
+      "start": 283.71,
+      "end": 293.64
+    },
+    {
+      "id": "wb-mock-clip-010",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe câu 8",
+      "start": 308.67,
+      "end": 318.92
+    },
+    {
+      "id": "wb-mock-clip-011",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe câu 9",
+      "start": 333.45,
+      "end": 342.92
+    },
+    {
+      "id": "wb-mock-clip-012",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-130",
+      "blockId": "workbook-130-block-1",
+      "label": "Nghe câu 10",
+      "start": 357.49,
+      "end": 369.94
+    },
+    {
+      "id": "wb-mock-clip-013",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 384.75,
+      "end": 415.32
+    },
+    {
+      "id": "wb-mock-clip-014",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe câu 11",
+      "start": 429.84,
+      "end": 452.58,
+      "itemId": "workbook-131-edited-0-item-1"
+    },
+    {
+      "id": "wb-mock-clip-015",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe câu 12",
+      "start": 467.4,
+      "end": 486.98,
+      "itemId": "workbook-131-edited-0-item-2"
+    },
+    {
+      "id": "wb-mock-clip-016",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe câu 13",
+      "start": 501.42,
+      "end": 517.84,
+      "itemId": "workbook-131-edited-0-item-3"
+    },
+    {
+      "id": "wb-mock-clip-017",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe câu 14",
+      "start": 531.84,
+      "end": 554.98,
+      "itemId": "workbook-131-edited-0-item-4"
+    },
+    {
+      "id": "wb-mock-clip-018",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-131",
+      "blockId": "workbook-131-edited-0",
+      "label": "Nghe câu 15",
+      "start": 569.48,
+      "end": 583.16,
+      "itemId": "workbook-131-edited-0-item-5"
+    },
+    {
+      "id": "wb-mock-clip-019",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe hướng dẫn và ví dụ",
+      "start": 598.19,
+      "end": 641.9
+    },
+    {
+      "id": "wb-mock-clip-020",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe câu 16",
+      "start": 657.23,
+      "end": 694.12
+    },
+    {
+      "id": "wb-mock-clip-021",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe câu 17",
+      "start": 708.63,
+      "end": 733.44
+    },
+    {
+      "id": "wb-mock-clip-022",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe câu 18",
+      "start": 747.97,
+      "end": 772.6
+    },
+    {
+      "id": "wb-mock-clip-023",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe câu 19",
+      "start": 787.89,
+      "end": 807.82
+    },
+    {
+      "id": "wb-mock-clip-024",
+      "sourceId": "wb-mock",
+      "pageId": "workbook-132",
+      "blockId": "workbook-132-block-1",
+      "label": "Nghe câu 20",
+      "start": 822.43,
+      "end": 848.8
+    }
+  ]
+}

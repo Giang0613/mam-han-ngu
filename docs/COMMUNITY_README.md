@@ -1,11 +1,13 @@
-# Mầm Hán Ngữ — bản cộng đồng
+# Mầm Hán Ngữ — bản cộng đồng đầy đủ
 
-**Bản thử nghiệm / Experimental preview.** Nội dung và tính năng đang được hoàn thiện.
+**Bản thử nghiệm / Experimental preview.**
 
-Xem [hướng dẫn đầy đủ bằng tiếng Anh](../README.md) để cài đặt và chạy.
-Bản này có 11.715 mục từ, 812 bài từ vựng, 93 bản thu sách bài học và 491 đoạn
-nghe sách bài tập, bên cạnh khóa nền tảng tự biên soạn và từ điển CC-CEDICT.
+**Cre:Thompson HSK 3.0**
 
-Không kèm PDF, ảnh sách, nội dung OCR/trang sách, đáp án hoặc dữ liệu cá nhân.
-Giấy phép MIT của mã nguồn không cấp lại quyền đối với học liệu bên thứ ba;
-xem [nguồn học liệu](RESOURCE_SOURCES.md) và [thông báo giấy phép](../THIRD_PARTY_NOTICES.md).
+Xem [README](../README.md) để cài đặt. Bản này có toàn bộ mã nguồn và học liệu
+được cung cấp trong dự án: 11.715 mục từ, 812 bài từ vựng, 3 PDF sách, 3 PDF đáp án/bản chép của nhà xuất bản, 298 trang sách,
+OCR/bản dịch/đáp án, bài học trên web, 93 bản thu sách và 491 đoạn audio bài tập.
+
+Dữ liệu học cá nhân, bản ghi âm cá nhân, khóa API, cấu hình riêng, lịch sử Git
+cá nhân và các thư mục cài đặt/cache/build không được công khai. Giấy phép MIT
+của mã nguồn không cấp lại quyền đối với học liệu bên thứ ba.

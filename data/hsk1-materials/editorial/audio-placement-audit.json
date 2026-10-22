@@ -1,0 +1,1020 @@
+{
+  "method": "One player per recording, beside lesson content. Repeated setup-page players omitted; lesson text and original source associations unchanged.",
+  "recordings": 92,
+  "placements": 92,
+  "removedRepeatedPlacements": 21,
+  "contentHashes": {
+    "textbook-016": "e51270d1db1fd5aa9352ae64f63f2ab69b0eeb3abd8254513831d26adfa292de",
+    "textbook-017": "e0cdbbf17bbf3ffc8991ea248a78c27ede526d1b14b279054a5808ca00d30639",
+    "textbook-018": "9e5da5b61a47512bfbb3ca0a0a97de39d3d9265244f7366cf812ea83ff8f4b3c",
+    "textbook-019": "6a3f3c4103d70e19be0ab5fdf3378b57d1bca881e765501aca7218b672ea89bb",
+    "textbook-020": "567ed487f8a86d1aa4c981723d61d0148fd10d71d377e196f2e244ccb32b1692",
+    "textbook-021": "c33bf6df72df2a8bc189f9fcd1c9f06f9dc7d738cf83272d9450ab1c63a851d0",
+    "textbook-022": "b339f8a3bdf6d55c973c649efd470eea61c513140de70a23dbc26ece0da75cde",
+    "textbook-023": "811a20a8696b69e197f19f3b3d9ac5867a4dc6b10826253ed902ad90bd23a211",
+    "textbook-024": "b9a2ba8200c2e353aa4065174f7da1153370f2ff2c4eb7a3121f265a1eec7991",
+    "textbook-025": "f5b759abea3077b6c0d2243fe733ae0b46f1e1cea6071dac6561ce60c649fdc1",
+    "textbook-026": "d73e5acfa454ee5f80a7b5007b00e1e57ecb9b91029acb46d4f9f64278542632",
+    "textbook-027": "c7afcc5205d4e663a585122b8ed6a75d46be302b722452dba4ecaacc07903a2a",
+    "textbook-028": "a30ebb9835225571343a3c0419eb2da4585c9860c461d32583a20eeadbe37083",
+    "textbook-029": "0ff433b8ba5fc451c9968b15d49dc627880f6f47ab566fc4765f6ff77a080378",
+    "textbook-031": "deca5f527e74fc8522c81fbde50c0daa02c4fa29c88fa00861f30b93f7a6512e",
+    "textbook-034": "6f0cd018061421d48c159263e8c64ff4f2b56f4abb3911064449f8a667988d7f",
+    "textbook-036": "489cd43c57f860a8d5362cb8ebf5e8543d0b28fce1064445fba37e743166211e",
+    "textbook-037": "57e135612e3960e9d4e6b744153fc72d80f8040e6a091ea54b423991be41729a",
+    "textbook-039": "0a8f49185b5a66a621396f5505f3bd86eeb9c5f784d62b2e2a7a5ab67853247d",
+    "textbook-040": "f1d07d5e870f9d4037edbc91b9caec409c9fa098c58c02a1ddc5e3e4ba6254d0",
+    "textbook-043": "b4ae81a16e8cae26c9c411d855c455b50f9f4b235bb9ce1f098f385a58683980",
+    "textbook-045": "88b775139bf2c15c70d79be34ac555576e773b4f453931bc724e9de13b0fc847",
+    "textbook-046": "ea3d27f855c0e8bf57f6d00fd84fd1d12a7a1440c00efe26a85ba758c000c5b1",
+    "textbook-047": "0008bc4f82074f892e87b75ca1ed81078358fb1123f573b4e3e971cba3d34de6",
+    "textbook-051": "d52acd1cd42ee076ef6ebf1149c54b777d2c1f6ed58d09993e30583cbbb6c235",
+    "textbook-052": "01d8e47b7c5975679f006f68d9c4bf3b934a91f1c68e68e6bc7c3a3338ad5fff",
+    "textbook-053": "ba2e4eb324e67d1e2ce492d3d8679157377bc07d64b74798e35dada26eba9cbd",
+    "textbook-054": "0490d29edd12c7437e885ba623a19590936976f2e776ac42c008c1fec229c6d0",
+    "textbook-055": "226fa317cf9869511a33be2a19a908494ddd72f3c15cd4320125e4e1b1b867bc",
+    "textbook-061": "fe14cae49470e4c18b0072a434638e0c4bec8e612010366dddc4be5f9671fd62",
+    "textbook-063": "9ee762c7e59a5158385402646a2be58c1f7b4c24f3e7a151a1156cbb15416f2c",
+    "textbook-064": "88dda95f453cdca4f4896bc01df2eeee71562b10ca7d2dac972b9e8fa8de3cce",
+    "textbook-065": "0233df747596ce0a2da3e3966ecd02a3a2734af2ed05523b9d0f852557eae224",
+    "textbook-066": "55a0725ebdd58df97fb93c2e3559deb592647d50c473cc76cd98b1894cbf04c8",
+    "textbook-070": "c9a4e547be32e9bdf3cf0cd5157ecd11306bf21dda876888cfa840c7a12b4e24",
+    "textbook-071": "a565d842724ff033467811cc0796f7285516d674a64ab29301dd052982f77c05",
+    "textbook-072": "f9cd5ca68b13d1763cdd6302eee95b9dafa348b4fca31a38fbf84a3ed94c5773",
+    "textbook-073": "fd2c98e77a6b2bfe2a73c9fff5e449d977e6ed943dbd2f73c0ae9dea7662ae3e",
+    "textbook-074": "9eee6ea3fae3a0f9e8aed2b888a4b449c5923ca04ed71e3aa3b4d2e908c2cf93",
+    "textbook-077": "4be8861c9607af58aa2db40f73184a19506d6f2d40645d6c2c20185af65a627f",
+    "textbook-078": "c357507bfc8d913e49fcba0dfc65044e7653c3d8962e2b5a0f5091aa9fdfbb7a",
+    "textbook-079": "4980d32bcdd6363183862a17ffc57ff825f8b25eb9256f0140fb098828b292c9",
+    "textbook-080": "10127cad071e99ef8415bfa411d114a4db83426f7c000eb4f723b0b6cf6c5a66",
+    "textbook-081": "7979c679bdb287a7b7e62ff2101337dc5cf9d00186c659ca327bcec5f6ccd063",
+    "textbook-086": "e3884e7ce4e51a8d2cd16ea9dae4f3b191c4a871aa8598cb3e4e53307f19e589",
+    "textbook-087": "d9c10e1382a3dbbb73c8c77f55a1636b6b6571156d4fa5166547a031f4477635",
+    "textbook-088": "340c0eab02f46e60474c76520ec1743c0d74e734830d41d38f5a8ec58f306866",
+    "textbook-089": "d11941ad7069481ab1a6298fd65bac812ec8d8e6e0f1dd937fa4634fd0a825ca",
+    "textbook-090": "58813d5bbae2da1f2e4d1637e510552c6dd95e420bec5a4986c4d3e79eb7df3a",
+    "textbook-094": "77f83b2e1d458493dd91a84388aa012ccea66321cdf5a67c7d830e9f1518a5d0",
+    "textbook-095": "d25fbc5aa96e0def95ac796baebd370c2ca28a12471681a1978cf24e6de47190",
+    "textbook-096": "205dfa670858adecb7461712b23b460eec407711e3d725b4dcb7b298a16ad162",
+    "textbook-097": "31d861bf147fd0f1f114a94a8dfce0d9894713685fd50195e719e06d0825500e",
+    "textbook-098": "cd8081d6cf95a06840ed887836c17663b83b4be330b0dd80f7dfeeda0894d7fc",
+    "textbook-102": "e96ce3602695de0c98dfc1c1c85f08dccd2667e797d56c906f699abbff29a669",
+    "textbook-103": "929f99c6a9b13e502e734a67600dfb678486b8d1c019b46d47f5407e0f9a0ecd",
+    "textbook-104": "634f4736473e5f736efcb312094c677436a50415750b383e87adabe6eb22546d",
+    "textbook-105": "57f55647770e0f696ccef86847392d5ec5580265d5105f99eb65f0f84ddcde95",
+    "textbook-106": "0da5389de644fd4e84bb6e52d6188267ce2015641bd030053d612784bd2533b4",
+    "textbook-111": "9172237c56dd3f918b4bc6bbfedd2da3d05c7c3fd2cba3a0e06c390e2c298867",
+    "textbook-112": "3f9e0775bb14acbb0245e6441be670c83fd5a4c6f79c082b92cb3218105e65f2",
+    "textbook-113": "5dea99fadfae631a35ff565df7bb67f1f6758005966f6bdfa438685287b1c609",
+    "textbook-114": "063a972bccfcda5b39c5657c45b581fff115be7f33c75dc9dd259c4bc5fc8ebb",
+    "textbook-115": "4e4727163e211c8b86df65e02ef77d1c8046095f1ffadfca11d1286cb3eb1706",
+    "textbook-119": "e7a13e51534e09aea1d0442343ebc783406bf641b9be89e2567003160665906f",
+    "textbook-120": "483806147a5d942a092bf34a36a4c0ad318b2ae8edf2578a0785320c00ab091b",
+    "textbook-121": "f3d9ae81d7c083558f676231211342303ce82867c8bc00f88d0b90f3d55d95b7",
+    "textbook-122": "712a220f9e03142394ea3a76c236d6055aaeb7fa11bfb3aa8c3e6c6d305c58fd",
+    "textbook-123": "6f8d6a071c59be81e7e46cd484a297fdf948f4e16bd6c4e6e635de114a3f266a",
+    "textbook-124": "404dcdbcc1bd262b343bf324a5334ad4157e73fe8a54b8f2c7fc95388b9c8746",
+    "textbook-128": "b02b4a2558e3965ac51854a06c9c6da55062217f3ff3d0f3856f47c9d951c829",
+    "textbook-129": "24f07afd314f3703f56d9582c8902daa95f767112c3238bab16faa0537a59ad0",
+    "textbook-130": "1bc38d3ead96312448817763dd2bef51105956e37d8915f8636ff4dbba40caad",
+    "textbook-131": "222dc96cdbe2066009208c19cd3c8d10f9ae4d026a195806438aef336865f718",
+    "textbook-132": "47b7209a6d3d02df0bb305b15f2d44448a7f711aec375156d1f413cd3b438624"
+  },
+  "evidence": [
+    {
+      "audioId": "01-2",
+      "pageId": "textbook-016",
+      "blockId": "textbook-016-edited-2",
+      "title": "Đọc to từng từ",
+      "method": "adjacent word group",
+      "markerPage": 16,
+      "markerRow": 28
+    },
+    {
+      "audioId": "01-3",
+      "pageId": "textbook-017",
+      "blockId": "textbook-017-edited-0",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 17,
+      "markerRow": 6
+    },
+    {
+      "audioId": "01-4",
+      "pageId": "textbook-017",
+      "blockId": "textbook-017-edited-2",
+      "title": "Đọc to từng từ",
+      "method": "adjacent word group",
+      "markerPage": 17,
+      "markerRow": 22
+    },
+    {
+      "audioId": "01-5",
+      "pageId": "textbook-018",
+      "blockId": "textbook-018-edited-0",
+      "title": "Hội thoại 3",
+      "method": "numbered dialogue section",
+      "markerPage": 18,
+      "markerRow": 5
+    },
+    {
+      "audioId": "01-6",
+      "pageId": "textbook-018",
+      "blockId": "textbook-018-edited-1",
+      "title": "Đọc to từng từ",
+      "method": "adjacent word group",
+      "markerPage": 18,
+      "markerRow": 7
+    },
+    {
+      "audioId": "01-7",
+      "pageId": "textbook-019",
+      "blockId": "textbook-019-edited-0",
+      "title": "Đọc theo bài luyện nói",
+      "method": "tone-reading section",
+      "markerPage": 19,
+      "markerRow": 3
+    },
+    {
+      "audioId": "02-1",
+      "pageId": "textbook-021",
+      "blockId": "textbook-021-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 20,
+      "markerRow": 17
+    },
+    {
+      "audioId": "02-2",
+      "pageId": "textbook-021",
+      "blockId": "textbook-021-block-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 21,
+      "markerRow": 20
+    },
+    {
+      "audioId": "02-3",
+      "pageId": "textbook-022",
+      "blockId": "textbook-022-block-0",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 22,
+      "markerRow": 5
+    },
+    {
+      "audioId": "02-4",
+      "pageId": "textbook-022",
+      "blockId": "textbook-022-block-4",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 22,
+      "markerRow": 22
+    },
+    {
+      "audioId": "02-5",
+      "pageId": "textbook-023",
+      "blockId": "textbook-023-block-1",
+      "title": "Hội thoại 3",
+      "method": "numbered dialogue section",
+      "markerPage": 23,
+      "markerRow": 16
+    },
+    {
+      "audioId": "02-6",
+      "pageId": "textbook-024",
+      "blockId": "textbook-024-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 24,
+      "markerRow": 1
+    },
+    {
+      "audioId": "02-7",
+      "pageId": "textbook-024",
+      "blockId": "textbook-024-block-2-study-0",
+      "title": "Luyện đọc thanh điệu",
+      "method": "tone-reading section",
+      "markerPage": 24,
+      "markerRow": 24
+    },
+    {
+      "audioId": "03-1",
+      "pageId": "textbook-025",
+      "blockId": "textbook-025-block-1",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 25,
+      "markerRow": 14
+    },
+    {
+      "audioId": "03-2",
+      "pageId": "textbook-026",
+      "blockId": "textbook-026-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 26,
+      "markerRow": 1
+    },
+    {
+      "audioId": "03-3",
+      "pageId": "textbook-027",
+      "blockId": "textbook-027-block-3",
+      "title": "Ghi nhớ",
+      "method": "photo-dialogue turns on the existing page",
+      "markerPage": 27,
+      "markerRow": 19
+    },
+    {
+      "audioId": "03-4",
+      "pageId": "textbook-028",
+      "blockId": "textbook-028-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 28,
+      "markerRow": 1
+    },
+    {
+      "audioId": "03-5",
+      "pageId": "textbook-029",
+      "blockId": "textbook-029-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 28,
+      "markerRow": 40
+    },
+    {
+      "audioId": "03-6",
+      "pageId": "textbook-029",
+      "blockId": "textbook-029-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 29,
+      "markerRow": 4
+    },
+    {
+      "audioId": "03-7",
+      "pageId": "textbook-031",
+      "blockId": "textbook-031-block-0-study-0",
+      "title": "Luyện đọc thanh điệu",
+      "method": "tone-reading section",
+      "markerPage": 31,
+      "markerRow": 12
+    },
+    {
+      "audioId": "04-1",
+      "pageId": "textbook-034",
+      "blockId": "textbook-034-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 34,
+      "markerRow": 4
+    },
+    {
+      "audioId": "04-2",
+      "pageId": "textbook-034",
+      "blockId": "textbook-034-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 34,
+      "markerRow": 15
+    },
+    {
+      "audioId": "04-3",
+      "pageId": "textbook-037",
+      "blockId": "textbook-037-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 36,
+      "markerRow": 47
+    },
+    {
+      "audioId": "04-4",
+      "pageId": "textbook-037",
+      "blockId": "textbook-037-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 37,
+      "markerRow": 33
+    },
+    {
+      "audioId": "04-5",
+      "pageId": "textbook-039",
+      "blockId": "textbook-039-block-0",
+      "title": "Hội thoại 3",
+      "method": "numbered dialogue section",
+      "markerPage": 39,
+      "markerRow": 6
+    },
+    {
+      "audioId": "04-6",
+      "pageId": "textbook-040",
+      "blockId": "textbook-040-vocabulary",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 40,
+      "markerRow": 1
+    },
+    {
+      "audioId": "05-1",
+      "pageId": "textbook-043",
+      "blockId": "textbook-043-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 43,
+      "markerRow": 5
+    },
+    {
+      "audioId": "05-2",
+      "pageId": "textbook-043",
+      "blockId": "textbook-043-block-5",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 43,
+      "markerRow": 21
+    },
+    {
+      "audioId": "05-3",
+      "pageId": "textbook-045",
+      "blockId": "textbook-045-block-1",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 45,
+      "markerRow": 10
+    },
+    {
+      "audioId": "05-4",
+      "pageId": "textbook-046",
+      "blockId": "textbook-046-vocabulary",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 46,
+      "markerRow": 1
+    },
+    {
+      "audioId": "05-5",
+      "pageId": "textbook-047",
+      "blockId": "textbook-047-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 46,
+      "markerRow": 51
+    },
+    {
+      "audioId": "05-6",
+      "pageId": "textbook-047",
+      "blockId": "textbook-047-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 47,
+      "markerRow": 34
+    },
+    {
+      "audioId": "06-1",
+      "pageId": "textbook-051",
+      "blockId": "textbook-051-edited-0",
+      "title": "Hội thoại 1 · Trao đổi số điện thoại",
+      "method": "numbered dialogue section",
+      "markerPage": 51,
+      "markerRow": 6
+    },
+    {
+      "audioId": "06-2",
+      "pageId": "textbook-051",
+      "blockId": "textbook-051-edited-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 51,
+      "markerRow": 33
+    },
+    {
+      "audioId": "06-3",
+      "pageId": "textbook-052",
+      "blockId": "textbook-052-block-0",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 52,
+      "markerRow": 5
+    },
+    {
+      "audioId": "06-4",
+      "pageId": "textbook-053",
+      "blockId": "textbook-053-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 53,
+      "markerRow": 2
+    },
+    {
+      "audioId": "06-5",
+      "pageId": "textbook-054",
+      "blockId": "textbook-054-edited-0",
+      "title": "Hội thoại 3 · Chọn nơi ăn tối",
+      "method": "dialogue continuation",
+      "markerPage": 53,
+      "markerRow": 55
+    },
+    {
+      "audioId": "06-6",
+      "pageId": "textbook-055",
+      "blockId": "textbook-055-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 55,
+      "markerRow": 2
+    },
+    {
+      "audioId": "07-1",
+      "pageId": "textbook-061",
+      "blockId": "textbook-061-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 61,
+      "markerRow": 5
+    },
+    {
+      "audioId": "07-2",
+      "pageId": "textbook-061",
+      "blockId": "textbook-061-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 61,
+      "markerRow": 7
+    },
+    {
+      "audioId": "07-3",
+      "pageId": "textbook-064",
+      "blockId": "textbook-064-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 63,
+      "markerRow": 12
+    },
+    {
+      "audioId": "07-4",
+      "pageId": "textbook-064",
+      "blockId": "textbook-064-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 64,
+      "markerRow": 33
+    },
+    {
+      "audioId": "07-5",
+      "pageId": "textbook-066",
+      "blockId": "textbook-066-edited-0",
+      "title": "Hội thoại 3 · Việc làm buổi tối",
+      "method": "dialogue continuation",
+      "markerPage": 65,
+      "markerRow": 30
+    },
+    {
+      "audioId": "07-6",
+      "pageId": "textbook-066",
+      "blockId": "textbook-066-edited-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 66,
+      "markerRow": 35
+    },
+    {
+      "audioId": "08-1",
+      "pageId": "textbook-070",
+      "blockId": "textbook-070-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 70,
+      "markerRow": 5
+    },
+    {
+      "audioId": "08-2",
+      "pageId": "textbook-070",
+      "blockId": "textbook-070-block-4",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 70,
+      "markerRow": 20
+    },
+    {
+      "audioId": "08-3",
+      "pageId": "textbook-072",
+      "blockId": "textbook-072-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 71,
+      "markerRow": 16
+    },
+    {
+      "audioId": "08-4",
+      "pageId": "textbook-072",
+      "blockId": "textbook-072-block-4",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 72,
+      "markerRow": 2
+    },
+    {
+      "audioId": "08-5",
+      "pageId": "textbook-074",
+      "blockId": "textbook-074-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 73,
+      "markerRow": 15
+    },
+    {
+      "audioId": "08-6",
+      "pageId": "textbook-074",
+      "blockId": "textbook-074-block-6",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 74,
+      "markerRow": 6
+    },
+    {
+      "audioId": "09-1",
+      "pageId": "textbook-077",
+      "blockId": "textbook-077-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 77,
+      "markerRow": 5
+    },
+    {
+      "audioId": "09-2",
+      "pageId": "textbook-077",
+      "blockId": "textbook-077-block-5",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 77,
+      "markerRow": 38
+    },
+    {
+      "audioId": "09-3",
+      "pageId": "textbook-079",
+      "blockId": "textbook-079-edited-1",
+      "title": "Hội thoại 2 · Quyển sách trên ghế",
+      "method": "dialogue continuation",
+      "markerPage": 78,
+      "markerRow": 34
+    },
+    {
+      "audioId": "09-4",
+      "pageId": "textbook-079",
+      "blockId": "textbook-079-edited-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 79,
+      "markerRow": 32
+    },
+    {
+      "audioId": "09-5",
+      "pageId": "textbook-081",
+      "blockId": "textbook-081-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 80,
+      "markerRow": 20
+    },
+    {
+      "audioId": "09-6",
+      "pageId": "textbook-081",
+      "blockId": "textbook-081-block-4",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 81,
+      "markerRow": 13
+    },
+    {
+      "audioId": "10-1",
+      "pageId": "textbook-086",
+      "blockId": "textbook-086-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 86,
+      "markerRow": 5
+    },
+    {
+      "audioId": "10-2",
+      "pageId": "textbook-086",
+      "blockId": "textbook-086-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 86,
+      "markerRow": 36
+    },
+    {
+      "audioId": "10-3",
+      "pageId": "textbook-088",
+      "blockId": "textbook-088-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 87,
+      "markerRow": 38
+    },
+    {
+      "audioId": "10-4",
+      "pageId": "textbook-088",
+      "blockId": "textbook-088-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 88,
+      "markerRow": 39
+    },
+    {
+      "audioId": "10-5",
+      "pageId": "textbook-090",
+      "blockId": "textbook-090-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 89,
+      "markerRow": 16
+    },
+    {
+      "audioId": "10-6",
+      "pageId": "textbook-090",
+      "blockId": "textbook-090-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 90,
+      "markerRow": 27
+    },
+    {
+      "audioId": "11-1",
+      "pageId": "textbook-094",
+      "blockId": "textbook-094-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 94,
+      "markerRow": 6
+    },
+    {
+      "audioId": "11-2",
+      "pageId": "textbook-094",
+      "blockId": "textbook-094-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 94,
+      "markerRow": 31
+    },
+    {
+      "audioId": "11-3",
+      "pageId": "textbook-096",
+      "blockId": "textbook-096-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 95,
+      "markerRow": 26
+    },
+    {
+      "audioId": "11-4",
+      "pageId": "textbook-096",
+      "blockId": "textbook-096-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 96,
+      "markerRow": 23
+    },
+    {
+      "audioId": "11-5",
+      "pageId": "textbook-098",
+      "blockId": "textbook-098-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 97,
+      "markerRow": 27
+    },
+    {
+      "audioId": "11-6",
+      "pageId": "textbook-098",
+      "blockId": "textbook-098-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 98,
+      "markerRow": 11
+    },
+    {
+      "audioId": "12-1",
+      "pageId": "textbook-102",
+      "blockId": "textbook-102-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 102,
+      "markerRow": 6
+    },
+    {
+      "audioId": "12-2",
+      "pageId": "textbook-103",
+      "blockId": "textbook-103-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 103,
+      "markerRow": 2
+    },
+    {
+      "audioId": "12-3",
+      "pageId": "textbook-104",
+      "blockId": "textbook-104-block-0",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 104,
+      "markerRow": 6
+    },
+    {
+      "audioId": "12-4",
+      "pageId": "textbook-104",
+      "blockId": "textbook-104-block-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 104,
+      "markerRow": 49
+    },
+    {
+      "audioId": "12-5",
+      "pageId": "textbook-106",
+      "blockId": "textbook-106-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 105,
+      "markerRow": 23
+    },
+    {
+      "audioId": "12-6",
+      "pageId": "textbook-106",
+      "blockId": "textbook-106-block-5",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 106,
+      "markerRow": 39
+    },
+    {
+      "audioId": "13-1",
+      "pageId": "textbook-111",
+      "blockId": "textbook-111-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 111,
+      "markerRow": 6
+    },
+    {
+      "audioId": "13-2",
+      "pageId": "textbook-112",
+      "blockId": "textbook-112-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 112,
+      "markerRow": 2
+    },
+    {
+      "audioId": "13-3",
+      "pageId": "textbook-113",
+      "blockId": "textbook-113-block-0",
+      "title": "Hội thoại 2",
+      "method": "numbered dialogue section",
+      "markerPage": 113,
+      "markerRow": 5
+    },
+    {
+      "audioId": "13-4",
+      "pageId": "textbook-114",
+      "blockId": "textbook-114-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 114,
+      "markerRow": 2
+    },
+    {
+      "audioId": "13-5",
+      "pageId": "textbook-115",
+      "blockId": "textbook-115-edited-1",
+      "title": "Hội thoại 3 · Gọi món",
+      "method": "dialogue continuation",
+      "markerPage": 114,
+      "markerRow": 64
+    },
+    {
+      "audioId": "13-6",
+      "pageId": "textbook-115",
+      "blockId": "textbook-115-edited-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 115,
+      "markerRow": 23
+    },
+    {
+      "audioId": "14-1",
+      "pageId": "textbook-119",
+      "blockId": "textbook-119-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 119,
+      "markerRow": 6
+    },
+    {
+      "audioId": "14-2",
+      "pageId": "textbook-120",
+      "blockId": "textbook-120-block-0",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 120,
+      "markerRow": 2
+    },
+    {
+      "audioId": "14-3",
+      "pageId": "textbook-122",
+      "blockId": "textbook-122-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 121,
+      "markerRow": 24
+    },
+    {
+      "audioId": "14-4",
+      "pageId": "textbook-122",
+      "blockId": "textbook-122-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 122,
+      "markerRow": 3
+    },
+    {
+      "audioId": "14-5",
+      "pageId": "textbook-124",
+      "blockId": "textbook-124-edited-0",
+      "title": "Hội thoại · Các con đi học",
+      "method": "dialogue continuation",
+      "markerPage": 123,
+      "markerRow": 16
+    },
+    {
+      "audioId": "14-6",
+      "pageId": "textbook-124",
+      "blockId": "textbook-124-edited-2",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 124,
+      "markerRow": 57
+    },
+    {
+      "audioId": "15-1",
+      "pageId": "textbook-128",
+      "blockId": "textbook-128-block-0",
+      "title": "Hội thoại 1",
+      "method": "numbered dialogue section",
+      "markerPage": 128,
+      "markerRow": 6
+    },
+    {
+      "audioId": "15-2",
+      "pageId": "textbook-128",
+      "blockId": "textbook-128-block-4",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 128,
+      "markerRow": 40
+    },
+    {
+      "audioId": "15-3",
+      "pageId": "textbook-130",
+      "blockId": "textbook-130-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 129,
+      "markerRow": 24
+    },
+    {
+      "audioId": "15-4",
+      "pageId": "textbook-130",
+      "blockId": "textbook-130-block-1",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 130,
+      "markerRow": 31
+    },
+    {
+      "audioId": "15-5",
+      "pageId": "textbook-132",
+      "blockId": "textbook-132-block-0",
+      "title": "Hội thoại",
+      "method": "dialogue continuation",
+      "markerPage": 131,
+      "markerRow": 6
+    },
+    {
+      "audioId": "15-6",
+      "pageId": "textbook-132",
+      "blockId": "textbook-132-block-3",
+      "title": "Từ mới",
+      "method": "adjacent word group",
+      "markerPage": 132,
+      "markerRow": 3
+    }
+  ],
+  "removedRepeats": [
+    {
+      "audioId": "02-1",
+      "pageId": "textbook-020",
+      "keptPageId": "textbook-021"
+    },
+    {
+      "audioId": "03-5",
+      "pageId": "textbook-028",
+      "keptPageId": "textbook-029"
+    },
+    {
+      "audioId": "04-3",
+      "pageId": "textbook-036",
+      "keptPageId": "textbook-037"
+    },
+    {
+      "audioId": "05-5",
+      "pageId": "textbook-046",
+      "keptPageId": "textbook-047"
+    },
+    {
+      "audioId": "06-5",
+      "pageId": "textbook-053",
+      "keptPageId": "textbook-054"
+    },
+    {
+      "audioId": "07-3",
+      "pageId": "textbook-063",
+      "keptPageId": "textbook-064"
+    },
+    {
+      "audioId": "07-5",
+      "pageId": "textbook-065",
+      "keptPageId": "textbook-066"
+    },
+    {
+      "audioId": "08-3",
+      "pageId": "textbook-071",
+      "keptPageId": "textbook-072"
+    },
+    {
+      "audioId": "08-5",
+      "pageId": "textbook-073",
+      "keptPageId": "textbook-074"
+    },
+    {
+      "audioId": "09-3",
+      "pageId": "textbook-078",
+      "keptPageId": "textbook-079"
+    },
+    {
+      "audioId": "09-5",
+      "pageId": "textbook-080",
+      "keptPageId": "textbook-081"
+    },
+    {
+      "audioId": "10-3",
+      "pageId": "textbook-087",
+      "keptPageId": "textbook-088"
+    },
+    {
+      "audioId": "10-5",
+      "pageId": "textbook-089",
+      "keptPageId": "textbook-090"
+    },
+    {
+      "audioId": "11-3",
+      "pageId": "textbook-095",
+      "keptPageId": "textbook-096"
+    },
+    {
+      "audioId": "11-5",
+      "pageId": "textbook-097",
+      "keptPageId": "textbook-098"
+    },
+    {
+      "audioId": "12-5",
+      "pageId": "textbook-105",
+      "keptPageId": "textbook-106"
+    },
+    {
+      "audioId": "13-5",
+      "pageId": "textbook-114",
+      "keptPageId": "textbook-115"
+    },
+    {
+      "audioId": "14-3",
+      "pageId": "textbook-121",
+      "keptPageId": "textbook-122"
+    },
+    {
+      "audioId": "14-5",
+      "pageId": "textbook-123",
+      "keptPageId": "textbook-124"
+    },
+    {
+      "audioId": "15-3",
+      "pageId": "textbook-129",
+      "keptPageId": "textbook-130"
+    },
+    {
+      "audioId": "15-5",
+      "pageId": "textbook-131",
+      "keptPageId": "textbook-132"
+    }
+  ]
+}

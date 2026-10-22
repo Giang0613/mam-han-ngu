@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+const base=process.env.SUPERWEB_TEST_URL||'http://localhost:3000';
+const api='/api/hsk/materials/draft';
+assert.equal((await fetch(base+api)).status,401);
+async function profile(){const r=await fetch(base+'/api/study');assert.equal(r.status,200);return r.headers.get('set-cookie').split(';')[0]}
+const [cookie,other]=await Promise.all([profile(),profile()]);
+const headers={cookie,'Content-Type':'application/json'};
+const payload={pageId:'workbook-008',revision:'hsk1-books-2026-10-07-v1',draft:{answers:{1:'你好。',2:'Bài 2: mā / má / mǎ / mà','native-workbook-008-edited-0':'nǐ hǎo · 你好','native-match-0':'3'},notes:'Tự kiểm tra; chưa chấm.',done:true}};
+for(let i=0;i<2;i++)assert.equal((await fetch(base+api,{method:'POST',headers,body:JSON.stringify(payload)})).status,200);
+const loaded=await (await fetch(base+api+'?pageId=workbook-008',{headers:{cookie}})).json();assert.deepEqual(loaded.draft,payload.draft);
+const isolated=await (await fetch(base+api+'?pageId=workbook-008',{headers:{cookie:other}})).json();assert.equal(isolated.draft,null);
+assert.ok((await (await fetch(base+api,{headers:{cookie}})).json()).completed.includes('workbook-008'));
+assert.equal((await fetch(base+api+'?pageId=writing-016',{headers:{cookie}})).status,404);
+assert.equal((await fetch(base+api,{method:'POST',headers:{...headers,origin:'https://example.org'},body:JSON.stringify(payload)})).status,403);
+for(const d of [{...payload,revision:'wrong'},{...payload,pageId:'../file'}, {...payload,draft:{...payload.draft,notes:'你'.repeat(6001)}}])assert.equal((await fetch(base+api,{method:'POST',headers,body:JSON.stringify(d)})).status,400);
+for(const answers of [{'native-../file':'A'},Object.fromEntries(Array.from({length:121},(_,i)=>[`native-key-${i}`,'A']))])assert.equal((await fetch(base+api,{method:'POST',headers,body:JSON.stringify({...payload,draft:{...payload.draft,answers}})})).status,400);
+const opening=await fetch(base+'/hsk/1/materials/0?book=textbook&page=13',{redirect:'manual'});assert.equal(opening.status,307);assert.equal(opening.headers.get('location'),'/hsk/1/materials/1');
+for(const url of ['/hsk/1/materials','/hsk/1/materials/1','/hsk/1/materials/15?book=writing&page=15'])assert.equal((await fetch(base+url)).status,200);
+for(const url of ['/hsk/2/materials','/hsk/1/materials/20','/hsk/1/materials/1?book=writing','/hsk/1/materials/1?book=workbook&page=139','/hsk/1/materials/16?book=textbook&page=144','/hsk/1/materials/16?book=workbook&page=133'])assert.equal((await fetch(base+url)).status,404);
+const audio=await fetch(base+'/hsk1-materials/audio/01-1.mp3',{headers:{Range:'bytes=0-1023'}});assert.ok([200,206].includes(audio.status));assert.ok(audio.headers.get('content-type').includes('audio'));
+console.log('PASS: native and old answers save/reload, independent learner isolation, invalid keys/revision/page/length/origin, opening redirect, excluded covers, routes and original MP3 delivery. Test profiles only; no microphone opened.');

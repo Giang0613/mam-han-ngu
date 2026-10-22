@@ -9,9 +9,10 @@ import vocabularyEnglish from './vocabulary.en.json';
 
 let cached:Record<string,string>={},stamp=-1;
 function privateCatalog(){
- const file=path.join(process.cwd(),'data/i18n-private.en.json');
+ const published=fs.existsSync(path.join(process.cwd(),'data/materials.en.json'));
+ const file=path.join(process.cwd(),'data',published?'materials.en.json':'i18n-private.en.json');
  if(!fs.existsSync(file))return cached;
- const overrides=path.join(process.cwd(),'data/i18n-private-overrides.en.json');
+ const overrides=path.join(process.cwd(),'data',published?'materials-overrides.en.json':'i18n-private-overrides.en.json');
  const current=fs.statSync(file).mtimeMs+(fs.existsSync(overrides)?fs.statSync(overrides).mtimeMs:0);
  if(stamp!==current){cached={...JSON.parse(fs.readFileSync(file,'utf8')),...(fs.existsSync(overrides)?JSON.parse(fs.readFileSync(overrides,'utf8')):{})};stamp=current;}
  return cached;

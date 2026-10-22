@@ -30,12 +30,12 @@ Neither HSK alignment nor translation quality is certified by an exam authority.
 
 User names, written answers, drafts, and conversation history remain as entered.
 English localization does not rewrite stored learner work or change grading keys.
-Personal textbook translations live in the ignored server-only
-`data/i18n-private.en.json`; publisher-derived translations are excluded from the
-community export along with PDFs, recordings, and imported vocabulary.
-Local editorial corrections use `data/i18n-private-overrides.en.json`, which is
-also ignored and excluded from the release. English textbook lines retain the
-assisted-translation label until their English copy has been reviewed.
+The supplied book translations are now published in the server-side catalogs
+`data/materials.en.json` and `data/materials-overrides.en.json`, alongside the
+owner-requested course resources. These contain course content rather than saved
+learner answers or progress. Older local filenames remain supported for
+compatibility. English textbook lines retain the assisted-translation label
+until their English copy has been reviewed. See [credits](../CREDITS.md).
 
 Pinyin elements (`lang="zh-Latn"`, `.pinyin`, `.reading-pinyin`, and pinyin charts)
 are protected from UI translation, including unmarked neutral tones such as `ba`.

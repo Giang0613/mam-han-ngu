@@ -1,4 +1,4 @@
-const answerKeys: Record<string, MaterialAnswerKey> = {};
+import answerKeys from './material-answer-keys.json';
 import {displayPinyin} from '@/lib/pinyin-format';
 
 export const MATERIAL_ANSWER_REVISION='hsk1-publisher-answers-2026-10-07-v1';

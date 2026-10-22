@@ -22,10 +22,11 @@ for(const track of bookAudioTracks){
 const manifest=JSON.parse(fs.readFileSync('EXPORT-MANIFEST.json','utf8'));
 const exported=new Set<string>(manifest.files.map((file:{path:string})=>file.path));
 for(const track of bookAudioTracks)assert.ok(exported.has('public'+track.url));
-for(const file of exported){
- assert.ok(!/\.pdf$/i.test(file)&&!file.startsWith('data/hsk1-materials/'));
- assert.ok(!/\/material-(?:answer-(?:keys|layout)|audio-placement)\.json$/.test(file));
-}
+for(const file of ['textbook.pdf','workbook.pdf','writing.pdf'])assert.ok(exported.has('public/hsk1-materials/'+file));
+assert.equal([...exported].filter(file=>file.startsWith('public/hsk1-materials/pages/')&&file.endsWith('.webp')).length,298);
+assert.ok(exported.has('src/lib/hsk/material-answer-keys.json'));
+assert.ok(exported.has('src/components/study/Hsk1Materials.tsx'));
+assert.match(fs.readFileSync('README.md','utf8'),/Cre:Thompson HSK 3\.0/);
 assert.match(fs.readFileSync('README.md','utf8'),/Experimental preview/);
 assert.doesNotMatch(fs.readFileSync('src/app/layout.tsx','utf8'),/ExperimentalNotice/);
-console.log(JSON.stringify({audioFiles:584,playable:583,checks:'unique audio URLs, actual MP3 files, expected counts, archived recording preference, excluded PDFs/book images/answers, and GitHub-only experimental notice passed'}));
+console.log(JSON.stringify({audioFiles:584,playable:583,checks:'unique audio URLs, actual MP3 files, expected counts, archived recording preference, included PDFs/book images/answers with personal-data exclusion, and GitHub-only experimental notice passed'}));

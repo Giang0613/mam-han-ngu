@@ -19,22 +19,17 @@ usage notes, and converts inline numeric pinyin references to tone marks. These
 display transformations do not replace original records in `data/cedict.json`.
 CC-CEDICT attribution and CC BY-SA 4.0 still apply.
 
-## Imported vocabulary and audio
+## Supplied HSK 3.0 teaching materials
 
-At the project owner's request, this edition also includes 11,715 imported
-vocabulary records organized into 812 lessons, selected vocabulary translations,
-93 textbook recordings, and 491 workbook audio clips. Vocabulary sources include
-CGE and Mandarin Bean; recordings come from the supplied HSK 1 course/workbook
-materials. Original rights remain with their respective creators. No open-content
-license for these materials was identified in the local source metadata; they
-are not relicensed under MIT. See [resource provenance](docs/RESOURCE_SOURCES.md).
+**Cre:Thompson HSK 3.0**
 
-PDFs, scans, OCR/page transcriptions, book-page translations, answer keys, and
-page layouts remain excluded, along with private models, Python environments,
-caches, learner profiles, personal recordings, and credentials. The full private
-translation catalog is excluded; only vocabulary-related translation keys are
-selected for this release.
+At the project owner's request, this release includes the supplied PDFs, book
+scans, OCR/page text, translations, answer keys, vocabulary lessons, recordings,
+and processing tools. These resources retain their original rights and are not
+relicensed under MIT. Vocabulary references to CGE and Mandarin Bean remain intact.
+See [resource provenance](docs/RESOURCE_SOURCES.md) and [credits](CREDITS.md).
 
-The original foundation course and practice paths remain available. Content was
-authored with AI assistance and has not been fully certified by teachers. This
-is an experimental preview, not an official or endorsed examination course.
+Personal learner data, credentials, personal recordings, private Git history,
+caches, dependency installations, generated builds, and downloaded runtime/model
+files remain excluded. This is an experimental preview; language content is not
+fully teacher-certified or endorsed by an examination provider.

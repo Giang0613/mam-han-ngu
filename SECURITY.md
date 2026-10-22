@@ -16,5 +16,5 @@ instructions bind to `127.0.0.1` for local use. An Internet-facing deployment ne
 authentication, usage limits, backups, and a recovery plan.
 
 AI and Azure keys must stay on the server. Do not commit `.env.local`, databases,
-recordings, private backups, PDFs, book scans, or publisher answer keys. Only the reviewed
+recordings, or private backups. Only the reviewed
 community source belongs in the public repository.

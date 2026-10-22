@@ -1,0 +1,10 @@
+{
+  "revision": "hsk1-language-layout-2026-10-07",
+  "method": "Contextual Vietnamese language editing by Codex against the supplied Chinese content, with image checks of phonetics, numerals, time, money and character structure.",
+  "translationLedger": "translations.tsv",
+  "sourceSnapshot": "../translation-audit.json",
+  "revisedUniqueMachineEntries": 1557,
+  "humanTeacherReview": false,
+  "externalTranslationServiceUsed": false,
+  "scope": "Native HSK 1 textbook, workbook and writing lessons. Reading orthography, layout, meanings and selected OCR corrections; no learner answers or scores are rewritten."
+}
