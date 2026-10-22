@@ -19,5 +19,7 @@ jobs:
       - run: npm run test:i18n
       - run: npm run test:english-ui
       - run: npm run test:dictionary-format
+      - run: npm run test:vocabulary
+      - run: npm run test:resources
       - run: npm run test:source
       - run: npm run build

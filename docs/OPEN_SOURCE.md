@@ -9,11 +9,13 @@ English. Its sprout-and-book mark and study-garden scene are original app assets
 The community edition contains the application, original foundation lessons,
 open dictionary and stroke data with their notices, an empty environment template,
 contribution documentation, and CI checks. Publisher book pages show an explanatory
-message; PDF-derived vocabulary is replaced with valid empty arrays.
+message. The owner-requested vocabulary corpus, its 812 lesson groupings, selected
+vocabulary translations, and book audio are included with source attribution;
+see [resource scope](RESOURCE_SOURCES.md).
 
 `EXPORT-MANIFEST.json` records included source files and SHA-256 hashes, excluded
 material categories, and export transformations. It excludes personal Git history,
-learner databases, credentials, recordings, and caches. This is an independent
+learner databases, credentials, personal recordings, and caches. This is an independent
 community source release; it does not rewrite the private project's history.
 
 ## Releasing changes

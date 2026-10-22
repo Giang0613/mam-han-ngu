@@ -1,4 +1,4 @@
-const clips: WorkbookAudioClip[] = [];
+import clips from './workbook-audio-clips.json';
 
 export type WorkbookAudioClip={id:string;sourceId:string;pageId:string;blockId:string;itemId?:string;tableRow?:number;label:string;url:string;start:number;end:number;duration:number};
 export function workbookPageAudio(pageId:string):WorkbookAudioClip[]{return (clips as WorkbookAudioClip[]).filter(c=>c.pageId===pageId)}

@@ -5,6 +5,7 @@ import {translate,hasEnglish} from './translate';
 import type {Locale} from './types';
 import {dictionaryEnglish} from '../dictionary-server';
 import {uniqueEnglishGloss} from '../dictionary-english';
+import vocabularyEnglish from './vocabulary.en.json';
 
 let cached:Record<string,string>={},stamp=-1;
 function privateCatalog(){
@@ -20,7 +21,7 @@ const learnerFields=new Set(['profile','draft','answers','submissions','history'
 /** Localize display fields, never answer keys, IDs, pinyin, or learner text. */
 export function localizeResource<T>(value:T,locale:Locale,key=''):T{
  if(locale==='vi')return value;
- const catalog=privateCatalog();
+ const catalog:Record<string,string>={...vocabularyEnglish,...privateCatalog()};
  function visit(item:unknown,field:string):unknown{
   if(learnerFields.has(field))return item;
   if(typeof item==='string'){

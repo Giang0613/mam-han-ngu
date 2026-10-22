@@ -1,2 +1,3 @@
 # The community source manifest hashes the exact file bytes on every platform.
 * -text
+*.mp3 binary

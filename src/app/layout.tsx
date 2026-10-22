@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import "./globals.css";
 import './study-theme.css';
 import './garden-theme.css';
+import './book-audio.css';
 import { AppSidebar } from "@/components/layout/AppSidebar";
 import {LocaleProvider} from '@/components/i18n/LocaleProvider';
 import {getLocale} from '@/lib/i18n/server';

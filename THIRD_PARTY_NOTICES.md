@@ -19,19 +19,22 @@ usage notes, and converts inline numeric pinyin references to tone marks. These
 display transformations do not replace original records in `data/cedict.json`.
 CC-CEDICT attribution and CC BY-SA 4.0 still apply.
 
-## Materials excluded from the community edition
+## Imported vocabulary and audio
 
-Publisher PDFs, scans, OCR/transcriptions, translations, answer keys, textbook
-audio, and vocabulary imported from those PDFs are excluded. A learner providing
-a file does not grant permission to redistribute it.
+At the project owner's request, this edition also includes 11,715 imported
+vocabulary records organized into 812 lessons, selected vocabulary translations,
+93 textbook recordings, and 491 workbook audio clips. Vocabulary sources include
+CGE and Mandarin Bean; recordings come from the supplied HSK 1 course/workbook
+materials. Original rights remain with their respective creators. No open-content
+license for these materials was identified in the local source metadata; they
+are not relicensed under MIT. See [resource provenance](docs/RESOURCE_SOURCES.md).
 
-The export excludes:
-
-- `data/hsk1-materials/**` and `public/hsk1-materials/**`.
-- PDF-derived `data/hsk-vocabulary*.json` content, replaced with empty schemas.
-- Book audio indexes, answer keys, and book-specific editorial scripts.
-- Private models, Python environments, caches, learner profiles, and credentials.
+PDFs, scans, OCR/page transcriptions, book-page translations, answer keys, and
+page layouts remain excluded, along with private models, Python environments,
+caches, learner profiles, personal recordings, and credentials. The full private
+translation catalog is excluded; only vocabulary-related translation keys are
+selected for this release.
 
 The original foundation course and practice paths remain available. Content was
-authored with AI assistance and has not been fully certified by teachers. It is
-not an official examination course or endorsed by an examination provider.
+authored with AI assistance and has not been fully certified by teachers. This
+is an experimental preview, not an official or endorsed examination course.

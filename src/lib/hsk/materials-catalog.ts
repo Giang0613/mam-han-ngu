@@ -1,4 +1,4 @@
-const audioIndex: MaterialAudio[] = [];
+import audioIndex from './material-audio-index.json';
 const audioPlacement: {audioId:string;pageId:string;blockId:string}[] = [];
 import type {MaterialSubmission} from './material-grading';
 export const HSK1_MATERIAL_REVISION='hsk1-books-2026-10-07-v1';

@@ -1,5 +1,7 @@
 # Mandarin Sprout · Mầm Hán Ngữ
 
+> **Experimental preview · Bản thử nghiệm.** Content and features are still being refined; this is not a stable release.
+
 Learn Mandarin one small step at a time. Mandarin Sprout is a self-hosted,
 open-source learning app in English and Vietnamese, built with Next.js, React,
 TypeScript, SQLite, and Three.js. English is the default; switch languages from
@@ -9,7 +11,9 @@ the top bar.
 
 ## What you can study
 
-- 48 foundation lessons, 189 vocabulary items, and 120 grammar patterns.
+- 48 foundation lessons, 189 foundation vocabulary items, and 120 grammar patterns.
+- An additional 11,715 imported vocabulary records organized into 812 lessons across app levels 1–9.
+- 93 textbook recordings and 491 workbook listening clips; open `/hsk/1/audio`.
 - HSK practice paths, contextual reading, and conversation practice.
 - Spaced repetition with SM-2 scheduling and saved progress.
 - Handwriting practice with Hanzi Writer and a 125,208-entry CC-CEDICT dictionary.
@@ -21,8 +25,12 @@ translations include drafts that need editorial review. The course is not an
 official HSK syllabus or certified as equivalent to an HSK exam. Offline results
 do not sync to server progress.
 
-Publisher PDFs, scans, translations, answer keys, textbook audio, imported PDF
-vocabulary, credentials, and learner databases are excluded. See
+The imported vocabulary, lesson groupings, selected vocabulary translations, and
+book recordings are included at the project owner’s request. Third-party materials
+retain their original rights and are not covered by the code’s MIT license; see
+[resource provenance](docs/RESOURCE_SOURCES.md). Publisher PDFs, scans, book-page
+transcriptions and translations, answer keys, credentials, and learner databases
+are excluded. See
 [third-party notices](THIRD_PARTY_NOTICES.md) and [localization](docs/LOCALIZATION.md).
 
 ## Run locally
@@ -37,7 +45,9 @@ npm run db:migrate
 npm run dev -- --hostname 127.0.0.1 --port 3000
 ```
 
-Open http://localhost:3000. Original lessons are under `/curriculum/1`.
+Open http://localhost:3000. Original lessons are under `/curriculum/1`; imported
+vocabulary lessons are under `/hsk/1/vocabulary` through `/hsk/9/vocabulary`. Book
+audio is under `/hsk/1/audio`. The audio assets add about 255 MiB to the checkout.
 Progress is stored in a local SQLite database. No API key is needed for foundation
 lessons, dictionary lookup, review, reading, or handwriting.
 
@@ -55,6 +65,8 @@ npm run test:hsk
 npm run test:i18n
 npm run test:english-ui
 npm run test:dictionary-format
+npm run test:vocabulary
+npm run test:resources
 npm run test:source
 npm run build
 npm run start -- --hostname 127.0.0.1 --port 3000

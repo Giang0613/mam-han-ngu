@@ -46,7 +46,8 @@ npm run build
 `npm run test:source` verifies the source manifest. If a source file changes,
 refresh its SHA-256 entry in `EXPORT-MANIFEST.json`; add entries for new source
 files and remove entries for deleted source files. Never add databases, secrets,
-recordings, caches, or publisher materials to the manifest.
+personal recordings, caches, PDFs, book scans, or answer keys to the manifest.
+The included book audio has separate provenance and is not licensed under MIT.
 
 Keep each pull request focused and describe its behavior and validation.
 Code contributions are submitted under MIT. Third-party data retains the

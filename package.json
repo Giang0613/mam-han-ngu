@@ -17,7 +17,10 @@
     "test:speech-reading": "tsx scripts/verify-speech-reading.ts",
     "test:i18n-api": "node scripts/verify-i18n-api.mjs",
     "test:dictionary-format": "tsx scripts/verify-dictionary-format.ts",
-    "test:english-ui": "tsx scripts/verify-english-ui.ts"
+    "test:english-ui": "tsx scripts/verify-english-ui.ts",
+    "test:vocabulary": "tsx scripts/verify-vocabulary.ts",
+    "test:vocabulary-api": "tsx scripts/verify-vocabulary-api.ts",
+    "test:resources": "tsx scripts/verify-published-resources.ts"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.63",

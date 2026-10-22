@@ -55,3 +55,30 @@ The canonical production build, TypeScript check, English UI audit (740 accented
 The live garden reports 37 draw calls and 58,982 rendered triangles. Static geometry is merged by material. Navigating to the dictionary removes the canvas; returning home recreates one canvas. The original saved word, zero XP, and study counts were preserved. The static vector loading illustration was also inspected. Context loss and OS reduced-motion preferences are handled in code; physical-device GPU failure was not fault-injected.
 
 Three.js 0.186.1 and matching type definitions are pinned. The current PCFShadowMap API is used; the deprecated PCFSoftShadowMap option was removed after browser diagnostics. The full Three.js MIT notice is included in the source package.
+
+## Vocabulary and book-audio publication — 22 October 2026
+
+The owner-requested community update includes 11,715 vocabulary records, all
+812 vocabulary lessons, 93 textbook MP3s, and 491 workbook audio clips. Source
+hashes and exclusions were checked; PDFs, book scans, page transcriptions, book
+answer keys, learner data, and credentials remain excluded. Third-party content
+retains separate provenance in RESOURCE_SOURCES.md.
+
+The vocabulary suite passed all 9 levels and 23,430 generated recognition
+questions. The resource suite verified all 584 MP3 headers and unique file URLs,
+plus the existing hidden-recording preference. Source verification, English UI
+coverage, i18n, HSK checks, and the production build passed. A fresh export from
+the local source passed source verification with the same 1,140 manifest files.
+
+Production API checks passed lesson pagination, imported-word save and SM-2,
+correct/incorrect grading, retry/conflict handling, profile isolation, English
+and Vietnamese card meanings, dictionary localization, MP3 byte-range streaming,
+audio MIME, invalid routes, and absent book PDFs. Temporary QA profiles were
+removed by the test harness.
+
+Browser checks confirmed vocabulary lesson cards and English word meanings.
+Textbook and workbook audio reached readyState 4 with playback time advancing;
+starting a second recording paused the first. Playback at 0.75×, filtering, and
+pagination worked, with unloaded players remaining at readyState 0. Language
+switching retained audio playback. The experimental-preview notice appears only
+in GitHub documentation and repository metadata, as requested.

@@ -5,22 +5,20 @@
   "codeLicense": "MIT",
   "thirdPartyNotice": "THIRD_PARTY_NOTICES.md",
   "excluded": [
-    ".git history and remotes",
+    "private Git history and remotes",
     ".env.* except empty .env.example",
-    "local.db and WAL files",
+    "learner databases, caches and personal recordings",
     "node_modules and .next*",
-    ".cache, Python environments and recordings",
     "data/hsk1-materials/**",
-    "public/hsk1-materials/**",
-    "PDF-derived vocabulary and translations including data/i18n-private.en.json",
-    "publisher answer keys, audio indices and editorial scripts"
+    "public/hsk1-materials/** except audio/*.mp3 and workbook-audio/*.mp3",
+    "full private book-page translations in data/i18n-private*.en.json",
+    "publisher answer keys, page layouts and book editorial scripts"
   ],
   "transformations": [
-    "Disable personal textbook pages with an explanatory page",
-    "Replace PDF-derived vocabulary with empty schemas",
-    "Remove publisher answer keys and audio indices",
-    "Keep original course, CC-CEDICT attribution, Hanzi data license and font license",
-    "Preserve storage IDs for migration compatibility"
+    "Keep book-page routes unavailable and exclude PDFs, scans, OCR text and answer keys",
+    "Include requested vocabulary records, 812 lesson groupings, selected vocabulary translations and book audio",
+    "Retain source attribution and separate third-party materials from MIT code",
+    "Preserve learner storage IDs and omit learner data and credentials"
   ],
   "files": [
     {
@@ -29,11 +27,11 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "5fc541f303842f75d8dd64198dab8750eabbf37445ee667cccd172f4f452843f"
+      "sha256": "ff43852f208a2b10fa85dde8873921500e038387a63dc77eb50ef7fbbd4e26b8"
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "7f520857ae2711d523a7c53f86366029604cf0d9319af2aa968bab407b0c8671"
+      "sha256": "e81fecfbcd25226f9b74e776b3bddb37a308e4666b12932c26e928282cd7aaae"
     },
     {
       "path": ".gitignore",
@@ -45,7 +43,7 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "b2dc8fffcab51076d21af813ce7eaca9031ceb66f0cdedfddcd9390c2d6f2e7c"
+      "sha256": "8035f01e85f9cf07f0e90d36c8214e0f4c65a433848793117744c24d488f0f6b"
     },
     {
       "path": "LICENSE",
@@ -53,15 +51,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "11f44c37fcb00fcea22b7df317a1f9dee4fdaf866264bd49e63ac1b7e3569cf1"
+      "sha256": "05e0306a08708bfe3082df1c1df0b59e1d030f38f14ea16b9466d0b750fe58c6"
     },
     {
       "path": "SECURITY.md",
-      "sha256": "f79fa5ffbc8785ae4c33892ccc63ca6f6f41edc7145dd4571ea3e441f8dfb4dc"
+      "sha256": "ec7ce773a8e881aa22e486c712332e05bc9300db4c4f4b047bce469957c849d2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "18a3beab26ccab7be32a11d9f9f2db78d8c9d4794b1013af59c6075bd823d611"
+      "sha256": "37d8fb72703a241f7c00dcf121c2a516d3c57acade837dcf37fe973e18a36039"
     },
     {
       "path": "components.json",
@@ -81,23 +79,23 @@
     },
     {
       "path": "data/hsk-vocabulary-lessons.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "sha256": "15707b7fa7d8bbf4ca66974af47998329f66731c031493ba03a1f11dd6c8b29f"
     },
     {
       "path": "data/hsk-vocabulary-sources.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "sha256": "5d7b99c92832d6ef54a5cea8d59eb5df76d0161f4c3454b2c1c5a4c6eecf55b9"
     },
     {
       "path": "data/hsk-vocabulary.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "sha256": "f619117746fe7ff6e4d98852dd7d931b572961cf7528ec88ffcb109f662217c8"
     },
     {
       "path": "docs/COMMUNITY_README.en.md",
-      "sha256": "1f876f74969f3f69ca1b65473b19332001afe503b47c80dbb6baad480bbc7e27"
+      "sha256": "b7797b3ec903fc8810a4747b2145e85c780fc6af04ab13b668fb820927bea339"
     },
     {
       "path": "docs/COMMUNITY_README.md",
-      "sha256": "5de2a25649c5d23f28d11e79260bfa83b8be61e273eb41ec7d04b37b3586e4ca"
+      "sha256": "a87083dc089babea7950d1161387f55087ca6b759e4656bcecfeab6a11c459cf"
     },
     {
       "path": "docs/INTERFACE.md",
@@ -109,11 +107,15 @@
     },
     {
       "path": "docs/OPEN_SOURCE.md",
-      "sha256": "f8c253f38cf4f148aada9c18dba844b9c07ef16fb682091e39072892bcef4c43"
+      "sha256": "cf12e5e0be369b7d9225559577e8cd478af348ee2c81afa2cfedc752a5f23e75"
+    },
+    {
+      "path": "docs/RESOURCE_SOURCES.md",
+      "sha256": "17b19f5090d963159e7d5284ab64bf37c5f9abee63f2356eda8a7679b4ece836"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "a42b2db20677cd98106582a4e057aa127f37bfcdd46e9f258e31d370813e8f2f"
+      "sha256": "08c90b2149566f6c17a300e73cc6e61d43762efda841e7dae55d5156a76dc407"
     },
     {
       "path": "docs/images/study-garden.png",
@@ -161,7 +163,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "7b26b093b9ff59c07637ef9d41737762ab1670f4f8c2a3746441314b2fb53482"
+      "sha256": "d809c32670b7e178abb1372bcaa137b6155e6870cd85fe5ef4c938681fe536c2"
     },
     {
       "path": "postcss.config.mjs",
@@ -1520,6 +1522,2342 @@
       "sha256": "9916cc3cebb9d0c9e4f3db4dd869529d5dc9dd249b35f1dfd6fc67761683f3d3"
     },
     {
+      "path": "public/hsk1-materials/audio/01-1.mp3",
+      "sha256": "a3d3a579cb2f2cc8072eedc99be4fb6bf7ae4e90140cc1fe4f8dd1984d618f53"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-2.mp3",
+      "sha256": "b4f81ee1cd06540348ad9a86168f372c5342cb8bd80cfd85643b61e630900ebd"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-3.mp3",
+      "sha256": "31c899ad1cc83591c402b46ed9760c47ccd34eeaf531cb82852f326fe8a83473"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-4.mp3",
+      "sha256": "2fad8640bab59f94c25bd09e4ae184879f9f2c3cdc7134c5072d728d2d77cf00"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-5.mp3",
+      "sha256": "5ba573b762276b5841f18fc2d16d05ae3b66d443c2737566f2060a95813d96ad"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-6.mp3",
+      "sha256": "4b559743f698ff0a0db9552dd3c5520846e907a201be3fc2af8ef2f555de9603"
+    },
+    {
+      "path": "public/hsk1-materials/audio/01-7.mp3",
+      "sha256": "420bc8abe6e7f3e329328d639cc735b45faf560aea5cfa0a973ac332d33cf321"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-1.mp3",
+      "sha256": "fac29febbf74da29a0743fc0980a7c0f868a4023d4cdf1898ac535ccd8e62586"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-2.mp3",
+      "sha256": "de6af557fabd7eea51981fa3454757a3ba27aaf82ec17fdd50754c6bf079a2f6"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-3.mp3",
+      "sha256": "7739d47fb222788be7e11b5b9de7b1c67b939690839c4800ae2774fa4dbcc32e"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-4.mp3",
+      "sha256": "11e13e7e047aeb9fc69e76afbde486700c407221c8957d976bc830cc37bfc1b2"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-5.mp3",
+      "sha256": "b04c2d53a2eafdae20d4f08daffb58fb650fdcd842c2b565a0b853b1118ecb99"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-6.mp3",
+      "sha256": "180e83baa56d8fa1bfd2ec284e8f9303ea5cd4187192498e06f9e352711622af"
+    },
+    {
+      "path": "public/hsk1-materials/audio/02-7.mp3",
+      "sha256": "ce758009458a735a0fc0ff7c68177ad9d9081ea8f4d85f219866f14aaa79b783"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-1.mp3",
+      "sha256": "6639e015fb85a8b98085d5b47fb083ad92e587466b4b881b96bfe5e8b9bf0f93"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-2.mp3",
+      "sha256": "b40a2eebc833d9f96e08b4853c97b1be98522330d77116fe1ec78d9ef8660edc"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-3.mp3",
+      "sha256": "74f7457091fd30c4c21fc13084273863888bb32c212bb7dade03b840b7f54a9a"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-4.mp3",
+      "sha256": "d1626cb9590c7127245e13dcfd187529a9dba9c3b32c4087a1f0bd59985b6967"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-5.mp3",
+      "sha256": "43e0652e5bc15837f9d0536d549ef80273454b2d6ae9e2c229ff8f95d9656d90"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-6.mp3",
+      "sha256": "d636d5af40df043f3a36ac882be183b4aec5ac561be2b66d998681f27a71847d"
+    },
+    {
+      "path": "public/hsk1-materials/audio/03-7.mp3",
+      "sha256": "0b923829977bb92af88fc7e4c9a65428ee886cf38e91a9bc36e2fea2fc6ce535"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-1.mp3",
+      "sha256": "6695f24e7cf10c1eb2950c238a1a2b1cc19df248d72c0e3589805f0154bc8764"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-2.mp3",
+      "sha256": "ee7177520fa5c4691fdb4867cebccdef13639117adb237f35befde4acf16c029"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-3.mp3",
+      "sha256": "9a7a04749b22110bcfd886ab943e1bdb2cdb7f643b0c7bc2ce3c5a09a5b119b1"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-4.mp3",
+      "sha256": "5688b83931401fa513562100eb65c40aedcdbb5f4c4bf20188d217d5b1e6647e"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-5.mp3",
+      "sha256": "bffb3e228477061a223e6abe8955344a77177d329abc216ae748b91797d8c539"
+    },
+    {
+      "path": "public/hsk1-materials/audio/04-6.mp3",
+      "sha256": "57443a2ace579d5b7641d7194cce96f00abd455eb99810b96c566cdd0b24686f"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-1.mp3",
+      "sha256": "bd09853dd8887082066afa6f072bd67184f47ec53f69c6c41f7f43866b55e25b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-2.mp3",
+      "sha256": "db7f476330d1a4c03c67f5ca70954b54d36ac1a2ecd17958330280847fed1478"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-3.mp3",
+      "sha256": "fa8c7c236ee59bd022512205cdf5e4dffd0b2b556f0aeee5a0f39371eee490cf"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-4.mp3",
+      "sha256": "efe7f24ecfb3f4106af09d292d5bb860aa66eb4d9facd3bba7ba46fb4b12a0a9"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-5.mp3",
+      "sha256": "27eb632b2fb35fbcd3a72c54044c4ba155da59d11fb060eff1f7460b8eb51a13"
+    },
+    {
+      "path": "public/hsk1-materials/audio/05-6.mp3",
+      "sha256": "a131b0c157876d3b70a21c32d51172bfa68de49e2dee12f9be14e80980bd7934"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-1.mp3",
+      "sha256": "1ab6fcfc8a7daf8feae9e067239fb06f8ea4b5000041cf8179f833e539ebe11a"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-2.mp3",
+      "sha256": "83fc9fc74a53f8f3992dd97f567fa3192261500db17b558296f78c008880296b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-3.mp3",
+      "sha256": "2721bf773c493a834c420f0fac9dc71efee5050dde61737afd71325f1a722594"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-4.mp3",
+      "sha256": "d47daf09379964276b4e6df16048e06aaf9c88fda1e1af6c75c0d94a9a498e4b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-5.mp3",
+      "sha256": "1efbc4c301aece0dfa9cd84d2eb9a6eb037065a41b11c1a1e80d31670cdb401e"
+    },
+    {
+      "path": "public/hsk1-materials/audio/06-6.mp3",
+      "sha256": "0b89db37c5f0dce184eb786b55af764015b5084fd471bf91f13a30d520f595a9"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-1.mp3",
+      "sha256": "417b26570bde4fac4528ba050fee7ff8639d8485f020a544d8e21b6c0652012a"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-2.mp3",
+      "sha256": "04a15fc67589fb350f71653c9540b30a81c61fe5dce5b18da367cfdc7bc646b8"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-3.mp3",
+      "sha256": "12a94d2a9e0eedb280521bd8321650c58cd9875b80b94e56b8ba40da0d9aa175"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-4.mp3",
+      "sha256": "d2b30f9d90d6e3f55b7d3291cd9f6d6378e4206c04315bf59d3e35c80786c9e1"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-5.mp3",
+      "sha256": "af5c11ca1573afe1866c56a3c5e0b9af339c926f36572f4c7dce9e8505841f6d"
+    },
+    {
+      "path": "public/hsk1-materials/audio/07-6.mp3",
+      "sha256": "89546df2ab9a39eedc589551e9d87a6e397618843548ea2ea1797f144e231a6b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-1.mp3",
+      "sha256": "8bc7282536dded53299457c65bd4dea7d3d743f3f415cd8543ad6f3e93b141bb"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-2.mp3",
+      "sha256": "2714879333c97d484f8f92c58a81524d91c76de3a2d4d2593377b4e1b5fde9e8"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-3.mp3",
+      "sha256": "f0e549194e21b7b8d2f1227d76334a893fa7d0bfe036d8fe04622b059f0a01b9"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-4.mp3",
+      "sha256": "a4d79a0dc6c3f4a68dff399a5c9996a4da8c0d64be0bab5f8176484ebc392a69"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-5.mp3",
+      "sha256": "cb70f621c5a6cb134a18795b71ccc70d219c59c94e0c47eb388d79878f80aeba"
+    },
+    {
+      "path": "public/hsk1-materials/audio/08-6.mp3",
+      "sha256": "2adb3bb00b301e9d780041832ef311d67bb0e957b403638dbcf1cffb78513d23"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-1.mp3",
+      "sha256": "6677a61d6e664cdc46f9365d84ad30787d488b3ee554fa0f26d642376440b982"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-2.mp3",
+      "sha256": "e75d5551601eab5961541d0cc795c851c6a51b1016928eac0843e9b27a49147f"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-3.mp3",
+      "sha256": "f31b917c08bd8d6036bbc5839d2211fe629221f34695e49f846630e3c1b146fd"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-4.mp3",
+      "sha256": "ef2e1cd37fe532e8d105cae0c99b3c510ca17be2452809c08203973cdeeac215"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-5.mp3",
+      "sha256": "cd6f7feda2f4a1012a3df3929f53e17c6137a3f7b1e5822398d1a8f64a6939c6"
+    },
+    {
+      "path": "public/hsk1-materials/audio/09-6.mp3",
+      "sha256": "8e4a7d7a849bd5ec8bb07f03bdc10ccdb68ec2c4b5f0ca5e569d194657f3211a"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-1.mp3",
+      "sha256": "0c826344868b9f0b98eca2dd14e793f8e308ee70f71b40655dc167be17e81b17"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-2.mp3",
+      "sha256": "555dc69e6854e7a6f473c374ed6021232e7969207719a23d5951da6d012eaad6"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-3.mp3",
+      "sha256": "6867c7d1fa2dd76f563a767c50ef4f8d6f8147d31351951b70f1b769dd703293"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-4.mp3",
+      "sha256": "0fd89f31c585c2e2ee83033c982c9789cc16741eb83d47634fc67ab9dda4667d"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-5.mp3",
+      "sha256": "731324c3744078958eb2b4625ae7a20499314e5bda3c449ad438c78696429905"
+    },
+    {
+      "path": "public/hsk1-materials/audio/10-6.mp3",
+      "sha256": "14fd446e102d995b7091dc7b12f252a3c37a067c62a31a54bf020cfbecf5721c"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-1.mp3",
+      "sha256": "07910b3db107e7d586c8951c8ddeed32442bad223a78519e541e362b9372279e"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-2.mp3",
+      "sha256": "afdb52ab80314907ee26900d585605a834615580f7713dff7e245c78c8dcd402"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-3.mp3",
+      "sha256": "b8752507209e3837881ad55a5a8a5096dd78bec551ba4a5252b5a19e0f30531e"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-4.mp3",
+      "sha256": "77afa9f1437aeabe5d3daabacc0a6a8d8865bf9716f1c5cd640198d60f5feb7c"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-5.mp3",
+      "sha256": "883673609369982c4df9bbcd31436ead9c44b3b1f9912fce28f73e8b26666ab4"
+    },
+    {
+      "path": "public/hsk1-materials/audio/11-6.mp3",
+      "sha256": "f2f9351ea8ac7199b14801fed7c8aa16b98a62d2d695aa5f2b040a36dcabf12b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-1.mp3",
+      "sha256": "fb25a792f7c12584f03e88425796db0b317472ded76f923a07632216a2057e85"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-2.mp3",
+      "sha256": "cfd857eb9f72ab731037e206c7e0e165dfa15ea3c2f886d996836bbeb7025fd1"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-3.mp3",
+      "sha256": "ba6c0f6c07b8c473e81d13bd02a31b19b4f790614bce3571c724d60488dfbe91"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-4.mp3",
+      "sha256": "bbf5a25952c2637be021d7f0a44065f3b05b33ead1691cc5c810441f1f4f4dbe"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-5.mp3",
+      "sha256": "784fc462c116282a9d0875191deae7d5f83ec558de214dda59e2e3a3c4caf8c9"
+    },
+    {
+      "path": "public/hsk1-materials/audio/12-6.mp3",
+      "sha256": "7be38c007d1493196b14884b81356e4cb7f6a24806a58b2e195926cf06c1e01b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-1.mp3",
+      "sha256": "fad2b962f878d261d12cb1ef3d894d619e0c8aa627601915fb3512370dea85db"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-2.mp3",
+      "sha256": "3516b78eddde709e5b29faab4d128d3d4f2ad95374a19296c37e6922dd8baceb"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-3.mp3",
+      "sha256": "7b68c8ac2bbe6cf97a3c387db652e09b7d647a8e69e2f18f9e2cc21deeaf2ef3"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-4.mp3",
+      "sha256": "8744449830f255ab8924076d43341904c1f5c6ffdf017e12920cb6f52fba97a1"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-5.mp3",
+      "sha256": "a5cc2611ef5a04d2444f3830fd492a2badb82f1ed049398d6d63eef9d0ca7a0a"
+    },
+    {
+      "path": "public/hsk1-materials/audio/13-6.mp3",
+      "sha256": "1ad117d6909bd5dd1c2844fd23ad16cf140d87d7f8060c367d94c69d404acecf"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-1.mp3",
+      "sha256": "7e5d30b3af2bfc2b3ac8082a9d49fe9f26b8375bcb38b93519745a7e4766bb25"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-2.mp3",
+      "sha256": "b611c48cc37bfe162cc723aa1fd8b8fbe8faa48d691b09da0a4f35e3728a8544"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-3.mp3",
+      "sha256": "ee4e5f41a518ef999ea8527a0be8d7fee90058dfad121b60f47a7163bffb067f"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-4.mp3",
+      "sha256": "c4aec5ab283ddacc7015aff2bf4281813a40d2c1a58d114a1feec6c3ca296c06"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-5.mp3",
+      "sha256": "7fa580ff854549b9d52a16a0e60d99dce6a0efd432c0ab929d74757ae15b9916"
+    },
+    {
+      "path": "public/hsk1-materials/audio/14-6.mp3",
+      "sha256": "02aca35d74d00286e68bccc035a214fbce1ca19cd6684e4cd6d28bb17509d3c2"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-1.mp3",
+      "sha256": "943ed596a6ab10b2a5d491dbdb80d2eed7c561c0ee54e3b9f9419450b88fa41f"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-2.mp3",
+      "sha256": "6dbcf2297b32dcf9d7ac8328e247825286b23d85fa3b8b89ba03f576c9c97137"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-3.mp3",
+      "sha256": "0f7035230083e5186d6c1983b4bd4c2a76efb7e2675f5494e6dd8745e7743def"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-4.mp3",
+      "sha256": "5453a406a16fade5757e6de8c75ee7872ded472400cd64c2cf7bdde03bd53a6b"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-5.mp3",
+      "sha256": "25919ff8171855dc2d611ae0804211e1fb2c751a2d886b3ff48f4e590aa12198"
+    },
+    {
+      "path": "public/hsk1-materials/audio/15-6.mp3",
+      "sha256": "ac47f1eda7e232441f9f0231189ed231ac165d12490856bd936d99d8b3f7eabe"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-001.mp3",
+      "sha256": "7aa56cb4a2460f3cdb653305b769d4e7c6abe2f05cd5cebf4a17c9082f1c17a2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-002.mp3",
+      "sha256": "3534e7152c53d42250881a28a720bc75f2730576288d91a266d5de31099aa0d9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-003.mp3",
+      "sha256": "3b4d108c324098779b2ec4fe0c50990605741f15b53c5b5653329e7b249feb39"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-004.mp3",
+      "sha256": "51e6fc84763e820ceadf1d2e6c24dee08d9f51a938d32c9bc81354482a73d069"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-005.mp3",
+      "sha256": "1da010811bbf67fed43d0878b6151d95e82c264f76ca561530309828ed5f38c8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-006.mp3",
+      "sha256": "5f5e2042d565c0032ffb814e638b4a65e71131b13ab11f7f83651f123ed76018"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-007.mp3",
+      "sha256": "592ee3a29e2bf19f6677c274bc68a8bf5178a97d29363d16b2a77a3cf3ae0fe1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-008.mp3",
+      "sha256": "3ed39c80d7ffbbcd0e722ba4c4f936a10bb47c7fc908fd1747fc4fcc62c81b9b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-009.mp3",
+      "sha256": "0442f736fc71a0f9862f6f3bb0972f351a013cd8d3bfb6bc60c74ffe1a4a73de"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-010.mp3",
+      "sha256": "546d4d06c617d4a516df63468deee698d8aebf328089a1d2216643fa5dbc456d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-011.mp3",
+      "sha256": "903730d3b0d44c4ae0c4bb3ef6a6c2a89f43b14fe593b5516c6084367e082c6f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-012.mp3",
+      "sha256": "5c1aeb551f8dcd1cd6da2b84e157024b112c129a4793120d5ce26b5459b94a4b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-013.mp3",
+      "sha256": "a1d7dae4852a3de6a6dcdb0090b4b8faf1245d8f4943836f4c0924aa38cb2caf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-014.mp3",
+      "sha256": "8691452300195b61e933d05c8e753b1c4fe764eb56ecd660aeb455a0edce68d5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-015.mp3",
+      "sha256": "3d0ef2195c1b38e2b995706466a093ef5641e30e835aa161abaa36d1982a3067"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-016.mp3",
+      "sha256": "2e024d9a2fa7444d32ad17a7089a85d8296f1a5f100ad29d2eb6a2a5c0a2fedb"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-017.mp3",
+      "sha256": "0c67f1b0d6dba33067b4a715c59c630ddf5bac0c62c0c4ca132a210ec2b14786"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-018.mp3",
+      "sha256": "0c712353cf71647f6aa26251d6d90f2ad0293c3e6fc30eb42c3cf70882193957"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-019.mp3",
+      "sha256": "1a63dc85d211b326d61cfe99996bb4123330c78e0b6c04163eeb60b9cb50f99e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-020.mp3",
+      "sha256": "7ba836e257878b221ad427abd6d5c79c2a1ae6a6c9de4f149e2cb76dcb7642c5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-021.mp3",
+      "sha256": "be32750e68dc9f479533eb32c84e2894f5b52653db1289c5e8741b1d0e304a81"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-022.mp3",
+      "sha256": "a722bb72b49e0424fb9a2b51339b37b64ff992b8053224b96b7d798bb5eda70b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-023.mp3",
+      "sha256": "8ae9ace7646154e99ee9d5ba4e3fd3458d0d236302e28b1e868dd3043bdbffc6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-024.mp3",
+      "sha256": "e362f7385a9395790a5d5740d187f397040f8b677574f1f94b3a33223c913351"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-025.mp3",
+      "sha256": "db2c800f159868cc14f86b580081cd0646599a9cf68ecc5fd8e3641e59debb18"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-026.mp3",
+      "sha256": "d70bc06d12b3a07aab78428b33262af7f0376e1a931d37653a8051049a5fb810"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-027.mp3",
+      "sha256": "a65beeaf0b73df251966affe33cd92d109bb14e9d199bf4432f0478ba5d763c1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-028.mp3",
+      "sha256": "6f094b234803f4c72412c175f12829cf0670422301396bcf2e82e2be20808fdc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-029.mp3",
+      "sha256": "00c696e9da1285e18085bf36c64e8e8c273d185843c5815cbb4d2d93977cd3f8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-030.mp3",
+      "sha256": "4102e6f18fdd0231f7884709ce39374f44b49b853da4e2fb9e1425da35af007c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-031.mp3",
+      "sha256": "3185032c902d7dd41a99b35ca7755e668ddef6538956e4b2c09b4fb622f2a96b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-032.mp3",
+      "sha256": "ee9da617db22c00d287a3f035e516f2aed873acb2fb502a6f8921706d93528c3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-033.mp3",
+      "sha256": "69fb8b7cd9e4fa9edbf5124cba9a581abdb4b60ca3ecad06d56a29f7618f7ef9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-034.mp3",
+      "sha256": "961de7b3f663b10ffeca24342a66fe28d2bb5f673208ae65a46ec6d11d319e67"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-035.mp3",
+      "sha256": "bd1461e8a68c68eb48d6b80eaed0e745353e5270987ac5b7895cab81f51ad3bc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-036.mp3",
+      "sha256": "30440360fbbccc71e38261b6251e3051d212b23ac69f87abdf297225707e9ba0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-037.mp3",
+      "sha256": "f431f096231a16a17501de60ffc33182cb19dc8bdeaf264b694a9b046e06e948"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-038.mp3",
+      "sha256": "d6a32c1dd152ad7a5e24ad13d56667afc65f2fe3e831dbc0b5ec9b032c4a4d85"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-039.mp3",
+      "sha256": "5bff7e9da1cf1ee685b8b7715ba8e2378db489e154b8c90490df1a202af2911a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-040.mp3",
+      "sha256": "2330541234a51e8874037a7770314b39df775201e05d8a8103b6942e68cdb6da"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-041.mp3",
+      "sha256": "81e111814fe31166c58b35ea02e3ac4cd81fd650b81911b4e1328bbf8b59ee73"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-042.mp3",
+      "sha256": "59c01e3b32623dac731aa61f6ea89c4215b785a5d10e3acefdf5add90a24a625"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-043.mp3",
+      "sha256": "4b73d95b46b202cd1c44d795aea166dc24687c34f7c0e178b0ed1301dd62d6e1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-044.mp3",
+      "sha256": "6364fc1dd1ad5db00e2b0c32b663d7294438d0c7fb9f33f34a0b6c48fb885279"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-045.mp3",
+      "sha256": "047ccf4da77873013720a3ce88199232a2ec0faf6bb9804c0ed0d357477cf234"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-046.mp3",
+      "sha256": "7b7567fba4836f818a406524c8913ab764f2e390b91f299b5df842f594bf92d0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-047.mp3",
+      "sha256": "9c3d5844666d194b45cc0c6787b85dd257a9ec7a6877bca6a17415f376d466ac"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-048.mp3",
+      "sha256": "e8e81046552e450cdbbae6553fa7efb16cd52f848823c4a16ad34042e84c8c67"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-049.mp3",
+      "sha256": "b60e4e55882f115ea7d6ee83fdad58bbde9522bfe5799448d1ecaa4cd878db4d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-050.mp3",
+      "sha256": "5181e8b9583f1429a7b5a51698624a5ce693e1e775caf2e6c1cc797824facca6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-051.mp3",
+      "sha256": "cffa79b7f76d4d8ac2fbb1e04bbd7d37d497f420aa2eb622a0888b3dccec33fa"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-052.mp3",
+      "sha256": "c34c0e370e1f4946a2e2940463e38dfe053a4fd96daab1cbd8b5fb462b7129f9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-01-2-clip-053.mp3",
+      "sha256": "32ef7da1f7c3f5543366d6f4ee23cf91a20b0d750129f4d7889b81d72de12484"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-001.mp3",
+      "sha256": "7c01e9f3250f10d110a589eea91de6c4ecd7fe5ae12cc9104ff88d88e081f3a0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-002.mp3",
+      "sha256": "a7ab27cd18462a6b139dfe3d4b586fc965a66741861427168700e15fe58da72b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-003.mp3",
+      "sha256": "0ef0f240944636523f977b7ce6a0cb03f2763eed9b4d0a0e40d359c8a3125033"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-004.mp3",
+      "sha256": "8ba64847c5caca9d263416be41414178b5954114edbc26bafe5db53db5059f60"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-005.mp3",
+      "sha256": "6e5684999c9f2314d98b0ffdd3d2f79d2ebc9126cc5caa5f22abc0d43803a0ab"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-006.mp3",
+      "sha256": "6fb779ee4c6eea3769787b24c3d406244ffcaff4d1a5bae5f6a24acd3948fdc1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-007.mp3",
+      "sha256": "f8aaf21f6d1fc11077c0b7119bfeab9b5d07772777e2ae7341d8111949cb4a56"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-008.mp3",
+      "sha256": "9d90a394d02100fb4a2a6aa9df2e9325826c967680e0562e2929fb5db04054d9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-009.mp3",
+      "sha256": "b3feefaa81873db20eb9d243188af47b75e0d595a46975c8d9df569b9a025372"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-010.mp3",
+      "sha256": "7cf9b90250a60cfb774e4caf387339973bb51c532297917ce291f1a1f733fb72"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-011.mp3",
+      "sha256": "e36cfe808f27d320bf43077bff13e775f72e92d5418caf53ceebad70940f1c28"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-012.mp3",
+      "sha256": "1f43c933c9c02087a8758eda154362a3c6225408604914b670f69deebfdc3ee0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-013.mp3",
+      "sha256": "5a1527d0eeeb34be991aff440db99917e26c9fb9610e37bf579c5412c562f7db"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-014.mp3",
+      "sha256": "aa93573fb017017b83f9f6adfdc61d39499760f2a2a12342f58d2a596182a0a3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-015.mp3",
+      "sha256": "70fda061c88cc2f0ce886a40d5cf5687d6b5bcba140f8610a232a6a734bf7c6e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-016.mp3",
+      "sha256": "e51561cd85840bb096c65fe61177023144139937ff3b01593e1d14eb939537f2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-017.mp3",
+      "sha256": "f09d585c230a50dc88658c4075602f568928a573281bd59559ae59dfd07e12cd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-018.mp3",
+      "sha256": "0e4a9cc1e28afaa09901d10e5c9010c7b24367af28db5305ab9845b358315abd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-019.mp3",
+      "sha256": "28fe692fe025a9cfabd1df64292ccb16d0174c7b047350d2138e6b168c0f22f8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-020.mp3",
+      "sha256": "1d6b3cc879bc8ca660b33ef2dee9483078ef22820e15c34f8341f1924f852690"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-021.mp3",
+      "sha256": "772d11ff5bd1fe40326ca739e9314b163e4c06409aaf24afbdd7de4403ee3140"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-022.mp3",
+      "sha256": "d4a9f789db0a5b2e1425c18a496b47751e0a07ef337c360eb1050ae7df5a957f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-023.mp3",
+      "sha256": "b98bd060fdc17589ebd08fa809fc8b0115eb63172e02512550b3c3c0baa4ce99"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-024.mp3",
+      "sha256": "0fb46e7c185c4967a80a7ff43f019f4d43c08318c98145de42a4e3dbea3b92d9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-025.mp3",
+      "sha256": "9e17c2d467bdd84cde6922ed9a542a03b8c654522b41d591367a3b06da10a5cd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-026.mp3",
+      "sha256": "aef12e66699272fbe51f8c161c0eb85c1beffc6008541eff13736bc341cfb66f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-027.mp3",
+      "sha256": "503a97dc6a3f5e48c391e58e7aa43420cbee9e24191ed957f65d5156dca84ad1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-028.mp3",
+      "sha256": "71cd7482cf542b86d242108e23a20c317ef87ef76897ccac9546e6e79ac35602"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-029.mp3",
+      "sha256": "5e9b2a0463f36e39557767ffb9957ba79017c775eb551957eeff1c5f51525b6f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-030.mp3",
+      "sha256": "0d3ca7e7fa5a1ef672db0fd31763dc65a65933ee64ff3364d17db2f1009cd8c8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-031.mp3",
+      "sha256": "7fffe39b9b17578b68fdca578a513266ea2f26029dca168bbd67442cb2c48a36"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-032.mp3",
+      "sha256": "e1000342b48519fab9fc0022f60a6fc9dc04884a5150ca59cf52999edfa5cd03"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-033.mp3",
+      "sha256": "c057f4783c3a1affc3b822cc2b040b4b01d7e669c46c6154a293bafbcbaf2977"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-034.mp3",
+      "sha256": "cf7fdb10c60489f0f4e2dea8a0c8c94451b444619f4d2fb20dff383cae7d9e80"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-035.mp3",
+      "sha256": "4f6b86c7b08eb3a7286705a702538a935dc3ab4abfcd67b471ca4616e7f30117"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-036.mp3",
+      "sha256": "61277c867a0088921ca9b387f289dcd9325a55cf2c8b974ae4e93fd6a1c0a278"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-037.mp3",
+      "sha256": "1c336d454ab5570dcfc08974d09217a65ccf942320927adf7d6c39f3afe785ea"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-038.mp3",
+      "sha256": "6619587ff251b1b900b8c8a1f5b533b70dd699d43c9c799faba0bc7fc66817c2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-039.mp3",
+      "sha256": "978ad49982a7c10b4f5e9cdeecc187bd81c6cb44e4f87cd0e043b9905519bee8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-02-2-clip-040.mp3",
+      "sha256": "aee574e4ca15b9df4c4f76f851402f63d1b0adf9c415e76e2983deecf96f0d45"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-001.mp3",
+      "sha256": "a5059f78db1b16a55ffe08be38f5c27c8fccc9c89e3de98abd42144bb8c70bd3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-002.mp3",
+      "sha256": "2f0886390ac40a92560e51b26d71ad215c0b23c3a1d6eb7791c722188829a767"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-003.mp3",
+      "sha256": "6dbbc8dc776fa0ae2278f6bf163bbd8c9b4f8027b2c6ba66dc91178c0e9bb14e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-004.mp3",
+      "sha256": "58687f7cf539209af00816087d9ef472952394d5ea236f1c3a2f3824e69f9933"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-005.mp3",
+      "sha256": "63fb6b215fdcee6ade060341e38dbbd96fde359b61bd2e80d1aff34a0f470e20"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-006.mp3",
+      "sha256": "ddd62ebcab77aeaad80a8254e8c54baa66b7e2aa69436dbba1bf5eb374e032f5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-007.mp3",
+      "sha256": "98f55ce7c785be5beda5c2f8bbd09e0edc323b659a1743a8c2db11f64fc86c4b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-008.mp3",
+      "sha256": "ff77c667aa0bfd4de91b47791b1e59207d794994d663e50415df498a14694b92"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-009.mp3",
+      "sha256": "ee9a401da51705439435221db241107a3949bdc89c0c655a2f559a20e0e4fc4e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-010.mp3",
+      "sha256": "3a5897b9e66e6550dfba44353eba1f6361bf6f472d6f2bf66932aaa61c3fa2a1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-011.mp3",
+      "sha256": "9e896509fb090c3946898a7cff197adf5775e61929923055daad239252ab9346"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-012.mp3",
+      "sha256": "bfa3d46c0a524246f9f2ddab8aab2e0983fcaf7d24e71c52d256da3e197e4a8e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-013.mp3",
+      "sha256": "ab471cf3d64cecba57440e5fbcd9946ba229fba1e8f7724c5c9c1bd37e1a4f4a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-014.mp3",
+      "sha256": "b25e47289fe175084e6d4af4dbd7ebe2b35453d2d07c40d00b388824ec322459"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-015.mp3",
+      "sha256": "f5415892573b004818c0435c50c9c40e96601c0dd4e0392897e61aaa0ce9cfd8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-016.mp3",
+      "sha256": "04e709394c67dc8e5bed42cfee760eabdace389cb3046004041d469cbe9ce758"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-017.mp3",
+      "sha256": "56e20e25de646ed647785634106aacd8d2050c7d7ba19c3facf4f86cf3056367"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-018.mp3",
+      "sha256": "5675863200c9155123f9deb49b8f73290ba1d7e25b9c0cc87f78f832d627c355"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-019.mp3",
+      "sha256": "f64d98a86316794f06c0857038bf08dcd60fa221b38204e26674d696b5acc389"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-020.mp3",
+      "sha256": "7d0a2af1f61237b72352fde7cdb6f233f6ce7a0abbe480a3183b8e3d5b6473e0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-021.mp3",
+      "sha256": "71ba889da5b37144b8d55d3d5c4954db32f81709a3c3f98ecaef91f5b1babe9c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-022.mp3",
+      "sha256": "144cf421fe955d243c228d6cf92a4238a90d867d3584e64d8ed7b24d96bbee23"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-023.mp3",
+      "sha256": "7c5eecc16c685242bdd3f8461de364122041582ebd57bc204cd2c739c68d5f77"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-024.mp3",
+      "sha256": "bfafb7957dc6ffa9271c017e605e767062c53c808f6c8bbf163b3114c4f51019"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-025.mp3",
+      "sha256": "4742b906110e6e2fc4fe870c6fa5bac63140011f4b5e8beda3cccc36e0016bb2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-026.mp3",
+      "sha256": "94f4d3a8c5aed69d56620a73fb1ca81da9dcbf6ec2daecce7b7c83a3881e3fc1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-027.mp3",
+      "sha256": "2c6c00bc5f4d6615fdf125ae2957a9a8a3312e5ac10b94d81b9ef25e275663be"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-028.mp3",
+      "sha256": "b55b6f5f21260f871247f97ad5611cedbf5f57feaef8ce673a1f5f9bd9ca9d26"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-029.mp3",
+      "sha256": "dfe60d17c89f9e61e7290bcb131143571336a7de302f08a6cceacbfe9f476f55"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-030.mp3",
+      "sha256": "1a526937dbd1d30f7a87a943b357acede122ad1589a38c38f3b74b7fd16f63f2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-031.mp3",
+      "sha256": "639f2bca76a662f7f82d4b3a143602d1c6e748eebd3b5cd7990876e8d947ec58"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-032.mp3",
+      "sha256": "b09b69a7fdf2bc326abce703672e01c76415de120f068e34e02594abec6e574a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-033.mp3",
+      "sha256": "d1c00b7b8e8df6f6e02d8ef459bb2febe044628f5a87c0e67d36ac18b68f6a0a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-034.mp3",
+      "sha256": "249d9437935e58e87c3923b7edef93cc0c071e4c3ecdd22b2b09c3bfaf65e35b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-035.mp3",
+      "sha256": "ffbd2a5a3b8790ca5f9e75a5c670fcfaaa66f6317bd59b2f5a073b0ed308dccf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-036.mp3",
+      "sha256": "9274fe032d448e7c71d1283578b34dad047483394561bfc52d6db349d2b1f07d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-037.mp3",
+      "sha256": "ff9674290d4ef53038bb58954cb3fa996be37055148e910fe681c6f58bc0fcd6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-038.mp3",
+      "sha256": "0b68d5e9fecf4eb8752df02bf2f932b76d72afbd55f10341e2ca42e3698668b6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-039.mp3",
+      "sha256": "724e91feed933122ecb9f82e7e84f8350e9a9e9492227d700ae6ca0ccad65711"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-040.mp3",
+      "sha256": "cbc98344f6aef4e38308ebd6b51624842df7a64229d5636e508d36f6a8751b89"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-041.mp3",
+      "sha256": "c1284a7de4d2ac4060ad2530eb91e2210fac7a1cc7fe420428e3f7ef04bbc058"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-042.mp3",
+      "sha256": "a76b49b29f57690f013028ab64920fa0c74202a61f11e2fda65f2de2155c3763"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-043.mp3",
+      "sha256": "efa24b1445acb2a44eacc0364b2d7b204dc776a90645ba5764e9c357ac3e694a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-044.mp3",
+      "sha256": "4c2ed9284f80eae14241702d13dbbbd8f820ea51bbd71e6231136d64264005e5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-045.mp3",
+      "sha256": "38cb5fab73bf11055ff7c10867cc872c89dcba6fb40f529bf4bc01fc5baeedcb"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-03-2-clip-046.mp3",
+      "sha256": "eca32b1d3467a820314b67f87193f97417e4f6fc967af560389bc93e04c81aa5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-001.mp3",
+      "sha256": "ed44b5b6ae60186fa67894041c81536bfd3107b50353fcf4019c04d95063d5dc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-002.mp3",
+      "sha256": "4ab0340888fe01e3a8c10c16133dd969b1ea589dbd15a238b8d99033dfbe2014"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-003.mp3",
+      "sha256": "092dea7c3adf5cdde3fc7c09bcb0455997b3c5edc7cfe409315cfe1e7de55ee8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-004.mp3",
+      "sha256": "3b4490680a2484331785cd482fd02b9b4d54280f1146606cebee601b8cdc1c8a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-005.mp3",
+      "sha256": "0daa7c208cc8d133f248794714e838c2ada0e6e44c27641df8093df071a18099"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-006.mp3",
+      "sha256": "36e9679f7d123b91f139f725fba6ddb481d19defe2c44a9dede98731f36b4ae4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-007.mp3",
+      "sha256": "0c23dcdb69de42d36f7d94578dfe1218d620f4845cf4a28c88a0bf1d8318973f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-008.mp3",
+      "sha256": "e8501ec8a29da696ea46e6d553e554f0c3374d4395b71f37221768bc10e85fe5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-009.mp3",
+      "sha256": "d5c1296297367b9aee55235184beee2957c055669c0bd44305f6749f50c67f39"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-010.mp3",
+      "sha256": "2bbf7670752ddff69fa1d7538815ef9d5586d368043a3252c6364577931e5544"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-011.mp3",
+      "sha256": "74b5da4a9729488079f82a77594fb1b64d5256a6b55ef5c756cb74de5839b811"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-012.mp3",
+      "sha256": "e61ab97370416c62c0ddf3e11fc64b446d82ba7346812664e5a0154ec4509fd2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-013.mp3",
+      "sha256": "6bb2764f1fdbe5f364ca1573be48b1c06562394a707444b8cdfff611d46ea6cb"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-014.mp3",
+      "sha256": "cc2f7e8dc6c64edfe923bb17b9036ce652e42bb78afcc2a97459ef0079f9b412"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-015.mp3",
+      "sha256": "c3b417fb805d68c211c3d6745debd595e3309ac1dfbd10d880613d10e69243c8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-2-clip-016.mp3",
+      "sha256": "0939cf7ef2968d243b895795e2b4f8d14d25bfe3f4514b4d0537458c426657aa"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-001.mp3",
+      "sha256": "56be562f008ad2ba001e6988e45e6e170ff8c3e84c6fd2d0bc2658bdbeaa72c6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-002.mp3",
+      "sha256": "d2719909fbdd89ac970e77df1fcd3c589ae24a0f6209128b42290b64c92bf23a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-003.mp3",
+      "sha256": "aab3f14a91d6c43f87733fc2700f23fcb30cf40aff57610ed8280bac49b9c03d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-004.mp3",
+      "sha256": "3e13cfa4cf0678a5837a5c47f239dc1d8b4c95f27cb3a99828c488a34461f393"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-005.mp3",
+      "sha256": "34421a5f280a69a64f0800ce10f48202a9546f1ccc0712b7545aa31454e9b0e7"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-006.mp3",
+      "sha256": "7868118c1b5560f9e4449a7af0641b3610caf2dc8f36dbb8cf337e89c2f82560"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-007.mp3",
+      "sha256": "50bff32d5fe179e05663fb5fa430e82bc06b1871646d255fde834de07cb10110"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-008.mp3",
+      "sha256": "f3d354cc3152517046ea03fed3487ca4ba5a2f143066c5dcad53e8e790475909"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-009.mp3",
+      "sha256": "11a5180346e6a6d1abb7dae76c4f037fc5768ce2eb318c60e0b3b25ae8e3260d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-010.mp3",
+      "sha256": "b2a2eb0aed58fb057ca9be23a3c7661be542568d3d323cab9519b6beedb2d674"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-011.mp3",
+      "sha256": "a354a59e98e9e15444a711c193dde58ec5d7687c77b44e92c9e33f644673e84e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-012.mp3",
+      "sha256": "55a4e45d11d8ae2e85bc43bfcfc89dfb892c035465440d2f9089607c307aa99b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-013.mp3",
+      "sha256": "fa5208690a4a7dff952438d9ab73da71901502c7725c01af0f491e8b01033ce8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-04-3-clip-014.mp3",
+      "sha256": "ac76d6e7c788fcfeac717160346881956ea4e5dac6f8a978c72e9dd92d3102f4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-001.mp3",
+      "sha256": "ea8a0d7ce7ebf9fb16d20af2d5e7869fc248816a756aba5071e620c8ac0c44a6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-002.mp3",
+      "sha256": "93f4841626e37b2e0dc4e97562ec5937bd224cbdf956d839ff1e6755ddc101a1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-003.mp3",
+      "sha256": "8a063f9f6be45a0eda199bddb183ef3ac8f390bf1f25614d15cc763824bb5ae5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-004.mp3",
+      "sha256": "8b099ca61d3c86710e8e2a5bc0dc2db05e6f7c4c8ad5720846e667e30d3e9626"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-005.mp3",
+      "sha256": "d2dd59520f3631c7d16a6b0f0009f89203b890b95bb85131dc01b73c0fe1f786"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-006.mp3",
+      "sha256": "45163157a2eaa16d410172dd7284bf12b7dc0de2207d614c967430b93737b342"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-007.mp3",
+      "sha256": "67539ae928401c2ac514bb24b25a57055bb1db3aadeb2ce209c2f11189c30989"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-008.mp3",
+      "sha256": "f29d604d84d6ab0ae67bb6076958377e22b116856f030c88c27a58cc0ad4a2f1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-009.mp3",
+      "sha256": "476b5c7f7c41d0f3007fdcb99181639529ae0e2f49419be8ae741b952c0b11e3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-2-clip-010.mp3",
+      "sha256": "1ddebc5b64caf0e15f63b4ce6b2bae4a855303bce29557594044f8e0a8541525"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-001.mp3",
+      "sha256": "4cccf6df5f1e69dcbe8abe1079c51c79f8e949436989d31fbf693a5dda6d8485"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-002.mp3",
+      "sha256": "d1dfde7d7e7bd0c5038a81faad7c4d8cc796bcbbecd3672ac55fe4538d3d7722"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-003.mp3",
+      "sha256": "55bd0ebabf8be2f73ec8b849acfac3b69081c85bba8981d399b64754712d62a9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-004.mp3",
+      "sha256": "dd336e99652aa555c4879cec19d5b58dd348339790c6e67f1810195be7b5e454"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-005.mp3",
+      "sha256": "c8ef5e6cf411f8e9f2c28d5ccede1336c0bf1640636d2439a3881cd8329fa357"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-006.mp3",
+      "sha256": "e15ae3b49047ea4b71ea8e7f4a0cb0ad5dd3f1cd380aaa79bce8da26d4c04463"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-007.mp3",
+      "sha256": "07e5a7709d94d8619c123bea56b3a52a7da40dcc5d228875cec579ec8a493527"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-008.mp3",
+      "sha256": "8e667b5cf76239a2af450f306521dcffcca2af8b2205f522b4fcad0685a18dc9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-009.mp3",
+      "sha256": "d28cdc672d76060f2acce2af39790d319395a53759ee665a4b294d6a545c9082"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-010.mp3",
+      "sha256": "c2f255515de852935a6fe487b0cc6ef12afa4af528862c3da3f98ff5eccc7e3f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-011.mp3",
+      "sha256": "43a316381f0fa4724be19fe2bb08eec1ef1a2fca30b7b5683bc4b430c1f20e39"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-012.mp3",
+      "sha256": "c535cb2626bf5784a617f22db8369b054da59c6d6d1d8afa3a09689457ed1825"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-013.mp3",
+      "sha256": "3b7f7b514e9775f863fc71fa10005dee960b6a5f16b1d72c8030389086b2633b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-05-3-clip-014.mp3",
+      "sha256": "cd151c4edbcbcff5e6eb1c592e0f8156975f3fa7867c8733b54435ed1e2541ba"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-001.mp3",
+      "sha256": "3055894d0ed10b21f1792231bc90bf9c2e608f09cd87763bfb95926ec947d2b3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-002.mp3",
+      "sha256": "2a5769e1efe52416126de3aa625213a8ef033e304e4eca8168086ba4678f555f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-003.mp3",
+      "sha256": "d60241213b27634b09b019bd3737946d9ec90fa734f4b788543398e5541c070e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-004.mp3",
+      "sha256": "8a8919eba933c622bfb440f7a9d4ebc70ce56da1d0b1b8d879ff53ae2558e58d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-005.mp3",
+      "sha256": "002e9972b3e7da718cc717d97f13c94dc812ad131178bd8c15e65077ad259976"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-006.mp3",
+      "sha256": "adb542c3a625a7cc818d0a85de1929581133b27c13bdce7dfa5241007bdebde1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-007.mp3",
+      "sha256": "58d08e212745eb7a4753f1d20898e5edd2cb91165ef890688a79981f9ef74ff6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-008.mp3",
+      "sha256": "0daaa7c2f4761e9751348c2609992812667e019f1f9f18977aae3464e14f971d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-009.mp3",
+      "sha256": "793ae3097dc78fd9060dfe82ae41a7405bccef2c27119ffaebc15396d5b6e78c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-010.mp3",
+      "sha256": "fd205c8bae0b55daf02f023b2b3b6b12659fd35e82bc593ec905c02ec9b1355f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-011.mp3",
+      "sha256": "ddf493476e475edd0d530bfa65da07ef13a9f5ef1dbe416bda4782aed8fdb7ce"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-2-clip-012.mp3",
+      "sha256": "fd142418ea3c64a95c229c3d8a88a7eb1f456417b115f25d2a25bd4089f267af"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-001.mp3",
+      "sha256": "9176ff5855658b4adc02bf0353f1fb0eaaf0b6939fd51a0c992cd8a11d9cd347"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-002.mp3",
+      "sha256": "d96c5b248411cd7cc201c52fdf232055a2a81cdfa36df553b851794186ad815e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-003.mp3",
+      "sha256": "914b69957ddbda275690c359328f43361bdeddd2c736d8df0460e44f58b8c223"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-004.mp3",
+      "sha256": "ee3f8a8011849bfc35ce37dcbbcc32964aa145389df84c404d0af938bb5a8df1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-005.mp3",
+      "sha256": "a0bc19d419c04ec2d22135b334f0b05cc23590bf83606357c6d459076b084f4f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-006.mp3",
+      "sha256": "0e46fb2419f9e47e635cf6636d88dfb36dcbe52f61848b5991339ceb74beb699"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-007.mp3",
+      "sha256": "f2d66b244d034840f1f431f17adb09b7ef7db1eb5361a9757d3a0cc2039e43f5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-008.mp3",
+      "sha256": "bf6032a4ae1ecce9937109c4cb9bf04ae0437702f1dfc151dda89e7bf9295fda"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-009.mp3",
+      "sha256": "2c3ad1aca5602cf708e3d46d1d4dcd6f894476260319bc4b811f0dcd6682f560"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-010.mp3",
+      "sha256": "6e786bf7c529e00b5598461c3ec041a06ccfbe0cd94985e81d55fb4a6e16270f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-011.mp3",
+      "sha256": "744a92b7ddbc03c2543fdc32e70d3126a16c9de204e475cf15a46132db311288"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-012.mp3",
+      "sha256": "6b0e8f1891a6efc569872538851dfa2aa8601d7b9d05005c66001f6cf493bad8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-013.mp3",
+      "sha256": "49f3420d35391bc33b66c5ec8cf9245988af84fdc86ff71d37e4f87947388aaa"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-06-3-clip-014.mp3",
+      "sha256": "0b2cd5eeb9af89863182c8e283d39ef7873e5f2fc8bac3fcb9f2f2fb6e5967f9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-001.mp3",
+      "sha256": "f93a1f9928db856f4875a32112142112c1bd5acdfcbd9fe46bb8440a7da75f6c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-002.mp3",
+      "sha256": "84f690a60b27971fdc1bfb700dcdf7e227d93566e8a71e02468d5e78a041973c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-003.mp3",
+      "sha256": "d6b3460aff0a2bb2787ff596ccaacb153f2d96cea08e959af895296718cad209"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-004.mp3",
+      "sha256": "31f69714bc96ff3700973595fc7d1fe390eef10f5a59d6ce552fb431c11bd761"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-005.mp3",
+      "sha256": "061c11a400a97ebbf4b13cb60a89a503b9c4b55204e8a3f0cbd64a296f49b9dc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-006.mp3",
+      "sha256": "6fb50f69dd1b0b4a573b03f4cdce148cd70c164771cfd450aed0075f561a599f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-007.mp3",
+      "sha256": "ba4b920852350a3d4c648c49819d9dcff951b4417647dd1e80d2067e66ab0fff"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-008.mp3",
+      "sha256": "33f6170f78e3f951825e80b3458082403db781492e9d823b3f5f31c019288f3d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-009.mp3",
+      "sha256": "5385816d2dfae8a2fd4a619346339114d3100c039c062ac619a55340f9a142e3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-010.mp3",
+      "sha256": "fa2b79facbfb0fc71cd3cd3cf477e307367fe66dc756128e225df5afc8457a89"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-011.mp3",
+      "sha256": "42a2624a4220814485e5de41e0d46963ddd4df11e167e43efe749c21b215bad6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-012.mp3",
+      "sha256": "04356e58c63a6fea7a75c638b36bfa6002d97616239a62513ced9dc90c3fae46"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-013.mp3",
+      "sha256": "b9c7bcd167c68ad59d1dd3c0d5deed22352ea6ec68e0428745f584e35e695969"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-014.mp3",
+      "sha256": "42f4369956511a46a2b1bed0488a6b41b08a610c5638bb6fe87ce4be5d2aa1f4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-015.mp3",
+      "sha256": "976213348e07ec133f9fd8daf2e6fdc9560d7ff3d7f3f7d2f704e7ff790fde4e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-016.mp3",
+      "sha256": "af51a689a4a2cf6ea219c564b019a136c301d13f01f35baa696d01aa3029cda0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-017.mp3",
+      "sha256": "3c2603fd1d3e86c41cf59e75df8384711c2c1b82eb31bfd036103e2f48bf5a61"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-018.mp3",
+      "sha256": "0bc15e7964b58089646e349b9b91b4e8de65d98a63441a80db46ead48d658b4a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-019.mp3",
+      "sha256": "8c37ea38ed17ddc4210c9426958f0d674ba75dbfff6628a731a8d24156e0a780"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-020.mp3",
+      "sha256": "6516c6e30e9307d4ac8bb4887f57a8fb4a3138e10bd01c37ad382deb5de9f9af"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-021.mp3",
+      "sha256": "07842fd9a3a2e8df1fd137b0036f63a171cc1ba3bfa0667c55269c9da53851ff"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-022.mp3",
+      "sha256": "ad6c3234f0814d3dcde2bbbd9aae6562190c7f0b7082b9826cb846047fa20918"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-023.mp3",
+      "sha256": "5fad8af658311898a165e7bbfdd0ec501fa941382770d2faf486eb16fce3fd3d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-024.mp3",
+      "sha256": "924e2c154bcb54da1e2735805270bae478363cc7994a2e3923990864af91c93c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-025.mp3",
+      "sha256": "ffcd63b3f56f10dfb2d8b37190081849d5128db37347d28d1bd41e52f3ceec22"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-026.mp3",
+      "sha256": "afec2fd5eb424216bfcbc53a45f1001b904f7b999e668ff78e2461d999ee2282"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-027.mp3",
+      "sha256": "1a29b5f9c721221abcced1dcba03e29bf1e8070d855a6f37815f2ef0bcf7320c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-1-clip-028.mp3",
+      "sha256": "952bcd7bdc1013d2077c97ff1954981b956f1f924fdfe819db123081ff750038"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-001.mp3",
+      "sha256": "414e24b72846df338fe1697c551eebb8c726028a8baaa352f676c943a3aa50f3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-002.mp3",
+      "sha256": "62aae04ffc8e531bdbe07241046b169babd3a790707b71505e1fed65bf7224f5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-003.mp3",
+      "sha256": "9dcff508a5108f5235446ea74e277340c3e7e6f02f2c60b9b68bd9451694e038"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-004.mp3",
+      "sha256": "d0976dd4a910d99c8ca8e49363a8019438d409e78e7005f8369c7e878877273d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-005.mp3",
+      "sha256": "e05941379c74d4b94fe7c345b18f7c7d1751c40afc2967a6948207ed3f3ab29d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-006.mp3",
+      "sha256": "152f28ad73dcfac5be8c60b0fd5500825c700317e1915e8af87b2630ff2ea9e0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-007.mp3",
+      "sha256": "df036fc83411ea26aa12fbf3c149f96b4ec81c715ad49b2c8920b0e41bad2f69"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-008.mp3",
+      "sha256": "c5eeaf527d641f7fc0ac7d5e93a450ebe773d7fed1cb17ec2f68f516f371e9ac"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-009.mp3",
+      "sha256": "ffdbc8c8ffdfd76837f91dc6f44c5c91b93ae7204f08a5538c2ab49f0f7a685f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-010.mp3",
+      "sha256": "63e03681f912723f8847ae385e76017f65b768488c31433ddf292d9cbd8ad776"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-011.mp3",
+      "sha256": "bdaa6db1c14f8f11e3bb39533ecd8f7f9cf0c2c61227374101e2f2a60da8e992"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-012.mp3",
+      "sha256": "9fd0ef078709fa30bcf0254938b51e0496324f973e656aa325fdfa035b9ba0b7"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-013.mp3",
+      "sha256": "90515abeac09b039b31181b06a44160b3bdd17eabaf129b1dc67c39d6768b0e9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-07-2-clip-014.mp3",
+      "sha256": "dda6bff7b6d646bf14e203b95d161102d6726c7f9b6530be341f8132871949bd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-001.mp3",
+      "sha256": "9f1cea1e717416dadf693079cf7b39d4210b71ba749801c8386a48c7b23a0b9c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-002.mp3",
+      "sha256": "f3b25f8723b515488c564b53fa918f8cf67cd22325fa1419a209be512fbae728"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-003.mp3",
+      "sha256": "7af834f50f3742fa760f3cd0e5346f7f3689a4c51f925f4ae1e5ab7177f31a86"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-004.mp3",
+      "sha256": "9dfda7772e1b9fa46e4dcd2d0d0d9af5afe1e0bf1b897a96e834d40fabc08f47"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-005.mp3",
+      "sha256": "13dc6a7897b526d560f9be6c49417f11b6cd4841a22af9e3c2c4f930e0cc1b52"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-006.mp3",
+      "sha256": "ecf5c803adaa982194b44de9fa7ba103c101c894a4c2034f8737beb2f2c5377c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-007.mp3",
+      "sha256": "320060097b4053776f4393af5d5d385398874e27e63fd74ae12c5958ebefd520"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-008.mp3",
+      "sha256": "638d7a1c568969d8c51394aa13452359473cb3b863a56b58046d884c6984c1cb"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-009.mp3",
+      "sha256": "f66e254a6bf430e4a762bb39f597527cdf41bb24c7b8387d1185243fb8e0ce72"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-010.mp3",
+      "sha256": "40df2997e1db8b21d991c3fe16872aa3c0c9a81f4aa775699990d9d316ae6582"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-011.mp3",
+      "sha256": "a36bb36e19e94f208b049f727f02718a9379d0f6b7c6be1bafa8b1214af80374"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-1-clip-012.mp3",
+      "sha256": "540046571a2507deefcfe25cba91129b2646030b6e074db25c416540ce0d49af"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-001.mp3",
+      "sha256": "7f9cb08efabf4ff6aa35556416a9aa64fa5a21b04cd025bc81c47cb64fbe79bf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-002.mp3",
+      "sha256": "9ad887221e358a19f7883b322363d23a40aa7f8976158062b0c026e4dc956f9b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-003.mp3",
+      "sha256": "9beb3f52f4e0df7ce8a2bac48f1420cb2326a71151e274f105f1e50f529b1b7b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-004.mp3",
+      "sha256": "ad7e972d9d8e492d9355044cea76d9e17afbabb848f832ebff6a7b4ccb3b1387"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-005.mp3",
+      "sha256": "7ec04b8abe4ab0d76ed506b1b36c1d4849f2f814241626723ad10db189e80ff2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-006.mp3",
+      "sha256": "ce2525036bd5e1983519a1581a92ef1e79e5870b44ab92ef2171be1f1335c423"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-007.mp3",
+      "sha256": "608aa8140069f58d118cb40010acef17f5b3ccbb6ab845e896e84bb16e5202c5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-008.mp3",
+      "sha256": "fbd4ac748e7c8933eeab75f6d5defcaaefdd61fe4eae36d7cb3c3db3cb90d8c1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-009.mp3",
+      "sha256": "2325b8e3968424dfaf2ab156f7c48876503c198fe881525019144f08b202e721"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-010.mp3",
+      "sha256": "cb58e882ad629e1cb062ccbf19db39b994e9121924f7ec95affd2899321ac7d0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-011.mp3",
+      "sha256": "be11bd14bf8b7134944f4d1903cc354d085d816c0199a89043ba6f122fd0816d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-012.mp3",
+      "sha256": "23bf5d61b2f425f5c872621d013f912c0999fa4b232adb763a935b2399c866ea"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-013.mp3",
+      "sha256": "ca3ecc873bbbe9d20ddeac785ec08aaca024c5415b5a933719964e7bfc58f550"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-08-2-clip-014.mp3",
+      "sha256": "bba5f5e5e736cc0173a04cc223cd6caafd7cc6d9be6858e34a70caedf234a962"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-001.mp3",
+      "sha256": "33f516a3c88c2090b9a7703be36d0f2288ceb59c2b3026777914379e3deac2f6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-002.mp3",
+      "sha256": "c6be06f73956c208c1593d516dfac155e1b9f35ce6e2fbf9323f84bb7aefe33c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-003.mp3",
+      "sha256": "73936e285e57b7c18e1fd0bed856e9ac0e07654773a55b4faf127401a1ca372f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-004.mp3",
+      "sha256": "a645bffeddeca1e5c75183c8e3bc22994d8bedbc07d37b63714a0098c7ca1107"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-005.mp3",
+      "sha256": "64ccb9ef3fd20a2e28f146367f132d7d88e5ae7b42ea93fbadb136da68b1569d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-006.mp3",
+      "sha256": "7479602020f90f31cc33be4c44239c3f0ed99347d4cdfc010b761eacb591b520"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-007.mp3",
+      "sha256": "6aea4d0409b698c739db4a9581881cdc6eb085c2c3d5d08486d1eee42ffa9af5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-008.mp3",
+      "sha256": "f77484b99961c523fa63c4e42b649c9fd7340fb8081c28db8b9453147a4401a9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-009.mp3",
+      "sha256": "f44b5a53d98a800877d330fd8b87ff11e2dcca9d468e2032ece744cdf0289180"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-010.mp3",
+      "sha256": "c3ce3461c6164645d0fc7fd0829eece31e85fd33f9fa69d21e8cdcbfb23c6eda"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-011.mp3",
+      "sha256": "cde7a7e49330bffdc6cd7da274080af443e521251eef3fed4ec30306ae35c374"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-1-clip-012.mp3",
+      "sha256": "2254b075e2c1a0b5ca029496ad7d6c461976f1c4431c27f3a0d8ac3349337d59"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-001.mp3",
+      "sha256": "71457002d8fde0ebbe53be0dc4b616745284a110a1fa075ab9959ad310abdc13"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-002.mp3",
+      "sha256": "56d7b7fdc00e43071c44fa2c48f0fd83c66f70b9c41ed662ed4f56b6c8a7491b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-003.mp3",
+      "sha256": "1b782628bb03777a6c0b25409e8f31e3952412e339c58d04e918dbf2d130e8dd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-004.mp3",
+      "sha256": "99b457a7e3ff68983829831f003bb918621258ed8b3e08f7c140cce4e59c46b3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-005.mp3",
+      "sha256": "7d710e34693877edc767d5df7c05569e96da5b2d5a9b6dcf3f6c48587fc8558f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-006.mp3",
+      "sha256": "193e336d4ddff0e8d38c66dc19345d74a79f9c635ba7550218f230309793eefe"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-007.mp3",
+      "sha256": "e363ea5b81d2434a376b3a5fc6de9db9ece74a504260eb924292c389f6035cf7"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-008.mp3",
+      "sha256": "e4f7315ad62fb0633136ceee90e5f8052cb4609d8aebb5756a471f1391e65836"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-009.mp3",
+      "sha256": "bcc0f7f575b5983568acd9c304e717a5318e13791a814e2013ea134b7e76a7a9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-010.mp3",
+      "sha256": "c8585cc9d9f5672ff6ae376db92dfd30958b5901b265989e62d581e0c5209812"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-011.mp3",
+      "sha256": "af42bce6abaabf5757a8e2a858898d51ead4d2eba235d809637a579acdc0a27b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-012.mp3",
+      "sha256": "50c621caf95f2510ed228beb3c8018c4c1cdd62895a149465bf19f42feb94851"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-013.mp3",
+      "sha256": "dbf37b3c0d5a7379deef6bf03d1c785e160ec81cccafb5bc1daf5e35e52e97a9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-09-2-clip-014.mp3",
+      "sha256": "408523a6a89da53e97807bc25459741d2e3c929a64fd6e5506be3aaf96d8251d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-001.mp3",
+      "sha256": "e61f436529b956a5bab34b14ed3f683b364e76b835253b0accbad5663d43be5c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-002.mp3",
+      "sha256": "28c2740b7c0accbbc318ac8cc2cfbc80758fb8590a94da18f8a1d67340ec171d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-003.mp3",
+      "sha256": "5151ade1c403953f2369afd6e2fae8535d0466955be3d72327d72c9f202a0db6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-004.mp3",
+      "sha256": "e96d2bdf4f4832d029b0ae8f631a8f061b5117dc6e43094f84c0fd8fcb4f1b2d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-005.mp3",
+      "sha256": "fdbbc08aca2627a8a88c8c6741b7e5439c7f6c5f02cbb77ed8f9f59910db1993"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-006.mp3",
+      "sha256": "62d74d16a67bf52ebfa39bd46eb3863568dd3f31d8084dd932d9b6d96c3b269a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-007.mp3",
+      "sha256": "8e646a150bbbb2baa52b87047dc3fc7f123ad20af986f7abedc27025245ef0b2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-008.mp3",
+      "sha256": "b6896b800c4cdc431b1f9748fd61690e47246a83b704f9cf2862d741b3c890c5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-009.mp3",
+      "sha256": "3c83b88b05222becebf6be203638865cc46fd967af6c0aaa558d0890533a0d7d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-010.mp3",
+      "sha256": "d0926200e56cb2d50676835298109905b9cab4b7ef4d82c13470057cd64e25d1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-011.mp3",
+      "sha256": "0d887859622131f1d1e90f8b31ede6c39ab175775a6304692d9b3393530b60f3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-012.mp3",
+      "sha256": "d6355cf432e5d0218c2c244aeaf6265f4dc3b73f4d4d14d467395a932fdc2eed"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-1-clip-013.mp3",
+      "sha256": "58fb2161d49c590e107caa847589c22ca5e60eb2b8c94e6abb440a542b60db60"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-001.mp3",
+      "sha256": "7350d4d2de4d6ecc77bcf5ba7d2c6663f2454cf8de971fcaf033036b6f2cd5e0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-002.mp3",
+      "sha256": "9b96f177999ee05f67db1c34ebe0a2e0f0cb1de59721f86f197de80705375dbd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-003.mp3",
+      "sha256": "efc1ca443239ab3143495fe1dd548fd1932affcf44ed31d52d12c184d0ffc3f5"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-004.mp3",
+      "sha256": "70ed3d8b6d25f349288f26217703e7c336b50a353534ec89695f9da856410b18"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-005.mp3",
+      "sha256": "8b905824ea154ea22dff03d06b6775bb8c15c53242ed6c6395b0c5e1da7b4ebc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-006.mp3",
+      "sha256": "2d8f17cfa82786a1a64525789e882b11bb5c53ff3d077cb8735bd6c62e7a804c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-007.mp3",
+      "sha256": "d5516a0b559959ff937d8c9e89ed296968f4aaddfc4ca10d4dbc84716cb6108e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-008.mp3",
+      "sha256": "ed52519cfeb115502c02ee8e3a81e75ddc96ab45aa1b1269aab5f488ceaf3ea7"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-009.mp3",
+      "sha256": "b38a9513b7e44fe0b86e9cd30549a705978f013cf2a11ac205c5328c06d001e1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-010.mp3",
+      "sha256": "eb8403057399a896d06afe86dc02f07ab9680bd1ed7a7b11279b81a61da06101"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-011.mp3",
+      "sha256": "5632f1e9e6798df0465f97febab6fab08f7872b0ad975fa9ce9b4e21d0f0a896"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-012.mp3",
+      "sha256": "ab8ec99b3e74fe5837f01717b74b124328945d4c929f4b3c96d2e11478bcf4fa"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-013.mp3",
+      "sha256": "0b11e81f662ac5554cb9ba92329edff19df22d8c3c2624f43fa24263c91dea8f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-10-2-clip-014.mp3",
+      "sha256": "c5d95b2c1a5e6dadc48f2d54266434903ed7c90b7fd75facbcd533db6e478f00"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-001.mp3",
+      "sha256": "cc86da98828e834bf2a25da3841968be1406774741698c132fee799a5963bf29"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-002.mp3",
+      "sha256": "0b03453bf5185ca1bb6d25aa1510d987f5ec0430bcda39fb5a954939e3a95ba4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-003.mp3",
+      "sha256": "6a59d007a6f16e651524c9f05e362bc6ab97fb204d9fa2f0798cba92e2bdc578"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-004.mp3",
+      "sha256": "552c91a6755b6755c1d840b031e11cf903ae827ce84a6b4f2912f73c6c869007"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-005.mp3",
+      "sha256": "bcb2cbc243fbfac2b85931b6a9de656d92a7aa0cae27bc31a0393a7684cb8502"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-006.mp3",
+      "sha256": "cf57b4581c0a93a715e71ba15fcd93286c5a566aa50d2518c42923aa524168f2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-007.mp3",
+      "sha256": "a27ac68ac7833f9cd5c0559aa392ad7dc80de6f0dc50e96fc46376b59f16e91f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-008.mp3",
+      "sha256": "ef3be2faf47669e34a8b9d3b4455ff370135febb54e55a4b5ea98c7d06dc6e59"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-009.mp3",
+      "sha256": "d4b6603ec664a1e157563214e73de93127bc65c0147a48114e66e60c976fe47e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-010.mp3",
+      "sha256": "28e0a601a858a4f863f280c63fbde5bc403baa8934793818e05050f3740ae925"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-011.mp3",
+      "sha256": "99999e61ed6f5de6e5bd4e2edc846951e0388085550d5f4123cd50f165cf729a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-012.mp3",
+      "sha256": "6cb55004e64f4d0ff41007b28150bf8464f7f1bc6fdc4a442b7953cbb6ecf4e2"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-1-clip-013.mp3",
+      "sha256": "e965e0a1aaea5961f4f2e74cfaad0e0590f6a298bfbcee4ecdf28ff24655759f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-001.mp3",
+      "sha256": "927367de20664cde8663b7f6f18238380e7ed0b7a6c0d2ce8f6cf6d73e15ce73"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-002.mp3",
+      "sha256": "efa685e2ae3a8ac733f443aaed90bc480e82589b1cd899d6c41ef65af836642d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-003.mp3",
+      "sha256": "7daedccf237b1ad81e0ff77b58134be159260327a45a7184b11d0b272b579353"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-004.mp3",
+      "sha256": "36c082d21f4568b4ba62d3aa671aa11ce0144977dc8a4cdb90ff1dfdfff99c8e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-005.mp3",
+      "sha256": "558cbc5060e0b148a9687b8afceef4ad2065890167971681cdd47298a07b9552"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-006.mp3",
+      "sha256": "2450a4597194cf2b0af512aedc759b1345967e8715e51df4eff76856ea24849a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-007.mp3",
+      "sha256": "6a62d7b96858efc32a20a61d86a4219f5d6ef4530993d85defa169fce492dadf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-008.mp3",
+      "sha256": "e64cdd37e796b3beaad9936cbea44ad37dbded45570f369db560d5961cb04d5e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-009.mp3",
+      "sha256": "803d66b69ce7d7b4dbfaea7a02f185a6ec19910ace2eda928d454707269c1b10"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-010.mp3",
+      "sha256": "2f9f6c1c5bbac5226345a6455a3cdf6f3415f565fe9159e63b15a01a4229cc8d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-011.mp3",
+      "sha256": "04c87725eaff88d97220a381cdb6fe13a7193445159e947a22d09c196268026f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-012.mp3",
+      "sha256": "9aef06ece8e4308bd079b4f04d6dcb7899904d0597fe976966f985dc76c330cc"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-013.mp3",
+      "sha256": "4fba3fa357002d1e2fbdbce91e31ddf161ff3c498ec601f87db3d3f9575290bd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-11-2-clip-014.mp3",
+      "sha256": "d7b6127ef681d0259638b42cdb583e2f1dae5739416c45a212118b95f8574a1d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-001.mp3",
+      "sha256": "a32a1ea32629b428a3a4a6caea35744b54869bc5014fdc25639cd3a2cd267ac3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-002.mp3",
+      "sha256": "5a10549e5d5a995b7e169122eb755686501dda14ad248c2d62ec483fbf9096f6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-003.mp3",
+      "sha256": "368acc8c7de596000c15f3077e2158509e5a661397e77792b3339c1efa57bc61"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-004.mp3",
+      "sha256": "41f18943b43405a0b72815fb228263e3aa8079f02234c8e84fed46960c8ae636"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-005.mp3",
+      "sha256": "f251d44491aa91d3bb86fece6f177b17ed18bc2100147883e54cbe07fb7b38f0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-006.mp3",
+      "sha256": "a2a8edacaefd85625a6f233262caae6ebe06e61df5c00ca23a58bcd5097fdd6c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-007.mp3",
+      "sha256": "a31f0ec1e67709c8f8fc3705d2b10b2322fb019f327b7c85c8eea7b173eb4681"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-008.mp3",
+      "sha256": "fc3f3dc1ad1c0b694cb06061612f4e84a9aad61898611f0ae687611ba2cdb64d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-009.mp3",
+      "sha256": "71a48cd2563033b1cca30a672e0f7e8f9f1f36e221d94cc6eb9fa3420199ab0d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-1-clip-010.mp3",
+      "sha256": "484ecaeee2a4ebbd34af4c5986ced713b196fbbfa32eb81f4814308c97b836bf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-001.mp3",
+      "sha256": "9cc1292d2fdff73da6a1c51df69896be9d9e3e88325b17d1566d7a0e60e2d52d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-002.mp3",
+      "sha256": "a9917f6edf6079ddfe155ad63d6f0a07aa9c6d1b5543e53ba71883b0c47a2131"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-003.mp3",
+      "sha256": "dfc043de4d7fd87afa9f081535635381ef1fcdda6f012c59816d395fdaf171f8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-004.mp3",
+      "sha256": "1804767707c224c0fa288fd18237ecc7863f2f667b2f7a322cf1435c025f4ec6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-005.mp3",
+      "sha256": "6fb84af064effb7146e5e07cb3cf5ec9ddd49bddaaf3f0230056a270d4ea7dda"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-006.mp3",
+      "sha256": "583c009ed9dad659f3e4e53dc951fe71dc0617a5c89ab687352e34dd000f9ecd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-007.mp3",
+      "sha256": "197e8dace79068c1b5ad5b33ba1b0b3895339e70bf5f1b61ad1da6e927cea26f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-008.mp3",
+      "sha256": "1d540cb10e4ae3e1b5d23cced2378b5bc74e646d36042639c65fa6fafa958965"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-009.mp3",
+      "sha256": "f3ba3311b6235de81f6322a0a64d1e7daaba1ea489397f09b6562bec99f8524b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-010.mp3",
+      "sha256": "979f9401bf375c5dd506aa3a2ff487cc68e9b3233a22b25b8c347755359ac3fe"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-011.mp3",
+      "sha256": "78299077626d0f66ef54363ccdb310aeda69f1269a0927b6be7f6f68084d712a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-012.mp3",
+      "sha256": "cd02d1cac0266be1d8110b468ac76be245106f8b448daa3534b89c0992a39dfd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-013.mp3",
+      "sha256": "d9c05598b18b479a285120205e8a224f4f8ee10e1bff8e7298cc49beb8211b2f"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-12-2-clip-014.mp3",
+      "sha256": "b1a2a0ad2fd6f4def23d593ecfc660591c7af0a8d34fd6c9df21190b9ac6c049"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-001.mp3",
+      "sha256": "bc0480268cfae110bf2b3423c5504eaadd9dfb536da9676f7f99a8cdf8db8e06"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-002.mp3",
+      "sha256": "cf9c511ad5e82ac93a26e5e69e2aac00b1649d3a4700ba0d75b07aaa1408aab1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-003.mp3",
+      "sha256": "546dd3b75abae862526b27801514324a847af3654b8e98bbe0be27607f0a50a4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-004.mp3",
+      "sha256": "64c7202f023f0478ed577987f98bfbe5a6fa81087549538d2a2d1d4526174e98"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-005.mp3",
+      "sha256": "244d7d4462782e49da047f8debf9c03beae9d6418c967ba0ab02858ad924058a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-006.mp3",
+      "sha256": "51d21b2e90852173d294a2c467d9eb82320f85932c9898b4ec5f3f3cc5005292"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-007.mp3",
+      "sha256": "24feb74ebb431068836779c299f0b56eea3c70a0905aabf25c266156523f9a1e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-008.mp3",
+      "sha256": "b136cc8ce25fb650f7e517ebdeed5899a53a19f793cccc1ad40dcf7a0b4220dd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-009.mp3",
+      "sha256": "b16de9b6ec91e361cd61501ae6b9636e5c7304d053304107023f8adb37b7f679"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-1-clip-010.mp3",
+      "sha256": "eb5dae2dd4c47b5844feb3c5c7320f374aea93adc7c0276a898cd3dbd219ea9e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-001.mp3",
+      "sha256": "e76f2ebd2853475516ffdc45bfb0b8a2828ccbb80bc61b8e6b7914ed2da55944"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-002.mp3",
+      "sha256": "6a885923fd3ae88f95e048686d6e11a13445bb8af8b4f95d2e7dea8e60c50f2a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-003.mp3",
+      "sha256": "b79dd947ad0252309245daa7061118f2ecbe7d27a1f05cbec2f82f4841a6dd13"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-004.mp3",
+      "sha256": "b29a00c9cda4face842a9400885aa1a0928f4862f110ade9aab388c773ad6856"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-005.mp3",
+      "sha256": "fc7b4881995cb817c14ff6996e8823efc3b82c3ea10b66208e5895833cf6ecd6"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-006.mp3",
+      "sha256": "b6f16c7a0d454235d3f7a0922b5a5e25e635dbc25372f562f1f2075140a3b3a8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-007.mp3",
+      "sha256": "f450291afeef67f94fb5ecd52d951a9dcfc183b6ce895fcdb218c42cfaa30d8a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-008.mp3",
+      "sha256": "eaa37fcd1699d48185b67801d35dd0d3a2dc0ef10c384663446d37db45f96114"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-009.mp3",
+      "sha256": "9185498ecb7c1dd7dcebc2edee113355917230b8d48a8a49f5618926251bb2bd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-010.mp3",
+      "sha256": "144dc12dcff542c83bde222f46be3e95bd02673e2abc370924eaa4cf6747ba10"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-011.mp3",
+      "sha256": "2f0d36f2bb43439bc6576a17dac50319c970e17eb839117ad5abbb35a575744c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-012.mp3",
+      "sha256": "eb2d1f4a8d239a07eb11a5e3a4fde29c81dc656c33b337f2f5a71b800a83e82e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-013.mp3",
+      "sha256": "d6194f08f4e32c25ed4772255ff35fe66cd611e5ed9e963e3ebf550d1797db1e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-13-2-clip-014.mp3",
+      "sha256": "6f538dbfb428469067fcdef6d2b5688a60c0ecb9d564988481ee63a6394e2d93"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-001.mp3",
+      "sha256": "1b79aa0f04d339daa3a237eb554528b702519f8e7edf5a217b55aea096955723"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-002.mp3",
+      "sha256": "06a8c7fe01d52ec153d6edfa0d466777d2be01835dd54f6b67f18910b4d4a062"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-003.mp3",
+      "sha256": "99a9308b5c7d59e94b4428c4c178a41997ab3719491bafaa4e2294161c1fb06e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-004.mp3",
+      "sha256": "93481535d61970c1e676a515b8895cad54f6f647365b622259a79baecbccda8e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-005.mp3",
+      "sha256": "7cc0e90c189460066a87bf968bea58b585d4c1806eb40e06c2a5aefa3fc61288"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-006.mp3",
+      "sha256": "d1e6045a32e24edfd222271b2edb326679a0b35672b0389d6e8c9bea94fa504e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-007.mp3",
+      "sha256": "1beaf619f6c7e2b30a17ef2fcea0d0e4eb2f4a46afd9025108ffc4443378e43a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-008.mp3",
+      "sha256": "72d350ccd9fb7ac9a246012c89c4ac74e2ae11674070f96705a433c1775929bf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-009.mp3",
+      "sha256": "de4e1c8b522ec55c245a283d0f7623d4f759c825674f2fc11031703eb5cd6a8a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-010.mp3",
+      "sha256": "55b85b93b851e86a218a2be1e1e8f70da3d96ee4fd030c93ea97100fe8ce7833"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-011.mp3",
+      "sha256": "cdbe0c3774e45331359fdc242b09ecc47df7ed42beb718a94173aed7a09f4e1d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-1-clip-012.mp3",
+      "sha256": "f51deb29591cc753177e90bb6d5797d703a7d3431aab8b61c44d1a5f2e3c9131"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-001.mp3",
+      "sha256": "a8f709343f042668bc127cb6253513bdadebb4fe343bb884ec2e356d5f95204a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-002.mp3",
+      "sha256": "baecd2d8f0b172451ab2e1ae125c983d83c8b4737074e17162a162ff83b3506d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-003.mp3",
+      "sha256": "a23a62dee42bf307c0db2e1a18c55551062b32ec7d2a37b8f8137111c1adf6c4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-004.mp3",
+      "sha256": "11970ef5dfb04c4c52780323df64053dbeabc24de1403b81c02262d1e2e930ed"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-005.mp3",
+      "sha256": "206c66e3d977e4c8712a30f9a3dfdf441bfa5b660b6030e23724309e84029b94"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-006.mp3",
+      "sha256": "0ef9f396e604c0719bc0fd425fe624be07b9cd26294f1e7ca99e4e51d7e09bb9"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-007.mp3",
+      "sha256": "b754de63078756cb06f652cc49623d87c0cc521db00efbcd7955d490e0295547"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-008.mp3",
+      "sha256": "ccdb6d12b7c8d357d4298e57e512e5f4a66f08ea1a2c4efa39de017381b05933"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-009.mp3",
+      "sha256": "f4e7b2c23372576a56f4d2d28c293c1476e1409c52e56711116ca6bed730272d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-010.mp3",
+      "sha256": "7541145c944c44afcf7993e43ef78e2dce888912a105509ab00b2d8f607a80f7"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-011.mp3",
+      "sha256": "3c327b90f21b662b446d5651ccbad62cd0adedade4b17f81a5b248ce7c7e63dd"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-012.mp3",
+      "sha256": "43857a618f5e1887d9367fcd3b094d7bbbb67d013bacef3811f5df79071061a3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-013.mp3",
+      "sha256": "d489c2d4e2b2c0e7fc2c09f20a5cde1a48a819a030499021a5d5935a31546d0d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-14-2-clip-014.mp3",
+      "sha256": "c4fc675803ee0f17ae92e8220193b5698ffedf0f65823242da644ec64438e5b3"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-001.mp3",
+      "sha256": "bfb830dfc91acb09da9b3ae80b4b13d5523b66896143ed622b42fae3f6658985"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-002.mp3",
+      "sha256": "92bc584c7015904f7b5f77f4945ba767e7968f83265c4fac63471116c2511c2e"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-003.mp3",
+      "sha256": "511cf0f41ac4363b767a64862f9e84f7e6d733c46bbcae289748ce9f0cc570d0"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-004.mp3",
+      "sha256": "1698fe25cf26934ab0f03a70cf428bd952dc8ef287cd109b608d3b1648537aaf"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-005.mp3",
+      "sha256": "7e2658723d920439e63d53cf7c1c868b9464af0e6ba5e28093a8f62effb84e9d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-006.mp3",
+      "sha256": "9d4877dd95c8fde0bf04ba83165dc5449dd880c627b7d942ba9afce96f1d3bb8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-007.mp3",
+      "sha256": "9a71c2c04c2224b0268d9646e5f809c66fcf75c33e7cdd2b9c4e2fb73b182941"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-008.mp3",
+      "sha256": "7a973e7b1f08aec59a37a889fc0fa5cab6111032afb58d87371ea275d94b248d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-009.mp3",
+      "sha256": "c32c4e12a5aa6452d4bcd93a299b9726009c42770e33e345203fafa670bb51f4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-010.mp3",
+      "sha256": "0cad09f34cc1ba6f79fc21d017dae2587dfa943fec3f35427b76a26eb21a4c59"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-011.mp3",
+      "sha256": "8160ebeaabc3788d2b3fc15966ad64c9ec0bd9a039b1738a37e941ddef7b381b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-1-clip-012.mp3",
+      "sha256": "efa62ef699dd527cc38d63e41032d4217d8053e1cfa0401976e2931fa8250d21"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-001.mp3",
+      "sha256": "52cc2b514770eb546977dee6af26d2c4ad4a8ff1b7987316845d97b838558028"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-002.mp3",
+      "sha256": "0c78985f50f9e6cf85f60b4382cec0e1b485e71102a87a99707d6dff8657ea97"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-003.mp3",
+      "sha256": "27debd7123b81cd26085df6bab4b2b60b47eec147b4b0cf4d9358791d4d28547"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-004.mp3",
+      "sha256": "a409e201cf001f411fc265b0bb5b9498bed4354bd2d7e5dbf241c16ac4536e68"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-005.mp3",
+      "sha256": "6b7845d14cf91fd193feef0183ba8aa11656dd953b538ea01b943ed1d7d17b2a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-006.mp3",
+      "sha256": "86529eb49173e4a87f67c283a6218dad1e0bd43b3ab877271669ee6a09de5998"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-007.mp3",
+      "sha256": "96741a09a3e650df67389810d400277d9386c6547e4d7bf3bc0b4523f9139c3b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-008.mp3",
+      "sha256": "46547f091bb06df58dcb93aedebc156eb376e2d2478ff2c653d973d80d08154b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-009.mp3",
+      "sha256": "3eb8cd25dc37159ac546552966e23de99b7a8392bf77cb1ee7a484490c10034a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-010.mp3",
+      "sha256": "09ec78f3558973a916afa0c69c2785d2ed58b3ca475eb4c7abfba6e0ea089709"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-011.mp3",
+      "sha256": "8e498d823a1bee004aef5115210f8a94c00ae6ea5e3f54cea2536494ea03d011"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-012.mp3",
+      "sha256": "b5199511aee0de95b7acb5d10e7007cd32a573fdd202213a54b002b6afc9bbc1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-013.mp3",
+      "sha256": "2dfcb028eeca9acf998d4fd6acd805f063cbf2041f1340e3fe995e728ea253ce"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-15-2-clip-014.mp3",
+      "sha256": "bc06cb83b571d2e191ca2eba0aa8cc86f8663e691c97000fcb6392de77f44179"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-001.mp3",
+      "sha256": "142509f0855d915d3a812f3c9eba2623901da55d078e097ce4e1148bcc1ac8d4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-002.mp3",
+      "sha256": "d8000be103118cf391d56a501bad8a23ffde09f80eee833d15957b14880d44e1"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-003.mp3",
+      "sha256": "be23610c2eefa80e74b5c8591258c9ef7077667d6ec0d2189209e01364964012"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-004.mp3",
+      "sha256": "6de41153705dccb6fe74899bbed96d72909aea1ffadd10ccd5c7a393dc9ea636"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-005.mp3",
+      "sha256": "de26957d0671fce39d5b60c1ee93da3ee8369a497f5af30d9d9a9a2140d3a31c"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-006.mp3",
+      "sha256": "a9b1efff84b8c6ca6168f5aab9c0db0ff078fae1c4013540716eb56748049094"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-007.mp3",
+      "sha256": "074fbc47366eddec921698fc8c401b73b530f302bd7d78cc35e6612f1aa7c89a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-008.mp3",
+      "sha256": "dc69f37dcf7ce5db59fb10e54c56d3dce9d89560fec05cc1a74d1fb4f657059d"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-009.mp3",
+      "sha256": "96ade8015df784e5b2f97c32324b02298cc0dea8a14682691f8e156b7cc81c74"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-010.mp3",
+      "sha256": "204fb5d56d814cb980d79f0c985e9ddf39d2a7bc160e8e4372ab01af51eba963"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-011.mp3",
+      "sha256": "1adde11b46294ea4b9d73c3e72e4ad04bdc88c15e5e823000ea210f72dc1322b"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-012.mp3",
+      "sha256": "ca09de60cb5175657f640d136bc84f04461c6f9fa12c16f78681718efad53a15"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-013.mp3",
+      "sha256": "2404b907ef3d8ad4227f5bc8ae2092065553579f226d6df62b6f411a917314fb"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-014.mp3",
+      "sha256": "b2e87664cb92399839582ac33b644371c2fdc9bb4ae6399db9151ab7a2662ee8"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-015.mp3",
+      "sha256": "f22eb97247598bfa00282be8420513c76a922dcf8cc361377ff9996b53e9a601"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-016.mp3",
+      "sha256": "71247ac853e6fcb5a32c7f42cbea11b6cebe99109b8863dddd33ee533b22f135"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-017.mp3",
+      "sha256": "6df32cc4a0ddd87dc6c5b408935dcad7d15c340355a800708b099df165cee799"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-018.mp3",
+      "sha256": "370b36f40ffc2d60fb943ff358b2637eb5d95ea3d3501ae0de53d33a8c951412"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-019.mp3",
+      "sha256": "a6f3fa80ee96a4296e3792fa80e0d9f645c634523173a91825d6400c3b15abd4"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-020.mp3",
+      "sha256": "8e912858dac22a5b0695fb4f0e15c6ea498697e70cef6a0386e84c8174a85102"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-021.mp3",
+      "sha256": "51be7ccb564bfd94af5c56ac1ba0360cacf7057717bb4cbc3ecf900491da0456"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-022.mp3",
+      "sha256": "d3902712521db8194c99b889e1ed1e3c52f7ffbff61449825cd9a76040f1502a"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-023.mp3",
+      "sha256": "9b41c0303da05f081816c7a87be672ffbcbb6d9597964ea6c2a615b94d079690"
+    },
+    {
+      "path": "public/hsk1-materials/workbook-audio/wb-mock-clip-024.mp3",
+      "sha256": "4fdfed01445d333f16d68febb8e6e1e3ad9e032f07c1f8fe6f3f1732e7b67400"
+    },
+    {
       "path": "public/icon-192.png",
       "sha256": "ee96b64d6b870b5507ffb894d5a869695cb035c37f0849a70c91a02dc2d9fba7"
     },
@@ -1557,7 +3895,7 @@
     },
     {
       "path": "scripts/export-open-source.mjs",
-      "sha256": "7279bdafa4d6c420791a0bcd3fd19bc246d42ec02ea5989ef87b91a78af5ca96"
+      "sha256": "f250e6de16a06e3a665273ebc8782b14181c641d572e1a67984ceb171ef13144"
     },
     {
       "path": "scripts/import-cedict.mjs",
@@ -1609,7 +3947,7 @@
     },
     {
       "path": "scripts/verify-community.mjs",
-      "sha256": "50a6c742908f2ff39a3850c23066939ff6f689ffa4f24944caf910e60535cb75"
+      "sha256": "f09c4c049ea7bc1a29f861c2106da5e573b60a4fbff583b775dd3e1563c28e80"
     },
     {
       "path": "scripts/verify-dictionary-format.ts",
@@ -1632,6 +3970,10 @@
       "sha256": "b17a3dfb93273ccc5ca877f4b3ce391f87aab446116be2dd4cc5381c5ffd06d2"
     },
     {
+      "path": "scripts/verify-published-resources.ts",
+      "sha256": "d5d4779673f910c410154b026212a5eb8de8bb8c344dd448e88a79b710a4a639"
+    },
+    {
       "path": "scripts/verify-speech-quality.ts",
       "sha256": "12eb178c038ed92f7648e3e3d8909ee6c65f306669e0058c0e2936ae61baf661"
     },
@@ -1642,6 +3984,14 @@
     {
       "path": "scripts/verify-study.ts",
       "sha256": "98076b12064273c2e9148df764f0216a478a3ddc426dbd0956fcab4ed346f7f1"
+    },
+    {
+      "path": "scripts/verify-vocabulary-api.ts",
+      "sha256": "4ec660d05856af671766aca5d2dcc82e5d32848e604d5b36ed48b25cc5e3726b"
+    },
+    {
+      "path": "scripts/verify-vocabulary.ts",
+      "sha256": "9ae1809fda14bf0b8616862a01b84150c8c4f82abc4eb3df4ca88d1e7887bc01"
     },
     {
       "path": "src/app/api/audio/route.ts",
@@ -1692,6 +4042,10 @@
       "sha256": "f2fd6e2dae6764319b1d6c6c09903138477e3b8bdc3eccbb7e31115e8715824c"
     },
     {
+      "path": "src/app/book-audio.css",
+      "sha256": "f0b885382399b8fc52d47c3e50be95dc6a327ed7e551d20476ec459a1d56df24"
+    },
+    {
       "path": "src/app/conversation/page.tsx",
       "sha256": "f15edb5e5f7d9f62491d24680100b75efbe50bca5a6d1dfb0018d84c4b72707e"
     },
@@ -1728,12 +4082,16 @@
       "sha256": "2292782fa4b2b7ac02a4a964e5229347f6e38ea735b4384527027decf5bf7123"
     },
     {
+      "path": "src/app/hsk/[level]/audio/page.tsx",
+      "sha256": "dec1fa9c303c38a5da132927515a6da12b7c464296aa796b05c945aa77846a9d"
+    },
+    {
       "path": "src/app/hsk/[level]/materials/[lesson]/page.tsx",
-      "sha256": "fdaba4c32ad3f3c6a59cc472b44f7822ba125775d0b728a04e4331910e2d7a62"
+      "sha256": "ef026c13b0ba9081d4e8b4ebd46f89047dfba259446e2fd418fa869e2157686e"
     },
     {
       "path": "src/app/hsk/[level]/materials/page.tsx",
-      "sha256": "fdaba4c32ad3f3c6a59cc472b44f7822ba125775d0b728a04e4331910e2d7a62"
+      "sha256": "ef026c13b0ba9081d4e8b4ebd46f89047dfba259446e2fd418fa869e2157686e"
     },
     {
       "path": "src/app/hsk/[level]/page.tsx",
@@ -1753,7 +4111,7 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "sha256": "56167290471efa27c2d2dd136b8c48e482416b1c8547d899ad7e9cd3f0849c40"
+      "sha256": "d32eaed25bccd80a6f87efa5f05e26fda070e6980a8e957a4bc99a908c1abe6a"
     },
     {
       "path": "src/app/learn/page.tsx",
@@ -1832,6 +4190,10 @@
       "sha256": "7591209bd52ed0c6d11ddf24259fe67781505049d861c795c15482cbcd309cd7"
     },
     {
+      "path": "src/components/study/BookAudioLibrary.tsx",
+      "sha256": "3914696f321cf9a67b9a3f5aa8da9ce373f9001668188671aaa00695d715886c"
+    },
+    {
       "path": "src/components/study/ChineseReading.tsx",
       "sha256": "6f1c219a4171faf2c9b0bdc95c421f24f161549fbf4ea689eaace09ffb01530e"
     },
@@ -1865,7 +4227,7 @@
     },
     {
       "path": "src/components/study/Hsk.tsx",
-      "sha256": "f7066b30f4253e9280d47d9dc42e7e44c88f5820ebee5dc23b6e5e45c0926021"
+      "sha256": "adcca723d6ce98929634da54415bd4bc323873a0bc88fb7a561326c87fcb9820"
     },
     {
       "path": "src/components/study/HskOpenTask.tsx",
@@ -2012,6 +4374,10 @@
       "sha256": "5212237d8b72874b047750fd973faa87346483f1ebe7ef122578c2baadd596e2"
     },
     {
+      "path": "src/lib/hsk/book-audio.ts",
+      "sha256": "f2232844c55340fba9133dbdce4c9eebdb28668b10fb210a7ff1a97ba09331c6"
+    },
+    {
       "path": "src/lib/hsk/catalog.ts",
       "sha256": "1e1ef63288980a0a537f15ac12db2569c9be1cfc94fd937cffadf6156db75ef6"
     },
@@ -2024,12 +4390,16 @@
       "sha256": "f2d0e79d4305e42d6b6e59086d804101010c73664e89af51c9ce93d080ef8b7c"
     },
     {
+      "path": "src/lib/hsk/material-audio-index.json",
+      "sha256": "6394d029e8cce33553a0abbddd5ab8566db10411f83a768e4d1d1a761b7df3cf"
+    },
+    {
       "path": "src/lib/hsk/material-grading.ts",
       "sha256": "eec1a6e0fdea0456f017dabfa6e02c928a3e51dc7f3081e763e3d78a9e40f993"
     },
     {
       "path": "src/lib/hsk/materials-catalog.ts",
-      "sha256": "174d474598800f4cad8468acdfb0adbc03dfd67b45cadb83f24494dc22d611be"
+      "sha256": "5ad41b1d4820b4322f36276fa8f21b0ca9dbf76055b089bff5ac52e87a1d9ca0"
     },
     {
       "path": "src/lib/hsk/materials-server.ts",
@@ -2053,15 +4423,19 @@
     },
     {
       "path": "src/lib/hsk/vocabulary-summary.json",
-      "sha256": "7572feea0a7a28a55ffad9dc044174a0c9177ee40a89ecb7de16fd1aba3609f7"
+      "sha256": "10c974683411d0253f576dddf68f96b864625c2abeb2e092f4d6e397375b3751"
     },
     {
       "path": "src/lib/hsk/vocabulary-types.ts",
       "sha256": "eddf872e6cc43989af2e709e773176874592bd930fc7aad5007fc52dbc261a4c"
     },
     {
+      "path": "src/lib/hsk/workbook-audio-clips.json",
+      "sha256": "0206e76feeba789abe809812bc0ea2df4307a0c1d6f5bb46d6bd540275b01407"
+    },
+    {
       "path": "src/lib/hsk/workbook-audio.ts",
-      "sha256": "db46940679b3bc94f91c3a5325ae4ddef2188f98f50ac30d3f37fa4402302adc"
+      "sha256": "d255164304574e29230d94744250ff2f84fee0d09cef6c69d6e9d1ca110650d2"
     },
     {
       "path": "src/lib/i18n/content.en.json",
@@ -2093,11 +4467,11 @@
     },
     {
       "path": "src/lib/i18n/resource-server.ts",
-      "sha256": "9b35105c82fe5450a580bdd12dabb604bd1d3894cfb030dbf2078cb45ce3facd"
+      "sha256": "ed3170e4eaba0abcdd25f47fa21732d1517f904614cbc3f5d3ac51eec5eae1d9"
     },
     {
       "path": "src/lib/i18n/reviewed.en.json",
-      "sha256": "31ce3839dc619f737f4f002afe7b0bdabdfdd3c177aa6cd39de154c0123ee8df"
+      "sha256": "b86983e8874968d9bfd74cab5844214bac70d85696de0df723cbe0780dd05a05"
     },
     {
       "path": "src/lib/i18n/server.ts",
@@ -2118,6 +4492,10 @@
     {
       "path": "src/lib/i18n/view.ts",
       "sha256": "9590cfed6517b326e1e0b99856e5d1e2472fe61202bd80fe17c4c2450f0d3873"
+    },
+    {
+      "path": "src/lib/i18n/vocabulary.en.json",
+      "sha256": "c529ee007e6f3626fef0453379cd6efff5daa58daacc03eb3112c8af3d870a98"
     },
     {
       "path": "src/lib/mandarin-phones.json",
@@ -2208,5 +4586,13 @@
   "locales": [
     "en",
     "vi"
-  ]
+  ],
+  "resources": {
+    "vocabularyEntries": 11715,
+    "vocabularyLessons": 812,
+    "textbookAudioFiles": 93,
+    "workbookAudioFiles": 491,
+    "audioFiles": 584,
+    "audioBytes": 267228377
+  }
 }
