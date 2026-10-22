@@ -6,7 +6,7 @@ See [review follow-up](CODE_REVIEW_2026-10-22.md) for remaining problems.
 
 ## Source and resources
 
-- 2,415 source/resource files are listed with SHA-256 hashes in
+- 2,395 source/resource files are listed with SHA-256 hashes in
   `EXPORT-MANIFEST.json`; the manifest itself is also committed.
 - The corpus contains 11,715 imported vocabulary records in all 812 lessons.
 - Included resources contain 3 supplied book PDFs, 3 publisher reference PDFs,
@@ -51,6 +51,8 @@ a local pass alone does not establish that a remote run succeeded.
 English coverage checks are structural and cannot certify translation quality.
 They do not replace teacher review, live paid-provider tests, recovery/backup
 testing, large-history benchmarks or a deployment-specific security review.
-Historical response growth and legacy-store cleanup remain open work. Recovery, backup, quota/proxy and audio scheduling changes have dedicated regression suites; see [runtime safeguards](BACKEND_RELIABILITY.md).
+Historical response growth remains open work. The unused legacy store/component/API chain and Drizzle schema/configuration have been removed after an import audit. Recovery, backup, quota/proxy and audio scheduling changes have dedicated regression suites; see [runtime safeguards](BACKEND_RELIABILITY.md).
 
 New checks: test:backend, test:audio-queue, test:recovery-api, plus a Node 22/24 matrix and Docker build/restart/persistence job. Check the published commit's CI result before claiming those remote jobs passed.
+
+Legacy cleanup adds test:legacy for one-time adoption and rollback; the API suite now checks retired endpoint 404s and unchanged progress. See [cleanup details](CODE_CLEANUP.md).

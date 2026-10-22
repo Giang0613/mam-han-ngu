@@ -31,7 +31,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "f40ab0bf6a2dffbe30ccbbb3f2c4365c8eb4308750d068153705ee0179ae22b0"
+      "sha256": "ee629768363a5a009cb9f4cbf28bb563acb368135d094e73d6509226be89dfe1"
     },
     {
       "path": ".gitignore",
@@ -3662,8 +3662,12 @@
       "sha256": "909e677427d820758e3d5c05b6a1d6bb30ce7291123bb03bf14b0e9ad5f58578"
     },
     {
+      "path": "docs/CODE_CLEANUP.md",
+      "sha256": "eadc9204ee27a4fe5e0fb19665d801ed684ffce9cb9260fab526b7e82ca3e12a"
+    },
+    {
       "path": "docs/CODE_REVIEW_2026-10-22.md",
-      "sha256": "ac4cbc8979c92c82a6586e2c5ac71888393d086198477a36e46214d44d7919bf"
+      "sha256": "cb5b53f12aaec579d07157cfd8620e2fe98decc36fc515d08d6f2c8e75745aff"
     },
     {
       "path": "docs/COMMUNITY_README.en.md",
@@ -3691,7 +3695,7 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "1870706e27dab63c63096d751b14a7a3f47dc1973e62a566660613fdd29a90fb"
+      "sha256": "38cf266dc5371f6767e5ba12ab769f6b138467de57fa65713803d14f8a980108"
     },
     {
       "path": "docs/hsk-vocabulary-import-report.json",
@@ -3754,10 +3758,6 @@
       "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
     },
     {
-      "path": "drizzle.config.ts",
-      "sha256": "241836449b73c49e6a5e0252288584647338b3ea2ef394ab76f14020c51ee232"
-    },
-    {
       "path": "eslint.config.mjs",
       "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
     },
@@ -3767,11 +3767,11 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "156dc8ad4a38f3f57d343835e5f62dfc5ad0d93f32088e9f0455f60867308058"
+      "sha256": "7d3ecae04033c8aefa88e7a973bed695b51c3276ddc285dc4d9c328ab806e77f"
     },
     {
       "path": "package.json",
-      "sha256": "d73b9698756511e352cc60bb67762e52f626848eea2ec767c943e9865236a258"
+      "sha256": "2c272baa31f373871d348a4570335b3d9e7931e0b32f564c152eb2df84027591"
     },
     {
       "path": "postcss.config.mjs",
@@ -8811,7 +8811,7 @@
     },
     {
       "path": "scripts/export-open-source.mjs",
-      "sha256": "ce0951419a926dc98fad4a92b5452a346bfb1515e08ed4f8045839dfe434d7a4"
+      "sha256": "4f2b6a7645d73c5a85975af1123d8b26f4ae930413f570398ef6da36e4b31a36"
     },
     {
       "path": "scripts/extract-hsk1-blanks.py",
@@ -8918,10 +8918,6 @@
       "sha256": "2c8aec69ab73fd931a58ef943742f4ab42f2d4276a21ed4ac5652dabe5bb0995"
     },
     {
-      "path": "scripts/seed-dictionary.ts",
-      "sha256": "10e0c37dcf7675626b4fb1677a3445f5401edd3026ec7a612f05c9eb43ef0164"
-    },
-    {
       "path": "scripts/setup-mandarin-audio.py",
       "sha256": "76ae17ae6a58f0ce769ab802cdd20de879d656a706abc7c5d0100e52437bbcde"
     },
@@ -8935,7 +8931,7 @@
     },
     {
       "path": "scripts/verify-api.mjs",
-      "sha256": "a41905c4309cbc9e06b1a53e42ae46c9b96402d71a8e11fc6b1844fa3140749e"
+      "sha256": "f7eb32ebe358a1ab100757f154d979186f208f5ead482eff4c3ba0eb11dd84bc"
     },
     {
       "path": "scripts/verify-audio-api.mjs",
@@ -9014,6 +9010,10 @@
       "sha256": "30961756d1e66fd0d2c3b5f3ddac0e569ab0c320855deec2879322b7035b8f4c"
     },
     {
+      "path": "scripts/verify-legacy-profile.ts",
+      "sha256": "3c09daf13d412d6b887ac908d7d971d2b67a1fce005e9ffdd74407006ebafb32"
+    },
+    {
       "path": "scripts/verify-published-resources.ts",
       "sha256": "993acaa747996821b021b6e22e0e62d26afa60a029620aaeaf714498449899c1"
     },
@@ -9054,14 +9054,6 @@
       "sha256": "3de12992edb80a2305b5d0f0169b5dd2ec8b29df764916430bea98be512514a7"
     },
     {
-      "path": "src/app/api/flashcards/review/route.ts",
-      "sha256": "3f705bda3e7d1a14c552db313140a8d162245c2764213f52a59c8b337ee07bb2"
-    },
-    {
-      "path": "src/app/api/flashcards/route.ts",
-      "sha256": "2a7b9d86cf61a98219a760ba98351b82f5c4d99fb2c2431e00a092ad458d0d95"
-    },
-    {
       "path": "src/app/api/hsk/draft/route.ts",
       "sha256": "c83a4ea21f6ecd4e7854c61a7577191ea2ab2e737040ad50dce84b4e710cdf5e"
     },
@@ -9078,10 +9070,6 @@
       "sha256": "4920404a50eba6f05f12e6d3e5ef253fce26d42919b822d213f0c40cd966efe2"
     },
     {
-      "path": "src/app/api/pronunciation/route.ts",
-      "sha256": "99ed79d02b903fa5071b9a4163928da132d152965cb9e456ff87ad6d9f29765a"
-    },
-    {
       "path": "src/app/api/speech/token/route.ts",
       "sha256": "a0de6cf92ca1272b1a596f20f862f71535469f7c820342648fc5ba981632c245"
     },
@@ -9092,10 +9080,6 @@
     {
       "path": "src/app/api/tutor/route.ts",
       "sha256": "245d5d3603f8aea4848b1e476ea5fa6d36dbebb45944ba9411e4b784851fdd73"
-    },
-    {
-      "path": "src/app/api/user/route.ts",
-      "sha256": "f2fd6e2dae6764319b1d6c6c09903138477e3b8bdc3eccbb7e31115e8715824c"
     },
     {
       "path": "src/app/book-audio.css",
@@ -9334,60 +9318,12 @@
       "sha256": "caa9b124d9799b014df477f2e851ee877aa7059eb56c6dfdb803bacb195aa181"
     },
     {
-      "path": "src/components/ui-custom/ClickableSentence.tsx",
-      "sha256": "03a041a332a1d47611b31b0a67f1f692dc6810f8a3e9a8d0a86e7f5fc144610d"
-    },
-    {
-      "path": "src/components/ui-custom/CurriculumMap.tsx",
-      "sha256": "cbf9a830e795e6f0399d1bd660cf7e72e7e0051b9d0bdb75a331cb04f217056b"
-    },
-    {
-      "path": "src/components/ui-custom/DictionaryList.tsx",
-      "sha256": "e7c8325e5a19b36818e0acfe5bc21d32e9a54d236fd92fb7154489571e6d20b6"
-    },
-    {
-      "path": "src/components/ui-custom/Flashcard.tsx",
-      "sha256": "6e43ea4bbd9ee1ec9ddbf4e2f876c12f18743657033f5b04ec7c794395decb55"
-    },
-    {
-      "path": "src/components/ui-custom/HanziCanvas.tsx",
-      "sha256": "4bebbec8f8d74c597a0872b569a011f65e76c4bb03de9bb2efe1bd6a7e1fac7d"
-    },
-    {
-      "path": "src/components/ui-custom/ProgressDashboard.tsx",
-      "sha256": "4cad982092c0033a775dba2cbd732826175344b62521818fb39815c857533259"
-    },
-    {
-      "path": "src/components/ui-custom/QuizEngine.tsx",
-      "sha256": "5b15fe78308ba4738e8b346c5e7de67f9d35d71b73ebe3886648a798b229f679"
-    },
-    {
-      "path": "src/components/ui-custom/SentenceReorder.tsx",
-      "sha256": "7c067a69b01359de1d620e55c53441dd9d5c8feb96860cb10d2a5383fede8e76"
-    },
-    {
-      "path": "src/components/ui-custom/VoiceRecorder.tsx",
-      "sha256": "189b671e6d90679aed41d92204683ace67ce3aa2ecb90639b2509fdfd7543e76"
-    },
-    {
       "path": "src/components/ui/button.tsx",
       "sha256": "c635b418a7ee7d1375f9a4764fa7aa98b3664e7d52905c41441bcd1dfabf4bca"
     },
     {
       "path": "src/db/index.ts",
-      "sha256": "95061185361449bb9b4a17399ffa590ae68b63b34f4a2d72c592e7d67c045994"
-    },
-    {
-      "path": "src/db/schema.ts",
-      "sha256": "510d7eeb08995e8d47d3d29407f059cfaab7d554d5a019dea6b48296da68f917"
-    },
-    {
-      "path": "src/hooks/useAudio.ts",
-      "sha256": "2ae4ef6877392e0bc75e5ff50be28fe44b377de68de5fc0268fc863bd4741f8e"
-    },
-    {
-      "path": "src/hooks/useAudioRecorder.ts",
-      "sha256": "7c6ffbbe210f1719f69f674510406f459a13d1b360217de6cf6b797cd87f2095"
+      "sha256": "7042b13fe34781eec9b2a5dc71ff6d189ea53bc481833acaae59a3beb8a08bd6"
     },
     {
       "path": "src/hooks/useChineseAudio.ts",
@@ -9404,14 +9340,6 @@
     {
       "path": "src/lib/course.ts",
       "sha256": "3b9bfdc18e7ad69a1a31a0f932de9b2d78cd4aa83e93d687b790821ff47acfba"
-    },
-    {
-      "path": "src/lib/curriculum/hsk1MockData.ts",
-      "sha256": "6cffb3de9cc961297725b474891cc35264e29aa9fa4c8e607f0ede7fe7a03d72"
-    },
-    {
-      "path": "src/lib/curriculum/hsk3.ts",
-      "sha256": "0b4057200e6bf3b60af074ce1386ee87af9ee874970d53bccdc3bff4584ea99e"
     },
     {
       "path": "src/lib/dictionary-english.ts",
@@ -9586,10 +9514,6 @@
       "sha256": "65fc247956d5847ac0acd90a4a6cd883e9d68461354f10ed7b3965f233014b70"
     },
     {
-      "path": "src/lib/pinyin.ts",
-      "sha256": "0bfdca8b25aa41b2d02361c915073becb3594597bd2db4fbc9cd371c6d2e661b"
-    },
-    {
       "path": "src/lib/reading-alignment.ts",
       "sha256": "298fd4d4a89024df9d97327ae0d66b822dda9ed5162864e914dcd8181b492243"
     },
@@ -9604,6 +9528,10 @@
     {
       "path": "src/lib/recording-audio.ts",
       "sha256": "98adf9586fa8100c8dcbdfa0e2a11954e72fcdc07b782420c592c26b11c7fa7e"
+    },
+    {
+      "path": "src/lib/server/legacy-profile.ts",
+      "sha256": "c47b68078c5df1fc22d38b1975665d828ee20e091faaf0dc54f56b6c6cf18f2e"
     },
     {
       "path": "src/lib/server/mandarin-audio.ts",
@@ -9647,7 +9575,7 @@
     },
     {
       "path": "src/lib/study-server.ts",
-      "sha256": "0d3397960954042c01d68dddc17b2c88d0a4bb2afac5da78181e202163b5bb96"
+      "sha256": "90fab172e314d3ae950a31fda4de8801c942836ce7a858195d59e88bc0e3308f"
     },
     {
       "path": "src/lib/study-types.ts",
@@ -9662,16 +9590,8 @@
       "sha256": "cfe029087ad887b4f26cd9420be62510a4e79e03c89219e8569548fb6138abd7"
     },
     {
-      "path": "src/store/useLessonStore.ts",
-      "sha256": "26ffb1834a7058baf78688acc1e5069953e5a64f48edf2375e0b8ce11bcdf9ce"
-    },
-    {
       "path": "src/store/useStudyStore.ts",
       "sha256": "a5afdf38c45519ddad489da0b0719dd01930ce39f9a801d45e51c82a4417da2c"
-    },
-    {
-      "path": "src/store/useUserStore.ts",
-      "sha256": "568417456fe91a592c2d84792507b42ca1997ebaaeaec65a0e8ec026e423096a"
     },
     {
       "path": "tsconfig.json",

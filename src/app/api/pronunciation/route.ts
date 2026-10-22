@@ -1,1 +1,0 @@
-export async function POST(){return Response.json({success:false,error:'Hãy dùng luồng đánh giá Azure trong Luyện kỹ năng khi dịch vụ đã được cấu hình. Ghi âm và nghe lại có thể dùng ngay.'},{status:503,headers:{'Cache-Control':'no-store'}})}
