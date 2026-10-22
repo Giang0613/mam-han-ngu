@@ -1,7 +1,7 @@
 # Mandarin Sprout · Mầm Hán Ngữ
 
-> **Experimental preview · Bản thử nghiệm.** Content and features are still being refined; this is not a stable release.
-
+> **Experimental preview · Bản thử nghiệm.**Content and features are still being refined; this is not a stable release.
+'DỰ ÁN PHI LỢI NHUÂN-A Non-profit Project
 Learn Mandarin one small step at a time. Mandarin Sprout is a self-hosted,
 open-source learning app in English and Vietnamese, built with Next.js, React,
 TypeScript, SQLite, and Three.js. English is the default; switch languages from
