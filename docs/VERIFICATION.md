@@ -19,7 +19,8 @@ See [review follow-up](CODE_REVIEW_2026-10-22.md) for remaining problems.
 ## Checks passed locally
 
 - `test:study`: grading, hints, duplicate XP, content versions, date boundaries,
-  weakness recovery and SM-2.
+  weakness recovery, empty/invalid progress totals, bounded percentages,
+  empty-lesson completion and SM-2.
 - `test:hsk`, `test:vocabulary`: all 9 app levels, 812 lessons, 23,430 generated
   vocabulary questions, stable IDs, different readings and grading.
 - `test:i18n`, `test:english-ui`, `test:dictionary-format`: translation mappings,
@@ -56,3 +57,11 @@ Historical response growth remains open work. The unused legacy store/component/
 New checks: test:backend, test:audio-queue, test:recovery-api, plus a Node 22/24 matrix and Docker build/restart/persistence job. Check the published commit's CI result before claiming those remote jobs passed.
 
 Legacy cleanup adds test:legacy for one-time adoption and rollback; the API suite now checks retired endpoint 404s and unchanged progress. See [cleanup details](CODE_CLEANUP.md).
+
+Progress meters share one finite 0–100 calculation. The vocabulary API checks
+missing, fractional, non-finite, duplicated and noncanonical HSK levels in both
+languages. Maintenance instructions require checking imports/callers and removing
+code made unused by each change before committing.
+An isolated check temporarily withheld the community checkout's vocabulary file:
+the active API returned JSON 503 in both languages, exposed no file path or stack,
+and returned 200 after restoring the file with its original SHA-256 hash.

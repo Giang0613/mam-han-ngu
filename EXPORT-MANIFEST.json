@@ -39,7 +39,7 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+      "sha256": "ad27e4e103a39036d3c59beac6f2612594487a15c746131a9a1c3066a1fb48f1"
     },
     {
       "path": "CLAUDE.md",
@@ -3667,7 +3667,7 @@
     },
     {
       "path": "docs/CODE_REVIEW_2026-10-22.md",
-      "sha256": "cb5b53f12aaec579d07157cfd8620e2fe98decc36fc515d08d6f2c8e75745aff"
+      "sha256": "9eff96ab38ab4f420eb03560c03975e4a9ae9b185d9763388a0fc89419c062ee"
     },
     {
       "path": "docs/COMMUNITY_README.en.md",
@@ -3695,7 +3695,7 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "38cf266dc5371f6767e5ba12ab769f6b138467de57fa65713803d14f8a980108"
+      "sha256": "4344c706685f965fa72952a8b762bdc59937091efad8a69696b692db0111fd0c"
     },
     {
       "path": "docs/hsk-vocabulary-import-report.json",
@@ -9035,11 +9035,11 @@
     },
     {
       "path": "scripts/verify-study.ts",
-      "sha256": "98076b12064273c2e9148df764f0216a478a3ddc426dbd0956fcab4ed346f7f1"
+      "sha256": "86ad8628b94276050a54de583d5648da9ff7794aba37de95127e843ddf1d9a02"
     },
     {
       "path": "scripts/verify-vocabulary-api.ts",
-      "sha256": "4ec660d05856af671766aca5d2dcc82e5d32848e604d5b36ed48b25cc5e3726b"
+      "sha256": "fb01291a9aa188468a3922bba17780fd88a4d9e700203a37f2bc2bd02ae4a9d9"
     },
     {
       "path": "scripts/verify-vocabulary.ts",
@@ -9063,7 +9063,7 @@
     },
     {
       "path": "src/app/api/hsk/vocabulary/route.ts",
-      "sha256": "b27381a1a9f4780c87ca1c42a87cf8c18382ae519ebdb016f59270c3fac127f7"
+      "sha256": "892ae33a9b7a3ef59b6beee33117a359cebb026b39d922fa3ed04af4e8e3cd1d"
     },
     {
       "path": "src/app/api/profile/recovery/route.ts",
@@ -9167,7 +9167,7 @@
     },
     {
       "path": "src/app/page.tsx",
-      "sha256": "febd6c57f873bf7967e19fcd62c2b958a03d8d0c21028447363e1b643de1b925"
+      "sha256": "be3b756a63cf074b19ce0441c33edef909fd48658bf3bdc0df5f8ff6d1857a9e"
     },
     {
       "path": "src/app/pinyin/page.tsx",
@@ -9183,7 +9183,7 @@
     },
     {
       "path": "src/app/progress/page.tsx",
-      "sha256": "277e88bb02b91c3fb348ca40d576e17eb8d8e3a7abc0f27bf0586f7d31732cf7"
+      "sha256": "92595b5594d76494230053c3283d92083407c74200c99f7bb5cf0a11f5ab3024"
     },
     {
       "path": "src/app/reading/[id]/page.tsx",
@@ -9267,7 +9267,7 @@
     },
     {
       "path": "src/components/study/Hsk.tsx",
-      "sha256": "adcca723d6ce98929634da54415bd4bc323873a0bc88fb7a561326c87fcb9820"
+      "sha256": "3d4cd02a37487a8e9e56dfc49469dc47896cac44c2cdd9e23c436c39761c8666"
     },
     {
       "path": "src/components/study/Hsk1Materials.tsx",
@@ -9275,15 +9275,15 @@
     },
     {
       "path": "src/components/study/HskOpenTask.tsx",
-      "sha256": "2dc3ec2bd5b86dec6a8eadbd33dd04f4eacaff219a72a3d7a618f491ea207db3"
+      "sha256": "e29376c9590dfb2c9423c669ef5a25626dafbb5613d6fd1d6d0b80142bd8fb0f"
     },
     {
       "path": "src/components/study/HskVocabulary.tsx",
-      "sha256": "eaa547d6f62a436552f87019e8e936409ac911d42d195f9227c3cbe26c997a90"
+      "sha256": "c4385ed5aa47024c0cc1614d5c667522faed4779173cc7b262be2f892367651c"
     },
     {
       "path": "src/components/study/Lesson.tsx",
-      "sha256": "247b0848c76c9444401bc4c2993ca677a803d19ae48178fa96f72b6f2feec6fb"
+      "sha256": "23513da6480a11f2653e7e62909f719d7aefb88ec191004c6ae46670fbbad1d3"
     },
     {
       "path": "src/components/study/MaterialResponse.tsx",
@@ -9571,7 +9571,7 @@
     },
     {
       "path": "src/lib/study-engine.ts",
-      "sha256": "c6e5f16abfa59a505648c3bf2a651723dbcf3675f3c2f24e9d87cb631654f836"
+      "sha256": "2351e361c517ad6785932ec01d06b67470f065d3d6fab475ce2c08ba9ed3c5ca"
     },
     {
       "path": "src/lib/study-server.ts",

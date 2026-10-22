@@ -39,9 +39,18 @@ async function main(){
  const rating={action:'review',eventId:randomUUID(),cardId:word.id,rating:4,revision:0};assert.equal((await post(a,rating)).status,200);assert.equal((await post(a,rating)).data.result.revision,1);
  assert.equal((await post(b,rating)).status,404);assert.equal((await snapshot(b)).attempts.length,0);
  assert.equal((await snapshot(a)).attempts.length,4);assert.equal((await snapshot(a)).cards[0].revision,1);
+ for(const query of ['', 'level=', 'level=0', 'level=-1', 'level=10', 'level=79', 'level=1.5', 'level=NaN', 'level=Infinity', 'level=0x1', 'level=1e0', 'level=1.0', 'level=01', 'level=%20', 'level=%201', 'level=1&level=2']){
+  for(const locale of ['en','vi']){
+   const response=await fetch(`${origin}/api/hsk/vocabulary?${query}`,{headers:{Cookie:`mam_locale=${locale}`}});
+   assert.equal(response.status,400,query);assert.match(response.headers.get('content-type')||'',/application\/json/);
+   const body=await response.json();assert.equal(typeof body.error,'string');assert.equal(body.error,locale==='en'?'Choose an HSK level from 1 to 9.':'Chọn HSK từ 1 đến 9.');
+   assert.match(response.headers.get('cache-control')||'',/no-store/);
+   assert.ok(!('stack' in body));
+  }
+ }
  for(const url of ['/api/dictionary?level=10','/api/hsk/vocabulary?level=10'])assert.equal((await fetch(origin+url)).status,400);
  for(const url of ['/hsk/10/vocabulary','/hsk/1/vocabulary/missing',`/hsk/2/vocabulary/${lessons.find(l=>l.level===1)!.id}`])assert.equal((await fetch(origin+url)).status,404);
- console.log('PASS: all 9 dictionary/lesson levels, full 7–9 pagination, imported card save/SM-2, server answer grading, replay/conflict, hinted XP, reload, profile isolation, CSRF and invalid routes.');
+ console.log('PASS: all 9 dictionary/lesson levels, full 7–9 pagination, imported card save/SM-2, server answer grading, replay/conflict, hinted XP, reload, profile isolation, CSRF, invalid HSK input in both languages and invalid routes.');
  }finally{
   const db=new Database('local.db');try{db.transaction(()=>{for(const s of sessions){const p=db.prepare('SELECT name FROM study_profiles WHERE id=?').get(s.id) as {name:string}|undefined;if(!p?.name.startsWith('SuperWeb vocabulary QA '))throw Error('Refusing to remove non-QA data');for(const table of ['study_hsk_drafts','study_attempts','study_cards','study_review_events','study_bookmarks','study_placements','study_tutor','study_usage'])db.prepare(`DELETE FROM ${table} WHERE profile_id=?`).run(s.id);db.prepare('DELETE FROM study_profiles WHERE id=?').run(s.id);}})();}finally{db.close();}
  }

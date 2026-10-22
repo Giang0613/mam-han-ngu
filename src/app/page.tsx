@@ -4,7 +4,7 @@ import {Localize,useLocale} from '@/components/i18n/LocaleProvider';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, BookOpen, Headphones, PenLine, Flame, Clock3, CheckCircle2, MessagesSquare } from 'lucide-react';
 import { useStudyStore } from '@/store/useStudyStore';
-import { derive } from '@/lib/study-engine';
+import { derive, progressPercent } from '@/lib/study-engine';
 import { grammar } from '@/lib/course';
 import {hskLevels,hskLevelModules,hskModules} from '@/lib/hsk/catalog';
 import {hskProgress} from '@/lib/hsk/progress';
@@ -29,7 +29,7 @@ export default function Home() {
   const dueCard = stats.due[0];
   const preview = dueCard ? {zh: dueCard.hanzi, pinyin: dueCard.pinyin, vi: dueCard.meaning}
     : {zh:'学习',pinyin:'xuéxí',vi:'học tập'};
-  const percent = Math.min(100, stats.todayCount / data.profile.goal * 100);
+  const percent = progressPercent(stats.todayCount, data.profile.goal);
 
   return <Localize>{<main className="workspace home-workspace">
     <div className="study-focus-grid">
@@ -71,7 +71,7 @@ export default function Home() {
             return <Link href={`/hsk/${l.level}`} key={l.level} data-tone={l.tone} className={`path-stage ${l.level === current.level ? 'current' : ''}`}>
               <span className="path-calligraphy" lang="zh-Hans" translate="no" aria-hidden="true">{['启','行','言','通','达','思','研','论','融'][l.level-1]}</span>
               <span className="path-glyph hsk-path-number">{l.level}</span>
-              <div className="path-copy"><span className="path-meta">HSK {l.level} · {l.band}</span><h3>{l.title}</h3><p>{l.topics.join(' · ')}</p><span className="path-completion">{complete===items.length?<><CheckCircle2 size={14}/> Đã luyện hết câu tự chấm</>:`${complete}/${items.length} câu đúng độc lập`}</span></div>
+              <div className="path-copy"><span className="path-meta">HSK {l.level} · {l.band}</span><h3>{l.title}</h3><p>{l.topics.join(' · ')}</p><span className="path-completion">{items.length>0&&complete===items.length?<><CheckCircle2 size={14}/> Đã luyện hết câu tự chấm</>:`${complete}/${items.length} câu đúng độc lập`}</span></div>
               <ArrowUpRight size={18} className="path-arrow" />
             </Link>;
           })}
