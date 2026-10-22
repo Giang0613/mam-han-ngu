@@ -1,0 +1,10 @@
+{
+  "source": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+  "homepage": "https://www.mdbg.net/chinese/dictionary?page=cedict",
+  "retrievedAt": "2026-10-06T09:37:06.804Z",
+  "entries": 125208,
+  "rejected": 0,
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Parsed into JSON; numeric pinyin converted to diacritics. Original English definitions retained."
+}

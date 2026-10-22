@@ -1,0 +1,7 @@
+import {z} from 'zod';
+import {sqlite} from '@/db';
+import {HSK_REVISION,hskTaskById} from '@/lib/hsk/catalog';
+import {getProfile,respond,readBody,handleError,StudyError} from '@/lib/study-server';
+const schema=z.object({taskId:z.string().max(80),revision:z.literal(HSK_REVISION),text:z.string().max(6000)});
+export async function GET(req:Request){try{const profile=await getProfile(),id=new URL(req.url).searchParams.get('taskId')||'';if(!hskTaskById[id])throw new StudyError(404,'Không tìm thấy bài tự luyện.');const draft=sqlite.prepare('SELECT text,updated_at FROM study_hsk_drafts WHERE profile_id=? AND task_id=? AND revision=?').get(profile,id,HSK_REVISION);return respond({draft:draft||null});}catch(e){return handleError(e);}}
+export async function POST(req:Request){try{const profile=await getProfile(),parsed=schema.safeParse(await readBody(req,30000));if(!parsed.success)throw new StudyError(400,'Bản nháp chưa hợp lệ hoặc phiên bản nội dung đã thay đổi.');const d=parsed.data;if(!hskTaskById[d.taskId])throw new StudyError(404,'Không tìm thấy bài tự luyện.');const now=new Date().toISOString();sqlite.prepare('INSERT INTO study_hsk_drafts VALUES(?,?,?,?,?) ON CONFLICT(profile_id,task_id,revision) DO UPDATE SET text=excluded.text,updated_at=excluded.updated_at').run(profile,d.taskId,d.revision,d.text,now);return respond({saved:true,updated_at:now});}catch(e){return handleError(e);}}

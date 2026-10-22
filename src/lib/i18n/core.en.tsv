@@ -1,0 +1,120 @@
+g001|Introducing with 是|Subject + 是 + noun|I am Vietnamese.|是 links a subject to a noun identifying it. Do not add 是 before an ordinary descriptive adjective.
+g002|Yes–no questions|Statement + 吗|Are you a student?|Keep statement word order and add 吗 at the end. Do not add it when the sentence already has a question word.
+g003|Negation with 不|Subject + 不 + verb / adjective|I do not drink coffee.|不 usually negates habits, intentions, or states. Negating a completed event usually requires 没.
+g004|Asking in return with 呢|Topic + 呢|I am well. How about you?|呢 asks about a topic already clear from context. It cannot replace 吗 in every question.
+g005|Saying your name|Subject + 叫 + name|My name is Xiaoming.|Use 叫 for a personal name. Questions about a surname use 贵姓 or 姓什么, depending on politeness.
+g006|Possession with 的|Possessor + 的 + noun|This is my book.|的 connects a possessor and a noun. It may be omitted in close relationships such as 我妈妈, but not arbitrarily.
+g007|Having and not having|Subject + 有 + object|I have an older sister.|Negate 有 with 没有, never 不有. The spoken tone of 一 can change within a phrase.
+g008|Asking about a small quantity|几 + measure word + noun|How many books do you have?|几 generally asks about an expected small quantity. Use the appropriate measure word.
+g009|Asking who|谁 in the position of the unknown person|Who is your teacher?|Keep the question word where the missing information belongs. Both shéi and shuí are accepted readings of 谁.
+g010|Asking which|哪 + measure word + noun|Which book do you like?|哪 asks for a choice. Distinguish 哪 nǎ from 那 nà, meaning “that”.
+g011|Asking how much|Noun / topic + 多少|How much is this apple?|多少 asks about quantity or price. In price questions, 钱 can immediately follow 多少.
+g012|Describing a quality|Subject + 很 + adjective|The weather is nice today.|很 often links a subject and adjective without strongly meaning “very”. Do not add 是 before 很好.
+g013|Saying where something is|Subject + 在 + place|I am at school.|在 here expresses location. Distinguish it from 在 before a verb for an ongoing action.
+g014|Wanting to do something|Subject + 想 + verb|I would like to drink tea.|想 generally expresses a softer desire than 要. With a person as its object, 想 can mean “miss”.
+g015|Talking about likes|Subject + 喜欢 + noun / verb|I like watching films.|An activity can follow 喜欢. Do not insert 是 between the subject and 喜欢.
+g016|Also|Subject + 也 + predicate|She also likes music.|也 normally comes before the verb or adjective, not after the object.
+g017|All|Plural subject + 都 + predicate|We can all speak Chinese.|都 covers the previously mentioned group. 都不 and 不都 have different scopes of negation.
+g018|Joining nouns|Noun A + 和 + noun B|You and I are going to the park.|和 normally joins nouns. It does not freely join independent clauses like English “and”.
+g019|This and that|这 / 那 + measure word + noun|This book is interesting.|这 means “this”; 那 means “that”. A countable noun usually needs a measure word.
+g020|Numbers and measure words|Number + measure word + noun|I am buying two cups of tea.|Use 两 before many measure words when counting two items. 杯 counts cups; 本 counts books.
+g021|Placing time expressions|Subject + time + verb|I am going to Beijing tomorrow.|Time usually precedes the verb and may also open the sentence. This ordering exercise asks for the subject first.
+g022|Days of the week|今天 + 星期几|What day is it today?|星期一 is Monday; 星期日 and 星期天 mean Sunday. 是 can sometimes be omitted in time statements.
+g023|A learned skill|Subject + 会 + verb|I can write Chinese characters.|会 expresses a learned skill, and sometimes a prediction. Ability depending on circumstances often uses 能.
+g024|Ability and circumstances|Subject + 能 + verb|Can you come today?|能 concerns the ability or circumstances to perform an action, rather than only a learned skill.
+g025|Wanting or needing|Subject + 要 + noun / verb|I would like a bowl of noodles.|要 is common in orders and requests. 不要 can mean “do not” or “do not want”, depending on context.
+g026|Asking permission with 可以|可以 + verb + 吗|May I sit here?|可以 often expresses permission. 不可以 denies permission; 不会 means lacking a skill or predicts that something will not happen.
+g027|An action in progress|Subject + 正在 + verb|She is cooking.|正在 emphasizes an ongoing action. Do not use it for every static state, such as possession with 有.
+g028|A completed action|Verb + 了 + object|I bought three books.|了 after a verb marks completion. It is not a universal past-tense marker.
+g029|An action that did not happen|Subject + 没 + verb|I did not go to school yesterday.|没 negates the occurrence of an action. The completed-action 了 is usually absent in this negative pattern.
+g030|Past experience|Verb + 过 + object|I have been to Shanghai.|过 expresses prior experience, rather than simply one specific event. Negate it with 没有 + verb + 过.
+g031|Earlier than expected|Time / condition + 就 + verb|He was up as early as six.|就 here suggests earlier than expected. Its meaning depends on context.
+g032|Later than expected|Time + 才 + verb|He did not get up until ten.|才 emphasizes lateness or a condition that must first be met. Compare it with 就 in the same context.
+g033|Comparing with 比|A + 比 + B + adjective|Today is colder than yesterday.|Do not put 很 directly before the adjective in this comparison. A difference in degree can follow the adjective.
+g034|Even more|更 + adjective|This book is more interesting.|更 needs a comparison point in the sentence or context. It is not a standalone noun.
+g035|The highest degree|Scope + 最 + adjective|I like this song best.|最 precedes the quality or mental-state verb being emphasized. The comparison group may be implicit.
+g036|A little|Adjective + 一点儿|Please speak a little more slowly.|一点儿 follows an adjective to adjust degree. 有点儿 comes before an adjective and means “a little”.
+g037|Somewhat|有点儿 + adjective|It is a little cold today.|有点儿 often describes a less desirable impression. Do not swap its position with 一点儿 in requests.
+g038|So…!|太 + adjective + 了|This dish is so spicy.|The final 了 belongs to this exclamation; it does not mark past time.
+g039|Cause and result|因为 + cause， 所以 + result|Because it is raining, I am not going out.|Chinese can use both 因为 and 所以. Put the cause before the result in this exercise.
+g040|Expressing contrast|Clause A， 但是 + clause B|These clothes look nice, but they are too expensive.|但是 connects contrasting ideas. 可是 and 不过 offer related meanings with different nuances.
+g041|A condition and its result|如果 + condition， 就 + result|If it rains tomorrow, we will not go.|如果 introduces a hypothetical condition. 就 usually follows the subject in the result clause.
+g042|Two simultaneous actions|一边 + V1， 一边 + V2|She listens to music while cooking.|Use this pattern for actions that can happen together, not consecutive actions.
+g043|Doing things in sequence|先 + V1， 再 + V2|Let’s eat first, then study.|再 marks the next step here. 又 often describes a repetition that has already happened.
+g044|Describing how an action is done|Verb + 得 + description|She speaks very clearly.|得 links a verb to a description of its performance. Distinguish it from possessive 的 and adverbial 地.
+g045|An adverbial with 地|Description + 地 + verb|He studies seriously.|地 follows an adverbial and precedes the verb. Some adverbials can omit it; not every manner expression needs it.
+g046|A continuing state|Verb + 着|The door is open.|着 emphasizes a maintained state. 正在 instead highlights an action in progress.
+g047|Handling a specific object|Subject + 把 + known object + verb + result|Please close the door.|把 usually requires a known object and a result or other complement. It cannot simply be added to every SVO sentence.
+g048|The 被 passive|Affected object + 被 + agent + action|My younger brother rode away on my bicycle.|被 makes the affected object the topic. The agent may be omitted when unimportant.
+g049|Finishing an action|Verb + 完|I have finished reading this book.|完 marks completion of an action. 看了 alone does not necessarily mean reading the whole book.
+g050|Reaching a result|Verb + 到|I finally managed to buy a ticket.|到 after a verb marks achieving a goal. Before a place, 到 can mean “arrive at”.
+g051|A successful perception|看 / 听 + 见|I heard your voice.|听 is listening; 听见 is successfully hearing. Compare 看 with 看见 in the same way.
+g052|Done and ready|Verb + 好|The meal is ready.|好 here marks a satisfactory or ready result, not simply the independent adjective “good”.
+g053|Moving outward|Verb + 出来|Please take the book out.|来 usually moves toward the speaker’s viewpoint; 去 moves away. Read the location context.
+g054|Beginning an action|Verb + 起来|Everyone burst out laughing.|起来 can mark a beginning or upward movement. Do not always translate it literally as “up”.
+g055|Continuing an action|Verb + 下去|Please keep speaking.|下去 can express continuation from now onward. 下来 has different directional or resulting-state uses.
+g056|Being able to understand|Verb + 得 + complement|I can understand this recording.|得 in a potential complement differs from 得 describing performance. 听不懂 is its usual negative form.
+g057|Being unable to finish|Verb + 不 + 了|I cannot finish eating this much.|了 in this potential complement is pronounced liǎo, not the particle le.
+g058|Emphasizing a known past detail|是 + detail + verb + 的|I arrived yesterday.|是…的 highlights the time, place, or manner of a known event. It is not a general future pattern.
+g059|Distance|A + 离 + B + far / near|My home is very close to school.|离 expresses distance. Do not insert 在 before 离 in this pattern.
+g060|From… to…|从 + starting point + 到 + endpoint|It takes ten minutes from here to the station.|Use this for places or times. The order of the two endpoints matters.
+g061|Although|虽然 + A， 但是 + B|Although he is tired, he is still studying.|虽然 acknowledges a fact; the next clause goes against expectations. One connector can sometimes be omitted.
+g062|Not only… but also…|不但 + A， 而且 + B|She can not only sing but also dance.|The clauses add information rather than contrast. The position of 不但 changes when subjects differ.
+g063|A sufficient condition|只要 + condition， 就 + result|As long as I have time, I will go.|只要 states a sufficient condition. 只有 introduces a necessary condition.
+g064|A necessary condition|只有 + condition， 才 + result|Only by working hard can you improve.|Pair 只有 with 才 in this pattern. Do not substitute 就 from the 只要 pattern.
+g065|Even…|连 + surprising example + 都 + predicate|He even forgot his own birthday.|连 introduces a surprising case; 都 or 也 marks its inclusion.
+g066|The more… the more…|越 + A， 越 + B|The more I read this book, the more interesting it becomes.|Two changes in degree are linked. Do not add 很 immediately after 越.
+g067|More and more|越来越 + adjective|The weather is getting colder.|This expresses change over time. It does not require two linked factors like 越…越….
+g068|Both qualities|既 + A， 又 + B|This place is both quiet and convenient.|既…又… presents two simultaneous qualities and is often more formal than 又…又….
+g069|Two qualities together|又 + adjective A + 又 + adjective B|This apple is both big and sweet.|Use it for coexisting qualities. A standalone 又 can instead mean “again”.
+g070|Alternatives in a statement|A + 或者 + B|You can have tea or coffee.|或者 commonly offers alternatives in a statement. Direct choice questions usually use 还是.
+g071|A choice question|A + 还是 + B|Would you like tea or coffee?|Do not add 吗 to the end of this direct choice question.
+g072|As soon as|一 + V1， 就 + V2|I will call you as soon as I get home.|一…就… links closely consecutive events or a regular response. It differs from simultaneous 一边…一边….
+g073|Besides… also…|除了 + A + 以外， 还 + B|Besides Chinese, she also speaks English.|还 or 也 indicates that A is included. This differs from an exception followed by 都.
+g074|Except for|除了 + exception， 其他 + 都 + predicate|Except for Xiaowang, everyone else has arrived.|都 marks the remaining group. Context determines whether A is excluded.
+g075|From someone’s perspective|对 + person + 来说|For me, this issue is very important.|This limits a claim to a viewpoint, rather than stating a universal objective fact.
+g076|About a topic|关于 + topic + 的 + noun|I want to read a book about history.|关于 introduces a topic. 对于 usually introduces something being evaluated or handled.
+g077|Regarding|对于 + object， subject + predicate|I have no objection to this suggestion.|对于 introduces the object of an attitude or comment. It cannot replace every 关于.
+g078|A written cause and result|由于 + cause， 因此 + result|The flight was canceled because of bad weather.|由于 and 因此 are relatively formal. 因此 can be omitted when the relationship is clear.
+g079|Even if|即使 + hypothetical condition， 也 + result|Even if it rains, I will still go.|即使 can describe something that has not happened. 虽然 usually acknowledges a known fact.
+g080|No matter|无论 + question word / alternatives， 都 + result|Wherever you go, I will support you.|无论 needs a range of alternatives or a question word, not just one ordinary affirmative event.
+g081|Since… then…|既然 + accepted fact， 就 + conclusion|Since you know, please tell me.|既然 uses an accepted premise to support a conclusion or suggestion, rather than only giving an objective cause.
+g082|Adding emphasis with 不仅|不仅 + A， 还 + B|Exercise not only benefits health but also reduces stress.|The clauses add information. 而且 can also introduce the second clause, depending on structure.
+g083|Would rather… than…|宁可 + A， 也不 + B|I would rather walk than wait this long.|宁可 states the speaker’s preference. 也不 introduces the rejected alternative.
+g084|Rather than… better to…|与其 + A， 不如 + B|Rather than complain, think of a solution.|与其 introduces the less desirable option; 不如 presents the better choice. Reversing them changes the meaning.
+g085|Despite this, still|尽管 + fact， 仍然 + result|Despite being busy, she still reads every day.|尽管 expresses concession here. In other contexts, 你尽管问 means “go ahead and ask”.
+g086|Unless… otherwise…|除非 + condition， 否则 + result|Unless you agree, I will not go.|The condition after 除非 is the necessary exception. Read the negation in the 否则 clause carefully.
+g087|To avoid|Action， 以免 + unwanted result|Please leave early to avoid being late.|以免 introduces an outcome to avoid. An unnecessary extra negative can reverse the meaning.
+g088|To make something easier|Action， 以便 + purpose|Please leave a phone number so we can contact you.|以便 introduces a facilitating purpose, often in instructions or written language.
+g089|No wonder|难怪 + now-understood result|No wonder he did not come; he was ill.|难怪 signals that discovering a cause makes a result unsurprising.
+g090|Almost|差点儿 + verb|I almost forgot to bring my keys.|差点儿 usually describes something that nearly happened but did not. Uses with 没 depend on desirability and context.
+g091|It turns out|原来 + newly realized information|It turns out you live here too.|原来 can mean “it turns out” or “originally”. Decide from its function in the sentence.
+g092|After all / exactly|Subject + 究竟 + question word / predicate|What exactly are you trying to say?|究竟 emphasizes a request for clarification. It can sound insistent, so consider tone and relationship.
+g093|Not necessarily|未必 + predicate|Expensive things are not necessarily good.|未必 denies certainty. It does not assert the opposite as certain.
+g094|Instead, against expectations|Situation A， 反而 + B|He was not angry; instead, he laughed.|反而 introduces a result contrary to expectations, not just any different piece of information.
+g095|Two sides of an issue|一方面 + A， 另一方面 + B|On one hand he wants to go; on the other, he worries about the cost.|The two sides may complement or conflict. Use parallel structure for clarity.
+g096|In short|总之 + conclusion|In short, we need to keep trying.|总之 brings earlier points together. It normally needs preceding explanation or a clear context.
+g097|Affirmative–negative questions|Verb + 不 + verb|Are you going?|Do not add 吗 to an affirmative–negative question. With 有, use 有没有.
+g098|Asking where|哪里 in the place position|Where do you live?|哪里 and 哪儿 both ask where. Keep the question word in the missing place’s normal position.
+g099|Asking how|怎么 + verb|How do you write this character?|怎么 asks how; 为什么 usually asks why. In some contexts 怎么 can ask a surprised “why”.
+g100|Asking why|为什么 + predicate|Why are you learning Chinese?|You can answer with 因为. Do not add 吗 when 为什么 is already present.
+g101|Asking when|什么时候 + verb|When are you going home?|Put the question phrase in the time position. 什么时候 does not ask how long something lasts.
+g102|Asking for an opinion|Topic + 怎么样|What do you think of this approach?|怎么样 asks for an evaluation. 怎么 + verb asks how to do something.
+g103|Every…|每 + measure word + noun + 都|Every student has a book.|每 usually takes a measure word. Common time expressions 每天 and 每年 do not add 个.
+g104|An equal comparison|A + 跟 + B + 一样 + adjective|This book is as expensive as that one.|和 can replace 跟. Do not use 比 to express equality in this pattern.
+g105|Not as… as…|A + 没有 + B + adjective|Today is not as hot as yesterday.|没有 denies reaching B’s degree. 不比 only denies being more and does not always mean being less.
+g106|Not at all|一点儿 + 也 / 都 + 不 + predicate|This problem is not difficult at all.|Use 不 for the state in this example. 一点儿也没有 can negate an amount or existence.
+g107|A new state with 了|Clause + sentence-final 了|The weather has turned cold.|Sentence-final 了 can signal a change of state, not necessarily a completed past action.
+g108|About to happen|要 + verb + 了|It is about to rain.|快要, 就要, and 要…了 express an imminent event. Distinguish this from 要 expressing desire.
+g109|Repeating with 再 and 又|再 for a future repetition; 又 for one already made|Please say it once more.|再 usually looks ahead to a repetition; 又 often refers to one already made. Fixed expressions can behave differently.
+g110|Just now|刚刚 + verb|He has just left.|刚刚 commonly sits near the verb as an adverb. 刚才 is a time expression with broader noun-phrase uses.
+g111|Already|已经 + predicate + 了|I have already eaten.|已经 emphasizes that a state has been reached by the reference time. Whether 了 is needed depends on the construction.
+g112|Doing something for someone|给 + person + verb|I am calling my mother.|给 can introduce the recipient of an action. It is also the verb “give”, as in 给你一本书.
+g113|Having someone do something|Person A + 让 + person B + verb|The teacher asks us to read the text.|让 can mean letting, allowing, or asking, depending on context. The person doing the action follows 让.
+g114|Purpose with 为了|为了 + purpose， action|I exercise every day for my health.|为了 states an intended purpose; 因为 gives the cause of an event.
+g115|Times and complete passes|Verb + number + 次 / 遍|I have read the text through twice.|遍 emphasizes a complete pass from beginning to end; 次 counts occurrences. Object placement depends on the object type.
+g116|A duration complement|Verb + 了 + duration|I waited for half an hour.|Duration describes how long an action lasts. A time point such as 三点 normally precedes the verb.
+g117|Never / ever|从来 + 不 / 没 + verb|I never drink alcohol.|从来不 describes a habit; 从来没…过 describes never having had an experience.
+g118|Only|只 + verb / quantity|I only have ten yuan.|只 limits scope or quantity. Its position determines what is limited.
+g119|An extreme degree|Adjective + 得 + 不得了|It is incredibly hot today.|不得了 is an emphatic degree complement here, often conversational. It is not the potential complement “cannot do”.
+g120|Resembling|A + 像 + B|Her voice sounds like her mother’s.|像 is the verb “resemble”. 一样 can extend the comparison; 是 is not needed before 像.

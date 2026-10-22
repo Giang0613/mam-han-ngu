@@ -1,0 +1,2212 @@
+{
+  "product": "Mầm Hán Ngữ",
+  "edition": "community",
+  "createdAt": "2026-10-22T06:17:52.391Z",
+  "codeLicense": "MIT",
+  "thirdPartyNotice": "THIRD_PARTY_NOTICES.md",
+  "excluded": [
+    ".git history and remotes",
+    ".env.* except empty .env.example",
+    "local.db and WAL files",
+    "node_modules and .next*",
+    ".cache, Python environments and recordings",
+    "data/hsk1-materials/**",
+    "public/hsk1-materials/**",
+    "PDF-derived vocabulary and translations including data/i18n-private.en.json",
+    "publisher answer keys, audio indices and editorial scripts"
+  ],
+  "transformations": [
+    "Disable personal textbook pages with an explanatory page",
+    "Replace PDF-derived vocabulary with empty schemas",
+    "Remove publisher answer keys and audio indices",
+    "Keep original course, CC-CEDICT attribution, Hanzi data license and font license",
+    "Preserve storage IDs for migration compatibility"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "169c9c8bd35bf687f1847129fb60095c664c769bf066f0e30488f0ac743698d1"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "5fc541f303842f75d8dd64198dab8750eabbf37445ee667cccd172f4f452843f"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "7f520857ae2711d523a7c53f86366029604cf0d9319af2aa968bab407b0c8671"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "be5fe008bb2844deef11ac3cc54b3482c0c8217e47907295867631cc3915c7f0"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b2dc8fffcab51076d21af813ce7eaca9031ceb66f0cdedfddcd9390c2d6f2e7c"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "783dc9965a3037606896758e04a826fd1bda231c1cc449cf0009cc3b6e29f4f5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "11f44c37fcb00fcea22b7df317a1f9dee4fdaf866264bd49e63ac1b7e3569cf1"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f79fa5ffbc8785ae4c33892ccc63ca6f6f41edc7145dd4571ea3e441f8dfb4dc"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "18a3beab26ccab7be32a11d9f9f2db78d8c9d4794b1013af59c6075bd823d611"
+    },
+    {
+      "path": "components.json",
+      "sha256": "7f89b1e9e3995be8620be3162df8e08b7dd512f894fb0accb559193138fdc390"
+    },
+    {
+      "path": "data/cedict-meta.json",
+      "sha256": "30e6c8135be12355e403288785de1fd64f2422b421ee81e00e78913953b28b7d"
+    },
+    {
+      "path": "data/cedict-source.txt",
+      "sha256": "625e82a05f02c8e74eab2416def3a368d08be84b17fc336f876d29f61c72158c"
+    },
+    {
+      "path": "data/cedict.json",
+      "sha256": "7f0c2d02a740f0a7fb64388eb4b3e02f21b9a179c30d56822d11f3fd6ac59ba0"
+    },
+    {
+      "path": "data/hsk-vocabulary-lessons.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "data/hsk-vocabulary-sources.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "data/hsk-vocabulary.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "docs/COMMUNITY_README.en.md",
+      "sha256": "1f876f74969f3f69ca1b65473b19332001afe503b47c80dbb6baad480bbc7e27"
+    },
+    {
+      "path": "docs/COMMUNITY_README.md",
+      "sha256": "5de2a25649c5d23f28d11e79260bfa83b8be61e273eb41ec7d04b37b3586e4ca"
+    },
+    {
+      "path": "docs/INTERFACE.md",
+      "sha256": "05171be32af75797ab5536e4f4463d0dabb65d6c7becf4f23c47ad763b704ced"
+    },
+    {
+      "path": "docs/LOCALIZATION.md",
+      "sha256": "bd495036de5e165c9d2cf32c1d6b3c8b3b5d0af518617b16e183fec7d460d5b7"
+    },
+    {
+      "path": "docs/OPEN_SOURCE.md",
+      "sha256": "f8c253f38cf4f148aada9c18dba844b9c07ef16fb682091e39072892bcef4c43"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "a42b2db20677cd98106582a4e057aa127f37bfcdd46e9f258e31d370813e8f2f"
+    },
+    {
+      "path": "docs/images/study-garden.png",
+      "sha256": "44998e241def9c53d92dd9d4ec95775084f57a7d64f391bdeee2ef7f02803820"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/Kokoro-Model-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/Kokoro-ONNX-MIT.txt",
+      "sha256": "807ef3768c755f1d4ab609bc73cd833a88f304717ac9116bfe9c052cd90f4f74"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/MeloTTS-LICENSE.txt",
+      "sha256": "88a50e5a02bbc2a5c2f084dc19da751aa97b1690f5fda76cd8005c8634d1ca70"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/edge-tts-LICENSE.txt",
+      "sha256": "3613045a46a5bce847f80eadbbf013e4260ef19d728ffd061d61e792689ec3a8"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/melo-manifest.json",
+      "sha256": "857cdd861df6d73cf3f0e63225367dda0eb109a491205c83de6dc6ebf3bbbc02"
+    },
+    {
+      "path": "docs/mandarin-audio-licenses/melo-phones-source.json",
+      "sha256": "f562273f0340cb830e66984afdd37aee7eb5839cf91d905d9cf1f16acceb9fe5"
+    },
+    {
+      "path": "docs/three-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "94b1b1d3f06e0ac464d9a54d9e1a44f982acc25b2621bf548e6ffcc536736c62"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "251ae051d906528c1887009f9e4268fb2734eb874751e3c460f5b4cfacca65e1"
+    },
+    {
+      "path": "package.json",
+      "sha256": "7b26b093b9ff59c07637ef9d41737762ab1670f4f8c2a3746441314b2fb53482"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "public/fonts/Manrope-Variable.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "public/fonts/OFL-Manrope.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "public/hanzi/LICENSE.txt",
+      "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+    },
+    {
+      "path": "public/hanzi/SOURCE.json",
+      "sha256": "ded75f462a3d1200c99dc40ed3193284ca646325a759343649601f22b97d3f97"
+    },
+    {
+      "path": "public/hanzi/一.json",
+      "sha256": "ed728673d86fb9aa559c5b150e59ffbee666b085d4a55597c524079a91ebc8ce"
+    },
+    {
+      "path": "public/hanzi/三.json",
+      "sha256": "917763e15ac14a5ece5067913da4156f3060f33ae0e172d3533275a494cec99c"
+    },
+    {
+      "path": "public/hanzi/上.json",
+      "sha256": "9eed5643ff92171f9bf1ae5d4b70d717f2a3fd6961f72e81c0245ce13523d865"
+    },
+    {
+      "path": "public/hanzi/下.json",
+      "sha256": "34984a2541baae9132f32e3dfe758ca29df64829558dc5a1c553c3d3011da880"
+    },
+    {
+      "path": "public/hanzi/不.json",
+      "sha256": "2b4d1cabdf4af0788cba2d2e4645b87b4a56cdcc33907d2f61205bfd607572b6"
+    },
+    {
+      "path": "public/hanzi/与.json",
+      "sha256": "d9924d9084e2f0bd9f2da421e37a9ce511c57b6972037762b7279d06ed7358bd"
+    },
+    {
+      "path": "public/hanzi/且.json",
+      "sha256": "8ccb928a0249490749e6d5f981106848ee36fdf87c15fa927d4783c428ecb268"
+    },
+    {
+      "path": "public/hanzi/东.json",
+      "sha256": "80c3dfd836941d9507af3bfbc2257564483e134954f11d412d165f445e4f5a20"
+    },
+    {
+      "path": "public/hanzi/两.json",
+      "sha256": "d0a75c5e35abf6e97f381e02092d46f4c64ad53eb507b925cfb09f42094c79a7"
+    },
+    {
+      "path": "public/hanzi/个.json",
+      "sha256": "d8c4bbbbd3fe835eeb07441afb37e19045797ce664aa0078204571c6597b6101"
+    },
+    {
+      "path": "public/hanzi/中.json",
+      "sha256": "6982c8c16e7e7f769011edef0608289443711dbb34046dd9ca763e79ec29192f"
+    },
+    {
+      "path": "public/hanzi/为.json",
+      "sha256": "8e468f755fa6bf508a105d36e5c7709bed1a24060622bb9682e60fcc2fc98cfb"
+    },
+    {
+      "path": "public/hanzi/久.json",
+      "sha256": "3d70117ad9284420c83b3d620526acbe7ce23569ae91a85b509994e893229fce"
+    },
+    {
+      "path": "public/hanzi/么.json",
+      "sha256": "9bdbdeb1694fa92721c6f1d210a688a1db74b78a8888c99bbeeae5e0b45e5178"
+    },
+    {
+      "path": "public/hanzi/之.json",
+      "sha256": "f64f7268ff0d81d5e9c5f9301e628a7e427a9e0e44e3d6291fc0f15874f2be98"
+    },
+    {
+      "path": "public/hanzi/乐.json",
+      "sha256": "e5b3d2904512d9b0ac920fabe82e7c5cf1be5bc8b1931f0fee5d59398284cd75"
+    },
+    {
+      "path": "public/hanzi/也.json",
+      "sha256": "b382d98d228813ea32074caf8fee764b136593b5094579f4c00b2dd407c38dd3"
+    },
+    {
+      "path": "public/hanzi/习.json",
+      "sha256": "c990f81baacb5b6ebd333f0a8c95eaf2e52847765622001f1c71c058105f021c"
+    },
+    {
+      "path": "public/hanzi/书.json",
+      "sha256": "d913959d55b2bc53bec49bf50e44d6cf6df84d664cad9940c3983f061e4a6704"
+    },
+    {
+      "path": "public/hanzi/买.json",
+      "sha256": "bc317b3af63af2e775ba0f0dd1086a5eed65abb98f726f86acbfe35740572174"
+    },
+    {
+      "path": "public/hanzi/了.json",
+      "sha256": "63e33d9aece5d5a55d890793025d4964342f80ae92dee94232687deee76538be"
+    },
+    {
+      "path": "public/hanzi/于.json",
+      "sha256": "d4c764f485ab9c98f43e6e57e2939b390332c284f75f8c9a67f6d1446e2cc334"
+    },
+    {
+      "path": "public/hanzi/京.json",
+      "sha256": "7fac775eabc920afb1e4e99fea7557e60559cd14a3dc07505349d0f81f79b205"
+    },
+    {
+      "path": "public/hanzi/人.json",
+      "sha256": "18ffb9fb727576b0c3e7dc44914be7ffd43164de9ba121710824b83f27bd3bb1"
+    },
+    {
+      "path": "public/hanzi/什.json",
+      "sha256": "9bc6bb09b416264a378bd94f848b6a295b081d641f51ea6ced53927a66350e4a"
+    },
+    {
+      "path": "public/hanzi/仅.json",
+      "sha256": "9e1e8e7faf497b4615f190ee7872717f65596007b07da22a162b626ad4ac17e9"
+    },
+    {
+      "path": "public/hanzi/今.json",
+      "sha256": "09dc680091ec729b8a214c59099cb1dcbc0eabe51d5b4c4b5465ca2ff8fc9b6d"
+    },
+    {
+      "path": "public/hanzi/仍.json",
+      "sha256": "b07f557b445088041a70ab281eefbf3bafa1ecadc9ef0dbcc17f67b6ce1bb29d"
+    },
+    {
+      "path": "public/hanzi/从.json",
+      "sha256": "1d459120eb9aa6f2c6df9e629aacf7ebb65d2e5dbc13628b5615b2778b20b447"
+    },
+    {
+      "path": "public/hanzi/他.json",
+      "sha256": "93c72a3fb00f00e9d7c3da8e2bf25e913bd3eba3c71eaafacc69f55891dc5625"
+    },
+    {
+      "path": "public/hanzi/以.json",
+      "sha256": "90bcd05b200e7335bcbc6677f715dfe67b7d15ebb4ea083256a4bfdd377ca030"
+    },
+    {
+      "path": "public/hanzi/们.json",
+      "sha256": "0a25764ae60803a9958ae3cade375c57d8743d7db0e0bf2031e73b0d0449609e"
+    },
+    {
+      "path": "public/hanzi/件.json",
+      "sha256": "f3c7a57d23ec650db9147ea34732ef3d57c1eddb8ded94125172921f46442e6a"
+    },
+    {
+      "path": "public/hanzi/会.json",
+      "sha256": "0eb3173ca95ffa3b8dfcf2f5ea11b312b3af7290dbf674c2dab04338351d09e4"
+    },
+    {
+      "path": "public/hanzi/但.json",
+      "sha256": "0cc72a3b25a96ffcb9d5241e7116285b3168fdf3b96f2a65f6902e80016fca32"
+    },
+    {
+      "path": "public/hanzi/住.json",
+      "sha256": "dfb9531477f68c78f709729d9fc1a0700621fe649322113e99cf2e64ae1e81db"
+    },
+    {
+      "path": "public/hanzi/你.json",
+      "sha256": "21057a26cb5c1753ea710d503b759cc17948263501ffd76ef1737cb2b5d5f966"
+    },
+    {
+      "path": "public/hanzi/使.json",
+      "sha256": "8b87b1b355e3c2e4ce5d4b5065b126c28e7b28246ab8d266fd5a0be6536c3f7a"
+    },
+    {
+      "path": "public/hanzi/便.json",
+      "sha256": "ce0a14a78ac9c2d2fcc2562d0b38c49bd6fe563ab3a8ee6db5b58083da567cc0"
+    },
+    {
+      "path": "public/hanzi/候.json",
+      "sha256": "9b69049cabf23133ffac7e20245f70bd5200ee5901b76303d7e2a36652ba52c3"
+    },
+    {
+      "path": "public/hanzi/做.json",
+      "sha256": "d1beaea85e2d7fe88662573226ffc5ceb6700c24c4d364d0628c6088dae6cc5c"
+    },
+    {
+      "path": "public/hanzi/健.json",
+      "sha256": "ea256ab5c1b7a74e9053b6ac66cf6dadb50b461b982b959e3e60da6d657f3a44"
+    },
+    {
+      "path": "public/hanzi/像.json",
+      "sha256": "64c091c1d160a77b61e2743c69da80a9db3267a4cc1d8c989dda41987bccd27f"
+    },
+    {
+      "path": "public/hanzi/儿.json",
+      "sha256": "9f1e8515ba0fbf39f3b03e0fdd2342771f0c7197fff7c2ceee64674b95bf2c68"
+    },
+    {
+      "path": "public/hanzi/先.json",
+      "sha256": "20b7475d7a76d3e2233ef9bd28c1239392630fb1407565c325d3efbdc0445c19"
+    },
+    {
+      "path": "public/hanzi/免.json",
+      "sha256": "19a4c10d37e14dee99080e71e891568467da5f804a36167dbb6c30bdab9b06a2"
+    },
+    {
+      "path": "public/hanzi/公.json",
+      "sha256": "f486cccfeb549f77756de2d5086c83c1ebfcb7ce4cfafa2ba332b9700d1c8738"
+    },
+    {
+      "path": "public/hanzi/六.json",
+      "sha256": "54216db5e4bcd45583584fbff169a25d10c3a34e0fa64f3c7a2267bc94398f86"
+    },
+    {
+      "path": "public/hanzi/关.json",
+      "sha256": "28d1c30ed1cda1ac8e0618bfe53010b6dc5bb5537670905a760a51d4d5a81399"
+    },
+    {
+      "path": "public/hanzi/其.json",
+      "sha256": "9fe0ddcc04cc0cd0c37939807e3e1c5791a023c38540b4441ebb2117fc5c8595"
+    },
+    {
+      "path": "public/hanzi/再.json",
+      "sha256": "63c13624816b79b2edb3f6d04c494a1bc8fe89175e06c4f1e7452e2016e5224c"
+    },
+    {
+      "path": "public/hanzi/写.json",
+      "sha256": "803022b32271801f05bd0931a18608b3319f7a9ffe0ea88093b19d539cf1941f"
+    },
+    {
+      "path": "public/hanzi/冷.json",
+      "sha256": "21d62c3489dcf2cd434ba6d5e10d62fa46f15fa2d196b2f465f8c6342db23283"
+    },
+    {
+      "path": "public/hanzi/准.json",
+      "sha256": "c54cf428f16237c1305bf8b6c313515e085ebeb607a01328c3ae02ff408be39f"
+    },
+    {
+      "path": "public/hanzi/减.json",
+      "sha256": "c3fc07e4f3c798d854a84f3ea7ea861ce9c6e9eabbf0727c3cb82dadee633842"
+    },
+    {
+      "path": "public/hanzi/几.json",
+      "sha256": "b730f3432a2e0697863f512fe5fbf8bef705a296fe657be4c7433102e1961a37"
+    },
+    {
+      "path": "public/hanzi/出.json",
+      "sha256": "1b7e7176d1c5ca47f340e9ce28937f33929b6768ee20ea79f9129118b87f00a2"
+    },
+    {
+      "path": "public/hanzi/分.json",
+      "sha256": "9bcdcf1103921fb4ab942c08d05ca9b4cf363cea0cb92f91a6c8da8c40344587"
+    },
+    {
+      "path": "public/hanzi/则.json",
+      "sha256": "23b95166d74292a44e37ad793bed6cea7e728d89e373a738c417b062643450c5"
+    },
+    {
+      "path": "public/hanzi/刚.json",
+      "sha256": "3117e27951989bb08cc9e9cc9d7dfc6fa3fbccd1a955f23971aaf2d61d20d389"
+    },
+    {
+      "path": "public/hanzi/到.json",
+      "sha256": "6aa5dd0897e0717edeae53ac983a92b81d22845423b59c5d7afe579f8096764d"
+    },
+    {
+      "path": "public/hanzi/前.json",
+      "sha256": "8126272afc54ca3a5bd512086901f4b3b40fcc43bcdf391fb60de3cb0dcd5c62"
+    },
+    {
+      "path": "public/hanzi/力.json",
+      "sha256": "c51740470368f15b32d3f8ee1d7b0c93b6aa92c015f286c27137adfb2d7844a3"
+    },
+    {
+      "path": "public/hanzi/办.json",
+      "sha256": "86519e575e2beda61d6ae623cb2987bef47be6a2665b2ac66df4bc14fa731787"
+    },
+    {
+      "path": "public/hanzi/动.json",
+      "sha256": "7d71cb3a5c9cf6f7bbdcef57379268087939ddfd9aa1a1e4b25cf9d2687e3fce"
+    },
+    {
+      "path": "public/hanzi/努.json",
+      "sha256": "22449b8fce9d920075f89aa804e01a063b3d59941de60cd5507b33404a2046f0"
+    },
+    {
+      "path": "public/hanzi/北.json",
+      "sha256": "580cb19cf0714405c78f9bc1076622281c3a9de23f1e6608dfa4e9d69e913eea"
+    },
+    {
+      "path": "public/hanzi/匙.json",
+      "sha256": "8e9e752b9cc9298b189eaad782815b0379846a472c364afec6d8adb956c113cf"
+    },
+    {
+      "path": "public/hanzi/十.json",
+      "sha256": "257a0939af5742ca31a980adfa1421d0302d5e90491ab3215c1934bea9a59bef"
+    },
+    {
+      "path": "public/hanzi/半.json",
+      "sha256": "7f3a9c1766ccd8a44224babb7e106ad95e831b9a6f850fc89c6fd6f41e7b7099"
+    },
+    {
+      "path": "public/hanzi/南.json",
+      "sha256": "94fbb129882ed5cf6b7cd19bed1bdb52b4d1eadb3e0bda8ba56acf425576d69f"
+    },
+    {
+      "path": "public/hanzi/即.json",
+      "sha256": "db01dd0321c9b710631028b492b947833daf224c0e97646cf16ec4cb0178e49c"
+    },
+    {
+      "path": "public/hanzi/历.json",
+      "sha256": "e2faa7a31abf038d563cfa0db4bc5d67b01c02c02d24fabb4a548a9ed0801b04"
+    },
+    {
+      "path": "public/hanzi/压.json",
+      "sha256": "62d743dbbc1674a7f47a976b989e445414b26ce3e2b0487d6b9b713a1c49e09a"
+    },
+    {
+      "path": "public/hanzi/原.json",
+      "sha256": "67b69a0c119fe4adba151ee33daccc381e05ad9ea83045afc5e1160659e3510b"
+    },
+    {
+      "path": "public/hanzi/去.json",
+      "sha256": "96e01168e8c76add5a05de734f18ef282451ca9107757977e5d83d8eea2bc281"
+    },
+    {
+      "path": "public/hanzi/又.json",
+      "sha256": "f69d714f3a4822dbc02c31969dafdf034307e3747f496e5b48b6004ee3e4ad49"
+    },
+    {
+      "path": "public/hanzi/友.json",
+      "sha256": "71a33320fedcb2d37b92c5bcc4b7d6aa9bd94dbd022719561711b5eb2338547b"
+    },
+    {
+      "path": "public/hanzi/反.json",
+      "sha256": "0c235f2258a870910097d2125f7bd6fd4275cde273409370a4c273995aa82d5f"
+    },
+    {
+      "path": "public/hanzi/发.json",
+      "sha256": "2277fbd8beb585441eff987bb10b812881b0f96989e06efa257c12fa79b01134"
+    },
+    {
+      "path": "public/hanzi/取.json",
+      "sha256": "4a959eb1b74c36e07b2a97415ff70605c3bffcd4ee370f95435617a8cde34439"
+    },
+    {
+      "path": "public/hanzi/另.json",
+      "sha256": "5dab4113c19889813b569b3d0bdbb5cf8dfd05b04345a88d3f1ede09019c91e8"
+    },
+    {
+      "path": "public/hanzi/只.json",
+      "sha256": "ec97976657b097708528825c2b48ee6e5436f38982f279c9c79bcf77281cf274"
+    },
+    {
+      "path": "public/hanzi/叫.json",
+      "sha256": "a5cc36373dc1a8ee08e4d3f1eb05ce1048c9a6d7dfc1936ce5ae17833c927278"
+    },
+    {
+      "path": "public/hanzi/可.json",
+      "sha256": "70e04def3d8d3048392138b4c38132f9307eee194cfa2779b446baebf8163f12"
+    },
+    {
+      "path": "public/hanzi/史.json",
+      "sha256": "c41cd6fcd8970aa8b88c308265f85052ecd3788569877040a80b6e973d874f70"
+    },
+    {
+      "path": "public/hanzi/吃.json",
+      "sha256": "7030e0da002dbc77d79821e9b78ab848777a8b9c0dabd1340b41b5fc1dd63a36"
+    },
+    {
+      "path": "public/hanzi/同.json",
+      "sha256": "ebac44738a64a0f7cb202363be8abfafe4aed2fc20965dd66f9b1f7555766967"
+    },
+    {
+      "path": "public/hanzi/名.json",
+      "sha256": "3dc8c37774349653b6e4732d505bcdd84585f092ab461221ef77984cffb7e98d"
+    },
+    {
+      "path": "public/hanzi/吗.json",
+      "sha256": "fd15dc345d5413ebf4bb3517b7b616890b0a948f62a70a21a2a8eed4eed78583"
+    },
+    {
+      "path": "public/hanzi/否.json",
+      "sha256": "e8d791e00d09d265c8c6fc79eebd488226ad1b2fdd34a1473f9ce0b038fe57a9"
+    },
+    {
+      "path": "public/hanzi/吧.json",
+      "sha256": "1fbe8a6edb50ccf565fc6bac3e9ba17f6402631f46708fb87591a564e6e83dca"
+    },
+    {
+      "path": "public/hanzi/听.json",
+      "sha256": "f4be99b28792eb4915420affcc4ce6e73f1c7e0f8dd458b75095b24ca841bd51"
+    },
+    {
+      "path": "public/hanzi/告.json",
+      "sha256": "781247f9ef8894701ef938188569eb422b3017f226e2ced5610595961d9bb347"
+    },
+    {
+      "path": "public/hanzi/呢.json",
+      "sha256": "258288d04eca768919eaa16a095a3ea2407139fefeda74772efcf408d3f92fa6"
+    },
+    {
+      "path": "public/hanzi/和.json",
+      "sha256": "bf6e21b489970be6af9bb0e8337920632072b1dbbe0e9d216c314623cbd1c0e8"
+    },
+    {
+      "path": "public/hanzi/咖.json",
+      "sha256": "0b793c66b6c577f80fee24ead5121af7d6bfece3e63a87c0a58befaac5a0998b"
+    },
+    {
+      "path": "public/hanzi/哪.json",
+      "sha256": "726b6fc78897b2164f79a564d54ada987cf8cdb960ed1ce9f848e8e787bae509"
+    },
+    {
+      "path": "public/hanzi/唱.json",
+      "sha256": "474d06fd4fd9ba7b070603274c97854e0daf787bc2cc26f9a472454549f018d4"
+    },
+    {
+      "path": "public/hanzi/啡.json",
+      "sha256": "bc663f73fd2614cf1f294a2d9d32982b5cbd25573911901143f2001d85ab7c03"
+    },
+    {
+      "path": "public/hanzi/喜.json",
+      "sha256": "779326b147f56c81159f2d732347e50549a994e0b0b190845dc6355a74215a43"
+    },
+    {
+      "path": "public/hanzi/喝.json",
+      "sha256": "bf7840cc0811e59e4db4a35f476af88054625cac10e87b0338c2c267b37dca9a"
+    },
+    {
+      "path": "public/hanzi/回.json",
+      "sha256": "2987e137d9a4bdbb061bd78dd315fe0d520eaa6d65dc5e48e3d6f8c907a06e8b"
+    },
+    {
+      "path": "public/hanzi/因.json",
+      "sha256": "ad7a3b6c044327ed5254585594c0cd7dadb1ad0c47555f5564d3e404ee42429b"
+    },
+    {
+      "path": "public/hanzi/园.json",
+      "sha256": "c1f1de9a57ed4d071ee84570a57c4ec64b83d6db4bdb5492b9282af8f12e5aef"
+    },
+    {
+      "path": "public/hanzi/在.json",
+      "sha256": "ec45f668f3181cd2c612797ff557f5b53f8823f120eca5d9a68e0fd8b1b0f21c"
+    },
+    {
+      "path": "public/hanzi/地.json",
+      "sha256": "ec1d89cb0ee0f4c93d546d561ea28b00f0378769c061ec5bf5f67381074765a3"
+    },
+    {
+      "path": "public/hanzi/坐.json",
+      "sha256": "b01ef6333805198f5b9d9443b6a157ae94d3233a30fa9d090a72e586b116d255"
+    },
+    {
+      "path": "public/hanzi/块.json",
+      "sha256": "8617e40d636a86f106819470b0bb3d1a17500ee2ea4427935c2a880596b352f8"
+    },
+    {
+      "path": "public/hanzi/境.json",
+      "sha256": "ddfdcfc8743bda9214ff674e33b409f9176bf7919d973b14503b7e8732d68e70"
+    },
+    {
+      "path": "public/hanzi/声.json",
+      "sha256": "0817145c8ef06b484b39a5eec099f177536e2558437579bf5d5036b40d208780"
+    },
+    {
+      "path": "public/hanzi/备.json",
+      "sha256": "34ba506b261754f924693a07a2ea6cc8b3e7fde8fba6384f19439fe665da9484"
+    },
+    {
+      "path": "public/hanzi/外.json",
+      "sha256": "bab290c36ee093d6c2df1b9d95d3dbbcdf492dc108f3a7e81f0ac13cd8726d5c"
+    },
+    {
+      "path": "public/hanzi/多.json",
+      "sha256": "d7bc212fe60eaa766209b36e5e9642940892cf43b472accedaf55f517d8313dc"
+    },
+    {
+      "path": "public/hanzi/大.json",
+      "sha256": "83c82950e903c915aa50d0d62b084a2d31c85fe68dce21e0acf39e2f9607e611"
+    },
+    {
+      "path": "public/hanzi/天.json",
+      "sha256": "8cacde3b91b815c7c667e80e6d4838e3b7dc30ab457763e32d29c1586b0d2446"
+    },
+    {
+      "path": "public/hanzi/太.json",
+      "sha256": "b71a20e1c0c68563b8a58a75749f48ac4a095c7d05136c5dbd858a318fbe234e"
+    },
+    {
+      "path": "public/hanzi/她.json",
+      "sha256": "4e69fc6340529cfbdf572a98f3bd6f934233186943b931b59e1a3c65464518c2"
+    },
+    {
+      "path": "public/hanzi/好.json",
+      "sha256": "c9f085fe6519e2b2c9653c7edf51bdbc78339fcc0b10f94c1f33c7f4f4d4a3a5"
+    },
+    {
+      "path": "public/hanzi/如.json",
+      "sha256": "94d439143d94d44b6b415cc2fa2068f062a22e0fede9ca1d155d8fc4f6af9f30"
+    },
+    {
+      "path": "public/hanzi/妈.json",
+      "sha256": "0b288b695765e1294ca2cbc2b463227b637047932ebdab2ff9cddba6c1d576b2"
+    },
+    {
+      "path": "public/hanzi/姐.json",
+      "sha256": "e4fcebaec74b9a53077e2d6e067fdfdca4470aa36f23246c7a03f96e5ab000c6"
+    },
+    {
+      "path": "public/hanzi/字.json",
+      "sha256": "d4e20f90c64acc1427d41e693c7151f3ea389eb10d8ce7f2c98613b01c6d1baf"
+    },
+    {
+      "path": "public/hanzi/学.json",
+      "sha256": "9f2bdcab70ecf93632b6cf1ce9b5339cc8018d742eed7839037d146f8c294193"
+    },
+    {
+      "path": "public/hanzi/宁.json",
+      "sha256": "b812fac69a9a279f3bbb4ffafac0e57a7ff73a262c61245f13163cc622efc849"
+    },
+    {
+      "path": "public/hanzi/安.json",
+      "sha256": "654830c5bfda6086c1ee48536ef8fe89f0c56112152dba149801f023c9627295"
+    },
+    {
+      "path": "public/hanzi/完.json",
+      "sha256": "2073070ab43a5ec748388273e3e52b4eeca7efd6486a326cc472160cc22be944"
+    },
+    {
+      "path": "public/hanzi/家.json",
+      "sha256": "390ad42ee60491df2ae9ddfd59358d4d6ff69208ccdac902aae0431b7e5f9aef"
+    },
+    {
+      "path": "public/hanzi/对.json",
+      "sha256": "34cb1a64ee2a7794faec417b950b8a026efe6fc3779d09e363d6b383461f569a"
+    },
+    {
+      "path": "public/hanzi/小.json",
+      "sha256": "72bf769c8c3426bffa578502eb8b1532fb1e622ddb6f40ded04e484290c0fe8c"
+    },
+    {
+      "path": "public/hanzi/少.json",
+      "sha256": "de5cd9d5b1bbd468411f82f7d57881b11b3a9b9c7bb812ff891ac66c06b31ef7"
+    },
+    {
+      "path": "public/hanzi/就.json",
+      "sha256": "0da5fb2a2605c10ab629390366d9e5e27d778d907c11c17e1143650a55e4fe30"
+    },
+    {
+      "path": "public/hanzi/尽.json",
+      "sha256": "1f3497a4c5f1c018ffd63d1c43167c537bace51b7605d64c44dc98c2c6e59c1c"
+    },
+    {
+      "path": "public/hanzi/差.json",
+      "sha256": "3a6015173a7ab562b6e343b846c2a9db0cae7ac356de13b40692f189196b818b"
+    },
+    {
+      "path": "public/hanzi/己.json",
+      "sha256": "318727d2358115b813a9ac45b8b26033df9cdc5faa6e6042f641d3e92fbf8caf"
+    },
+    {
+      "path": "public/hanzi/已.json",
+      "sha256": "2e90e05b472bb13b936a2245cbe20dda8f10d0fa5b4e5580d6f701e598c1114d"
+    },
+    {
+      "path": "public/hanzi/师.json",
+      "sha256": "80d528921fbb75b21ed1737f622adbb8e9da7b71b143a64382568f22ff812093"
+    },
+    {
+      "path": "public/hanzi/带.json",
+      "sha256": "8d62f5e48a73aaede44ee6dc91d2995de9b018b9bb828bc40dae68909e0d5dad"
+    },
+    {
+      "path": "public/hanzi/床.json",
+      "sha256": "61e32987825856552772bfaf429cc5ef9a9f4b7a7a61b415b749670c07cb1954"
+    },
+    {
+      "path": "public/hanzi/康.json",
+      "sha256": "1dea627d79324e2da366c832bf809569cc3a8ce1a102aa345505741a3ef88209"
+    },
+    {
+      "path": "public/hanzi/建.json",
+      "sha256": "abc852466c69f409efb12c660d43d3f765bcd87e1227e713b4609c2e71739217"
+    },
+    {
+      "path": "public/hanzi/开.json",
+      "sha256": "0b4efab7fc994927f4244f1c6d79a7012668a9c7cbdbc40a45d0bcf9b4cbbd49"
+    },
+    {
+      "path": "public/hanzi/弟.json",
+      "sha256": "9a89eaf0eef53c73f69bd3cd9f53fd0e628c4c663b13f6c0a4c3773b3071a735"
+    },
+    {
+      "path": "public/hanzi/录.json",
+      "sha256": "83bffef739bb579f5fbb7961994b688f0e4ac2425cd1fc8790d240a5ce50dda8"
+    },
+    {
+      "path": "public/hanzi/影.json",
+      "sha256": "41b27a6aa001477b3a27aaabae5306c86e6d50f28cef825cea2869acc85cd1d1"
+    },
+    {
+      "path": "public/hanzi/很.json",
+      "sha256": "b34ddabdd9034dfa73a413d9f83aec96451f97d75e8a553505a7fbe442c57356"
+    },
+    {
+      "path": "public/hanzi/得.json",
+      "sha256": "46fe32f6570275a05e5a8de5b78e847e8d8c2c6b1d20e45c9f9e77a183c73f68"
+    },
+    {
+      "path": "public/hanzi/心.json",
+      "sha256": "24b00ca173bbf7403181af1a4f9414f3b9175ed04b17108055c7d9e3fe6d6215"
+    },
+    {
+      "path": "public/hanzi/必.json",
+      "sha256": "f49fe562d7bd6ab1f2b876555d6ddcafefd0f47eaae5eeeb005bb958dfc77fd9"
+    },
+    {
+      "path": "public/hanzi/忘.json",
+      "sha256": "b745e205ca8cc2774844b4f9dbf5a9b1b3e23529bdd7e032fc6876deac14fbf6"
+    },
+    {
+      "path": "public/hanzi/忙.json",
+      "sha256": "18bea80c64cb21470e90361694ba1dc3ca3edfa1c44365e44429c691776cc3aa"
+    },
+    {
+      "path": "public/hanzi/快.json",
+      "sha256": "6fc5f91ce08bf4fd5cb968ff7153a140a28e8b6e8656018505fd8b3c6bade87c"
+    },
+    {
+      "path": "public/hanzi/怎.json",
+      "sha256": "a3f5b3be91848f0396185458d9810ab0c037e6d99bb4a2f3cb38b3475e79ee2d"
+    },
+    {
+      "path": "public/hanzi/思.json",
+      "sha256": "129a99d4cba4ff072f2f68276d8a634552e5189b94cf4a819190e037aa623b58"
+    },
+    {
+      "path": "public/hanzi/怨.json",
+      "sha256": "eb2118632ad0f73756d18f0d9dd8205505db7de0381280ce8c891a5cff8665dd"
+    },
+    {
+      "path": "public/hanzi/怪.json",
+      "sha256": "a292b0fe0c26e3c6fe9b74c02430bbdabe845643e5edcdd83a2a51b66f4c8a09"
+    },
+    {
+      "path": "public/hanzi/总.json",
+      "sha256": "c7c5c6d16d770228b859c6bb9bc1828de5958a3f7d2b4014262b57979fd5dc57"
+    },
+    {
+      "path": "public/hanzi/想.json",
+      "sha256": "9e3bf868a8170c4deb5c1fc39ffd42ef1a119bb55d742028777fb7ebfb23e885"
+    },
+    {
+      "path": "public/hanzi/意.json",
+      "sha256": "1ad1de6363ce02684d2fbdf1a7087944e80d13e3bbe8263150ac01739d4bee1e"
+    },
+    {
+      "path": "public/hanzi/慢.json",
+      "sha256": "b9515cfdc195efe50525012aacf44a6f071e46d618881d9607e53b0905479d34"
+    },
+    {
+      "path": "public/hanzi/懂.json",
+      "sha256": "9c54afc68e402013cd34b02585fc83560f52fd0cc5bc3f9aa162646480d23ac9"
+    },
+    {
+      "path": "public/hanzi/成.json",
+      "sha256": "2f809672d37d80b691d5fb9787ef94dd7e4b0be2685c051e776fd1888f44640e"
+    },
+    {
+      "path": "public/hanzi/我.json",
+      "sha256": "08616462fc64b4c18c76a3f68a992305e98946f468bf42ec76ca9be1cd6c5ac8"
+    },
+    {
+      "path": "public/hanzi/或.json",
+      "sha256": "5d8e79f50e5937fcfb3675086b45e6946ba01a486ce21d9a532869637bfd730c"
+    },
+    {
+      "path": "public/hanzi/所.json",
+      "sha256": "3e0a685cceef0d6189c8dd493472997669cceccf0e145837b5829fff5adebc5a"
+    },
+    {
+      "path": "public/hanzi/才.json",
+      "sha256": "17ca6312ba633c38c3379e6674983f31a310d6641d611fdb654b1233694e56df"
+    },
+    {
+      "path": "public/hanzi/打.json",
+      "sha256": "d87d2a216a25000dd03a25c69365ab4780a432f81edba42c1671d60f9872afe9"
+    },
+    {
+      "path": "public/hanzi/把.json",
+      "sha256": "0fc972bab80ed2f5336535665906cae41e4bec94cc0b2b7496e3f453e4acd48f"
+    },
+    {
+      "path": "public/hanzi/抱.json",
+      "sha256": "cfd5603ecc93e13e8eda50583c86e5ae8b2ce3f69d39dc1ebe650c6892bfe546"
+    },
+    {
+      "path": "public/hanzi/担.json",
+      "sha256": "241767814fc0a20b3a4f197a781679162e3abaf8b5be3a71e0f1d2ca311ddcde"
+    },
+    {
+      "path": "public/hanzi/择.json",
+      "sha256": "b51e607df3ae39b06ba8930c943756de80fdff00d1b3911a82d4b1d08c58d473"
+    },
+    {
+      "path": "public/hanzi/拿.json",
+      "sha256": "65642c4daed022077bd4867703a1cde25211e6de0b98e9168866ac384f060571"
+    },
+    {
+      "path": "public/hanzi/持.json",
+      "sha256": "f536ccc81621a7b08324270ac5d0885cd3c2f8211492687456de68e703c0dccb"
+    },
+    {
+      "path": "public/hanzi/提.json",
+      "sha256": "d9ac302ab06771390ceadf6fcb1621e37215738fe4c80a6800bb81ebe61f9009"
+    },
+    {
+      "path": "public/hanzi/支.json",
+      "sha256": "eedb382470dfe005c782caea7475a49bf07830d101467e2e7070b5a8b34cdfa8"
+    },
+    {
+      "path": "public/hanzi/文.json",
+      "sha256": "da58df874e176b10cbda075bb800aaa486fc716476a563fcc83f8f06b2169dbe"
+    },
+    {
+      "path": "public/hanzi/方.json",
+      "sha256": "d643e7b430d9ecf2a81676aa4fae8b06981a4cd811d3b035f0278a72362e3a6a"
+    },
+    {
+      "path": "public/hanzi/旅.json",
+      "sha256": "e7dac418b4784a719fa2902b50f5f6e6a4ef998362ea1a0e9e4edfa3a2e06177"
+    },
+    {
+      "path": "public/hanzi/无.json",
+      "sha256": "d9f4dce9455d8747047d9633761ccb89bbaa600ccf04288d59710070f3caf281"
+    },
+    {
+      "path": "public/hanzi/既.json",
+      "sha256": "ed5380850268ccf32cd24ccad10b9d99b516f91a4e55d6feb4eb6d4e48eb161d"
+    },
+    {
+      "path": "public/hanzi/日.json",
+      "sha256": "5c6bad210149abac8bd645cb12b1394edea5681f224154c27f422134299520fb"
+    },
+    {
+      "path": "public/hanzi/早.json",
+      "sha256": "4d6b2979bd1167355372cf73800a2ce13032febb989b8bf5901e6a7dbe773454"
+    },
+    {
+      "path": "public/hanzi/时.json",
+      "sha256": "c5f769e6b0df9b9ca252c43220cc339b2e8cd88dce12933f2f204f33db4b78b0"
+    },
+    {
+      "path": "public/hanzi/明.json",
+      "sha256": "15468d4fcd2c430aa5b57e8765ce043f6965d421e24cabdf66d2c899b16c6943"
+    },
+    {
+      "path": "public/hanzi/星.json",
+      "sha256": "21780a0d4c52c4e5f236bd18d3aacb4101d5ce17375442cdc64564a000330945"
+    },
+    {
+      "path": "public/hanzi/昨.json",
+      "sha256": "6e5daca94483c96d1e4c2cadf281d196a498d0159a7801a725f9c73ed5721c18"
+    },
+    {
+      "path": "public/hanzi/是.json",
+      "sha256": "73249157dc9e08c1eb3fb029ca12288b15c597f85eb4a6c72f5bdc6893ded27b"
+    },
+    {
+      "path": "public/hanzi/更.json",
+      "sha256": "5e95e399c46393270c0dc5258389862f35ee9650895d4472f1afea9668bcd5f9"
+    },
+    {
+      "path": "public/hanzi/最.json",
+      "sha256": "1fbb552cdc5f6df59a08f9e45b19599c2bf3c6e4de8771a5947f4f188ba538b1"
+    },
+    {
+      "path": "public/hanzi/有.json",
+      "sha256": "cee2fb732f41de30a7b0c84880d2d47af0a9fda6fda795d99c77a57f2ee4c8e4"
+    },
+    {
+      "path": "public/hanzi/朋.json",
+      "sha256": "f67483634bf14bcd59db35d94c7e1f560ee78be33c14754c43ad201cf98d7622"
+    },
+    {
+      "path": "public/hanzi/服.json",
+      "sha256": "b6b4c141c9abab48aa7b7e9d00d159cf922cf8627783921d81288df95bfe7115"
+    },
+    {
+      "path": "public/hanzi/期.json",
+      "sha256": "806ca46deb664ece4372b7201d1eca656d34c38848537fb8adbae719170e227a"
+    },
+    {
+      "path": "public/hanzi/未.json",
+      "sha256": "42b8321516cc21dfc161158f96f886ed19cd6c1083caac3dfad621467a8b58eb"
+    },
+    {
+      "path": "public/hanzi/本.json",
+      "sha256": "1507bfab8ff404936abc31790252d16b5eddf769b85791d89bc9c61c668fa838"
+    },
+    {
+      "path": "public/hanzi/条.json",
+      "sha256": "2c7f74285fda0de35698d5dc3339aa0704fea4759862cb4ae2b03942803d6686"
+    },
+    {
+      "path": "public/hanzi/来.json",
+      "sha256": "ebf3a9165522693077a8f14d25e003565409d8751ff0a4724423315d57d9a57d"
+    },
+    {
+      "path": "public/hanzi/杯.json",
+      "sha256": "6bb07f43f8043a1b36e7e292651e6348092e0777d44815831e01a9d5694da491"
+    },
+    {
+      "path": "public/hanzi/果.json",
+      "sha256": "9862414e1eab8e4ff3849cf29145d83bad8c74754c0faff35de284875ece9559"
+    },
+    {
+      "path": "public/hanzi/校.json",
+      "sha256": "bd810a1cf7fa8216207502a388f4593cce34b71018e8419ecff0b5364147e0bb"
+    },
+    {
+      "path": "public/hanzi/样.json",
+      "sha256": "df344ad329f2d7461c9ea5d2c64820f8b43d0957ecb9c23b703c5cf4266c0b09"
+    },
+    {
+      "path": "public/hanzi/楚.json",
+      "sha256": "5d669949cc2bf23411fb561b7f882d992734ec762c78db2037e943307ecebc41"
+    },
+    {
+      "path": "public/hanzi/欢.json",
+      "sha256": "83016170e79bb66ee07caa185befb9df8ba2a49caa3d167a04149d0120a55e23"
+    },
+    {
+      "path": "public/hanzi/歌.json",
+      "sha256": "b43ff9d397eb5ec5681c215a52d8f1ecdeefd02bf5755da1c3f1da8e62a5ec41"
+    },
+    {
+      "path": "public/hanzi/正.json",
+      "sha256": "bd849e7afea904faa4f630cc2f1ca5d05db8cf9023fa7aa73a8d437c53c95a86"
+    },
+    {
+      "path": "public/hanzi/此.json",
+      "sha256": "3b2cda9c360d21fc01efb6db3e06cea6ada19f289d7445d578de63327afa6f08"
+    },
+    {
+      "path": "public/hanzi/步.json",
+      "sha256": "a3c79da4718987eadbc5e969cb20b6fd595dbf524962caf337b4ae80d027b900"
+    },
+    {
+      "path": "public/hanzi/段.json",
+      "sha256": "359bf07068d4298cb7a8ae04be487557358f46f067e33cf745b74ad59b097c37"
+    },
+    {
+      "path": "public/hanzi/每.json",
+      "sha256": "bcbbd765c9a10e92cd61fb2067c038146c25e3cc7f129e727368fa82ed69e22a"
+    },
+    {
+      "path": "public/hanzi/比.json",
+      "sha256": "4dc980796f5251417cd1a2ebf706e94bfcabb05d1b275cff28721aeb190fd12e"
+    },
+    {
+      "path": "public/hanzi/气.json",
+      "sha256": "32ebb998c7bd7165e10e781ff52db83e5a3413f01cb70438e2271e99773abf56"
+    },
+    {
+      "path": "public/hanzi/汉.json",
+      "sha256": "24bae414f2def0d58cab2a7ae066004c62bded29331127925f4a4521264bd8e7"
+    },
+    {
+      "path": "public/hanzi/没.json",
+      "sha256": "74ed15d6773e229478cdc30bfa283dab5b2ccbaa1c7f6cfd338b0ae20216dbb6"
+    },
+    {
+      "path": "public/hanzi/法.json",
+      "sha256": "0150a3f02c12340a72a1d73457c2d7ad43c6dfbe064083e73b53df7d13de557d"
+    },
+    {
+      "path": "public/hanzi/海.json",
+      "sha256": "bcebc11480cb837dd2b2a8fd64dd742c46959d43a828a76c7a04464395274562"
+    },
+    {
+      "path": "public/hanzi/消.json",
+      "sha256": "c4727e592e2178c1ed7210a80cd6894b1209986dcc94eada4c8f097afc71b739"
+    },
+    {
+      "path": "public/hanzi/清.json",
+      "sha256": "71fb2fe6a794a3bd0871a01d1f9a3087247d43d2e620b3cf5436752eb17137b5"
+    },
+    {
+      "path": "public/hanzi/游.json",
+      "sha256": "72069ad8d41327e5e7bf5a5323c7d998d7a2217a675ab72ce9c7a38de4024dad"
+    },
+    {
+      "path": "public/hanzi/点.json",
+      "sha256": "1b5b5cd89627b1800adddb7448516283d5cb178ad1df187b3764c12aaa2d87cf"
+    },
+    {
+      "path": "public/hanzi/热.json",
+      "sha256": "25f30e825e12e831de16c70bb0056ee22e3947b68ef46ea5f0eae3b6114ad20f"
+    },
+    {
+      "path": "public/hanzi/然.json",
+      "sha256": "a8ab3f81bba891155a49af3fa4c37fb5e759c8d6ddf28577b461ab008e3e982d"
+    },
+    {
+      "path": "public/hanzi/爸.json",
+      "sha256": "fa40233458f9a517bcfedea1595d348831af8f73be08fe45a9554b28c59de25c"
+    },
+    {
+      "path": "public/hanzi/王.json",
+      "sha256": "0cae737cee78a605967be1c36bd978fa68bd54c75799992f3f230d941e2327a4"
+    },
+    {
+      "path": "public/hanzi/环.json",
+      "sha256": "ffed20e3832fd39cad790a2bcb3ac2ba35accfa43488f5059a4bd2c3e0499270"
+    },
+    {
+      "path": "public/hanzi/班.json",
+      "sha256": "4ade745bbdd9f871e5aa1a3f44bdb83c1fdcad7806482a5f83fad8faf3085539"
+    },
+    {
+      "path": "public/hanzi/甜.json",
+      "sha256": "4b34f16b8da6a211d33830c81c672389f7a334e06c27e6d2590d7009cfdf1d80"
+    },
+    {
+      "path": "public/hanzi/生.json",
+      "sha256": "dbe556919f5c0a95448c40997dfce35ad56ebf26d874218e7076d8c12374cfd8"
+    },
+    {
+      "path": "public/hanzi/用.json",
+      "sha256": "a6e1dbddb1d80001248a0f332d0be070fd7d42353771bd90e10fa01872812bf9"
+    },
+    {
+      "path": "public/hanzi/由.json",
+      "sha256": "9dbd3cbc7e8de5d6b27e7d9bfabb6c6077d0dafc9b9b5f5941ffeb25753319ad"
+    },
+    {
+      "path": "public/hanzi/电.json",
+      "sha256": "bbf199bee650b38f1d1b1da68a0c8f0eed59bdfce2302cd2abe0c5a115896850"
+    },
+    {
+      "path": "public/hanzi/留.json",
+      "sha256": "8820b30f9a2b1c63c686b85a00810ec0378f05604e30760be7ba1c01e0bd2671"
+    },
+    {
+      "path": "public/hanzi/病.json",
+      "sha256": "7e1961f5a3d3120e7900df9da41dfee35b262fddba178433255ba5787549747b"
+    },
+    {
+      "path": "public/hanzi/的.json",
+      "sha256": "d9a067e65c8c3770d5559d42bd2bc564b8e133d8fa3dc237d9c4a317adfbb32f"
+    },
+    {
+      "path": "public/hanzi/益.json",
+      "sha256": "4599bc79947f60c4464943b9238b2889b4ae11fa4abf5a26776bcabd08da7d9d"
+    },
+    {
+      "path": "public/hanzi/看.json",
+      "sha256": "bff5e00542da2f3cd5b343172777fa10c888e336224b42b8cb62c71978a7cbd4"
+    },
+    {
+      "path": "public/hanzi/真.json",
+      "sha256": "7aaa2b9020233fe11e0e661e5e6a0d4088d6969d493ade3b5d6e096972e51e9f"
+    },
+    {
+      "path": "public/hanzi/着.json",
+      "sha256": "ce3118cbf857ad7a167d807ef22b206c7e27c95e6ff1ecf2f823a152f777b117"
+    },
+    {
+      "path": "public/hanzi/知.json",
+      "sha256": "cbc62a072dbcb013232ccd2b5610a7667fdf9919a19adaef8381aab46835baa5"
+    },
+    {
+      "path": "public/hanzi/碗.json",
+      "sha256": "645ca40d5228d2cb916749c207c436bc95bff95d1e4fc8d354b1ede1b982e8e2"
+    },
+    {
+      "path": "public/hanzi/票.json",
+      "sha256": "1a5148515c501dae354047e18ed65b8e2241ae79e057de3d6459fd37d090b73c"
+    },
+    {
+      "path": "public/hanzi/离.json",
+      "sha256": "5a0d58325438253f47a4d2782adebf61d87bb0b75cda2ad116237c7fb8b421b7"
+    },
+    {
+      "path": "public/hanzi/究.json",
+      "sha256": "28971b7672d5c243a0050d03b6c8f6bfafe9bc9b19bcb1cd4b380a81eae7cf3e"
+    },
+    {
+      "path": "public/hanzi/站.json",
+      "sha256": "f9197f8e5679e005e768ac10df064072b3fd0a15f5a5ab66ee4b8749b3edebed"
+    },
+    {
+      "path": "public/hanzi/竟.json",
+      "sha256": "9f0951bd036f8ae20486d61b6f5158f0dddf165b6ca8ac9faf3d47180c5fb56c"
+    },
+    {
+      "path": "public/hanzi/笑.json",
+      "sha256": "e886c958ac2e7065eda06a6b67dc9bd128613b63b9fc44ac590d530d5af5c513"
+    },
+    {
+      "path": "public/hanzi/等.json",
+      "sha256": "508c1eee32e5e89b5e6aec665d819007e80b4a6b2ac7c72ba5eb22b0f77730dd"
+    },
+    {
+      "path": "public/hanzi/管.json",
+      "sha256": "4c86a7b5ea6b5741772f1835a45ebe61bd578a09e169412a9cf7f6b720569fce"
+    },
+    {
+      "path": "public/hanzi/系.json",
+      "sha256": "430cdc60c60c49283f62bc2cf242b9f2e99e3b05a901cfa9f19e4f4640a0ea03"
+    },
+    {
+      "path": "public/hanzi/累.json",
+      "sha256": "fef0e385d683a11603d3445b27470dff3ae4e117be6babe60c816f7d92065908"
+    },
+    {
+      "path": "public/hanzi/终.json",
+      "sha256": "90c4aa29be9aead07a19fbd303139946fd7b7b5c6783de4b8349ddefc1f90e24"
+    },
+    {
+      "path": "public/hanzi/经.json",
+      "sha256": "6681127b0e930891c0a4b5e2ffc36b7d54f504023a950e469f737ec2c273c3d8"
+    },
+    {
+      "path": "public/hanzi/给.json",
+      "sha256": "98226e1d98c751b961851e053a3f341ad090b0489c4b31c1f884bc52843e3257"
+    },
+    {
+      "path": "public/hanzi/继.json",
+      "sha256": "7dce96070719b23bba5783960778e8b1447d33adcb87ada31629818e47221c62"
+    },
+    {
+      "path": "public/hanzi/续.json",
+      "sha256": "ffa6e83b98fb95f7fb0023cab79b8f94bffe5d4ddf4d6167690e019ad6bab0e3"
+    },
+    {
+      "path": "public/hanzi/老.json",
+      "sha256": "f3130d50e757c65792633c581be89788d963819ed0df23380b6c94d5e31bf9d1"
+    },
+    {
+      "path": "public/hanzi/者.json",
+      "sha256": "1068107806747775a7d1899a2b31df5e188b9b5b941cd0cd93dc2fd3fe6c4da8"
+    },
+    {
+      "path": "public/hanzi/而.json",
+      "sha256": "a957f94a3ab8c0609edce0b27cec24a6d321eb9e332d342bee09c7d6379c0b5c"
+    },
+    {
+      "path": "public/hanzi/联.json",
+      "sha256": "6b22f14d3b90e348799eb0b9529010a5cfe7eceb3e1ae4ab0f721c502532c483"
+    },
+    {
+      "path": "public/hanzi/能.json",
+      "sha256": "d0344bfcb6ba9278ffa795e084ce4a5249c9b8953c3affa731079e3cd2aacce4"
+    },
+    {
+      "path": "public/hanzi/自.json",
+      "sha256": "440fa4d045ea9dad8643485ae45df8c446e03d91296923ece78e07695739ba90"
+    },
+    {
+      "path": "public/hanzi/舞.json",
+      "sha256": "6509f1cdd37b7874e67cd7147f569fefd5a5f08534a2f846f02dcaaa9e32c222"
+    },
+    {
+      "path": "public/hanzi/航.json",
+      "sha256": "ab8e10e58f2465ea4ce10206c3f6e373f44252bd1e0c99e849da5aeed072bc8b"
+    },
+    {
+      "path": "public/hanzi/英.json",
+      "sha256": "ac951d23d9c0e0e7d50098c6de99673df4a808f730b25a50908b52c056fcabf0"
+    },
+    {
+      "path": "public/hanzi/苹.json",
+      "sha256": "32202c548dd99ad95d67281ea7373027341ea14518b80a46da36b7fbb2def514"
+    },
+    {
+      "path": "public/hanzi/茶.json",
+      "sha256": "a9bf01e1c90c9a153d7200beb3530730fe1af14266f709d32460f1a171be004e"
+    },
+    {
+      "path": "public/hanzi/菜.json",
+      "sha256": "5e869b26710889875f8947a12fc55cd429352b6e4e3a1bc8792cc6ed496b1634"
+    },
+    {
+      "path": "public/hanzi/虽.json",
+      "sha256": "63e02c025f9332041330cb25f0d9eb98d34d3ecbce9f4035d5519aa3d1b47e11"
+    },
+    {
+      "path": "public/hanzi/行.json",
+      "sha256": "85961bf6902e4e34fa1ddb5c55033904b34fb6439f93ee5efdafbe0def014422"
+    },
+    {
+      "path": "public/hanzi/衣.json",
+      "sha256": "bb83d26ab543feaf262f3da5622aa5d7d35591f36286ad0ef5072ee96d73b7ad"
+    },
+    {
+      "path": "public/hanzi/被.json",
+      "sha256": "b316b26dd747608175d7c1faa753c8f666351a4877f403e77ca2693a1576c6f7"
+    },
+    {
+      "path": "public/hanzi/西.json",
+      "sha256": "f7599c5caa9c04e450f9c5b3e3cdd09523fd675d94f18c85997af05f023171d3"
+    },
+    {
+      "path": "public/hanzi/要.json",
+      "sha256": "29596cde9e081fafc88b28b84c25d5b0751a272a3db9e8d665c4f6b1015c4e7f"
+    },
+    {
+      "path": "public/hanzi/见.json",
+      "sha256": "38f248a32907c2061fe800b7217847f07181ec6ecfa421e194e020426b79ec3d"
+    },
+    {
+      "path": "public/hanzi/认.json",
+      "sha256": "f65b039435d480571159c393baee6e5a879cc7906b1d651a6c6954f22d943af7"
+    },
+    {
+      "path": "public/hanzi/让.json",
+      "sha256": "d17ad33a6ecdda31c53c04cf80cfb178fb2bb55fddff9b81e4040dcc250b6de7"
+    },
+    {
+      "path": "public/hanzi/议.json",
+      "sha256": "8181cc4d6924db939049ce66fea7401e274840b7b74a8e7a9d8110256c917ebf"
+    },
+    {
+      "path": "public/hanzi/论.json",
+      "sha256": "dd1e33ccb5af58ad6d4536e8acb5cd1cc24bdac5e14e427261ddb885a490cdc2"
+    },
+    {
+      "path": "public/hanzi/诉.json",
+      "sha256": "b973117f796e21b113ff186a87d53fb0d14ef5e2734fa25ea257a9bc74c70571"
+    },
+    {
+      "path": "public/hanzi/话.json",
+      "sha256": "8a3f1e388abfa63dd47acb0d4fc86d5e1c6cf30a82caddb2ca51061a93ea4fcc"
+    },
+    {
+      "path": "public/hanzi/语.json",
+      "sha256": "0999b4c39dd2763ec6c3386123c8686cb58fcb562f3b8fe681c26fdb348080d6"
+    },
+    {
+      "path": "public/hanzi/说.json",
+      "sha256": "56144a5cda3da7385c3f7e640985bb69bfa8eda5b22876d08bb05126ff116d2d"
+    },
+    {
+      "path": "public/hanzi/请.json",
+      "sha256": "6d48bdaeed17674221109997ed3187d71a6c8d7d3549dd277845a18828e2c82c"
+    },
+    {
+      "path": "public/hanzi/读.json",
+      "sha256": "dd8de3cdf06a29c7268ed3cc51304c8be2a57881f4ccf4444f6d980c2abed09c"
+    },
+    {
+      "path": "public/hanzi/课.json",
+      "sha256": "bc5a3bcf0e757ff72df8ac9c60f236f39addf51b65f1374dbef96e4fa9c2a98c"
+    },
+    {
+      "path": "public/hanzi/谁.json",
+      "sha256": "e2f893a3be9cb9d77ccb33115dbe7588453ea51b2fbc9ef81a5bcec9b2627058"
+    },
+    {
+      "path": "public/hanzi/谢.json",
+      "sha256": "9f68c6a28d3632f77ac32ea4d31945ed760b8d98a133e7516a11854991de1f39"
+    },
+    {
+      "path": "public/hanzi/贵.json",
+      "sha256": "34177b106cbdd621795ec13e24bdeb00e43c4e874ef9d8ef50e2bac703efd1c2"
+    },
+    {
+      "path": "public/hanzi/费.json",
+      "sha256": "22f512f0ff141bb033ced4b07abcdc1cb7681251a655651241196b8a2cc0172e"
+    },
+    {
+      "path": "public/hanzi/走.json",
+      "sha256": "2d73ebc4b90cdf561408b3deb5948509048f2c7a49fb005c80c6bdc001ff24a7"
+    },
+    {
+      "path": "public/hanzi/起.json",
+      "sha256": "a5301507b7db54210b4c2ff8ddd07489329117e7dd2e9b527cb595dc6f709c8c"
+    },
+    {
+      "path": "public/hanzi/越.json",
+      "sha256": "4a19bc5544bf1280b2f761d8274f11c2ed850d4e0e480da80a4e2e1bd62c3528"
+    },
+    {
+      "path": "public/hanzi/跟.json",
+      "sha256": "6add8d1e562a3951c22184da49ddddac4ac8c42f5bfcc1c832fa057d7f749061"
+    },
+    {
+      "path": "public/hanzi/路.json",
+      "sha256": "4fc1e8fa3e00667f3c229258597ab745e9354e2a1cb17add330bcd1718a0e7f2"
+    },
+    {
+      "path": "public/hanzi/跳.json",
+      "sha256": "0193ce30c1fd12dd30042bf9cdc3d357e41e7ea5279fb373c7d4737a0741789f"
+    },
+    {
+      "path": "public/hanzi/车.json",
+      "sha256": "7f863fb9a5d558ea337928cdd50c65be932c4a35fbde2cf28bfda48f8a438ac8"
+    },
+    {
+      "path": "public/hanzi/轻.json",
+      "sha256": "15f19111a796183c98cc4b32079258c67f0d1f27f121586c22e6521c2cf7b02e"
+    },
+    {
+      "path": "public/hanzi/较.json",
+      "sha256": "942c15f2d662b66b66a8ae9b53320fceeef81de4d21d9a595b93f1a219799d9d"
+    },
+    {
+      "path": "public/hanzi/辣.json",
+      "sha256": "ff16459d31327977d82d5334002e0232b8368a6768acccbaa1a2fdcafdaccc07"
+    },
+    {
+      "path": "public/hanzi/边.json",
+      "sha256": "438159da28398664d643d5d2d980aa8445544174558dc1c59dd8a920df3a657a"
+    },
+    {
+      "path": "public/hanzi/过.json",
+      "sha256": "b9e2c31965165d4c2a39de98e5730ed7f386da69b72c1073214c36c26905e8d9"
+    },
+    {
+      "path": "public/hanzi/运.json",
+      "sha256": "65255bb0bf2d7ed378dea6c2a15ec9ec406c7c7c1710831a487afa4040c79a81"
+    },
+    {
+      "path": "public/hanzi/近.json",
+      "sha256": "5548b4cabaeeb00b23b3c0b5134cdc9190b825c50c6eac1937ad3ee7df61d886"
+    },
+    {
+      "path": "public/hanzi/还.json",
+      "sha256": "77864aaf3e6d0d31f184a55083b9be223f0bb8c1a9fee89b5f59ff7314a94890"
+    },
+    {
+      "path": "public/hanzi/这.json",
+      "sha256": "6e1b5fc05d9c852cf1f19e48fa67366b2bee3e462be22dfe37ad3ceb08c46eb6"
+    },
+    {
+      "path": "public/hanzi/进.json",
+      "sha256": "286b549e1cbf2ff794325e561da3df20cc29ebab683ab3921a7d099547433cc6"
+    },
+    {
+      "path": "public/hanzi/远.json",
+      "sha256": "7ba6e7dd8cebb59b816e8fc253df3dc6c8f58a6d4541ddadbe32ec5433b15f66"
+    },
+    {
+      "path": "public/hanzi/连.json",
+      "sha256": "25f33ce07eded310dd8b47870332003eb6df4f352b6bd1971698d20f5f590d17"
+    },
+    {
+      "path": "public/hanzi/迟.json",
+      "sha256": "acf39cbde6445697a107e56ba62113aed3b9c74f89895cc0ccfcf589177dc7dd"
+    },
+    {
+      "path": "public/hanzi/选.json",
+      "sha256": "a834500e63154149d9eb4e2ede44aeaa4a3600ecb74067dad3d44a477764d426"
+    },
+    {
+      "path": "public/hanzi/遍.json",
+      "sha256": "f00a1435111c32f2752b902c734327ab8fdd3e1af9f9917c6cc9442d5cf4403d"
+    },
+    {
+      "path": "public/hanzi/道.json",
+      "sha256": "373d2c5a9818d0918ab38b100a75ffc9ef9b17c85948b6bd917acdb921e62c78"
+    },
+    {
+      "path": "public/hanzi/那.json",
+      "sha256": "a2c276669b5820897a8e20bd10fcede3062f99460bc9a733c65f7875d3197ea5"
+    },
+    {
+      "path": "public/hanzi/都.json",
+      "sha256": "5fa17c32858a0d8183096756b3789d96e5dcfcf612e4bc60e14b403d772748e1"
+    },
+    {
+      "path": "public/hanzi/酒.json",
+      "sha256": "6c51a1b1f33a7198881ea038b953304754f847771d767ffaed94e819726cd461"
+    },
+    {
+      "path": "public/hanzi/里.json",
+      "sha256": "5f0d84aa3b6f871759148b105314fd01c4a9019d3234afac345cbbf1ca263d5d"
+    },
+    {
+      "path": "public/hanzi/重.json",
+      "sha256": "d97075d41122c10e0984164d61b04170df89342adfa615fe28b0234375b4e12f"
+    },
+    {
+      "path": "public/hanzi/钟.json",
+      "sha256": "1fabcc4a9fd6f6a72549fa7b2bc4e7e8d3bda80832bd648cf0a86c61b15f803b"
+    },
+    {
+      "path": "public/hanzi/钥.json",
+      "sha256": "95987137cbf3677cac7c3b05dff2a7a2afbfffc17c64873aac4e33608035524c"
+    },
+    {
+      "path": "public/hanzi/钱.json",
+      "sha256": "4b008f391bb5c26ad3952de2da8bb83836bfae1615699450ba885cb77250159d"
+    },
+    {
+      "path": "public/hanzi/门.json",
+      "sha256": "d37eeb35aa87a9862da22248e0818b203af85258f05c67f9023dfc0d7498ca3c"
+    },
+    {
+      "path": "public/hanzi/问.json",
+      "sha256": "ccdfc03927529be7cfdd6ac29895d53040cff0648b6d087217a8572fa593e4bd"
+    },
+    {
+      "path": "public/hanzi/间.json",
+      "sha256": "0f53cb30db3bb6104e432ae87831d7c0fe24ec7324fb0affefc70eb2759bb615"
+    },
+    {
+      "path": "public/hanzi/除.json",
+      "sha256": "f88f79319aa80ba4d7a7db19fadbf4f899282f50995dcaaa0f8b6670fc5d8f37"
+    },
+    {
+      "path": "public/hanzi/难.json",
+      "sha256": "98a342035ee23a80f1f84b98d09e7aec690093f9f24c8cf865a08c08d87008c7"
+    },
+    {
+      "path": "public/hanzi/雨.json",
+      "sha256": "0e249bab348c40874b194b2ba75aa185961bd190ca2e09c9a4c303aa34f62e2c"
+    },
+    {
+      "path": "public/hanzi/需.json",
+      "sha256": "6bf567ecbb67b6cb2fccb5e60a109bafb1d0f49ee66c6d1475caf78784076665"
+    },
+    {
+      "path": "public/hanzi/静.json",
+      "sha256": "a4e4c645009b8d1d415cec634fef9e81b69a7847dff8bd3d638aa4af98998015"
+    },
+    {
+      "path": "public/hanzi/非.json",
+      "sha256": "cb6dd22e1c2410f3d7edf71987173f4bc9b2737308a1433975c1993aa6f2b69f"
+    },
+    {
+      "path": "public/hanzi/面.json",
+      "sha256": "720049f194a8d51d6cc01669f1319bed7510650a584d7185f0fa289d9f487ca2"
+    },
+    {
+      "path": "public/hanzi/音.json",
+      "sha256": "146e65609cb73e155c02fed48cb2eefe20a6f559af3fcbd4f7ecb20c52f0bc93"
+    },
+    {
+      "path": "public/hanzi/题.json",
+      "sha256": "0935d29ab0ec76a69aea203187a9247fddb89712b3d370c2862549edb8529057"
+    },
+    {
+      "path": "public/hanzi/饭.json",
+      "sha256": "cc1fa66270ac4250e36825e9c45d7af0b43a5ae271483fc15dfc14fd95a60026"
+    },
+    {
+      "path": "public/hanzi/首.json",
+      "sha256": "197fefd85084b496c38c447e80652d2a290534319ff6c46e02baee52ee1e720a"
+    },
+    {
+      "path": "public/hanzi/骑.json",
+      "sha256": "9916cc3cebb9d0c9e4f3db4dd869529d5dc9dd249b35f1dfd6fc67761683f3d3"
+    },
+    {
+      "path": "public/icon-192.png",
+      "sha256": "ee96b64d6b870b5507ffb894d5a869695cb035c37f0849a70c91a02dc2d9fba7"
+    },
+    {
+      "path": "public/icon-512.png",
+      "sha256": "f448f6f5d37f69817c1e88efea60417b5aadcfd588038f8c2d089efa6b7fd1f4"
+    },
+    {
+      "path": "public/icon.svg",
+      "sha256": "4c829ab105ee2d26ce48bf62fd4406b82a7656f3a9d0f6810920e46b9a446f89"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "sha256": "021eaa2072040c8b0f64be95b53a724d57f3d1ac67829a559459d0c95baaa70e"
+    },
+    {
+      "path": "public/offline-course.json",
+      "sha256": "8a062567f5bc58bdf93638452c9689da75a01edc04c4cdf379df07e384818a77"
+    },
+    {
+      "path": "public/offline.html",
+      "sha256": "f9d71433da285c7874ce1bd2b539293c0bc35a3f96ba50e414c06feedfeb2db5"
+    },
+    {
+      "path": "public/study-sw.js",
+      "sha256": "e8ca064b6be3cba488749f08b1eff208b0ced388a4a9429e6ea3ab592da2fcee"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "afeb6b1e74c78abe3c5296c61d0b483705a942aa31e5d402784452d9e197c0b6"
+    },
+    {
+      "path": "scripts/compile-english.ts",
+      "sha256": "b2d5685312abf6d3ae523e41f750cf13cd939dccc0f8582e172384c75bb004f7"
+    },
+    {
+      "path": "scripts/export-open-source.mjs",
+      "sha256": "7279bdafa4d6c420791a0bcd3fd19bc246d42ec02ea5989ef87b91a78af5ca96"
+    },
+    {
+      "path": "scripts/import-cedict.mjs",
+      "sha256": "85889598f95e0f5d3d2e41500d4b9d57ac83d035e13693aef5d15677a4a5ed6d"
+    },
+    {
+      "path": "scripts/mandarin-audio.py",
+      "sha256": "c38077d0981903236d0761dd44f26e2c47960603bcc28162c2d3a242b247fa82"
+    },
+    {
+      "path": "scripts/mandarin-neural-worker.py",
+      "sha256": "f8a02c762481667ad1413972ac07bf561b91513f908ba9cc29afd88e54d43531"
+    },
+    {
+      "path": "scripts/mandarin-requirements-lock.txt",
+      "sha256": "fd66c99904153971c2ff650b4005fb7e8f5e65946a800339414d72d5b143363f"
+    },
+    {
+      "path": "scripts/mandarin-requirements.txt",
+      "sha256": "2fe8a7d1685b65d77f4c3e38260929cca31132ed625da5bad67c75668c939e6b"
+    },
+    {
+      "path": "scripts/migrate-study.mjs",
+      "sha256": "07e7d3a0ba810abab9eb9408edd9f1c6c9c52a322bbc16212066040e33ff96a3"
+    },
+    {
+      "path": "scripts/prepare-offline.ts",
+      "sha256": "93770fb129295be44f281d3ce3dccb870f64b4a24b7c5821a5d00605e6649227"
+    },
+    {
+      "path": "scripts/prepare-strokes.ts",
+      "sha256": "0e588d3f9ab9ce6b2fb3d6e304949e55f3ea7c9b19c7072ecdfe996c7dfe7d36"
+    },
+    {
+      "path": "scripts/setup-mandarin-audio.py",
+      "sha256": "e894a89cf35369803cfa3415ed72c21573f263936993be47b825e7b594e794d5"
+    },
+    {
+      "path": "scripts/start.mjs",
+      "sha256": "4165adcf9b40ad2f293ac5e72ca0e0417c9d943a3dfc2fcf9ef60ce4eefd6eef"
+    },
+    {
+      "path": "scripts/verify-api.mjs",
+      "sha256": "a41905c4309cbc9e06b1a53e42ae46c9b96402d71a8e11fc6b1844fa3140749e"
+    },
+    {
+      "path": "scripts/verify-chinese-reading.ts",
+      "sha256": "c4fedac81d404552646fd687271757d07662005a6a963b73fef5a0591e1f6d7c"
+    },
+    {
+      "path": "scripts/verify-community.mjs",
+      "sha256": "50a6c742908f2ff39a3850c23066939ff6f689ffa4f24944caf910e60535cb75"
+    },
+    {
+      "path": "scripts/verify-dictionary-format.ts",
+      "sha256": "051e3dea135a27080745e8162c325891d4b8006d03f892797c6e2644af8cd65d"
+    },
+    {
+      "path": "scripts/verify-english-ui.ts",
+      "sha256": "eb40ac88bb632715770689d1eb8a8ae1769966ea768a093f596e502943d0b483"
+    },
+    {
+      "path": "scripts/verify-hsk.ts",
+      "sha256": "c99905c659b465004e23cba75fa08da6682afa223623f5d1a09ef533cd9ee44d"
+    },
+    {
+      "path": "scripts/verify-i18n-api.mjs",
+      "sha256": "6ce31add584cd1ed3736628f2bb007d72c75cc4821dbadc5b68124055a8746f6"
+    },
+    {
+      "path": "scripts/verify-i18n.ts",
+      "sha256": "b17a3dfb93273ccc5ca877f4b3ce391f87aab446116be2dd4cc5381c5ffd06d2"
+    },
+    {
+      "path": "scripts/verify-speech-quality.ts",
+      "sha256": "12eb178c038ed92f7648e3e3d8909ee6c65f306669e0058c0e2936ae61baf661"
+    },
+    {
+      "path": "scripts/verify-speech-reading.ts",
+      "sha256": "3dc1d4c88b9c2435fa8452d253bfb33490467251945f6f45829116b325666d48"
+    },
+    {
+      "path": "scripts/verify-study.ts",
+      "sha256": "98076b12064273c2e9148df764f0216a478a3ddc426dbd0956fcab4ed346f7f1"
+    },
+    {
+      "path": "src/app/api/audio/route.ts",
+      "sha256": "8665451b8e6adf022ae1ead72ec1f750ddadeb73c46897e00efa1711adef42eb"
+    },
+    {
+      "path": "src/app/api/dictionary/route.ts",
+      "sha256": "3de12992edb80a2305b5d0f0169b5dd2ec8b29df764916430bea98be512514a7"
+    },
+    {
+      "path": "src/app/api/flashcards/review/route.ts",
+      "sha256": "3f705bda3e7d1a14c552db313140a8d162245c2764213f52a59c8b337ee07bb2"
+    },
+    {
+      "path": "src/app/api/flashcards/route.ts",
+      "sha256": "2a7b9d86cf61a98219a760ba98351b82f5c4d99fb2c2431e00a092ad458d0d95"
+    },
+    {
+      "path": "src/app/api/hsk/draft/route.ts",
+      "sha256": "c83a4ea21f6ecd4e7854c61a7577191ea2ab2e737040ad50dce84b4e710cdf5e"
+    },
+    {
+      "path": "src/app/api/hsk/materials/draft/route.ts",
+      "sha256": "d1d5723944f4255911863e791e3f61c216dde4369aa6e3c380f02d3d78a893ff"
+    },
+    {
+      "path": "src/app/api/hsk/vocabulary/route.ts",
+      "sha256": "b27381a1a9f4780c87ca1c42a87cf8c18382ae519ebdb016f59270c3fac127f7"
+    },
+    {
+      "path": "src/app/api/pronunciation/route.ts",
+      "sha256": "99ed79d02b903fa5071b9a4163928da132d152965cb9e456ff87ad6d9f29765a"
+    },
+    {
+      "path": "src/app/api/speech/token/route.ts",
+      "sha256": "eccb4961af6816eb4e584c3331d72282910cc4ec24b80f148560b98132577c3a"
+    },
+    {
+      "path": "src/app/api/study/route.ts",
+      "sha256": "34c62d50d00998654baa3363eb2a966e6fc72a78c0a57f320905066ea467e902"
+    },
+    {
+      "path": "src/app/api/tutor/route.ts",
+      "sha256": "4c884a257d4d196409557f2b1264a63a9a207138fd9079a9cafdfc570d020e12"
+    },
+    {
+      "path": "src/app/api/user/route.ts",
+      "sha256": "f2fd6e2dae6764319b1d6c6c09903138477e3b8bdc3eccbb7e31115e8715824c"
+    },
+    {
+      "path": "src/app/conversation/page.tsx",
+      "sha256": "f15edb5e5f7d9f62491d24680100b75efbe50bca5a6d1dfb0018d84c4b72707e"
+    },
+    {
+      "path": "src/app/curriculum/[level]/page.tsx",
+      "sha256": "f131f2f5c11ad6f841c704c34fd1975a9eaddebede4115027e3b69099fa29e50"
+    },
+    {
+      "path": "src/app/dictionary/page.tsx",
+      "sha256": "ab6c37d124ee80d1bf0e259b7d9a18d01f0c189786ac3d0f805b98740dd4e426"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "sha256": "80a4dcc96a56b17435a6604385e7c3c3144c03f41b916b0e3a9549612028e8d1"
+    },
+    {
+      "path": "src/app/garden-theme.css",
+      "sha256": "3e6bb6732351d5db8c4862d2d44135a8496a3bf4e39ebe952d78b282ca38f39b"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "0961ddfa0741a8b72964181e6f7743aa174558fd7a3aae0a517bc2204f2cedc8"
+    },
+    {
+      "path": "src/app/grammar/[id]/page.tsx",
+      "sha256": "764e1f73089d2ad0253bfeb2320798d97f7f6a571f130b39c6dda791fdba7c25"
+    },
+    {
+      "path": "src/app/grammar/page.tsx",
+      "sha256": "f1371723194ecab42ee2dd8805716fe57e2b6b6bca893025361c4e1f664df216"
+    },
+    {
+      "path": "src/app/hsk/[level]/[unit]/page.tsx",
+      "sha256": "2292782fa4b2b7ac02a4a964e5229347f6e38ea735b4384527027decf5bf7123"
+    },
+    {
+      "path": "src/app/hsk/[level]/materials/[lesson]/page.tsx",
+      "sha256": "fdaba4c32ad3f3c6a59cc472b44f7822ba125775d0b728a04e4331910e2d7a62"
+    },
+    {
+      "path": "src/app/hsk/[level]/materials/page.tsx",
+      "sha256": "fdaba4c32ad3f3c6a59cc472b44f7822ba125775d0b728a04e4331910e2d7a62"
+    },
+    {
+      "path": "src/app/hsk/[level]/page.tsx",
+      "sha256": "4eda4498958e75077320acd8eca47ca50698f04f8c97eb712d90a28706690d5f"
+    },
+    {
+      "path": "src/app/hsk/[level]/vocabulary/[lesson]/page.tsx",
+      "sha256": "dc920a3eca7c648d90283a4815f9b55cd24a1db57babde7e440872989678dfb1"
+    },
+    {
+      "path": "src/app/hsk/[level]/vocabulary/page.tsx",
+      "sha256": "74010b26c16b73827ffec9222412691431387ed15d5b825a2d4edc4be0fb16fb"
+    },
+    {
+      "path": "src/app/hsk/page.tsx",
+      "sha256": "7ff23767aadd1088c20a77ec08aeeeee944c98fc39d5a572ab1f0057b511b3f7"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "56167290471efa27c2d2dd136b8c48e482416b1c8547d899ad7e9cd3f0849c40"
+    },
+    {
+      "path": "src/app/learn/page.tsx",
+      "sha256": "31e15b32cd3a5a511ef4004dbc4547b92605d83715043350c493940a974fdf4a"
+    },
+    {
+      "path": "src/app/lesson/[id]/page.tsx",
+      "sha256": "5a21b432f3f82c4bf6762e72dc9a0431e6571258be7b1aefe2b64c9263b00519"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "sha256": "00601b977873e3fdac2246d65d2ef379fdae91e1c9639088e30ee27aadd9696f"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha256": "febd6c57f873bf7967e19fcd62c2b958a03d8d0c21028447363e1b643de1b925"
+    },
+    {
+      "path": "src/app/pinyin/page.tsx",
+      "sha256": "272675f545c49eebbe67dce986bd3286ac6dce55ba361811acc52ec9c0c6c4ea"
+    },
+    {
+      "path": "src/app/placement/page.tsx",
+      "sha256": "37da023e1ce74e2852205032b06e29f0fe0721f1165b337f4843f4db94dd0192"
+    },
+    {
+      "path": "src/app/practice/page.tsx",
+      "sha256": "2a4f6c1d83a0dccd45803d1095e81a417300f0106274bf5c61f86e8072908911"
+    },
+    {
+      "path": "src/app/progress/page.tsx",
+      "sha256": "277e88bb02b91c3fb348ca40d576e17eb8d8e3a7abc0f27bf0586f7d31732cf7"
+    },
+    {
+      "path": "src/app/reading/[id]/page.tsx",
+      "sha256": "20bc849c0de69b9d740d17b3cdb02e86760f3ad3b1b7f747be5d429ecdc84ae1"
+    },
+    {
+      "path": "src/app/reading/page.tsx",
+      "sha256": "a15d6a544639c77f992e64bec09bed9378abcfad29a6e39a67b73b92b8cce785"
+    },
+    {
+      "path": "src/app/settings/page.tsx",
+      "sha256": "8431133097eeba99e29def427ae9fadf358df1ebc51a3008edc14d403aaf440f"
+    },
+    {
+      "path": "src/app/study-theme.css",
+      "sha256": "3e7b65d025f975832e56e2b9cb26f1aaaad33f67ae905fcf819a6dccc9803fa7"
+    },
+    {
+      "path": "src/components/i18n/LanguageSwitch.tsx",
+      "sha256": "6e6994265c75208e2cb4ccc8feebf1abf89c934459b3ed5ebc42e17eed2d46c5"
+    },
+    {
+      "path": "src/components/i18n/LocaleProvider.tsx",
+      "sha256": "b4f9852f660050ccae1e49297669d04fd6f6e867c038f95ef48cb771db7433f6"
+    },
+    {
+      "path": "src/components/layout/AppSidebar.tsx",
+      "sha256": "12456de38368f897e0dfd022a177c876c5d7ea07eb9611ddb60267699ae7b332"
+    },
+    {
+      "path": "src/components/layout/Brand.tsx",
+      "sha256": "1150e74c1af9d3a6753c8ebd923e39dfdc7b7ee3f7807b7e95509efb41515ff1"
+    },
+    {
+      "path": "src/components/layout/LearningGarden.tsx",
+      "sha256": "b1fa3adf9aa91724132a3fbe173fbf193b8862c7beeb658e53e8c8122d6e7fe4"
+    },
+    {
+      "path": "src/components/layout/LearningSculpture.tsx",
+      "sha256": "2360712b6fe0d17a0f69c97809aea6888ebcf4a2f2a3e8ccf0e138c17a6c673d"
+    },
+    {
+      "path": "src/components/layout/garden-renderer.ts",
+      "sha256": "7591209bd52ed0c6d11ddf24259fe67781505049d861c795c15482cbcd309cd7"
+    },
+    {
+      "path": "src/components/study/ChineseReading.tsx",
+      "sha256": "6f1c219a4171faf2c9b0bdc95c421f24f161549fbf4ea689eaace09ffb01530e"
+    },
+    {
+      "path": "src/components/study/ChineseText.tsx",
+      "sha256": "8523ab3fe68b69ba750ebcabc0a28351ed6f72b2e20b1e74265d404655c8a2b2"
+    },
+    {
+      "path": "src/components/study/Curriculum.tsx",
+      "sha256": "12b86bc73a3107bb0673f176e64b885a3c35b28c3dfb848bbb4e4784579a8858"
+    },
+    {
+      "path": "src/components/study/Dictionary.tsx",
+      "sha256": "934734178bda9ff6d27f73f33c2c64368c12cbbff57b90a239e5808859ea052d"
+    },
+    {
+      "path": "src/components/study/DictionaryWord.tsx",
+      "sha256": "6cecfda6faa3036058d2939acb8dcaeecc1506e26585876a590522e2e51028fa"
+    },
+    {
+      "path": "src/components/study/Exercise.tsx",
+      "sha256": "74672215b6fa08f772df8acc8c97a2ae4114b170c1ccb6ccccdd17aa12657344"
+    },
+    {
+      "path": "src/components/study/ExercisePicture.tsx",
+      "sha256": "8f4e78cc2f99c36b6851eee1aef9c1bd6fd7df25008e16bd0b837981cc692ba1"
+    },
+    {
+      "path": "src/components/study/GrammarPractice.tsx",
+      "sha256": "265f3c10b043d7daa9f6abbda1d5ae04f974e020add36614d4a04b49cf4a9119"
+    },
+    {
+      "path": "src/components/study/Hsk.tsx",
+      "sha256": "f7066b30f4253e9280d47d9dc42e7e44c88f5820ebee5dc23b6e5e45c0926021"
+    },
+    {
+      "path": "src/components/study/HskOpenTask.tsx",
+      "sha256": "2dc3ec2bd5b86dec6a8eadbd33dd04f4eacaff219a72a3d7a618f491ea207db3"
+    },
+    {
+      "path": "src/components/study/HskVocabulary.tsx",
+      "sha256": "eaa547d6f62a436552f87019e8e936409ac911d42d195f9227c3cbe26c997a90"
+    },
+    {
+      "path": "src/components/study/Lesson.tsx",
+      "sha256": "247b0848c76c9444401bc4c2993ca677a803d19ae48178fa96f72b6f2feec6fb"
+    },
+    {
+      "path": "src/components/study/MaterialResponse.tsx",
+      "sha256": "39f0ca9ad5e6db9beedab809a41111a0ef0cc43ac009f5fc13f966bb9988a7da"
+    },
+    {
+      "path": "src/components/study/Practice.tsx",
+      "sha256": "02e2d933615b2d2d7c4be70e4a27f27c5e93c1b6c3c8085e31b0c0357ab8f581"
+    },
+    {
+      "path": "src/components/study/Reader.tsx",
+      "sha256": "fc077f703d0572e4030a715c1d941f569bf40335e2b34b60fc12e1540c2d17ef"
+    },
+    {
+      "path": "src/components/study/Speaking.tsx",
+      "sha256": "94907f83eade9af3826b4f55370a0ecdce5d4242f0a890491283bf2572358a92"
+    },
+    {
+      "path": "src/components/study/WorkbookAudio.tsx",
+      "sha256": "8e6360b185b3453a54f92cdb5c2c52b645153f3719efb6f88b227d30af7ec324"
+    },
+    {
+      "path": "src/components/study/Writing.tsx",
+      "sha256": "bf5022af492c4aef0dff9f05430fa6bf95302356471eb625fd625d3294828aca"
+    },
+    {
+      "path": "src/components/study/common.tsx",
+      "sha256": "caa9b124d9799b014df477f2e851ee877aa7059eb56c6dfdb803bacb195aa181"
+    },
+    {
+      "path": "src/components/ui-custom/ClickableSentence.tsx",
+      "sha256": "03a041a332a1d47611b31b0a67f1f692dc6810f8a3e9a8d0a86e7f5fc144610d"
+    },
+    {
+      "path": "src/components/ui-custom/CurriculumMap.tsx",
+      "sha256": "cbf9a830e795e6f0399d1bd660cf7e72e7e0051b9d0bdb75a331cb04f217056b"
+    },
+    {
+      "path": "src/components/ui-custom/DictionaryList.tsx",
+      "sha256": "e7c8325e5a19b36818e0acfe5bc21d32e9a54d236fd92fb7154489571e6d20b6"
+    },
+    {
+      "path": "src/components/ui-custom/Flashcard.tsx",
+      "sha256": "6e43ea4bbd9ee1ec9ddbf4e2f876c12f18743657033f5b04ec7c794395decb55"
+    },
+    {
+      "path": "src/components/ui-custom/HanziCanvas.tsx",
+      "sha256": "4bebbec8f8d74c597a0872b569a011f65e76c4bb03de9bb2efe1bd6a7e1fac7d"
+    },
+    {
+      "path": "src/components/ui-custom/ProgressDashboard.tsx",
+      "sha256": "4cad982092c0033a775dba2cbd732826175344b62521818fb39815c857533259"
+    },
+    {
+      "path": "src/components/ui-custom/QuizEngine.tsx",
+      "sha256": "5b15fe78308ba4738e8b346c5e7de67f9d35d71b73ebe3886648a798b229f679"
+    },
+    {
+      "path": "src/components/ui-custom/SentenceReorder.tsx",
+      "sha256": "7c067a69b01359de1d620e55c53441dd9d5c8feb96860cb10d2a5383fede8e76"
+    },
+    {
+      "path": "src/components/ui-custom/VoiceRecorder.tsx",
+      "sha256": "189b671e6d90679aed41d92204683ace67ce3aa2ecb90639b2509fdfd7543e76"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "sha256": "c635b418a7ee7d1375f9a4764fa7aa98b3664e7d52905c41441bcd1dfabf4bca"
+    },
+    {
+      "path": "src/db/index.ts",
+      "sha256": "2f34b0e25a4ffca1a87d7cd1615b90b8c1721dceb5abfadc65f823b376bcbdac"
+    },
+    {
+      "path": "src/db/schema.ts",
+      "sha256": "510d7eeb08995e8d47d3d29407f059cfaab7d554d5a019dea6b48296da68f917"
+    },
+    {
+      "path": "src/hooks/useAudio.ts",
+      "sha256": "2ae4ef6877392e0bc75e5ff50be28fe44b377de68de5fc0268fc863bd4741f8e"
+    },
+    {
+      "path": "src/hooks/useAudioRecorder.ts",
+      "sha256": "7c6ffbbe210f1719f69f674510406f459a13d1b360217de6cf6b797cd87f2095"
+    },
+    {
+      "path": "src/hooks/useChineseAudio.ts",
+      "sha256": "3f409c8c6b9358613bc9f09f7f34aa0545043dcf8f7afa4e3b68ad6fc9a9a089"
+    },
+    {
+      "path": "src/hooks/useVoiceRecorder.ts",
+      "sha256": "0cdcde470f8d241091f7fca9dab4151918312a8fc6c5c63da5873b9d85fb4323"
+    },
+    {
+      "path": "src/lib/chinese-reading.ts",
+      "sha256": "4a876384a46d8e241d70a9de9e6c7f66d900fe9a0d9b094cd68da03449a398e8"
+    },
+    {
+      "path": "src/lib/course.ts",
+      "sha256": "3b9bfdc18e7ad69a1a31a0f932de9b2d78cd4aa83e93d687b790821ff47acfba"
+    },
+    {
+      "path": "src/lib/curriculum/hsk1MockData.ts",
+      "sha256": "6cffb3de9cc961297725b474891cc35264e29aa9fa4c8e607f0ede7fe7a03d72"
+    },
+    {
+      "path": "src/lib/curriculum/hsk3.ts",
+      "sha256": "0b4057200e6bf3b60af074ce1386ee87af9ee874970d53bccdc3bff4584ea99e"
+    },
+    {
+      "path": "src/lib/dictionary-english.ts",
+      "sha256": "e1a3650d00eed81213c82e97c824f3772712e7480ae052bcaf53a49152f96029"
+    },
+    {
+      "path": "src/lib/dictionary-format.ts",
+      "sha256": "60777af94f8e3436ca21bf5b88b6d656ed106dfa78fc807e1516c213dc56e349"
+    },
+    {
+      "path": "src/lib/dictionary-server.ts",
+      "sha256": "e1f9a49d92aa00c92ff95e775931e39ba2578f7ad3132eab080a2f7a7adcc3de"
+    },
+    {
+      "path": "src/lib/edition.ts",
+      "sha256": "0a00ed9611a2d457694e2503816c0adda15fa3d226caa87413b4b6a7447e0711"
+    },
+    {
+      "path": "src/lib/exercise-shuffle.ts",
+      "sha256": "16c3814fcbee43d4bb5e9f425cb7ae510e7acf85c67a3376785f855c02a87987"
+    },
+    {
+      "path": "src/lib/grammar-data.ts",
+      "sha256": "5212237d8b72874b047750fd973faa87346483f1ebe7ef122578c2baadd596e2"
+    },
+    {
+      "path": "src/lib/hsk/catalog.ts",
+      "sha256": "1e1ef63288980a0a537f15ac12db2569c9be1cfc94fd937cffadf6156db75ef6"
+    },
+    {
+      "path": "src/lib/hsk/grammar.ts",
+      "sha256": "fabd2891f2c3572dc4531c97603efdea993e5de8e005f6b40bfcea34617b16e8"
+    },
+    {
+      "path": "src/lib/hsk/material-answer-layout.ts",
+      "sha256": "f2d0e79d4305e42d6b6e59086d804101010c73664e89af51c9ce93d080ef8b7c"
+    },
+    {
+      "path": "src/lib/hsk/material-grading.ts",
+      "sha256": "eec1a6e0fdea0456f017dabfa6e02c928a3e51dc7f3081e763e3d78a9e40f993"
+    },
+    {
+      "path": "src/lib/hsk/materials-catalog.ts",
+      "sha256": "174d474598800f4cad8468acdfb0adbc03dfd67b45cadb83f24494dc22d611be"
+    },
+    {
+      "path": "src/lib/hsk/materials-server.ts",
+      "sha256": "89e67cc727ea581d4cc629fba3cb129e906751a3c8b71ecbe4d5847c2316106d"
+    },
+    {
+      "path": "src/lib/hsk/progress.ts",
+      "sha256": "7ecf03a33c0bc62e663cb48171786000898337f2d79f26ec5cca33c90f03714f"
+    },
+    {
+      "path": "src/lib/hsk/texts.ts",
+      "sha256": "41504c8ab7a60ecd0224ba46e1f27dc9285f02d3b89bbd5ec645e8bf9668ce54"
+    },
+    {
+      "path": "src/lib/hsk/vocabulary-attempts.ts",
+      "sha256": "fd4c2a2af4a26884203f8cbf35731e6d27752ceea5349fd4295121d12112c735"
+    },
+    {
+      "path": "src/lib/hsk/vocabulary-server.ts",
+      "sha256": "ef86fbcbe3c4be683da3c790526552f93b276d7422bf9d98ff4804cf7eb53dc6"
+    },
+    {
+      "path": "src/lib/hsk/vocabulary-summary.json",
+      "sha256": "7572feea0a7a28a55ffad9dc044174a0c9177ee40a89ecb7de16fd1aba3609f7"
+    },
+    {
+      "path": "src/lib/hsk/vocabulary-types.ts",
+      "sha256": "eddf872e6cc43989af2e709e773176874592bd930fc7aad5007fc52dbc261a4c"
+    },
+    {
+      "path": "src/lib/hsk/workbook-audio.ts",
+      "sha256": "db46940679b3bc94f91c3a5325ae4ddef2188f98f50ac30d3f37fa4402302adc"
+    },
+    {
+      "path": "src/lib/i18n/content.en.json",
+      "sha256": "0730ac2d17e76fb2dcd652195358da7722b30abb76f9154619bd30bc583e2b60"
+    },
+    {
+      "path": "src/lib/i18n/core.en.tsv",
+      "sha256": "ed581528e2a24fbf70c2bbc52f06826d2eb76748206cb80469a7f892c2c8b68c"
+    },
+    {
+      "path": "src/lib/i18n/counts.ts",
+      "sha256": "69f0106d3e9a18dd5cfd4466e6d19caeb85e7e5162dc9853acfdcc09c86f4f2c"
+    },
+    {
+      "path": "src/lib/i18n/hsk.en.tsv",
+      "sha256": "601b9e91ada53d1708e4963ae190aecb3c5b281476521bf05754a5be01dab3e8"
+    },
+    {
+      "path": "src/lib/i18n/http.ts",
+      "sha256": "df1a9dbb3e07798fbe83f680ecb59483283265be3f8256eea1c19f2c332ee3b3"
+    },
+    {
+      "path": "src/lib/i18n/lexicon.en.tsv",
+      "sha256": "c4bb0a2506438824d15bec07a348cb8ab0b8cab249b92f5ddef831f726e36152"
+    },
+    {
+      "path": "src/lib/i18n/overrides.en.json",
+      "sha256": "b7b7b2ef1e5a9b7d4281eb556d3f75126e74edc78e28ad953e75a92f9404b851"
+    },
+    {
+      "path": "src/lib/i18n/resource-server.ts",
+      "sha256": "9b35105c82fe5450a580bdd12dabb604bd1d3894cfb030dbf2078cb45ce3facd"
+    },
+    {
+      "path": "src/lib/i18n/reviewed.en.json",
+      "sha256": "31ce3839dc619f737f4f002afe7b0bdabdfdd3c177aa6cd39de154c0123ee8df"
+    },
+    {
+      "path": "src/lib/i18n/server.ts",
+      "sha256": "c1f90f027a2c394dc04818ea4eb64ec4fc6cda9a41483439ebaaaf39c40ba657"
+    },
+    {
+      "path": "src/lib/i18n/translate.ts",
+      "sha256": "dd24934d76b4922595ab62196a4e7047bf5e2f6221e9a2304e936e51fa8295f0"
+    },
+    {
+      "path": "src/lib/i18n/types.ts",
+      "sha256": "c41df32bc6d169f8a20d426767831eee83d3a599198279f708d2ffb9c3ecce31"
+    },
+    {
+      "path": "src/lib/i18n/ui.en.json",
+      "sha256": "080cfd8de3f8f974720078755c15826bb4813a2616da27c20c7da595a7774c27"
+    },
+    {
+      "path": "src/lib/i18n/view.ts",
+      "sha256": "9590cfed6517b326e1e0b99856e5d1e2472fe61202bd80fe17c4c2450f0d3873"
+    },
+    {
+      "path": "src/lib/mandarin-phones.json",
+      "sha256": "2019ea6c810f3122e71dfaf880a531e93ad09a9c612f4dcffec2c4b7a4667575"
+    },
+    {
+      "path": "src/lib/pinyin-format.ts",
+      "sha256": "65fc247956d5847ac0acd90a4a6cd883e9d68461354f10ed7b3965f233014b70"
+    },
+    {
+      "path": "src/lib/pinyin.ts",
+      "sha256": "0bfdca8b25aa41b2d02361c915073becb3594597bd2db4fbc9cd371c6d2e661b"
+    },
+    {
+      "path": "src/lib/reading-alignment.ts",
+      "sha256": "298fd4d4a89024df9d97327ae0d66b822dda9ed5162864e914dcd8181b492243"
+    },
+    {
+      "path": "src/lib/reading-data.ts",
+      "sha256": "bf41f4a1e86f8978d440dd2e9024e28df09fc34d277c0f86513c45d7b56cb965"
+    },
+    {
+      "path": "src/lib/reading-words.json",
+      "sha256": "bbec5bbebcdf931b6247b5e5951cc0ccea6a21a0f3cd805e1f381dd16f2025a5"
+    },
+    {
+      "path": "src/lib/recording-audio.ts",
+      "sha256": "98adf9586fa8100c8dcbdfa0e2a11954e72fcdc07b782420c592c26b11c7fa7e"
+    },
+    {
+      "path": "src/lib/server/mandarin-audio.ts",
+      "sha256": "00d168a77323a12b189ec90d475cb2616c7f7422b7374334a50dc52f72f31002"
+    },
+    {
+      "path": "src/lib/sfx.ts",
+      "sha256": "032c055426910d6771a1adb67706c37410647a6e2c56fef74cb27209e6308f43"
+    },
+    {
+      "path": "src/lib/speech-reading.ts",
+      "sha256": "b60b6be2e2b841c19f24db068752ed3e05aca3c7956847e76dba853547aa69dd"
+    },
+    {
+      "path": "src/lib/speech-session.ts",
+      "sha256": "bba3ba9bddcc40a68aa04dc9210dfc54c4e3cc2d83bf9bd210368fa07e12d4e1"
+    },
+    {
+      "path": "src/lib/srs/sm2.ts",
+      "sha256": "c6f8bb94eb8f79f9534990aa5fb0334efc501ef4d73cd4b674e4d9ebafe64090"
+    },
+    {
+      "path": "src/lib/study-engine.ts",
+      "sha256": "c6e5f16abfa59a505648c3bf2a651723dbcf3675f3c2f24e9d87cb631654f836"
+    },
+    {
+      "path": "src/lib/study-server.ts",
+      "sha256": "736c3084f1aa4185445103cb6e90e87c8b42403a0bee24034e75eb6e82911d4b"
+    },
+    {
+      "path": "src/lib/study-types.ts",
+      "sha256": "8f4c4c665af4c9fac70b237eb950d5e9ca2cf568a4ce6212368b703e7e2dea74"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "sha256": "14300d758170c270c75b057f38fedb3793a5920ea872f0477e29fb131185e8a7"
+    },
+    {
+      "path": "src/lib/writing-readings.ts",
+      "sha256": "cfe029087ad887b4f26cd9420be62510a4e79e03c89219e8569548fb6138abd7"
+    },
+    {
+      "path": "src/store/useLessonStore.ts",
+      "sha256": "26ffb1834a7058baf78688acc1e5069953e5a64f48edf2375e0b8ce11bcdf9ce"
+    },
+    {
+      "path": "src/store/useStudyStore.ts",
+      "sha256": "a5afdf38c45519ddad489da0b0719dd01930ce39f9a801d45e51c82a4417da2c"
+    },
+    {
+      "path": "src/store/useUserStore.ts",
+      "sha256": "568417456fe91a592c2d84792507b42ca1997ebaaeaec65a0e8ec026e423096a"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "2b78e4d9b5b181ac0e373bd6e45bd929d59d560374d1acb3555803fd517e5220"
+    }
+  ],
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "vi"
+  ]
+}

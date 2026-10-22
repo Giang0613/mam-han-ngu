@@ -1,0 +1,5 @@
+kokoro-onnx==0.4.9
+misaki-fork[zh]==0.9.6
+soundfile==0.14.0
+edge-tts==7.2.8
+-r mandarin-requirements-lock.txt
