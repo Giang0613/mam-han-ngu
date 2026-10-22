@@ -30,7 +30,13 @@
     "test:dictionary-format": "tsx scripts/verify-dictionary-format.ts",
     "test:english-ui": "tsx scripts/verify-english-ui.ts",
     "test:resources": "tsx scripts/verify-published-resources.ts",
-    "test:source": "node scripts/verify-community.mjs"
+    "test:source": "node scripts/verify-community.mjs",
+    "db:backup": "node scripts/backup-study.mjs",
+    "test:backend": "tsx scripts/verify-backend.ts",
+    "test:audio-queue": "tsx scripts/verify-audio-queue.ts",
+    "test:recovery-api": "node scripts/verify-recovery-api.mjs",
+    "predev": "npm run db:migrate",
+    "prestart": "npm run db:migrate"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.63",
@@ -77,7 +83,7 @@
   "license": "MIT",
   "description": "Open-source Chinese learning application in English and Vietnamese",
   "engines": {
-    "node": ">=24 <25"
+    "node": ">=22 <23 || >=24 <25"
   },
   "repository": {
     "type": "git",

@@ -18,8 +18,12 @@
   ],
   "files": [
     {
+      "path": ".dockerignore",
+      "sha256": "d7c4222f1c3271fa96aa05961df479f106c5cc1dd57dd165c414c1b3ee56844f"
+    },
+    {
       "path": ".env.example",
-      "sha256": "169c9c8bd35bf687f1847129fb60095c664c769bf066f0e30488f0ac743698d1"
+      "sha256": "4e9876974b7d405659c2969354740f287c723e9d45877b9465b867dc15cc8411"
     },
     {
       "path": ".gitattributes",
@@ -27,11 +31,11 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "401a615b4871fca12f688a2c2d841ee7c122a24dbc06308bd76f5a3828373ae9"
+      "sha256": "f40ab0bf6a2dffbe30ccbbb3f2c4365c8eb4308750d068153705ee0179ae22b0"
     },
     {
       "path": ".gitignore",
-      "sha256": "be5fe008bb2844deef11ac3cc54b3482c0c8217e47907295867631cc3915c7f0"
+      "sha256": "b32986434331709d6b1ba4241a4c0f33b0aae2cf59ea5f93eb107c0b88301dca"
     },
     {
       "path": "AGENTS.md",
@@ -50,16 +54,20 @@
       "sha256": "c8312d7a7afe4a33c52e95b7a5fa1f2251e69101e9315cd5e49747df0d35fa68"
     },
     {
+      "path": "Dockerfile",
+      "sha256": "c172adcc815349ded0cefad9ef8b418e7ce52186c80bc5b602add5a9b8302100"
+    },
+    {
       "path": "LICENSE",
       "sha256": "783dc9965a3037606896758e04a826fd1bda231c1cc449cf0009cc3b6e29f4f5"
     },
     {
       "path": "README.md",
-      "sha256": "f79283e257bb71a631316aff8363a716cf27184153d45a64c649a010358fb2ae"
+      "sha256": "de315fa70a9c24525b652ed270c6d1042e19d48ee6654c94b80503b7927090d3"
     },
     {
       "path": "SECURITY.md",
-      "sha256": "82a3b4a0bf746f9100d7089401a94fead361900e17c6348de5889357579395bc"
+      "sha256": "3538c4478375dc8b02adc9f75d3ec8281ba1783133f071dbfdf5e991dbaa49f7"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -68,6 +76,10 @@
     {
       "path": "components.json",
       "sha256": "7f89b1e9e3995be8620be3162df8e08b7dd512f894fb0accb559193138fdc390"
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "00c7feecb9fdbe886d2703dd7c41a9d754a4780f6f1d31ef9c743aeffcd9c225"
     },
     {
       "path": "data/cedict-meta.json",
@@ -3646,12 +3658,16 @@
       "sha256": "ba77175a3b4b6179e1a0036bbebba417a21806047e5ca0b3f9e322b2b33fa448"
     },
     {
+      "path": "docs/BACKEND_RELIABILITY.md",
+      "sha256": "909e677427d820758e3d5c05b6a1d6bb30ce7291123bb03bf14b0e9ad5f58578"
+    },
+    {
       "path": "docs/CODE_REVIEW_2026-10-22.md",
-      "sha256": "c10cb6c47ebd05622c76d3993b13e428175205b05667f8155e9390291fb0c698"
+      "sha256": "ac4cbc8979c92c82a6586e2c5ac71888393d086198477a36e46214d44d7919bf"
     },
     {
       "path": "docs/COMMUNITY_README.en.md",
-      "sha256": "16c198e0a7e56982cceac2485579b8371661af6dc164eb8736cbd0f9c201de02"
+      "sha256": "13843433b52d52303d56983dc83d871a3501c277263e4c300f0f7c091838fac1"
     },
     {
       "path": "docs/COMMUNITY_README.md",
@@ -3675,7 +3691,7 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "0ca813c2aac5f2ca89f7a8e359f977b9daeb58dd3dea9fec9bebd868a2cf446a"
+      "sha256": "1870706e27dab63c63096d751b14a7a3f47dc1973e62a566660613fdd29a90fb"
     },
     {
       "path": "docs/hsk-vocabulary-import-report.json",
@@ -3747,15 +3763,15 @@
     },
     {
       "path": "next.config.ts",
-      "sha256": "94b1b1d3f06e0ac464d9a54d9e1a44f982acc25b2621bf548e6ffcc536736c62"
+      "sha256": "d9ba553bc620f48d765a901918cde90f5e92d5aa704130427a911d923f7ab8ee"
     },
     {
       "path": "package-lock.json",
-      "sha256": "251ae051d906528c1887009f9e4268fb2734eb874751e3c460f5b4cfacca65e1"
+      "sha256": "156dc8ad4a38f3f57d343835e5f62dfc5ad0d93f32088e9f0455f60867308058"
     },
     {
       "path": "package.json",
-      "sha256": "8ce6a35ba479fccf6b425d8ab1f3442d261eb57e081ecdf794755843d1ee311b"
+      "sha256": "d73b9698756511e352cc60bb67762e52f626848eea2ec767c943e9865236a258"
     },
     {
       "path": "postcss.config.mjs",
@@ -8742,6 +8758,10 @@
       "sha256": "fa1c996ded9d745fccebaaff5d9ef85a7bee7ad1d76e39f43f0f563b9618a76b"
     },
     {
+      "path": "scripts/backup-study.mjs",
+      "sha256": "961d1d0c507b2b711dd06f028ab2a1de0a4f45b1c988e367b56ac60f4af9d286"
+    },
+    {
       "path": "scripts/build.mjs",
       "sha256": "afeb6b1e74c78abe3c5296c61d0b483705a942aa31e5d402784452d9e197c0b6"
     },
@@ -8782,16 +8802,24 @@
       "sha256": "8e4c85bb15aaf5f4fc76813ee3b9102e3a6d6c0468536ba8ffec4f3865167d7c"
     },
     {
+      "path": "scripts/container-start.mjs",
+      "sha256": "a249a1b7a32128d6595b9284e53bd0ba7c43e6ec9f7fd90e32f8d2fffeb62ee8"
+    },
+    {
       "path": "scripts/download-cedict.js",
       "sha256": "1e16d54338e8f3a87b500896ccaf7806424bebd286ceaac2320e4bbd96b97b4c"
     },
     {
       "path": "scripts/export-open-source.mjs",
-      "sha256": "25677fc850bf36025b4895b789b9ae3bf34c8cbe8a6ce4bc72e7d880d9338c25"
+      "sha256": "ce0951419a926dc98fad4a92b5452a346bfb1515e08ed4f8045839dfe434d7a4"
     },
     {
       "path": "scripts/extract-hsk1-blanks.py",
       "sha256": "fae1afede36dcb08efe871e0e79ed1fb8b3ee644ad6965bc81036edcfe0c3f21"
+    },
+    {
+      "path": "scripts/fixtures/audio-worker.mjs",
+      "sha256": "197dae7a43ab0f6b7574e58af31f77f8ff4542e132b018b6168397deb55d7a65"
     },
     {
       "path": "scripts/hsk1-import-requirements.txt",
@@ -8834,6 +8862,10 @@
       "sha256": "55c8afcbd0e5390b41040714bbba6a6b2c84e58280b4313c6c1a050bde3df394"
     },
     {
+      "path": "scripts/lib/study-backup.mjs",
+      "sha256": "791134b22c6b41a4e8549142cce66d45f4910c13d34848d07f148d80bddafebb"
+    },
+    {
       "path": "scripts/localize-dates.cjs",
       "sha256": "9bfe8732a9e523b345b855eef65570addf8ca8f462004cfe9c69cc332d75f352"
     },
@@ -8847,7 +8879,7 @@
     },
     {
       "path": "scripts/mandarin-neural-worker.py",
-      "sha256": "f8a02c762481667ad1413972ac07bf561b91513f908ba9cc29afd88e54d43531"
+      "sha256": "a165b1fd3e48283ea5b0b939ffac4234129dbbee785a2d46e6ae3baebf26d369"
     },
     {
       "path": "scripts/mandarin-requirements-lock.txt",
@@ -8858,8 +8890,12 @@
       "sha256": "2fe8a7d1685b65d77f4c3e38260929cca31132ed625da5bad67c75668c939e6b"
     },
     {
+      "path": "scripts/mandarin-runtime-requirements.txt",
+      "sha256": "da33fb2e6a29631bfa021477caffbfc038be6b86032af292c1ab4fc26dc57340"
+    },
+    {
       "path": "scripts/migrate-study.mjs",
-      "sha256": "07e7d3a0ba810abab9eb9408edd9f1c6c9c52a322bbc16212066040e33ff96a3"
+      "sha256": "5ab56319b48006d000b05161c50e28e7d1dccfb8044772ed4e1d6763b9262d67"
     },
     {
       "path": "scripts/prepare-english-drafts.py",
@@ -8878,12 +8914,16 @@
       "sha256": "0e588d3f9ab9ce6b2fb3d6e304949e55f3ea7c9b19c7072ecdfe996c7dfe7d36"
     },
     {
+      "path": "scripts/recover-profile.mjs",
+      "sha256": "2c8aec69ab73fd931a58ef943742f4ab42f2d4276a21ed4ac5652dabe5bb0995"
+    },
+    {
       "path": "scripts/seed-dictionary.ts",
       "sha256": "10e0c37dcf7675626b4fb1677a3445f5401edd3026ec7a612f05c9eb43ef0164"
     },
     {
       "path": "scripts/setup-mandarin-audio.py",
-      "sha256": "e894a89cf35369803cfa3415ed72c21573f263936993be47b825e7b594e794d5"
+      "sha256": "76ae17ae6a58f0ce769ab802cdd20de879d656a706abc7c5d0100e52437bbcde"
     },
     {
       "path": "scripts/start.mjs",
@@ -8902,12 +8942,24 @@
       "sha256": "4cbc4881e516db764cd085f1b82b82450b0a04a36a197f155f7e7018fd1441d0"
     },
     {
+      "path": "scripts/verify-audio-queue.ts",
+      "sha256": "0877c65e2e4b62e2e58525afb004644f8f1b51b7beca7543147071056fe39d6a"
+    },
+    {
+      "path": "scripts/verify-backend.ts",
+      "sha256": "c841126983b7ebd2ff0a8385f2a300d55f3c29acb1a64c4487abad6601d09354"
+    },
+    {
       "path": "scripts/verify-chinese-reading.ts",
       "sha256": "c4fedac81d404552646fd687271757d07662005a6a963b73fef5a0591e1f6d7c"
     },
     {
       "path": "scripts/verify-community.mjs",
       "sha256": "bac07e73f0325933c8372303f9551fa374166defc8fb312a83a8e09aef87ab01"
+    },
+    {
+      "path": "scripts/verify-container.mjs",
+      "sha256": "a32fda94cc056ea4e3ec04c33a8e36d567c1c0d83d97aa0da634d565e24e31cc"
     },
     {
       "path": "scripts/verify-dictionary-format.ts",
@@ -8970,6 +9022,10 @@
       "sha256": "29e4b6ff667316611ae1c869680beb22977ac3fc6f3bb43741e7cfb2f5823ac6"
     },
     {
+      "path": "scripts/verify-recovery-api.mjs",
+      "sha256": "26bf7e2977d8abc7dc5a5697624dbb64ccd0dd1462206d02b8c1bc5f1bf93a4b"
+    },
+    {
       "path": "scripts/verify-speech-quality.ts",
       "sha256": "12eb178c038ed92f7648e3e3d8909ee6c65f306669e0058c0e2936ae61baf661"
     },
@@ -9018,12 +9074,16 @@
       "sha256": "b27381a1a9f4780c87ca1c42a87cf8c18382ae519ebdb016f59270c3fac127f7"
     },
     {
+      "path": "src/app/api/profile/recovery/route.ts",
+      "sha256": "4920404a50eba6f05f12e6d3e5ef253fce26d42919b822d213f0c40cd966efe2"
+    },
+    {
       "path": "src/app/api/pronunciation/route.ts",
       "sha256": "99ed79d02b903fa5071b9a4163928da132d152965cb9e456ff87ad6d9f29765a"
     },
     {
       "path": "src/app/api/speech/token/route.ts",
-      "sha256": "eccb4961af6816eb4e584c3331d72282910cc4ec24b80f148560b98132577c3a"
+      "sha256": "a0de6cf92ca1272b1a596f20f862f71535469f7c820342648fc5ba981632c245"
     },
     {
       "path": "src/app/api/study/route.ts",
@@ -9031,7 +9091,7 @@
     },
     {
       "path": "src/app/api/tutor/route.ts",
-      "sha256": "4c884a257d4d196409557f2b1264a63a9a207138fd9079a9cafdfc570d020e12"
+      "sha256": "245d5d3603f8aea4848b1e476ea5fa6d36dbebb45944ba9411e4b784851fdd73"
     },
     {
       "path": "src/app/api/user/route.ts",
@@ -9151,7 +9211,7 @@
     },
     {
       "path": "src/app/settings/page.tsx",
-      "sha256": "8431133097eeba99e29def427ae9fadf358df1ebc51a3008edc14d403aaf440f"
+      "sha256": "ac1abddd5c53705a01d8fa910a32a5a11de0399ff1ef53d9c38c7f6d5a4a179b"
     },
     {
       "path": "src/app/study-theme.css",
@@ -9254,6 +9314,10 @@
       "sha256": "fc077f703d0572e4030a715c1d941f569bf40335e2b34b60fc12e1540c2d17ef"
     },
     {
+      "path": "src/components/study/RecoveryPanel.tsx",
+      "sha256": "4b3a155905e6dc75aefb59d0dc75f2a7a80c689f695ed0a29d9832b229068d77"
+    },
+    {
       "path": "src/components/study/Speaking.tsx",
       "sha256": "94907f83eade9af3826b4f55370a0ecdce5d4242f0a890491283bf2572358a92"
     },
@@ -9311,7 +9375,7 @@
     },
     {
       "path": "src/db/index.ts",
-      "sha256": "2f34b0e25a4ffca1a87d7cd1615b90b8c1721dceb5abfadc65f823b376bcbdac"
+      "sha256": "95061185361449bb9b4a17399ffa590ae68b63b34f4a2d72c592e7d67c045994"
     },
     {
       "path": "src/db/schema.ts",
@@ -9478,12 +9542,16 @@
       "sha256": "b7b7b2ef1e5a9b7d4281eb556d3f75126e74edc78e28ad953e75a92f9404b851"
     },
     {
+      "path": "src/lib/i18n/recovery.ts",
+      "sha256": "4448f5c0f9904c960157d3cc8665a63658a595329cc1e9950cc039e56a3db83e"
+    },
+    {
       "path": "src/lib/i18n/resource-server.ts",
       "sha256": "431e0c65200653182af0ae1b90ae42a6508859b36a50d603fd4355dcdbc622d3"
     },
     {
       "path": "src/lib/i18n/reviewed.en.json",
-      "sha256": "b86983e8874968d9bfd74cab5844214bac70d85696de0df723cbe0780dd05a05"
+      "sha256": "154b6218519a91a5a7d825d859dca39a94489988e62b27378c4d9d0a8370ca92"
     },
     {
       "path": "src/lib/i18n/server.ts",
@@ -9539,7 +9607,23 @@
     },
     {
       "path": "src/lib/server/mandarin-audio.ts",
-      "sha256": "00d168a77323a12b189ec90d475cb2616c7f7422b7374334a50dc52f72f31002"
+      "sha256": "99678c4e31cd2d3065f026e2fcc9d8da422c604a08c234c0b9c76c903b6454c1"
+    },
+    {
+      "path": "src/lib/server/mandarin-worker.ts",
+      "sha256": "48c697c7bb7425dfab1300f2616c8ae42f337bb533762e817de3286cfc42373a"
+    },
+    {
+      "path": "src/lib/server/profile-access.ts",
+      "sha256": "5e3f0b35c4e3033f4936c9fee4f5d5587e966f882fd456db34cceda10e96aa54"
+    },
+    {
+      "path": "src/lib/server/study-error.ts",
+      "sha256": "3153312899a5a163af800f20562bd47ec8be4ec1e69a87b9c58a44dcdae53abf"
+    },
+    {
+      "path": "src/lib/server/study-guards.ts",
+      "sha256": "0670a7f769142a06ff91b713d87edfb5b0ca88053bb4e8309ce7a5d85bd090ea"
     },
     {
       "path": "src/lib/sfx.ts",
@@ -9563,7 +9647,7 @@
     },
     {
       "path": "src/lib/study-server.ts",
-      "sha256": "736c3084f1aa4185445103cb6e90e87c8b42403a0bee24034e75eb6e82911d4b"
+      "sha256": "0d3397960954042c01d68dddc17b2c88d0a4bb2afac5da78181e202163b5bb96"
     },
     {
       "path": "src/lib/study-types.ts",

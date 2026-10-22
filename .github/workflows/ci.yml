@@ -7,13 +7,19 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: ${{ matrix.node }}
           cache: npm
       - run: npm ci
+      - run: npm run test:backend
+      - run: npm run test:audio-queue
       - run: npm run test:study
       - run: npm run test:hsk
       - run: npm run test:i18n
@@ -46,9 +52,22 @@ jobs:
             sleep 1
           done
           test "$ready" -eq 1
+          npm run test:recovery-api
           npm run test:api
           npm run test:hsk-api
           npm run test:vocabulary-api
           npm run test:i18n-api
           npm run test:hsk-materials-api
           npm run test:hsk-answer-api
+
+  container:
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: docker build --tag mandarin-sprout:ci .
+      - name: Verify container runtime and persistent profile
+        run: node scripts/verify-container.mjs

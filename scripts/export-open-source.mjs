@@ -38,7 +38,7 @@ async function tree(directory){
  }
 }
 for(const directory of ['src','public','data','docs','scripts','.github'])await tree(directory);
-for(const name of ['.gitignore','.gitattributes','.env.example','AGENTS.md','CLAUDE.md','drizzle.config.ts','next.config.ts','tsconfig.json','postcss.config.mjs','eslint.config.mjs','components.json','LICENSE','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','SECURITY.md','CREDITS.md','package.json','package-lock.json'])await copy(name);
+for(const name of ['Dockerfile','compose.yaml','.dockerignore','.gitignore','.gitattributes','.env.example','AGENTS.md','CLAUDE.md','drizzle.config.ts','next.config.ts','tsconfig.json','postcss.config.mjs','eslint.config.mjs','components.json','LICENSE','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','SECURITY.md','CREDITS.md','package.json','package-lock.json'])await copy(name);
 const readJson=async name=>JSON.parse(await fs.readFile(path.join(destination,name),'utf8'));
 const template=await fs.readFile(path.join(root,'docs/COMMUNITY_README.en.md'),'utf8');
 const readme=Buffer.from(template.replaceAll('](../','](').replace('](LOCALIZATION.md)','](docs/LOCALIZATION.md)'));

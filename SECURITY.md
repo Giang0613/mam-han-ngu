@@ -11,9 +11,9 @@ impact. Test only systems and accounts you are authorized to use.
 ## Deployment scope
 
 This edition uses browser-cookie profiles and server-local SQLite storage.
-Account sign-in, recovery, and cross-device sync are not implemented. The setup
+Settings supports an explicit recovery credential. Account sign-in and cross-server sync are not implemented. The setup
 instructions bind to `127.0.0.1` for local use. An Internet-facing deployment needs
-authentication, usage limits, backups, and a recovery plan.
+deployment-specific authentication, trusted proxy configuration, protected backups and provider budgets. Per-profile, client-scope and installation request caps are implemented; see [runtime safeguards](docs/BACKEND_RELIABILITY.md).
 
 AI and Azure keys must stay on the server. Do not commit `.env.local`, databases,
 recordings, or private backups. Only the reviewed

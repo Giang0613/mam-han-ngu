@@ -1,3 +1,4 @@
+import os
 """Mandarin neural sample reader. Only lesson text goes to the TTS service.
 Microphone audio is never accepted by this JSON-lines worker.
 """
@@ -13,9 +14,9 @@ import soundfile as sf
 from pypinyin import Style, lazy_pinyin
 from pypinyin_dict.phrase_pinyin_data import large_pinyin
 
-root = Path(__file__).resolve().parent.parent / '.cache' / 'mandarin-audio'
+root = Path(os.environ.get('SUPERWEB_AUDIO_ROOT') or Path(__file__).resolve().parent.parent / '.cache' / 'mandarin-audio')
 cache = root / 'clips'
-cache.mkdir(exist_ok=True)
+cache.mkdir(parents=True, exist_ok=True)
 # Unambiguous same-sound characters preserve the chosen standalone reading.
 # They are pronunciation aliases only; visible lesson text is unchanged.
 ALIASES = {'hang2':'航','yue4':'月','de2':'德','di4':'地','hao4':'号','zhang3':'掌',

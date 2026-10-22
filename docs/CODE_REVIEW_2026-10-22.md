@@ -5,6 +5,8 @@ Passing the existing checks does not establish production readiness. This review
 checks the reported issues against the actual source; it does not claim that the
 remaining architectural issues have been fixed.
 
+Update: profile recovery, pre-migration backups, atomic installation/client quotas, explicit proxy origins, bounded audio scheduling and composite indexes are now implemented. Node 22/24 and Docker checks were added. See [implementation and deployment details](BACKEND_RELIABILITY.md). The original findings below record the review baseline; growing snapshots and legacy-store cleanup remain follow-up work.
+
 | Finding | Verified state and next step |
 | --- | --- |
 | Profile recovery | Confirmed limitation. `getProfile()` depends on an HttpOnly cookie. Losing it can orphan access to an existing profile even while its rows remain in SQLite. Settings exports JSON, but there is no restore/import flow or account sync. Add explicit, authenticated recovery; never automatically expose another profile to a visitor without a cookie. |

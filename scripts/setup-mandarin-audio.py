@@ -1,3 +1,4 @@
+import os
 """Install the isolated Mandarin TTS runtime. New clips use a network service."""
 import subprocess
 import sys
@@ -6,7 +7,7 @@ import venv
 from pathlib import Path
 
 project = Path(__file__).resolve().parent.parent
-root = project / '.cache' / 'mandarin-audio'
+root = Path(os.environ.get('SUPERWEB_AUDIO_ROOT') or project / '.cache' / 'mandarin-audio')
 root.mkdir(parents=True, exist_ok=True)
 python = root / 'venv' / ('Scripts/python.exe' if sys.platform == 'win32' else 'bin/python')
 if not python.exists():

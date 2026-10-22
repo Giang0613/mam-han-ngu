@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      APP_ORIGIN: http://127.0.0.1:3000
+    volumes:
+      - study-data:/app/storage
+    restart: unless-stopped
+volumes:
+  study-data:

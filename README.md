@@ -41,13 +41,12 @@ are excluded. Optional runtimes can be installed with the included setup tools.
 
 ## Run locally
 
-Use Node.js 24 and npm:
+Use Node.js 24 (recommended) or Node.js 22 and npm:
 
 ```sh
 git clone https://github.com/Giang0613/mam-han-ngu.git
 cd mam-han-ngu
 npm ci
-npm run db:migrate
 npm run dev -- --hostname 127.0.0.1 --port 3000
 ```
 
@@ -92,9 +91,10 @@ in `.env.example`. Without configuration, guided practice and local recording
 playback remain available. Microsoft sample speech requires an online service;
 new lesson text is sent to that provider. Do not place API keys in client code.
 
-This edition is designed for local study. Profiles use browser cookies; account
-sign-in and cross-device sync are not implemented. Read [security](SECURITY.md)
+This edition is designed for local study. Profiles use browser cookies with a separate recovery code available in Settings; account sign-in and cross-server sync are not implemented. Read [security](SECURITY.md)
 before running an Internet-facing instance. See the [verified review findings](docs/CODE_REVIEW_2026-10-22.md) for unresolved reliability and deployment limits.
+
+See [recovery, budgets, backups and Docker setup](docs/BACKEND_RELIABILITY.md). Local dev/start commands back up and migrate existing storage before starting.
 
 ## Contribute and license
 

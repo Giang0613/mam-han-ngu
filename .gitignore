@@ -62,3 +62,6 @@ __pycache__/
 *.sqlite
 *.sqlite3
 /recordings/
+
+# Container learner data must never be published.
+/storage/
