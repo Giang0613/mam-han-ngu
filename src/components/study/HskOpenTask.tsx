@@ -13,6 +13,7 @@ import {progressPercent} from '@/lib/study-engine';
 export function VoicePractice(){
  const voice=useVoiceRecorder(120000),replay=useRef<HTMLAudioElement|null>(null);
  const active=voice.phase==='recording',busy=voice.phase!=='idle';
+ useEffect(()=>{const player=replay.current;return()=>{player?.pause();}},[voice.url,busy]);
  return <Localize>{<div className="hsk-voice"><Button variant="outline" disabled={busy&&!active} onClick={()=>{if(active)voice.stop();else{replay.current?.pause();void voice.start();}}}>{active?<Square/>:<Mic/>}{voice.phase==='requesting'?'Đang mở micro…':voice.phase==='processing'?'Đang chuẩn bị bản ghi…':active?'Dừng ghi âm':'Ghi âm tự luyện'}</Button>{busy&&!active&&<Button variant="ghost" onClick={voice.cancel}>Hủy ghi âm</Button>}<small>Tối đa 2 phút · Khử nhiễu, cân bằng âm lượng · Bản ghi chỉ dùng trong phiên này</small>{voice.url&&!busy&&<audio ref={replay} controls src={voice.url} className="recording-player" aria-label="Nghe lại bản ghi HSK"/>}{voice.message&&<p role="status">{voice.message}</p>}</div>}</Localize>;
 }
 export function HskOpenTask({task:t}:{task:HskTask}){

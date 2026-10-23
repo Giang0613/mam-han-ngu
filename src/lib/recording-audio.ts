@@ -1,4 +1,9 @@
+import {releaseSpeechResources} from './speech-session';
+
 export const speechConstraints:MediaTrackConstraints={channelCount:{ideal:1},sampleRate:{ideal:48000},echoCancellation:{ideal:true},noiseSuppression:{ideal:true},autoGainControl:{ideal:true}};
+export function stopSpeechMicrophone(stream:MediaStream|null|undefined){
+ for(const track of stream?.getTracks()||[])releaseSpeechResources(()=>track.stop());
+}
 export async function requestSpeechMicrophone(media:Pick<MediaDevices,'getUserMedia'>=navigator.mediaDevices){
  if(!media?.getUserMedia)throw Error('Trình duyệt chưa hỗ trợ micro. Bạn vẫn có thể nghe câu mẫu.');
  try{return await media.getUserMedia({audio:speechConstraints});}

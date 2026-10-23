@@ -14,7 +14,7 @@
     "test:hsk-api": "tsx scripts/verify-hsk-api.ts",
     "test:vocabulary": "tsx scripts/verify-vocabulary.ts",
     "test:vocabulary-api": "tsx scripts/verify-vocabulary-api.ts",
-    "test:speech": "tsx scripts/verify-speech-quality.ts",
+    "test:speech": "tsx scripts/verify-speech-quality.ts && tsx scripts/verify-speech-lifecycle.ts",
     "test:speech-reading": "tsx scripts/verify-speech-reading.ts",
     "test:hsk-materials": "tsx scripts/verify-hsk1-materials.ts",
     "test:hsk-materials-api": "node scripts/verify-hsk1-materials-api.mjs",

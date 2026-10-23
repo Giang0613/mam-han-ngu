@@ -7,17 +7,24 @@ import {grammar} from '@/lib/course';
 import {ChineseText} from './ChineseText';
 import {AudioButton} from './common';
 import {useVoiceRecorder} from '@/hooks/useVoiceRecorder';
-import {beginSpeechCapture,stopSpeechPlayback} from '@/lib/speech-session';
-import {requestSpeechMicrophone} from '@/lib/recording-audio';
+import {beginSpeechCapture,stopSpeechPlayback,releaseSpeechResources} from '@/lib/speech-session';
+import {requestSpeechMicrophone,stopSpeechMicrophone} from '@/lib/recording-audio';
 type Recognition={lang:string;interimResults:boolean;continuous:boolean;onresult:((e:{results:{[n:number]:{[n:number]:{transcript:string}}}})=>void)|null;onerror:((e:{error:string})=>void)|null;onend:(()=>void)|null;start:()=>void;abort:()=>void};
 type RecognitionWindow=Window&{SpeechRecognition?:new()=>Recognition;webkitSpeechRecognition?:new()=>Recognition};
 type SpeechResult={accuracy:number;fluency:number;completeness:number;pronunciation:number};
 export function SpeakingLab({pinyin,service,signedIn}:{pinyin:boolean;service:boolean;signedIn:boolean}){
  const [phraseId,setPhraseId]=useState('g001'),[operation,setOperation]=useState(''),[message,setMessage]=useState(''),[transcript,setTranscript]=useState(''),[scores,setScores]=useState<SpeechResult|null>(null),[recognitionSupported,setRecognitionSupported]=useState(false);
- const voice=useVoiceRecorder(20000),replay=useRef<HTMLAudioElement|null>(null),recognizer=useRef<Recognition|null>(null),azure=useRef<{close:()=>void}|null>(null),cloudMic=useRef<MediaStream|null>(null),lease=useRef<(()=>void)|null>(null),timer=useRef<ReturnType<typeof setTimeout>|null>(null),alive=useRef(true),abort=useRef<AbortController|null>(null),generation=useRef(0);
+ const voice=useVoiceRecorder(20000),replay=useRef<HTMLAudioElement|null>(null),recognizer=useRef<Recognition|null>(null),azure=useRef<(()=>void)[]>([]),cloudMic=useRef<MediaStream|null>(null),lease=useRef<(()=>void)|null>(null),timer=useRef<ReturnType<typeof setTimeout>|null>(null),alive=useRef(true),abort=useRef<AbortController|null>(null),generation=useRef(0);
  const phrase=grammar.find(g=>g.id===phraseId)!,busy=operation||(voice.phase==='idle'?'':voice.phase);
- function release(){generation.current++;if(timer.current)clearTimeout(timer.current);timer.current=null;const r=recognizer.current;recognizer.current=null;if(r){r.onend=null;r.onresult=null;r.onerror=null;r.abort();}azure.current?.close();azure.current=null;cloudMic.current?.getTracks().forEach(t=>t.stop());cloudMic.current=null;lease.current?.();lease.current=null;abort.current?.abort();abort.current=null;}
+ function release(){
+  generation.current++;if(timer.current)clearTimeout(timer.current);timer.current=null;
+  const r=recognizer.current,close=azure.current,stream=cloudMic.current,end=lease.current,request=abort.current;
+  recognizer.current=null;azure.current=[];cloudMic.current=null;lease.current=null;abort.current=null;
+  if(r){r.onend=null;r.onresult=null;r.onerror=null;}
+  releaseSpeechResources(()=>r?.abort(),...close.reverse(),()=>stopSpeechMicrophone(stream),end,()=>request?.abort());
+ }
  useEffect(()=>{alive.current=true;const w=window as RecognitionWindow;setRecognitionSupported(!!(w.SpeechRecognition||w.webkitSpeechRecognition));return()=>{alive.current=false;release()}},[]);
+ useEffect(()=>{const player=replay.current;return()=>{player?.pause();}},[voice.url,busy]);
  function resetResults(){setScores(null);setTranscript('');setMessage('');replay.current?.pause();}
  function cancel(){release();voice.cancel();setOperation('');setMessage('Đã dừng luyện nói.');}
  async function record(){if(busy)return;resetResults();await voice.start();}
@@ -27,8 +34,8 @@ export function SpeakingLab({pinyin,service,signedIn}:{pinyin:boolean;service:bo
   try{lease.current=beginSpeechCapture();const r=new Ctor();recognizer.current=r;r.lang='zh-CN';r.continuous=false;r.interimResults=false;
    r.onresult=e=>{if(alive.current&&run===generation.current){setTranscript(e.results[0][0].transcript);setMessage('Đây là văn bản nhận diện, không phải điểm phát âm.');}};
    r.onerror=e=>{if(alive.current&&run===generation.current)setMessage(e.error==='not-allowed'?'Micro chưa được cấp quyền.':'Chưa nhận được giọng nói rõ. Hãy thử lại.');};
-   r.onend=()=>{if(run===generation.current){recognizer.current=null;if(timer.current)clearTimeout(timer.current);lease.current?.();lease.current=null;if(alive.current)setOperation('');}};
-   r.start();setOperation('recognizing');timer.current=setTimeout(()=>{r.abort();},20000);
+   r.onend=()=>{if(run===generation.current){release();if(alive.current)setOperation('');}};
+   r.start();setOperation('recognizing');timer.current=setTimeout(()=>{if(run===generation.current){release();if(alive.current)setOperation('');}},20000);
   }catch(e){release();setOperation('');setMessage(e instanceof Error?e.message:'Chưa khởi động được nhận diện.');}
  }
  async function assess(){
@@ -37,13 +44,15 @@ export function SpeakingLab({pinyin,service,signedIn}:{pinyin:boolean;service:bo
    lease.current=beginSpeechCapture();abort.current=new AbortController();
    const response=await fetch('/api/speech/token',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',signal:abort.current.signal}),credentials=await response.json();if(!response.ok)throw Error(credentials.error);
    const sdk=await import('microsoft-cognitiveservices-speech-sdk');if(!alive.current||run!==generation.current)return;
-   const stream=await requestSpeechMicrophone();if(!alive.current||run!==generation.current){stream.getTracks().forEach(t=>t.stop());return;}cloudMic.current=stream;
-   const config=sdk.SpeechConfig.fromAuthorizationToken(credentials.token,credentials.region);config.speechRecognitionLanguage='zh-CN';const audioConfig=sdk.AudioConfig.fromStreamInput(stream),r=new sdk.SpeechRecognizer(config,audioConfig);azure.current={close:()=>{r.close();audioConfig.close();}};
+   const stream=await requestSpeechMicrophone();if(!alive.current||run!==generation.current){stopSpeechMicrophone(stream);return;}cloudMic.current=stream;
+   const config=sdk.SpeechConfig.fromAuthorizationToken(credentials.token,credentials.region);config.speechRecognitionLanguage='zh-CN';
+   const audioConfig=sdk.AudioConfig.fromStreamInput(stream);azure.current.push(()=>audioConfig.close());
+   const r=new sdk.SpeechRecognizer(config,audioConfig);azure.current.push(()=>r.close());
    const assessment=new sdk.PronunciationAssessmentConfig(phrase.zh,sdk.PronunciationAssessmentGradingSystem.HundredMark,sdk.PronunciationAssessmentGranularity.Phoneme,true);assessment.applyTo(r);
    setMessage('Hãy đọc câu mẫu. Âm thanh được gửi tới Azure để đánh giá.');
    const finish=()=>{release();if(alive.current)setOperation('');};
    timer.current=setTimeout(()=>{if(run===generation.current){setMessage('Đã dừng sau 20 giây. Bạn có thể thử lại.');finish();}},20000);
-   r.recognizeOnceAsync(result=>{if(!alive.current||run!==generation.current)return;if(result.reason===sdk.ResultReason.RecognizedSpeech){const p=sdk.PronunciationAssessmentResult.fromResult(result);setTranscript(result.text);setScores({accuracy:p.accuracyScore,fluency:p.fluencyScore,completeness:p.completenessScore,pronunciation:p.pronunciationScore});setMessage('Kết quả cho lượt đọc này. Chưa có điểm thanh điệu riêng.');}else setMessage('Chưa có kết quả đánh giá hợp lệ. Hãy đọc lại trong môi trường yên tĩnh.');finish();},()=>{if(alive.current&&run===generation.current){setMessage('Chưa chấm được lượt đọc. Hãy thử lại.');finish();}});
+   r.recognizeOnceAsync(result=>{if(!alive.current||run!==generation.current)return;try{if(result.reason===sdk.ResultReason.RecognizedSpeech){const p=sdk.PronunciationAssessmentResult.fromResult(result);setTranscript(result.text);setScores({accuracy:p.accuracyScore,fluency:p.fluencyScore,completeness:p.completenessScore,pronunciation:p.pronunciationScore});setMessage('Kết quả cho lượt đọc này. Chưa có điểm thanh điệu riêng.');}else setMessage('Chưa có kết quả đánh giá hợp lệ. Hãy đọc lại trong môi trường yên tĩnh.');}catch{setMessage('Chưa chấm được lượt đọc. Hãy thử lại.');}finally{finish();}},()=>{if(alive.current&&run===generation.current){setMessage('Chưa chấm được lượt đọc. Hãy thử lại.');finish();}});
   }catch(e){if(run===generation.current){release();if(alive.current){setOperation('');setMessage(e instanceof Error?e.message:'Chưa kết nối được chấm phát âm.');}}}
  }
  return <Localize>{<div className="speaking-layout"><section className="surface speaking-main">

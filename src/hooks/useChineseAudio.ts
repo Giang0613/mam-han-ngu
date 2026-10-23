@@ -3,7 +3,7 @@ import {useState,useEffect,useCallback,useRef} from 'react';
 import {useStudyStore} from '@/store/useStudyStore';
 import {speechSample} from '@/lib/speech-reading';
 import {chineseSpeechText} from '@/lib/chinese-reading';
-import {stopSpeechPlayback,registerSpeechPlayback,clearSpeechPlayback,isSpeechCapturing} from '@/lib/speech-session';
+import {stopSpeechPlayback,registerSpeechPlayback,clearSpeechPlayback,isSpeechCapturing,releaseSpeechResources} from '@/lib/speech-session';
 export type AudioState='idle'|'loading'|'playing'|'failed';
 type Callbacks={onStart?:()=>void;onEnd?:()=>void;onError?:()=>void;rate?:number;pinyin?:string};
 
@@ -22,10 +22,20 @@ export function useChineseAudio(){
   const controller=new AbortController();let player:HTMLAudioElement|null=null,objectUrl='',utterance:SpeechSynthesisUtterance|null=null,done=false,fallback=false;
   let timer:ReturnType<typeof setTimeout>|undefined,voiceListener:(()=>void)|undefined;
   const update=(next:AudioState)=>{if(alive.current)setState(next)};
-  const release=()=>{if(timer)clearTimeout(timer);if(voiceListener)window.speechSynthesis?.removeEventListener('voiceschanged',voiceListener);clearSpeechPlayback(owner.current);controller.abort();if(player){player.onended=null;player.onerror=null;player.pause();player.removeAttribute('src');}if(objectUrl)URL.revokeObjectURL(objectUrl);};
+  const release=()=>{
+   const audio=player,src=objectUrl,speech=utterance;player=null;objectUrl='';utterance=null;
+   if(audio){audio.onended=null;audio.onerror=null;}if(speech){speech.onstart=null;speech.onend=null;speech.onerror=null;}
+   clearSpeechPlayback(owner.current);
+   releaseSpeechResources(
+    ()=>{if(timer)clearTimeout(timer);timer=undefined;},
+    ()=>{if(voiceListener)window.speechSynthesis?.removeEventListener('voiceschanged',voiceListener);voiceListener=undefined;},
+    ()=>controller.abort(),()=>audio?.pause(),()=>{audio?.removeAttribute('src');audio?.load();},
+    ()=>{if(src)URL.revokeObjectURL(src);},()=>{if(speech)window.speechSynthesis?.cancel();},
+   );
+  };
   const finish=()=>{if(done)return;done=true;release();update('idle');callbacks.onEnd?.()};
   const fail=()=>{if(done)return;done=true;release();update('failed');callbacks.onError?.();announce('Chưa phát được giọng mẫu. Hãy kiểm tra mạng và thử lại.');};
-  const cancel=()=>{if(done)return;done=true;if(utterance)window.speechSynthesis?.cancel();release();update('idle');};
+  const cancel=()=>{if(done)return;done=true;release();update('idle');};
   registerSpeechPlayback(owner.current,cancel);
   const started=()=>{if(done)return;if(timer)clearTimeout(timer);update('playing');callbacks.onStart?.()};
   const browserFallback=()=>{

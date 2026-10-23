@@ -31,7 +31,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "ee629768363a5a009cb9f4cbf28bb563acb368135d094e73d6509226be89dfe1"
+      "sha256": "44f05b184a82b8a93c38884416ccb6ce51db4c52fda3ef9f31c447bf4a324f3b"
     },
     {
       "path": ".gitignore",
@@ -3667,7 +3667,7 @@
     },
     {
       "path": "docs/CODE_REVIEW_2026-10-22.md",
-      "sha256": "9eff96ab38ab4f420eb03560c03975e4a9ae9b185d9763388a0fc89419c062ee"
+      "sha256": "24772ade6d9c8a8b68ec0432c48566312848b43340a4b6adc66421a48591418c"
     },
     {
       "path": "docs/COMMUNITY_README.en.md",
@@ -3695,7 +3695,7 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "sha256": "4344c706685f965fa72952a8b762bdc59937091efad8a69696b692db0111fd0c"
+      "sha256": "f1eec8a43ffc01807ab1d90cb6917ce826a0656f29bafcc18c6cca279cd803a5"
     },
     {
       "path": "docs/hsk-vocabulary-import-report.json",
@@ -3771,7 +3771,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "2c272baa31f373871d348a4570335b3d9e7931e0b32f564c152eb2df84027591"
+      "sha256": "75a50df09677782bc7f9fb54857c011a1175e7f9d8fc4eefce19b6396e46079b"
     },
     {
       "path": "postcss.config.mjs",
@@ -9026,8 +9026,12 @@
       "sha256": "26bf7e2977d8abc7dc5a5697624dbb64ccd0dd1462206d02b8c1bc5f1bf93a4b"
     },
     {
+      "path": "scripts/verify-speech-lifecycle.ts",
+      "sha256": "9a113c68f7f757b6445c4a571d14aad53ce5496551e15c13b79eef94aad63781"
+    },
+    {
       "path": "scripts/verify-speech-quality.ts",
-      "sha256": "12eb178c038ed92f7648e3e3d8909ee6c65f306669e0058c0e2936ae61baf661"
+      "sha256": "cb4c541aeab31900dd321662494b0921e2a5d6e36b93ad259dc2affcf2b5530a"
     },
     {
       "path": "scripts/verify-speech-reading.ts",
@@ -9275,7 +9279,7 @@
     },
     {
       "path": "src/components/study/HskOpenTask.tsx",
-      "sha256": "e29376c9590dfb2c9423c669ef5a25626dafbb5613d6fd1d6d0b80142bd8fb0f"
+      "sha256": "4feba7f2d7c452da587ea89c6b9d680ceb9de7b31a04099f346742095d22e2a4"
     },
     {
       "path": "src/components/study/HskVocabulary.tsx",
@@ -9303,7 +9307,7 @@
     },
     {
       "path": "src/components/study/Speaking.tsx",
-      "sha256": "94907f83eade9af3826b4f55370a0ecdce5d4242f0a890491283bf2572358a92"
+      "sha256": "96b919b718d5aa7ecc9bbd77f2bcb247fb69cd41d3af3a0e33c22e1d0b094941"
     },
     {
       "path": "src/components/study/WorkbookAudio.tsx",
@@ -9327,11 +9331,11 @@
     },
     {
       "path": "src/hooks/useChineseAudio.ts",
-      "sha256": "3f409c8c6b9358613bc9f09f7f34aa0545043dcf8f7afa4e3b68ad6fc9a9a089"
+      "sha256": "199252b132e8a3796a87603d053ca3455ed5d949ba92f1d5c125a5d6361c6b53"
     },
     {
       "path": "src/hooks/useVoiceRecorder.ts",
-      "sha256": "0cdcde470f8d241091f7fca9dab4151918312a8fc6c5c63da5873b9d85fb4323"
+      "sha256": "46a8a4168cc11e2c378b7c1c324592bb51730185a9373eccc44224ce1d8abad1"
     },
     {
       "path": "src/lib/chinese-reading.ts",
@@ -9527,7 +9531,7 @@
     },
     {
       "path": "src/lib/recording-audio.ts",
-      "sha256": "98adf9586fa8100c8dcbdfa0e2a11954e72fcdc07b782420c592c26b11c7fa7e"
+      "sha256": "a09ca2aa348fd1b05bf79f8925673a549fc868eaa4e2490cf99c35af0ca3fd96"
     },
     {
       "path": "src/lib/server/legacy-profile.ts",
@@ -9563,7 +9567,7 @@
     },
     {
       "path": "src/lib/speech-session.ts",
-      "sha256": "bba3ba9bddcc40a68aa04dc9210dfc54c4e3cc2d83bf9bd210368fa07e12d4e1"
+      "sha256": "bd9b842b582244840ba83c9b734fdea60a61bacecc650cb5accfe545687671d1"
     },
     {
       "path": "src/lib/srs/sm2.ts",

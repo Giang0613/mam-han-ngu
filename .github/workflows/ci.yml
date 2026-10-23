@@ -21,6 +21,7 @@ jobs:
       - run: npm run test:legacy
       - run: npm run test:backend
       - run: npm run test:audio-queue
+      - run: npm run test:speech
       - run: npm run test:study
       - run: npm run test:hsk
       - run: npm run test:i18n

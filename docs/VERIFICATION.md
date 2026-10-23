@@ -6,7 +6,7 @@ See [review follow-up](CODE_REVIEW_2026-10-22.md) for remaining problems.
 
 ## Source and resources
 
-- 2,395 source/resource files are listed with SHA-256 hashes in
+- 2,396 source/resource files are listed with SHA-256 hashes in
   `EXPORT-MANIFEST.json`; the manifest itself is also committed.
 - The corpus contains 11,715 imported vocabulary records in all 812 lessons.
 - Included resources contain 3 supplied book PDFs, 3 publisher reference PDFs,
@@ -21,6 +21,12 @@ See [review follow-up](CODE_REVIEW_2026-10-22.md) for remaining problems.
 - `test:study`: grading, hints, duplicate XP, content versions, date boundaries,
   weakness recovery, empty/invalid progress totals, bounded percentages,
   empty-lesson completion and SM-2.
+- `test:speech`: recording signal/WAV checks plus execution of the maintained
+  hooks and speaking component with deterministic hook/media adapters. Checks
+  cover replaced/revoked URLs, delayed permission/decode/fetch results, effect
+  cleanup/replay, stale events, recorder/recognizer/SDK failures, tracks, timers,
+  capture locks and AudioContext close after decode failure. These tests do not
+  open a real microphone, run React in a browser or call a cloud provider.
 - `test:hsk`, `test:vocabulary`: all 9 app levels, 812 lessons, 23,430 generated
   vocabulary questions, stable IDs, different readings and grading.
 - `test:i18n`, `test:english-ui`, `test:dictionary-format`: translation mappings,
