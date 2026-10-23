@@ -21,7 +21,10 @@ See [credits](CREDITS.md) and [resource provenance](docs/RESOURCE_SOURCES.md).
 - 93 textbook recordings and 491 workbook listening clips; open `/hsk/1/audio`.
 - HSK practice paths, contextual reading, and conversation practice.
 - Spaced repetition with SM-2 scheduling and saved progress.
-- Handwriting practice with Hanzi Writer and a 125,208-entry CC-CEDICT dictionary.
+- Handwriting practice for 3,039 distinct Hanzi from the vocabulary corpus, with
+  search, vocabulary-band/stroke filters, word examples and local stroke data.
+  See [handwriting sources and checks](docs/HANDWRITING.md).
+- A 125,208-entry CC-CEDICT dictionary.
 - English and Vietnamese interfaces, plus downloadable English text lessons.
 - An original interactive 3D study garden with a static fallback and reduced-motion support.
 
@@ -66,6 +69,8 @@ workaround if your platform still needs a native build.
 
 ```sh
 npm run test:study
+npm run test:writing
+npm run test:speech-reading
 npm run test:hsk
 npm run test:i18n
 npm run test:english-ui

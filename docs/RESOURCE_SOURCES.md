@@ -40,6 +40,13 @@ Original PDF/audio hashes are retained in `data/hsk1-materials/manifest.json`;
 Use `/hsk/1/materials` for the web lessons, `/hsk/1/audio` for standalone listening,
 and `/hsk/1/vocabulary` through `/hsk/9/vocabulary` for vocabulary lessons.
 
+## Handwriting stroke data
+
+The practice library includes 3,039 distinct Hanzi from the supplied vocabulary.
+Stroke JSON files are unmodified from [hanzi-writer-data](https://github.com/chanind/hanzi-writer-data)
+2.0.1, with its Arphic Public License retained. Vocabulary groups are not an
+official character syllabus. See [handwriting provenance and checks](HANDWRITING.md).
+
 ## Private and generated files excluded
 
 Learner databases, saved personal answers/drafts/history, personal recordings,

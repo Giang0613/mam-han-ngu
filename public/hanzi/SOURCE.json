@@ -2,6 +2,10 @@
   "source": "https://github.com/chanind/hanzi-writer-data",
   "version": "2.0.1",
   "license": "Arphic Public License",
-  "characters": 334,
-  "missing": []
+  "characters": 3039,
+  "missing": [],
+  "vocabularySource": "data/hsk-vocabulary-sources.json",
+  "vocabularySha256": "f619117746fe7ff6e4d98852dd7d931b572961cf7528ec88ffcb109f662217c8",
+  "levelMeaning": "Characters occurring in the supplied vocabulary bands; not an official character-level syllabus.",
+  "readings": "Observed word readings filtered by pinyin-pro, with authored common-reading overrides. Erhua is not split into invented syllables."
 }

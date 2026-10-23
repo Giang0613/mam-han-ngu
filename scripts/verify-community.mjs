@@ -21,6 +21,8 @@ for(const item of manifest.files){
 const readJson=async name=>JSON.parse(await fs.readFile(name,'utf8'));
 assert.equal((await readJson('data/hsk-vocabulary.json')).length,manifest.resources.vocabularyEntries);
 assert.equal((await readJson('data/hsk-vocabulary-lessons.json')).length,manifest.resources.vocabularyLessons);
+assert.equal((await readJson('data/writing-characters.json')).length,manifest.resources.handwritingCharacters);
+assert.equal([...names].filter(name=>/^public\/hanzi\/[^/]+\.json$/.test(name)&&!name.endsWith('/SOURCE.json')).length,manifest.resources.handwritingCharacters);
 assert.equal([...names].filter(name=>name.endsWith('.mp3')).length,manifest.resources.audioFiles);
 assert.equal([...names].filter(name=>/^public\/hsk1-materials\/[^/]+\.pdf$/.test(name)).length,manifest.resources.bookPdfs);
 assert.equal([...names].filter(name=>/^public\/hsk1-materials\/reference\/[^/]+\.pdf$/.test(name)).length,manifest.resources.publisherReferencePdfs);

@@ -37,7 +37,10 @@
     "test:recovery-api": "node scripts/verify-recovery-api.mjs",
     "predev": "npm run db:migrate",
     "prestart": "npm run db:migrate",
-    "test:legacy": "tsx scripts/verify-legacy-profile.ts"
+    "test:legacy": "tsx scripts/verify-legacy-profile.ts",
+    "prepare:writing": "tsx scripts/prepare-strokes.ts",
+    "test:writing": "tsx scripts/verify-writing.ts",
+    "test:writing-api": "tsx scripts/verify-writing-api.ts"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.63",
