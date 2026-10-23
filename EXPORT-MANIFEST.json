@@ -9271,7 +9271,7 @@
     },
     {
       "path": "src/components/study/Hsk.tsx",
-      "sha256": "3d4cd02a37487a8e9e56dfc49469dc47896cac44c2cdd9e23c436c39761c8666"
+      "sha256": "81b497c688b88104d2e5a03536f64aa911b8856d5193ae32eca2aae45c971f57"
     },
     {
       "path": "src/components/study/Hsk1Materials.tsx",
@@ -9483,7 +9483,7 @@
     },
     {
       "path": "src/lib/i18n/reviewed.en.json",
-      "sha256": "154b6218519a91a5a7d825d859dca39a94489988e62b27378c4d9d0a8370ca92"
+      "sha256": "d941ce4645bd9d863609d07bc93e417c78acc0730c5485c02e25eaa1023a4b05"
     },
     {
       "path": "src/lib/i18n/server.ts",
